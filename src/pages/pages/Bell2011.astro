@@ -1,0 +1,34 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Bell (2011) - ArXiv Atlas";
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Bell (2011)</h1>
+
+    <div class="stub-banner">⚠️ <strong>Stub</strong> — content pending analysis</div>
+
+    <div class="infobox">
+      <h3 class="infobox-title">Bell 2011</h3>
+      <table>
+        <tr><th>Type:</th><td>Paper</td></tr>
+        <tr><th>Topic:</th><td>Cosmic-ray acceleration at oblique shocks; magnetic field amplification</td></tr>
+      </table>
+    </div>
+
+    <p><strong>Bell (2011)</strong> investigated cosmic-ray acceleration efficiency in the context of oblique shock geometries and magnetic field amplification. The work contributes to understanding how guide-field effects modify the DSA spectral index and acceleration rates at non-parallel shocks.</p>
+
+    <h2>Relevance to ArXiv Atlas</h2>
+    <p>Cited by <WikiLink slug="pages/2603.16647" text="Peretti et al. (2603.16647)" /> alongside <WikiLink slug="pages/Kirk1989" text="Kirk & Heavens (1989)" /> in the discussion of oblique-shock physics and guide-field effects that represent limitations of the current 1D model.</p>
+
+    <h2>See also</h2>
+    <ul>
+      <li><WikiLink slug="pages/particle-acceleration-oblique-shocks" text="Particle acceleration — oblique shocks" /></li>
+      <li><WikiLink slug="pages/diffusive-shock-acceleration" text="Diffusive shock acceleration" /></li>
+      <li><WikiLink slug="pages/Kirk1989" text="Kirk & Heavens (1989)" /></li>
+    </ul>
+  </main>
+</Base>

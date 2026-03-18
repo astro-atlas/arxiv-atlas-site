@@ -1,0 +1,44 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Particle acceleration (basics) - ArXiv Atlas";
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Particle acceleration (basics)</h1>
+
+    <div class="infobox">
+      <h3 class="infobox-title">Particle acceleration (basics)</h3>
+      <table>
+        <tr><th>Type:</th><td>Concept</td></tr>
+        <tr><th>Educational level:</th><td>Undergraduate</td></tr>
+        <tr><th>Key Papers:</th><td>Hillas (1984); Bell (2011)</td></tr>
+      </table>
+    </div>
+
+    <p><strong>Particle acceleration</strong> refers to processes that energize charged particles above the thermal distribution. Common mechanisms include diffusive shock acceleration (DSA), magnetic reconnection, and stochastic (turbulent) acceleration.</p>
+
+    <h2>Basic ideas</h2>
+    <ul>
+      <li><strong>Energy gain</strong> — Particles gain energy by repeatedly scattering across moving magnetic irregularities or shocks.</li>
+      <li><strong>Power-law spectra</strong> — DSA naturally produces power-law momentum distributions f(p) ~ p<sup>-q</sup> with q set by shock compression ratio.</li>
+      <li><strong>Maximum energy</strong> — Constrained by confinement (Hillas criterion), radiative losses, and finite acceleration time.</li>
+    </ul>
+
+    <h2>Why this matters</h2>
+    <p>Understanding basic acceleration sets expectations for non-thermal emission from jets. The paper 2603.16647 applies these ideas to recollimation shocks to predict maximal particle energies for different jet classes.</p>
+
+    <h2>Related concepts</h2>
+    <ul>
+      <li><WikiLink slug="pages/diffusive-shock-acceleration" text="Diffusive shock acceleration" /></li>
+      <li><WikiLink slug="pages/shock-waves" text="Shock Waves" /></li>
+    </ul>
+
+    <h2>See also</h2>
+    <ul>
+      <li><WikiLink slug="pages/2603.16647" text="Peretti et al. (2603.16647)" /></li>
+    </ul>
+  </main>
+</Base>

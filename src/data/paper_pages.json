@@ -1,0 +1,24 @@
+[
+  {
+    "page_slug": "papers",
+    "page_title": "Papers",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/papers.astro",
+    "created_date": "2026-03-18 17:12:08",
+    "arxiv_id": null,
+    "paper_title": null,
+    "authors": null,
+    "processed_date": null,
+    "status": null
+  },
+  {
+    "page_slug": "pages/2603.16647",
+    "page_title": "Particle acceleration at recollimation shocks in sub-relativistic jets",
+    "path": "src/pages/pages/2603.16647.astro",
+    "created_date": "2026-03-18 17:04:14",
+    "arxiv_id": "2603.16647",
+    "paper_title": "Particle acceleration at recollimation shocks in sub-relativistic jets",
+    "authors": "E. Peretti, E. Amato, S. S. Cerri, G. Morlino, L.P. Pullano, S. Recchia",
+    "processed_date": "2026-03-18T17:04:14.018194",
+    "status": "done"
+  }
+]

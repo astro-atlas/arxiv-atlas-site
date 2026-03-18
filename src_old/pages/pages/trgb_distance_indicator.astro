@@ -1,0 +1,35 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "TRGB distance indicator";
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">TRGB distance indicator</h1>
+
+    <p>
+      The <strong>tip of the red giant branch (TRGB)</strong> is a standard candle used to measure distances to nearby galaxies. The TRGB corresponds to the luminosity at which helium burning begins in the core of red giant stars, and it reaches a nearly constant absolute magnitude across old stellar populations of similar metallicity.
+    </p>
+
+    <h2>Key properties</h2>
+    <ul>
+      <li>TRGB magnitudes are nearly constant at low metallicities, making it a reliable distance indicator.</li>
+      <li>At higher metallicities ([M/H] ≳ -0.5), the TRGB becomes fainter, requiring color-dependent calibrations.</li>
+      <li>TRGB distances are independent of extinction properties and Cepheid/supernova systematics, providing an alternative rung on the cosmic distance ladder.</li>
+    </ul>
+
+    <h2>JWST calibration</h2>
+    <p>
+      Chazov et al. (2026) establish a precise TRGB calibration in JWST's F090W filter, anchored to NGC 4258 (geometric maser distance). They find M_F090W^TRGB = -4.40 ± 0.03 mag (Vega) at low metallicities and document the color-dependent decline at higher [M/H]<sup><a href="/pages/chazov_2026_trgb_jwst">1</a></sup>.
+    </p>
+
+    <div class="references">
+      <h2>References</h2>
+      <ol>
+        <li>Chazov M. I., et al. (2026). arXiv:2603.11160. See paper page: <a href="/pages/chazov_2026_trgb_jwst">Chazov et al. (2026)</a>.</li>
+      </ol>
+    </div>
+  </main>
+</Base>

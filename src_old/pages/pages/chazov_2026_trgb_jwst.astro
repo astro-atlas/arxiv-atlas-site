@@ -1,0 +1,96 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Chazov et al. (2026) — TRGB color calibration with JWST";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">The TRGB-SBF Project. IV. TRGB Color Calibration in JWST F090W+F150W</h1>
+
+    <div class="infobox">
+      <h3 class="infobox-title">Chazov et al. (2026)</h3>
+      <table>
+        <tr>
+          <th>Type:</th>
+          <td>Paper</td>
+        </tr>
+        <tr>
+          <th>Authors:</th>
+          <td>M. I. Chazov, D. I. Makarov, R. B. Tully, G. S. Anand, L. N. Makarova, Y. Cohen, J. P. Blakeslee, M. Cantiello, J. B. Jensen, G. Raimondo</td>
+        </tr>
+        <tr>
+          <th>arXiv / DOI:</th>
+          <td><a href="https://arxiv.org/abs/2603.11160">arXiv:2603.11160</a> — <a href="https://doi.org/10.48550/arXiv.2603.11160">DOI</a></td>
+        </tr>
+        <tr>
+          <th>Date:</th>
+          <td>2026-03-11 (v1) — ApJ accepted</td>
+        </tr>
+        <tr>
+          <th>Analysis:</th>
+          <td><a href="/data/papers/chazov2026_trgb_jwst_calibration.md">Paper analysis (markdown)</a></td>
+        </tr>
+        <tr>
+          <th>Related concepts:</th>
+          <td>
+            <WikiLink slug="pages/trgb_distance_indicator" text="TRGB distance method" /><br>
+            <WikiLink slug="pages/distance_ladder" text="Distance ladder" />
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <p><strong>Abstract (short)</strong> — Chazov et al. calibrate the tip of the red giant branch (TRGB) in JWST F090W using 17 nearby galaxies. They find M_F090W^TRGB = -4.40 ± 0.03 mag (Vega) at low metallicities, with a transition to fainter magnitudes at (F090W-F150W)_0 > 1.65 mag. NGC 4258 maser distance anchors the zero point; revised distances are ~1.5% smaller than prior values.</p>
+
+    <h2 id="key-findings">Key findings</h2>
+    <ol>
+      <li>
+        TRGB absolute magnitude in F090W is constant at M = -4.40 ± 0.03 mag for (F090W-F150W)₀ &lt; 1.65 mag.  
+        <small><a href="https://arxiv.org/abs/2603.11160">(Chazov et al. 2026, arXiv:2603.11160)</a></small>
+      </li>
+      <li>
+        TRGB magnitude declines at higher metallicities; the break at (F090W-F150W)₀ ≃ 1.65 mag corresponds to [M/H] ≃ -0.57 (10 Gyr isochrones).  
+        <small>(Chazov+2026)</small>
+      </li>
+      <li>
+        Revised distance moduli are ~1.5% smaller (Δμ ≃ -0.03 mag) than previously published values, driven by updated JWST calibrations.  
+        <small>(Chazov+2026)</small>
+      </li>
+      <li>
+        New RGB color-slicing methodology enables precise TRGB detection across metallicity ranges, improving the Population II distance ladder.  
+        <small>(Chazov+2026)</small>
+      </li>
+    </ol>
+
+    <h2 id="methods">Methods</h2>
+    <p>The authors apply maximum likelihood estimation (MLE) to RGB luminosity functions measured in color-sliced color-magnitude diagrams. Each galaxy's F090W vs (F090W-F150W) CMD is segmented into narrow color strips; within each, they fit a broken power-law RGB model to identify the TRGB magnitude. NGC 4258 (geometric maser distance μ = 29.397 ± 0.032 mag) sets the absolute calibration; remaining 16 galaxies determine the color-dependent relation.</p>
+
+    <h2 id="implications">Implications</h2>
+    <p>
+      This work refines the Population II rung of the cosmic distance ladder, enabling more precise measurements of the Hubble constant. The color-aware TRGB calibration is critical for leveraging JWST observations of intermediate-to-high metallicity stellar populations in nearby galaxy clusters and beyond.
+    </p>
+
+    <h2 id="see-also">See also</h2>
+    <ul>
+      <li><WikiLink slug="pages/trgb_distance_indicator" text="TRGB distance indicator" /> — tip of red giant branch as standard candle</li>
+      <li><WikiLink slug="pages/distance_ladder" text="Distance ladder" /> — cosmic distance measurements and H₀</li>
+      <li><WikiLink slug="pages/metallicity_effects" text="Metallicity effects on stellar colors" /></li>
+    </ul>
+
+    <div class="references">
+      <h2>References</h2>
+      <ol>
+        <li id="ref1">Chazov M. I., Makarov D. I., Tully R. B., Anand G. S., Makarova L. N., Cohen Y., Blakeslee J. P., Cantiello M., Jensen J. B., Raimondo G. (2026). "The TRGB-SBF Project. IV. A Color Calibration of the TRGB in the JWST F090W+F150W Filters." <a href="https://arxiv.org/abs/2603.11160">arXiv:2603.11160</a>. ApJ accepted.</li>
+      </ol>
+    </div>
+
+    <div class="page-tags">
+      <strong>Tags:</strong>
+      <WikiLink slug="pages/Tag_Distances" text="Distances" />
+      <WikiLink slug="pages/Tag_JWST" text="JWST" />
+    </div>
+  </main>
+</Base>

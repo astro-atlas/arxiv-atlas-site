@@ -1,0 +1,187 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Toomre Q Parameter - ArXiv Atlas";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Toomre Q Parameter</h1>
+        
+        <div class="infobox">
+            <h3 class="infobox-title">Toomre Q Parameter</h3>
+            <table>
+                <tr>
+                    <th>Symbol:</th>
+                    <td>Q</td>
+                </tr>
+                <tr>
+                    <th>Type:</th>
+                    <td>Stability criterion</td>
+                </tr>
+                <tr>
+                    <th>Critical value:</th>
+                    <td>Q = 1</td>
+                </tr>
+                <tr>
+                    <th>Introduced by:</th>
+                    <td><WikiLink slug="pages/Alar_Toomre" text="Alar Toomre" /> (1964)</td>
+                </tr>
+                <tr>
+                    <th>Related:</th>
+                    <td><WikiLink slug="pages/Disk_Stability" text="Disk Stability" /><br>
+                        <WikiLink slug="pages/Bar_Formation" text="Bar Formation" /><br>
+                        <WikiLink slug="pages/Spiral_Structure" text="Spiral Structure" /></td>
+                </tr>
+            </table>
+        </div>
+
+        <p>The <strong>Toomre Q parameter</strong> is a dimensionless quantity that measures the stability of a differentially rotating disk against local axisymmetric gravitational collapse. It is fundamental to understanding <WikiLink slug="pages/Disk_Stability" text="disk stability" />, <WikiLink slug="pages/Star_Formation" text="star formation" />, and the development of non-axisymmetric structures like <WikiLink slug="pages/Barred_Galaxies" text="bars" /> and <WikiLink slug="pages/Spiral_Arms" text="spiral arms" />.</p>
+
+        <h2 id="section-0">Definition</h2>
+        
+        <p>For a stellar disk, the Toomre Q parameter is defined as:</p>
+        
+        <p style="text-align: center; font-size: 1.2em;">Q = (κσ<sub>R</sub>)/(3.36GΣ)</p>
+        
+        <p>where:</p>
+        <ul>
+            <li>κ is the <WikiLink slug="pages/Epicyclic_Frequency" text="epicyclic frequency" /></li>
+            <li>σ<sub>R</sub> is the radial velocity dispersion</li>
+            <li>G is the gravitational constant</li>
+            <li>Σ is the surface density of the disk</li>
+        </ul>
+
+        <p>For gas disks, a similar parameter exists with the sound speed replacing the velocity dispersion.</p>
+
+        <h2 id="section-1">Physical Interpretation</h2>
+        
+        <div class="evidence-for">
+            <h4>Stability Regimes</h4>
+            <ul>
+                <li><strong>Q &lt; 1:</strong> Disk is unstable to axisymmetric perturbations</li>
+                <li><strong>Q ≈ 1:</strong> Marginally stable</li>
+                <li><strong>Q > 1:</strong> Stable against axisymmetric collapse</li>
+                <li><strong>Q > 2-3:</strong> Stable against most non-axisymmetric modes</li>
+            </ul>
+        </div>
+
+        <p>The parameter balances three competing effects:</p>
+        <ol>
+            <li><strong>Gravity</strong> (∝ GΣ) - promotes collapse</li>
+            <li><strong>Rotation</strong> (∝ κ) - provides centrifugal support</li>
+            <li><strong>Pressure</strong> (∝ σ<sub>R</sub>) - provides random motion support</li>
+        </ol>
+
+        <h2 id="section-2">Role in Galaxy Evolution</h2>
+
+        <h3>Bar Formation</h3>
+        <p>The Toomre Q parameter plays a crucial role in <WikiLink slug="pages/Bar_Formation" text="bar formation" />:<sup>[1]</sup></p>
+        <ul>
+            <li>Lower Q values favor bar instability</li>
+            <li><WikiLink slug="pages/Classical_Bulges" text="Classical bulges" /> increase Q in the inner disk</li>
+            <li>More massive/compact bulges can suppress bars by raising Q</li>
+            <li>Bar growth timescale depends linearly on Q</li>
+        </ul>
+
+        <h3>Spiral Structure</h3>
+        <ul>
+            <li>Q ≈ 1-2 optimal for spiral arm formation</li>
+            <li>Too high Q suppresses spiral structure</li>
+            <li>Too low Q leads to fragmentation</li>
+        </ul>
+
+        <h3>Star Formation</h3>
+        <ul>
+            <li>Gas with Q &lt; 1 fragments into star-forming clumps</li>
+            <li>Stellar feedback can increase Q locally</li>
+            <li>Q regulation maintains disk in quasi-steady state</li>
+        </ul>
+
+        <h2 id="section-3">Radial Profiles</h2>
+
+        <p>Typical Q profiles in disk galaxies show:</p>
+        <ul>
+            <li>Minimum values at R ≈ 2-3 disk scale lengths</li>
+            <li>Increase toward center (due to higher κ)</li>
+            <li>Increase in outer disk (due to lower Σ)</li>
+            <li>Strong modification by <WikiLink slug="pages/Bulges" text="bulges" /> in inner regions<sup>[1]</sup></li>
+        </ul>
+
+        <h2 id="section-4">Multi-component Disks</h2>
+
+        <p>For disks with both stars and gas:</p>
+        
+        <p style="text-align: center;">1/Q<sub>eff</sub> ≈ 1/Q<sub>stars</sub> + 1/Q<sub>gas</sub></p>
+        
+        <p>This approximation shows how multiple components can destabilize a disk even if each is individually stable.</p>
+
+        <h2 id="section-5">Modifications and Extensions</h2>
+
+        <h3>Wang-Silk Q</h3>
+        <p>Includes thickness effects for more accurate stability analysis of thick disks.</p>
+
+        <h3>Multifluid Q</h3>
+        <p>Accounts for interactions between different disk components (stars, HI, H<sub>2</sub>, etc.)</p>
+
+        <h3>Q for Bar Formation</h3>
+        <p>Recent work shows Q at R ≈ 2.2R<sub>d</sub> correlates with bar formation timescales<sup>[1]</sup></p>
+
+        <h2 id="section-6">Observational Measurements</h2>
+
+        <p>Measuring Q requires:</p>
+        <ol>
+            <li>Surface density profiles (from photometry + M/L)</li>
+            <li>Rotation curves (from spectroscopy)</li>
+            <li>Velocity dispersions (from absorption/emission lines)</li>
+        </ol>
+
+        <h3>Typical Values</h3>
+        <ul>
+            <li>Milky Way: Q ≈ 1.5-2.5</li>
+            <li>Spiral galaxies: Q<sub>min</sub> ≈ 1.5-2.0</li>
+            <li>High-z disks: Often Q &lt; 1 (clumpy)</li>
+        </ul>
+
+        <h2 id="section-7">Applications</h2>
+
+        <ul>
+            <li>Predicting bar formation likelihood and timescales<sup>[1]</sup></li>
+            <li>Understanding <WikiLink slug="pages/Clumpy_Galaxies" text="clumpy galaxies" /> at high redshift</li>
+            <li>Constraining <WikiLink slug="pages/Dark_Matter_Halos" text="dark matter halo" /> properties</li>
+            <li>Modeling <WikiLink slug="pages/Galactic_Gas_Dynamics" text="gas dynamics" /> and star formation</li>
+        </ul>
+
+        <h2 id="section-8">Limitations</h2>
+
+        <ul>
+            <li>Assumes infinitely thin disk</li>
+            <li>Local approximation (ignores global modes)</li>
+            <li>Doesn't account for magnetic fields</li>
+            <li>Linear stability analysis only</li>
+        </ul>
+
+        <h2 id="section-9">See Also</h2>
+        <ul>
+            <li><WikiLink slug="pages/Disk_Stability" text="Disk Stability" /></li>
+            <li><WikiLink slug="pages/Jeans_Instability" text="Jeans Instability" /></li>
+            <li><WikiLink slug="pages/Swing_Amplification" text="Swing Amplification" /></li>
+            <li><WikiLink slug="pages/Bar_Formation" text="Bar Formation" /></li>
+        </ul>
+
+        <h2 id="section-10">References</h2>
+        <ol class="references">
+            <li>Zheng et al. (2026) - "Comparison of Bar Formation Mechanisms. IIIA. The role of classical bulges in spontaneous bar formation" arXiv:2603.12121</li>
+            <li>Toomre, A. (1964) - "On the gravitational stability of a disk of stars"</li>
+        </ol>
+
+        <div class="page-tags">
+            <strong>Tags:</strong>
+            <WikiLink slug="pages/Tag_Dynamics" text="Dynamics" />
+            <WikiLink slug="pages/Tag_Stability" text="Stability" />
+            <WikiLink slug="pages/Tag_Fundamental_Parameters" text="Fundamental Parameters" />
+        </div>
+  </main>
+</Base>

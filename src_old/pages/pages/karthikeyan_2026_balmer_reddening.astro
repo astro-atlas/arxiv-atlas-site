@@ -1,0 +1,65 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Karthikeyan et al. (2026) - Balmer Decrements & Nebular-Stellar Reddening - ArXiv Atlas";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Balmer Decrements and Nebular-Stellar Reddening in JADES Galaxies at 2.7&lt;z&lt;7</h1>
+        
+        <div class="paper-meta">
+            <p><strong>Authors:</strong> Shreya Karthikeyan, Leonardo Clarke, Alice E. Shapley, Natalie Lam, Ryan L. Sanders, Naveen A. Reddy, Michael W. Topping, Gabriel B. Brammer</p>
+            <p><strong>arXiv ID:</strong> <a href="https://arxiv.org/abs/2603.11338" target="_blank">2603.11338</a></p>
+            <p><strong>Date:</strong> 2026-03-11</p>
+            <p><strong>Status:</strong> Submitted to ApJ</p>
+        </div>
+
+        <div class="abstract-box">
+            <h3>Abstract</h3>
+            <p>Measurements from JWST/NIRSpec in the JADES survey are used to quantify nebular and stellar reddening in star-forming galaxies at 2.7 ≤ z ≤ 7.0. Nebular reddening is derived from Balmer decrements and stellar reddening from Prospector SED fits; sample and methods summarized in Section II of the paper. [Section II]</p>
+        </div>
+
+        <h2 id="section-0">Key Findings</h2>
+
+        <h3>Mass dependence of Balmer decrement</h3>
+        <ul>
+            <li>Balmer decrement (Hα/Hβ) increases with stellar mass at 2.7 &lt; z ≤ 4.0 (ρ = 0.462, p = 1.2×10⁻¹⁰). [Section III.1; Fig. 2]</li>
+            <li>At fixed stellar mass, Hα/Hβ is consistent across redshift bins out to z ∼ 7 within uncertainties (stacked and median measurements). [Section III.1; Fig. 3]</li>
+        </ul>
+
+        <h3>Differential reddening (stellar → nebular)</h3>
+        <ul>
+            <li>ΔE(B−V) ≡ E(B−V)<sub>gas</sub> − E(B−V)<sub>star</sub> scales with M⋆ and SFR at 2.7 ≤ z &lt; 4.0 (slopes m_logM⋆ = 0.121±0.011, m_SFR100 = 0.122±0.011). [Section III.2; Figs. 4–5; Eqs. 3–4]</li>
+            <li>At z ≳ 4, no clear mass/SFR dependence is detected; adopt constant offsets calibrated on stacks (Section III.2; Eqs. 5–6). [Section III.2; Eqs. 5–6]</li>
+        </ul>
+
+        <h3>Reddening vs. metallicity</h3>
+        <ul>
+            <li>Nebular E(B−V) correlates strongly with gas-phase metallicity out to z ∼ 5; stellar E(B−V) shows a weaker correlation. (Pearson ρ = 0.33, p = 8.76×10⁻⁶ in 2.7&lt;z≤4.0). [Section III.3; Fig. 6]</li>
+        </ul>
+
+        <h2 id="section-1">Related Concepts</h2>
+        <ul>
+            <li><WikiLink slug="pages/balmer_decrement" text="Balmer Decrement" /> — Measurement of nebular reddening (Section II.3.1).</li>
+            <li><WikiLink slug="pages/nebular_reddening" text="Nebular Reddening" /> — Dust attenuation toward H II regions (Section II).</li>
+            <li><WikiLink slug="pages/stellar_reddening" text="Stellar Reddening" /> — SED-derived continuum reddening (Section II).</li>
+            <li><WikiLink slug="pages/gas_phase_metallicity" text="Gas-phase Metallicity" /> — Strong-line based metallicities (Section II.3.2).</li>
+            <li><WikiLink slug="pages/dust_geometry" text="Dust Geometry" /> — Interpretation of differential reddening (Discussion, Section IV).</li>
+        </ul>
+
+        <h2 id="section-2">References</h2>
+        <ol>
+            <li id="ref1">Karthikeyan, S., Clarke, L., Shapley, A. E., et al. (2026). "Balmer Decrements and Nebular-Stellar Reddening in JADES Galaxies at 2.7&lt;z&lt;7." arXiv:2603.11338. <a href="https://arxiv.org/abs/2603.11338">https://arxiv.org/abs/2603.11338</a> (Sections II–III).</li>
+        </ol>
+
+        <div class="page-tags">
+            <strong>Tags:</strong>
+            <WikiLink slug="pages/Tag_Observations" text="Observations" />
+            <WikiLink slug="pages/Tag_JWST" text="JWST" />
+            <WikiLink slug="pages/Tag_Dust" text="Dust" />
+        </div>
+  </main>
+</Base>

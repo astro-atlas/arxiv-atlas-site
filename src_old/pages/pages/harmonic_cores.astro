@@ -1,0 +1,33 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Harmonic cores (dynamical degeneracy)";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Harmonic cores</h1>
+
+    <p><strong>Definition:</strong> Density cores (or potential regions) for which the mean-field potential is locally harmonic so that orbital frequencies are (nearly) constant with energy. In such regions or model systems (``harmonic systems''), the mapping E→Ω(E) is degenerate, invalidating assumptions of many quasilinear kinetic theories.</p>
+
+    <h2>Key points</h2>
+    <ul>
+      <li>Harmonic cores are dynamically degenerate: Ω(E)≈const.</li>
+      <li>Because phase-mixing is suppressed, standard Balescu–Lenard predictions for relaxation (trel ∝ N) can fail; Tep et al. (2026) show trel ∝ N² for 1D harmonic systems.</li>
+    </ul>
+
+    <h2>References</h2>
+    <ol>
+      <li id="ref1">Tep, K.; Fouvry, J.-B.; Pichon, C. (2026). "Very long-term relaxation of harmonic 1D self-gravitating systems." arXiv:2603.11238. <a href="https://arxiv.org/abs/2603.11238">https://arxiv.org/abs/2603.11238</a></li>
+      <li>Read et al. (2006); Petts et al. (2016) — literature on core stalling and dynamical friction in cored halos (cited in Tep et al.).</li>
+    </ol>
+
+    <div class="page-tags">
+      <strong>Tags:</strong>
+      <WikiLink slug="pages/dynamical_friction" text="Dynamical friction" />
+      <WikiLink slug="pages/core_stalling" text="Core stalling" />
+    </div>
+  </main>
+</Base>

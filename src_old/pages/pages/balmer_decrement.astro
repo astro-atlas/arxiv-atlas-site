@@ -1,0 +1,55 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Balmer Decrement - ArXiv Atlas";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Balmer Decrement</h1>
+
+    <div class="infobox">
+      <h3 class="infobox-title">Balmer Decrement</h3>
+      <table>
+        <tr>
+          <th>Type:</th>
+          <td>Concept / Measurement</td>
+        </tr>
+        <tr>
+          <th>Key Papers:</th>
+          <td>
+            <WikiLink slug="pages/karthikeyan_2026_balmer_reddening" text="Karthikeyan et al. (2026)" />
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <p>
+      The <strong>Balmer decrement</strong> is the flux ratio of hydrogen recombination lines, typically Hα/Hβ, used to estimate nebular reddening along sightlines to H II regions. It relies on comparing the observed ratio to the intrinsic Case B recombination ratio and converting the difference to E(B−V) using an extinction curve (see Karthikeyan et al. 2026, Section II.3.1). [Section II.3.1]
+    </p>
+
+    <h2 id="observational-use">Observational use</h2>
+    <p>Applications include: correcting nebular emission-line luminosities for dust attenuation and estimating line-of-sight dust columns to star-forming regions (Karthikeyan et al. 2026, Section II). [Section II]</p>
+
+    <h2 id="limitations">Limitations</h2>
+    <p>
+      Practical issues: missing or low-S/N Balmer lines at high redshift; alternative pairs (e.g., Hα/Hγ) are sometimes used (Karthikeyan et al. 2026, Section II.3.1). Systematic uncertainties arise from assumed intrinsic ratios (Case B) and the adopted extinction law. [Section II.3.1]
+    </p>
+
+    <h2 id="see-also">See also</h2>
+    <ul>
+      <li><WikiLink slug="pages/nebular_reddening" text="Nebular Reddening" /></li>
+      <li><WikiLink slug="pages/stellar_reddening" text="Stellar Reddening" /></li>
+      <li><WikiLink slug="pages/dust_geometry" text="Dust Geometry" /></li>
+    </ul>
+
+    <div class="references">
+      <h2>References</h2>
+      <ol>
+        <li>Karthikeyan, S., Clarke, L., Shapley, A. E., et al. (2026). "Balmer Decrements and Nebular-Stellar Reddening in JADES Galaxies at 2.7&lt;z&lt;7." arXiv:2603.11338. <a href="https://arxiv.org/abs/2603.11338">https://arxiv.org/abs/2603.11338</a> (Sections II.3.1, III).</li>
+      </ol>
+    </div>
+  </main>
+</Base>

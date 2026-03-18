@@ -1,0 +1,41 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Clumpy multiphase radiative-transfer models";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Clumpy multiphase radiative-transfer models</h1>
+
+    <p>
+      Clumpy multiphase radiative-transfer models treat the neutral CGM/ISM as discrete cool HI clumps embedded in a hot, ionised inter-clump medium (ICM). These models have several parameters (clump filling factor, n_HI,ICM, clump velocity dispersion, radial velocity, clump column density) and are used to model resonant Lyα transfer and emergent line profiles.<sup><a href="#ref1">1</a></sup>
+    </p>
+
+    <h2>Usage</h2>
+    <p>
+      Mukherjee et al. (2026) fit spatially-resolved Lyα profiles with such a model and infer a low residual ICM neutral density (log n_HI,ICM ≃ -7.5) and radial clump inflow v_cl ≃ 98 km s⁻¹ (Sect. 3.2; Table 1). The best-fit model reproduces blue-dominant double-peaked Lyα with B/T ≈ 0.65.
+      <sup><a href="#ref1">1</a></sup>
+    </p>
+
+    <p>
+      Quantitatively, the Mukherjee et al. (2026) multiphase fit reports a characteristic clump inflow velocity of order 100 km s⁻¹ (v_cl ≈ 98 km s⁻¹) and constrains the inter-clump neutral density to very low values (log n_HI,ICM ≈ -7.5). The inferred parameters are sufficiently extreme that they favour coherent inflow of neutral clumps over isotropic outflow models for the observed blue-dominant profiles, although the authors emphasise degeneracies and provide error ranges in Table 1 for the full parameter set.<sup><a href="#ref1">1</a></sup>
+    </p>
+
+    <h2>Limitations</h2>
+    <ul>
+      <li>Model degeneracies between geometry, covering factor and velocity field can make unique interpretation challenging.<sup><a href="#ref1">1</a></sup></li>
+      <li>Simplified clump prescriptions may not capture full hydrodynamical complexity.<sup><a href="#ref1">1</a></sup></li>
+      <li>Parameter inferences depend on S/N and spatial sampling; Mukherjee et al. note uncertainties in derived n_HI,ICM and v_cl (see Table 1 for error ranges).<sup><a href="#ref1">1</a></sup></li>
+    </ul>
+
+    <div class="references">
+      <h2>References</h2>
+      <ol>
+        <li id="ref1">Mukherjee, T., Li, Z., Zafar, T., et al. 2026, arXiv:2603.11411.</li>
+      </ol>
+    </div>
+  </main>
+</Base>

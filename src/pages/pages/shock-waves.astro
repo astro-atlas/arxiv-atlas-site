@@ -1,0 +1,57 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Shock Waves - ArXiv Atlas";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Shock Waves</h1>
+
+    <div class="infobox">
+      <h3 class="infobox-title">Shock Waves</h3>
+      <table>
+        <tr><th>Type:</th><td>Concept</td></tr>
+        <tr><th>Educational level:</th><td>Undergraduate</td></tr>
+        <tr><th>Key Papers:</th><td><WikiLink slug="pages/Bromberg_2011" text="Bromberg et al. (2011)" /></td></tr>
+      </table>
+    </div>
+
+    <p><strong>Shock waves</strong> are sharp transitions in fluid or plasma where pressure, density, and velocity change abruptly. They occur when a flow exceeds the local signal speed and compresses the medium, converting bulk kinetic energy into heat and non-thermal particle energy.</p>
+
+    <h2 id="background">Background</h2>
+    <p>Shocks are ubiquitous in astrophysics: supernova remnants, jets, and colliding winds all host shocks. Rankine–Hugoniot relations describe the jump conditions across a shock for mass, momentum, and energy conservation.</p>
+
+    <h2 id="physical-description">Physical description</h2>
+    <ul>
+      <li><strong>Compression</strong> — Density increases by the compression ratio set by upstream Mach number.</li>
+      <li><strong>Heating</strong> — Bulk kinetic energy is converted into thermal energy and, in many cases, non-thermal particles.</li>
+      <li><strong>Obliquity</strong> — The angle between shock normal and magnetic field affects particle reflection and acceleration efficiency.</li>
+    </ul>
+
+    <h2 id="why-matters">Why this matters</h2>
+    <p>Shocks provide sites for particle acceleration via Diffusive Shock Acceleration (DSA). In jets, standing shocks such as recollimation shocks can remain quasi-stationary and continually accelerate particles, feeding high-energy emission from jets and their cocoons. See [[diffusive-shock-acceleration]] and [[recollimation-shocks]].</p>
+
+    <h2 id="observational-evidence">Observational evidence</h2>
+    <p>Knots and hot spots in jet images, radio synchrotron spectra with power-law indices, and resolved X-ray emission all point to shock-accelerated non-thermal particles in jets.</p>
+
+    <h2 id="references">Key references</h2>
+    <ol>
+      <li>Bromberg et al. 2011 — analytic jet–cocoon and shock formation framework. (cited in 2603.16647)</li>
+    </ol>
+
+    <h2 id="related">Related concepts</h2>
+    <ul>
+      <li><WikiLink slug="pages/astrophysical-jets" text="Astrophysical jets" /></li>
+      <li><WikiLink slug="pages/diffusive-shock-acceleration" text="Diffusive shock acceleration" /></li>
+      <li><WikiLink slug="pages/particle-acceleration-basics" text="Particle acceleration (basics)" /></li>
+    </ul>
+
+    <h2 id="see-also">See also</h2>
+    <ul>
+      <li><WikiLink slug="pages/2603.16647" text="Peretti et al. (2603.16647)" /> — paper discussing recollimation shocks in sub-relativistic jets.</li>
+    </ul>
+  </main>
+</Base>

@@ -1,0 +1,1271 @@
+{
+  "random": {
+    "title": "Random",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/random.astro"
+  },
+  "papers": {
+    "title": "Papers",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/papers.astro"
+  },
+  "pages/portal_particle_acceleration_in_jets": {
+    "title": "Portal Particle Acceleration In Jets",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/shock_waves",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/astrophysical_jets",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/particle_acceleration_basics",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/diffusive_shock_acceleration",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/particle_acceleration_oblique_shocks",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/recollimation_shocks",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/relativistic_jets",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/jet_cocoon_systems",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/2603.16647",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/bromberg_2011",
+        "text": null,
+        "exists": true
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "index",
+        "text": null
+      },
+      {
+        "source": "index",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/portal-particle-acceleration-in-jets.astro"
+  },
+  "pages/2603.16647": {
+    "title": "Particle acceleration at recollimation shocks in sub-relativistic jets",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/recollimation_shocks",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/diffusive_shock_acceleration",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/jet_cocoon_systems",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/astrophysical_jets",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/diffusive_shock_acceleration",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/bromberg_2011",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/bromberg_2011",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/recollimation_shocks",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/jet_cocoon_systems",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/recollimation_shocks",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/diffusive_shock_acceleration",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/jet_cocoon_systems",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/astrophysical_jets",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/shock_waves",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/particle_acceleration_basics",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/particle_acceleration_oblique_shocks",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/relativistic_jets",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/bromberg_2011",
+        "text": null,
+        "exists": true
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/particle_acceleration_basics",
+        "text": null
+      },
+      {
+        "source": "pages/particle_acceleration_basics",
+        "text": null
+      },
+      {
+        "source": "pages/relativistic_jets",
+        "text": null
+      },
+      {
+        "source": "pages/relativistic_jets",
+        "text": null
+      },
+      {
+        "source": "pages/recollimation_shocks",
+        "text": null
+      },
+      {
+        "source": "pages/recollimation_shocks",
+        "text": null
+      },
+      {
+        "source": "pages/particle_acceleration_oblique_shocks",
+        "text": null
+      },
+      {
+        "source": "pages/particle_acceleration_oblique_shocks",
+        "text": null
+      },
+      {
+        "source": "pages/bromberg_2011",
+        "text": null
+      },
+      {
+        "source": "pages/bromberg_2011",
+        "text": null
+      },
+      {
+        "source": "pages/diffusive_shock_acceleration",
+        "text": null
+      },
+      {
+        "source": "pages/diffusive_shock_acceleration",
+        "text": null
+      },
+      {
+        "source": "pages/jet_cocoon_systems",
+        "text": null
+      },
+      {
+        "source": "pages/jet_cocoon_systems",
+        "text": null
+      },
+      {
+        "source": "pages/astrophysical_jets",
+        "text": null
+      },
+      {
+        "source": "pages/astrophysical_jets",
+        "text": null
+      },
+      {
+        "source": "pages/shock_waves",
+        "text": null
+      },
+      {
+        "source": "pages/shock_waves",
+        "text": null
+      },
+      {
+        "source": "pages/portal_particle_acceleration_in_jets",
+        "text": null
+      }
+    ],
+    "path": "src/pages/pages/2603.16647.astro"
+  },
+  "index": {
+    "title": "Index",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/portal_galaxy_evolution",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/random",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/portal_galaxy_evolution",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/portal_particle_acceleration_in_jets",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/portal_particle_acceleration_in_jets",
+        "text": null,
+        "exists": true
+      }
+    ],
+    "linked_from": [],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/index.astro"
+  },
+  "pages/particle_acceleration_basics": {
+    "title": "Particle Acceleration Basics",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/diffusive_shock_acceleration",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/shock_waves",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/2603.16647",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/diffusive_shock_acceleration",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/shock_waves",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/2603.16647",
+        "text": null,
+        "exists": true
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/diffusive_shock_acceleration",
+        "text": null
+      },
+      {
+        "source": "pages/diffusive_shock_acceleration",
+        "text": null
+      },
+      {
+        "source": "pages/shock_waves",
+        "text": null
+      },
+      {
+        "source": "pages/shock_waves",
+        "text": null
+      },
+      {
+        "source": "pages/portal_particle_acceleration_in_jets",
+        "text": null
+      },
+      {
+        "source": "pages/2603.16647",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/particle-acceleration-basics.astro"
+  },
+  "pages/relativistic_jets": {
+    "title": "Relativistic Jets",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/astrophysical_jets",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/recollimation_shocks",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/2603.16647",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/astrophysical_jets",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/recollimation_shocks",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/2603.16647",
+        "text": null,
+        "exists": true
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/astrophysical_jets",
+        "text": null
+      },
+      {
+        "source": "pages/astrophysical_jets",
+        "text": null
+      },
+      {
+        "source": "pages/portal_particle_acceleration_in_jets",
+        "text": null
+      },
+      {
+        "source": "pages/2603.16647",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/relativistic-jets.astro"
+  },
+  "pages/2603.15450": {
+    "title": "2603.15450",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/2603.15450.astro"
+  },
+  "pages/recollimation_shocks": {
+    "title": "Recollimation Shocks",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/bromberg_2011",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/jet_cocoon_systems",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/diffusive_shock_acceleration",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/particle_acceleration_oblique_shocks",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/2603.16647",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/bromberg_2011",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/jet_cocoon_systems",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/diffusive_shock_acceleration",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/particle_acceleration_oblique_shocks",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/2603.16647",
+        "text": null,
+        "exists": true
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/relativistic_jets",
+        "text": null
+      },
+      {
+        "source": "pages/relativistic_jets",
+        "text": null
+      },
+      {
+        "source": "pages/particle_acceleration_oblique_shocks",
+        "text": null
+      },
+      {
+        "source": "pages/particle_acceleration_oblique_shocks",
+        "text": null
+      },
+      {
+        "source": "pages/bromberg_2011",
+        "text": null
+      },
+      {
+        "source": "pages/bromberg_2011",
+        "text": null
+      },
+      {
+        "source": "pages/jet_cocoon_systems",
+        "text": null
+      },
+      {
+        "source": "pages/jet_cocoon_systems",
+        "text": null
+      },
+      {
+        "source": "pages/portal_particle_acceleration_in_jets",
+        "text": null
+      },
+      {
+        "source": "pages/2603.16647",
+        "text": null
+      },
+      {
+        "source": "pages/2603.16647",
+        "text": null
+      },
+      {
+        "source": "pages/2603.16647",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/recollimation-shocks.astro"
+  },
+  "pages/particle_acceleration_oblique_shocks": {
+    "title": "Particle Acceleration Oblique Shocks",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/diffusive_shock_acceleration",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/recollimation_shocks",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/2603.16647",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/diffusive_shock_acceleration",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/recollimation_shocks",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/2603.16647",
+        "text": null,
+        "exists": true
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/recollimation_shocks",
+        "text": null
+      },
+      {
+        "source": "pages/recollimation_shocks",
+        "text": null
+      },
+      {
+        "source": "pages/portal_particle_acceleration_in_jets",
+        "text": null
+      },
+      {
+        "source": "pages/2603.16647",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/particle-acceleration-oblique-shocks.astro"
+  },
+  "pages/bromberg_2011": {
+    "title": "Bromberg_2011",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/jet_cocoon_systems",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/recollimation_shocks",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/2603.16647",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/jet_cocoon_systems",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/recollimation_shocks",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/2603.16647",
+        "text": null,
+        "exists": true
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/recollimation_shocks",
+        "text": null
+      },
+      {
+        "source": "pages/recollimation_shocks",
+        "text": null
+      },
+      {
+        "source": "pages/jet_cocoon_systems",
+        "text": null
+      },
+      {
+        "source": "pages/jet_cocoon_systems",
+        "text": null
+      },
+      {
+        "source": "pages/astrophysical_jets",
+        "text": null
+      },
+      {
+        "source": "pages/astrophysical_jets",
+        "text": null
+      },
+      {
+        "source": "pages/shock_waves",
+        "text": null
+      },
+      {
+        "source": "pages/shock_waves",
+        "text": null
+      },
+      {
+        "source": "pages/portal_particle_acceleration_in_jets",
+        "text": null
+      },
+      {
+        "source": "pages/2603.16647",
+        "text": null
+      },
+      {
+        "source": "pages/2603.16647",
+        "text": null
+      },
+      {
+        "source": "pages/2603.16647",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Bromberg_2011.astro"
+  },
+  "pages/_template": {
+    "title": "_Template",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/author_year",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/related_concept",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/another_topic",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_bimodality",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/related_page",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/portal_galaxy_evolution",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_concept",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_galaxy_evolution",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/author_year",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/related_concept",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/another_topic",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_bimodality",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/related_page",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/portal_galaxy_evolution",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_concept",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_galaxy_evolution",
+        "text": null,
+        "exists": false
+      }
+    ],
+    "linked_from": [],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/_template.astro"
+  },
+  "pages/diffusive_shock_acceleration": {
+    "title": "Diffusive Shock Acceleration",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/particle_acceleration_basics",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/turbulence_and_diffusion",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/2603.16647",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/particle_acceleration_basics",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/turbulence_and_diffusion",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/2603.16647",
+        "text": null,
+        "exists": true
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/particle_acceleration_basics",
+        "text": null
+      },
+      {
+        "source": "pages/particle_acceleration_basics",
+        "text": null
+      },
+      {
+        "source": "pages/recollimation_shocks",
+        "text": null
+      },
+      {
+        "source": "pages/recollimation_shocks",
+        "text": null
+      },
+      {
+        "source": "pages/particle_acceleration_oblique_shocks",
+        "text": null
+      },
+      {
+        "source": "pages/particle_acceleration_oblique_shocks",
+        "text": null
+      },
+      {
+        "source": "pages/shock_waves",
+        "text": null
+      },
+      {
+        "source": "pages/shock_waves",
+        "text": null
+      },
+      {
+        "source": "pages/portal_particle_acceleration_in_jets",
+        "text": null
+      },
+      {
+        "source": "pages/2603.16647",
+        "text": null
+      },
+      {
+        "source": "pages/2603.16647",
+        "text": null
+      },
+      {
+        "source": "pages/2603.16647",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/diffusive-shock-acceleration.astro"
+  },
+  "pages/jet_cocoon_systems": {
+    "title": "Jet Cocoon Systems",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/bromberg_2011",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/astrophysical_jets",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/recollimation_shocks",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/2603.16647",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/bromberg_2011",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/astrophysical_jets",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/recollimation_shocks",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/2603.16647",
+        "text": null,
+        "exists": true
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/recollimation_shocks",
+        "text": null
+      },
+      {
+        "source": "pages/recollimation_shocks",
+        "text": null
+      },
+      {
+        "source": "pages/bromberg_2011",
+        "text": null
+      },
+      {
+        "source": "pages/bromberg_2011",
+        "text": null
+      },
+      {
+        "source": "pages/astrophysical_jets",
+        "text": null
+      },
+      {
+        "source": "pages/astrophysical_jets",
+        "text": null
+      },
+      {
+        "source": "pages/portal_particle_acceleration_in_jets",
+        "text": null
+      },
+      {
+        "source": "pages/2603.16647",
+        "text": null
+      },
+      {
+        "source": "pages/2603.16647",
+        "text": null
+      },
+      {
+        "source": "pages/2603.16647",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/jet-cocoon-systems.astro"
+  },
+  "pages/astrophysical_jets": {
+    "title": "Astrophysical Jets",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/bromberg_2011",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/shock_waves",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/jet_cocoon_systems",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/relativistic_jets",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/2603.16647",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/bromberg_2011",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/shock_waves",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/jet_cocoon_systems",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/relativistic_jets",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/2603.16647",
+        "text": null,
+        "exists": true
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/relativistic_jets",
+        "text": null
+      },
+      {
+        "source": "pages/relativistic_jets",
+        "text": null
+      },
+      {
+        "source": "pages/jet_cocoon_systems",
+        "text": null
+      },
+      {
+        "source": "pages/jet_cocoon_systems",
+        "text": null
+      },
+      {
+        "source": "pages/shock_waves",
+        "text": null
+      },
+      {
+        "source": "pages/shock_waves",
+        "text": null
+      },
+      {
+        "source": "pages/portal_particle_acceleration_in_jets",
+        "text": null
+      },
+      {
+        "source": "pages/2603.16647",
+        "text": null
+      },
+      {
+        "source": "pages/2603.16647",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/astrophysical-jets.astro"
+  },
+  "pages/shock_waves": {
+    "title": "Shock Waves",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/bromberg_2011",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/astrophysical_jets",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/diffusive_shock_acceleration",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/particle_acceleration_basics",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/2603.16647",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/bromberg_2011",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/astrophysical_jets",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/diffusive_shock_acceleration",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/particle_acceleration_basics",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/2603.16647",
+        "text": null,
+        "exists": true
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/particle_acceleration_basics",
+        "text": null
+      },
+      {
+        "source": "pages/particle_acceleration_basics",
+        "text": null
+      },
+      {
+        "source": "pages/astrophysical_jets",
+        "text": null
+      },
+      {
+        "source": "pages/astrophysical_jets",
+        "text": null
+      },
+      {
+        "source": "pages/portal_particle_acceleration_in_jets",
+        "text": null
+      },
+      {
+        "source": "pages/2603.16647",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/shock-waves.astro"
+  },
+  "pages/portal_galaxy_evolution": {
+    "title": null,
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "index",
+        "text": null
+      },
+      {
+        "source": "index",
+        "text": null
+      },
+      {
+        "source": "pages/_template",
+        "text": null
+      },
+      {
+        "source": "pages/_template",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/random": {
+    "title": null,
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "index",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/author_year": {
+    "title": null,
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/_template",
+        "text": null
+      },
+      {
+        "source": "pages/_template",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/related_concept": {
+    "title": null,
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/_template",
+        "text": null
+      },
+      {
+        "source": "pages/_template",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/another_topic": {
+    "title": null,
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/_template",
+        "text": null
+      },
+      {
+        "source": "pages/_template",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/galaxy_bimodality": {
+    "title": null,
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/_template",
+        "text": null
+      },
+      {
+        "source": "pages/_template",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/related_page": {
+    "title": null,
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/_template",
+        "text": null
+      },
+      {
+        "source": "pages/_template",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_concept": {
+    "title": null,
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/_template",
+        "text": null
+      },
+      {
+        "source": "pages/_template",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_galaxy_evolution": {
+    "title": null,
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/_template",
+        "text": null
+      },
+      {
+        "source": "pages/_template",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/turbulence_and_diffusion": {
+    "title": null,
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/diffusive_shock_acceleration",
+        "text": null
+      },
+      {
+        "source": "pages/diffusive_shock_acceleration",
+        "text": null
+      }
+    ],
+    "path": null
+  }
+}

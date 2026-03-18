@@ -1,0 +1,136 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Galaxy Infall Time - ArXiv Atlas";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Galaxy Infall Time</h1>
+    
+    <div class="infobox">
+      <h3 class="infobox-title">Galaxy Infall Time (T<sub>inf</sub>)</h3>
+      <table>
+        <tr>
+          <th>Type:</th>
+          <td>Physical quantity / Environmental indicator</td>
+        </tr>
+        <tr>
+          <th>Observable:</th>
+          <td>Not directly observable; estimated from simulations</td>
+        </tr>
+        <tr>
+          <th>Key Papers:</th>
+          <td>
+            <WikiLink slug="pages/masson_2026_infall_time_pps" text="Masson & Parker (2026)" /><br>
+            Pasquali et al. (2019)<br>
+            Rhee et al. (2017)
+          </td>
+        </tr>
+        <tr>
+          <th>Related:</th>
+          <td>
+            <WikiLink slug="pages/projected_phase_space" text="Projected Phase Space" /><br>
+            <WikiLink slug="pages/environmental_quenching" text="Environmental Quenching" /><br>
+            <WikiLink slug="pages/preprocessing" text="Preprocessing" />
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <p>
+      <strong>Galaxy infall time</strong> (T<sub>inf</sub>) is the time elapsed since a galaxy first became a satellite of its current host halo. It is a central quantity for understanding how <WikiLink slug="pages/environmental_quenching" text="environment drives galaxy evolution" />, as environmental mechanisms such as <WikiLink slug="pages/ram_pressure_stripping" text="ram-pressure stripping" />, <WikiLink slug="pages/strangulation" text="strangulation" />, and tidal effects operate on timescales that depend on how long a galaxy has been within a group or cluster<sup><a href="#ref1">1</a></sup><sup><a href="#ref2">2</a></sup>.
+    </p>
+
+    <h2 id="section-0">Definition</h2>
+    
+    <p>The definition of infall time varies across the literature. Two common choices are:</p>
+    
+    <ul>
+      <li><strong>First crossing of R<sub>200</sub></strong> - Used by Pasquali et al. (2019)<sup><a href="#ref2">2</a></sup> and Rhee et al. (2017)<sup><a href="#ref3">3</a></sup>. Defines infall as the moment a galaxy first enters the virial radius of its host.</li>
+      <li><strong>First crossing of 3R<sub>200</sub></strong> - Used by <WikiLink slug="pages/masson_2026_infall_time_pps" text="Masson & Parker (2026)" /><sup><a href="#ref1">1</a></sup>. Accounts for the fact that environmental effects (e.g., ram-pressure stripping, tidal forces) influence galaxies well beyond R<sub>200</sub>, as demonstrated by Balogh et al. (2000)<sup><a href="#ref4">4</a></sup>, Oman et al. (2020)<sup><a href="#ref5">5</a></sup>, and Haines et al. (2015)<sup><a href="#ref6">6</a></sup>.</li>
+    </ul>
+    <p>The choice of entry radius systematically shifts T<sub>inf</sub> values by 2-3 Gyr (the approximate time for a galaxy to travel from 3R<sub>200</sub> to R<sub>200</sub> on first infall)<sup><a href="#ref1">1</a></sup>.</p>
+
+    <h2 id="section-1">Estimation Methods</h2>
+    
+    <p>Since T<sub>inf</sub> cannot be measured directly from observations, it must be inferred. The dominant approach uses cosmological simulations to calibrate the relationship between T<sub>inf</sub> and observable quantities:</p>
+    
+    <h3>Discrete Zone Methods</h3>
+    <p>Earlier work by Pasquali et al. (2019)<sup><a href="#ref2">2</a></sup> and Rhee et al. (2017)<sup><a href="#ref3">3</a></sup> divided <WikiLink slug="pages/projected_phase_space" text="projected phase space" /> into discrete zones and assigned mean infall times per zone. While practical, this approach introduces edge effects at zone boundaries and provides only a single representative value per region<sup><a href="#ref1">1</a></sup>.</p>
+
+    <h3>Continuous Calibration</h3>
+    <p><WikiLink slug="pages/masson_2026_infall_time_pps" text="Masson & Parker (2026)" /><sup><a href="#ref1">1</a></sup> derived a continuous, analytic formula using symbolic regression (PySR; Cranmer 2023<sup><a href="#ref7">7</a></sup>) on IllustrisTNG simulations (TNG300 + TNG-Cluster):</p>
+    <p class="equation"><code>T_inf / 1 Gyr = max(0, -v + [A(z) - log10(M*/10^10 Msun)] / [B(z) + r^C(z)])</code></p>
+    <p>where r = R<sub>proj</sub>/R<sub>200</sub>, v = |v<sub>LOS</sub>/sigma|, and A(z), B(z), C(z) are redshift-dependent polynomial coefficients valid for 0 &lt; z &lt; 1 (Section IV, Eqs. 3-8 of that paper)<sup><a href="#ref1">1</a></sup>.</p>
+    <p>Overall RMSE: ~2.3 Gyr at z=0, decreasing to ~1 Gyr at z=1<sup><a href="#ref1">1</a></sup>.</p>
+
+    <h2 id="section-2">Bimodality of Infall-Time Distributions</h2>
+    
+    <p>A key complication is that the T<sub>inf</sub> distribution at a given projected phase-space location is often <strong>bimodal</strong> rather than unimodal, as first shown by Dou and Yu (2025)<sup><a href="#ref8">8</a></sup> and confirmed by <WikiLink slug="pages/masson_2026_infall_time_pps" text="Masson & Parker (2026)" /><sup><a href="#ref1">1</a></sup>. Two distinct populations coexist:</p>
+    <ul>
+      <li><strong>Early infallers</strong> - Galaxies that fell in long ago and have orbited through the halo multiple times.</li>
+      <li><strong>Late infallers</strong> - Recently accreted galaxies on their first passage.</li>
+    </ul>
+    <p>Masson & Parker (2026) provide analytic expressions for the means of these two Gaussian components (Section VI.2, Eqs. 10-11)<sup><a href="#ref1">1</a></sup>, but the variables (r, v, M<sub>*</sub>) alone are insufficient to determine which component a given galaxy belongs to (Section VI.3-VI.4)<sup><a href="#ref1">1</a></sup>. Identifying additional distinguishing parameters remains an open problem.</p>
+
+    <h2 id="section-3">Key Dependencies</h2>
+    <ul>
+      <li><strong>Position in projected phase space (r, v):</strong> Dominant predictor. T<sub>inf</sub> increases toward smaller projected radii and lower velocities (deeper in the potential well)<sup><a href="#ref1">1</a></sup><sup><a href="#ref2">2</a></sup><sup><a href="#ref3">3</a></sup>.</li>
+      <li><strong>Stellar mass (M<sub>*</sub>):</strong> Weak but non-negligible dependence. Higher-mass galaxies tend to have slightly longer infall times at fixed PPS position<sup><a href="#ref1">1</a></sup><sup><a href="#ref2">2</a></sup>.</li>
+      <li><strong>Redshift:</strong> Less cosmic time available at higher z means shorter possible T<sub>inf</sub> values<sup><a href="#ref1">1</a></sup>.</li>
+      <li><strong>Host halo mass:</strong> Tested by Masson & Parker (2026) and found to have negligible predictive power once (r, v, M<sub>*</sub>) are included<sup><a href="#ref1">1</a></sup>. This confirms earlier findings by Pasquali et al. (2019)<sup><a href="#ref2">2</a></sup>.</li>
+    </ul>
+
+    <h2 id="section-4">Observational Applications</h2>
+    <p>Simulation-calibrated T<sub>inf</sub> estimates have been applied to spectroscopic surveys to study environmental processing, including:</p>
+    <ul>
+      <li>Sampaio et al. (2021)<sup><a href="#ref9">9</a></sup> and Oxland et al. (2024)<sup><a href="#ref10">10</a></sup> used T<sub>inf</sub>-PPS calibrations to study quenching timescales in observed clusters.</li>
+      <li>Kim et al. (2023)<sup><a href="#ref11">11</a></sup> found a gradual decline of star formation since cluster infall at 0.3 &lt; z &lt; 1.1, using PPS-based infall time estimates.</li>
+    </ul>
+
+    <h2 id="section-5">Open Questions</h2>
+    <ul>
+      <li>What additional observables can distinguish between early and late infall populations at the same PPS location?<sup><a href="#ref1">1</a></sup></li>
+      <li>How do backsplash galaxies (those that have passed through and exited the cluster) affect T<sub>inf</sub> distributions?</li>
+      <li>Can machine learning approaches improve on symbolic-regression-derived formulae?</li>
+      <li>How does T<sub>inf</sub> connect to specific quenching timescales for different environmental mechanisms?</li>
+    </ul>
+
+    <h2 id="section-6">See Also</h2>
+    <ul>
+      <li><WikiLink slug="pages/projected_phase_space" text="Projected Phase Space" /> - Observable space used to estimate T<sub>inf</sub></li>
+      <li><WikiLink slug="pages/environmental_quenching" text="Environmental Quenching" /> - Quenching mechanisms whose timescales depend on T<sub>inf</sub></li>
+      <li><WikiLink slug="pages/galaxy_bimodality" text="Galaxy Bimodality" /> - The broader observational context</li>
+      <li><WikiLink slug="pages/masson_2026_infall_time_pps" text="Masson & Parker (2026)" /> - Latest continuous calibration</li>
+      <li><WikiLink slug="pages/portal_galaxy_evolution" text="Portal: Galaxy Evolution" /></li>
+    </ul>
+
+    <div class="references">
+      <h2>References</h2>
+      <ol>
+        <li id="ref1">Masson, F., Parker, L. C. (2026). "Calibrating Galaxy Infall Times in Groups and Clusters with IllustrisTNG Simulations." <em>ApJ</em> (accepted). <a href="https://arxiv.org/abs/2603.13010">arXiv:2603.13010</a>.</li>
+        <li id="ref2">Pasquali, A., et al. (2019). Projected phase space zones and mean infall times calibrated from simulations.</li>
+        <li id="ref3">Rhee, J., et al. (2017). Phase-space analysis of cluster satellites with discrete zone assignments.</li>
+        <li id="ref4">Balogh, M. L., Navarro, J. F., Morris, S. L. (2000). "The origin of star formation gradients in rich galaxy clusters." <em>ApJ</em> 540, 113-121.</li>
+        <li id="ref5">Oman, K. A., et al. (2020). Environmental effects beyond the virial radius.</li>
+        <li id="ref6">Haines, C. P., et al. (2015). "LoCuSS: the slow quenching of star formation in cluster galaxies." <em>ApJ</em> 806, 101.</li>
+        <li id="ref7">Cranmer, M. (2023). "Interpretable Machine Learning for Science with PySR." <a href="https://arxiv.org/abs/2305.01582">arXiv:2305.01582</a>.</li>
+        <li id="ref8">Dou, H., Yu, H. (2025). "Estimating infall times of galaxies around clusters." <em>A&amp;A</em> 699, A95.</li>
+        <li id="ref9">Sampaio, V. M., et al. (2021). Observational application of simulation-calibrated infall times.</li>
+        <li id="ref10">Oxland, M., et al. (2024). Environmental processing of cluster satellites.</li>
+        <li id="ref11">Kim, K. J., et al. (2023). "A gradual decline of star formation since cluster infall." <em>ApJ</em> 955, 32.</li>
+      </ol>
+    </div>
+
+    <div class="page-tags">
+      <strong>Tags:</strong>
+      <WikiLink slug="pages/tag_environmental_effects" text="Environmental Effects" />
+      <WikiLink slug="pages/tag_galaxy_clusters" text="Galaxy Clusters" />
+      <WikiLink slug="pages/tag_quenching_mechanisms" text="Quenching Mechanisms" />
+      <WikiLink slug="pages/tag_simulations" text="Simulations" />
+    </div>
+  </main>
+</Base>

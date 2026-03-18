@@ -1,0 +1,33 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Principal component analysis (PCA)";
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Principal component analysis (PCA)</h1>
+
+    <p>
+      <strong>Principal component analysis (PCA)</strong> is a statistical technique that reduces the dimensionality of a dataset by identifying a small number of uncorrelated linear combinations (principal components) that capture most of the variance in the data.
+    </p>
+
+    <h2>Application in astrophysics</h2>
+    <p>
+      PCA is commonly used to analyze high-dimensional galaxy catalogs and identify dominant trends in populations. For instance, galaxy colors, morphologies, and structural parameters can be combined into a unified analysis to reveal the main modes of variation across a sample.
+    </p>
+
+    <h2>Example from dwarf galaxy studies</h2>
+    <p>
+      Watkins et al. (2026) apply PCA to 193 dwarf galaxies using morphological, isophotal, and physical parameters (stellar mass, star formation rate, size, Sérsic residuals). They find that no single principal component explains more than ~26% of the population variance, indicating that dwarf galaxy properties are highly self-similar and lack clear multimodality<sup><a href="/pages/watkins_2026_isophote_dwarf_structure">1</a></sup>.
+    </p>
+
+    <div class="references">
+      <h2>References</h2>
+      <ol>
+        <li>Watkins A. E., et al. (2026). arXiv:2603.11166.</li>
+      </ol>
+    </div>
+  </main>
+</Base>

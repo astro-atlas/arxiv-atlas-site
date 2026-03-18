@@ -1,0 +1,19 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Open cluster binary disruption";
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Open cluster binary disruption</h1>
+
+    <p>Binary disruption in open clusters is driven by close encounters, tidal stripping, and internal dynamical evolution. Key observables include the binary fraction as a function of time, separation (period), and mass ratio.</p>
+
+    <h2>Recent work</h2>
+    <ul>
+      <li><WikiLink slug="pages/zheng_2026_binary_disruption" text="Zheng et al. (2026)" /> — Two-stage disruption model; density scaling of disruption rates; public Python tool.</li>
+    </ul>
+  </main>
+</Base>

@@ -1,0 +1,37 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Relativistic jets - ArXiv Atlas";
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Relativistic jets</h1>
+
+    <div class="infobox">
+      <h3 class="infobox-title">Relativistic jets</h3>
+      <table>
+        <tr><th>Type:</th><td>Concept</td></tr>
+        <tr><th>Educational level:</th><td>Intermediate</td></tr>
+        <tr><th>Key Papers:</th><td>Tchekhovskoy et al.; Perrucho et al.</td></tr>
+      </table>
+    </div>
+
+    <p><strong>Relativistic jets</strong> are jets whose bulk flow speeds approach the speed of light (Lorentz factor gamma >> 1). They require relativistic hydrodynamics or MHD for accurate description and show different shock and acceleration behaviours compared to sub-relativistic jets.</p>
+
+    <h2>Why distinguish?</h2>
+    <p>Relativistic shocks are often less efficient for standard DSA (because of anisotropic particle distributions and rapid escape). Peretti et al. (2603.16647) focus on sub-relativistic jets where standing recollimation shocks can be long-lived and efficient accelerators; relativistic generalizations are suggested as future work.</p>
+
+    <h2>Related concepts</h2>
+    <ul>
+      <li><WikiLink slug="pages/astrophysical-jets" text="Astrophysical jets" /></li>
+      <li><WikiLink slug="pages/recollimation-shocks" text="Recollimation shocks" /></li>
+    </ul>
+
+    <h2>See also</h2>
+    <ul>
+      <li><WikiLink slug="pages/2603.16647" text="Peretti et al. (2603.16647)" /></li>
+    </ul>
+  </main>
+</Base>

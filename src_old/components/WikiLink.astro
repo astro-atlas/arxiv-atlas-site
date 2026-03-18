@@ -1,0 +1,17 @@
+---
+// Simple Astro component to render links using precomputed links.json
+const { slug: rawSlug, text, variant } = Astro.props; // variant: 'primary'|'secondary' -> adds hero-btn classes
+import links from '../data/links.json';
+function normalizeSlug(s){ if(!s) return s; return s.toString().trim().replace(/^\/+|\/+$/g,'').replace(/[\s-]+/g,'_').toLowerCase(); }
+const slug = normalizeSlug(rawSlug);
+// try direct lookup, then prefixed with 'pages/' if not found
+let entry = links[slug] || null;
+if(!entry && !slug.startsWith('pages/')) entry = links['pages/' + slug] || null;
+if(!entry) entry = { exists: false, title: null };
+const href = '/' + (slug.startsWith('pages/') ? slug : ('pages/' + slug));
+let className = entry.exists ? 'wikilink' : 'wikilink missing';
+if(variant=== 'primary' || variant === 'secondary'){
+  className = 'hero-btn ' + variant + ' ' + className;
+}
+---
+<a class={className} href={href} title={entry.title || ''} data-debug={JSON.stringify(entry)} data-exists={entry.exists}>{text || (entry.title || slug)}</a>

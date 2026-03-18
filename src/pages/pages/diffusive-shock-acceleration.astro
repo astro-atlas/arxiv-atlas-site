@@ -1,0 +1,50 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Diffusive shock acceleration - ArXiv Atlas";
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Diffusive shock acceleration (DSA)</h1>
+
+    <div class="infobox">
+      <h3 class="infobox-title">Diffusive shock acceleration</h3>
+      <table>
+        <tr><th>Type:</th><td>Mechanism / Concept</td></tr>
+        <tr><th>Educational level:</th><td>Intermediate</td></tr>
+        <tr><th>Key Papers:</th><td>Morlino et al.; Bell (2011)</td></tr>
+      </table>
+    </div>
+
+    <p>DSA is a first-order Fermi process in which particles gain energy by repeatedly crossing a shock and scattering off magnetic turbulence on either side. The statistical energy gain per cycle leads to a power-law spectrum whose index depends on the shock compression ratio.</p>
+
+    <h2>How it works</h2>
+    <ul>
+      <li><strong>Scattering</strong> — Magnetic turbulence scatters particles, isotropizing their directions locally and allowing repeated shock crossings.</li>
+      <li><strong>Energy gain</strong> — Each crossing yields a fractional energy gain proportional to the shock speed in the plasma frame.</li>
+      <li><strong>Spectral index</strong> — For strong non-relativistic shocks the canonical index is ~2 (in energy), modified by obliquity and relativistic effects.</li>
+    </ul>
+
+    <h2>Why this matters</h2>
+    <p>2603.16647 solves a spatially-dependent transport equation for particles accelerated at recollimation shocks using DSA boundary conditions. The paper shows how diffusion regime and shock obliquity alter cutoff shapes and maximum energies; see [[particle-acceleration-oblique-shocks]] and [[recollimation-shocks]].</p>
+
+    <h2>Key references</h2>
+    <ol>
+      <li>Bell 2011 — review on DSA and magnetic field amplification.</li>
+      <li>Morlino et al. — transport-method precedents used in 2603.16647.</li>
+    </ol>
+
+    <h2>Related concepts</h2>
+    <ul>
+      <li><WikiLink slug="pages/particle-acceleration-basics" text="Particle acceleration (basics)" /></li>
+      <li><WikiLink slug="pages/turbulence-and-diffusion" text="Turbulence & diffusion" /></li>
+    </ul>
+
+    <h2>See also</h2>
+    <ul>
+      <li><WikiLink slug="pages/2603.16647" text="Peretti et al. (2603.16647)" /></li>
+    </ul>
+  </main>
+</Base>

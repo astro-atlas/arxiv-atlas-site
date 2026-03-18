@@ -1,0 +1,36 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "LMC perturbations of the Milky Way";
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">LMC perturbations of the Milky Way</h1>
+
+    <p>
+      The <strong>Large Magellanic Cloud (LMC)</strong>, at ~50 kpc distance and ~1.5 × 10^11 M_☉ total mass, exerts significant gravitational perturbations on the Milky Way. The LMC has recently undergone pericentre passage (within the last few Gyr) and continues to perturb both the stellar and dark matter haloes.
+    </p>
+
+    <h2>Perturbation mechanisms</h2>
+    <ul>
+      <li><strong>Tidal wake:</strong> A transient overdensity behind the LMC along its orbit (Chandrasekhar's wake)</li>
+      <li><strong>Collective response:</strong> Broader overdensity on the opposite side of the Galaxy</li>
+      <li><strong>Reflex motion:</strong> Apparent bulk motion of inner halo stars due to MW acceleration toward the LMC</li>
+      <li><strong>Orbital alignment:</strong> High-eccentricity orbits preferentially align with the LMC's tidal field on ~1 Gyr timescales</li>
+    </ul>
+
+    <h2>Halo structure effects</h2>
+    <p>
+      Dillamore et al. (2026) demonstrate that the LMC can reshape and tilt stellar haloes, particularly affecting high-anisotropy (β ≈ 0.9) components like the GSE. The resulting triaxiality and tilt must be accounted for in equilibrium models of the inner halo<sup><a href="/pages/dillamore_2026_gse_lmc">1</a></sup>.
+    </p>
+
+    <div class="references">
+      <h2>References</h2>
+      <ol>
+        <li>Dillamore A. M., Sanders J. L., Brooks R. A. N. (2026). arXiv:2603.11159.</li>
+      </ol>
+    </div>
+  </main>
+</Base>

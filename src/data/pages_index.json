@@ -1,0 +1,130 @@
+[
+  {
+    "id": 14,
+    "page_slug": "random",
+    "title": "Random",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/random.astro",
+    "created_date": "2026-03-18 17:12:08"
+  },
+  {
+    "id": 15,
+    "page_slug": "papers",
+    "title": "Papers",
+    "page_type": "paper",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/papers.astro",
+    "created_date": "2026-03-18 17:12:08"
+  },
+  {
+    "id": 16,
+    "page_slug": "pages/portal-particle-acceleration-in-jets",
+    "title": "Portal Particle Acceleration In Jets",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/portal-particle-acceleration-in-jets.astro",
+    "created_date": "2026-03-18 17:12:08"
+  },
+  {
+    "id": 1,
+    "page_slug": "pages/2603.16647",
+    "title": "Particle acceleration at recollimation shocks in sub-relativistic jets",
+    "page_type": "paper",
+    "path": "src/pages/pages/2603.16647.astro",
+    "created_date": "2026-03-18 17:04:14"
+  },
+  {
+    "id": 2,
+    "page_slug": "index",
+    "title": "Index",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/index.astro",
+    "created_date": "2026-03-18 17:04:14"
+  },
+  {
+    "id": 3,
+    "page_slug": "pages/particle-acceleration-basics",
+    "title": "Particle Acceleration Basics",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/particle-acceleration-basics.astro",
+    "created_date": "2026-03-18 17:04:14"
+  },
+  {
+    "id": 4,
+    "page_slug": "pages/relativistic-jets",
+    "title": "Relativistic Jets",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/relativistic-jets.astro",
+    "created_date": "2026-03-18 17:04:14"
+  },
+  {
+    "id": 5,
+    "page_slug": "pages/2603.15450",
+    "title": "2603.15450",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/2603.15450.astro",
+    "created_date": "2026-03-18 17:04:14"
+  },
+  {
+    "id": 6,
+    "page_slug": "pages/recollimation-shocks",
+    "title": "Recollimation Shocks",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/recollimation-shocks.astro",
+    "created_date": "2026-03-18 17:04:14"
+  },
+  {
+    "id": 7,
+    "page_slug": "pages/particle-acceleration-oblique-shocks",
+    "title": "Particle Acceleration Oblique Shocks",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/particle-acceleration-oblique-shocks.astro",
+    "created_date": "2026-03-18 17:04:14"
+  },
+  {
+    "id": 8,
+    "page_slug": "pages/bromberg_2011",
+    "title": "Bromberg_2011",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Bromberg_2011.astro",
+    "created_date": "2026-03-18 17:04:14"
+  },
+  {
+    "id": 9,
+    "page_slug": "pages/_template",
+    "title": "_Template",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/_template.astro",
+    "created_date": "2026-03-18 17:04:14"
+  },
+  {
+    "id": 10,
+    "page_slug": "pages/diffusive-shock-acceleration",
+    "title": "Diffusive Shock Acceleration",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/diffusive-shock-acceleration.astro",
+    "created_date": "2026-03-18 17:04:14"
+  },
+  {
+    "id": 11,
+    "page_slug": "pages/jet-cocoon-systems",
+    "title": "Jet Cocoon Systems",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/jet-cocoon-systems.astro",
+    "created_date": "2026-03-18 17:04:14"
+  },
+  {
+    "id": 12,
+    "page_slug": "pages/astrophysical-jets",
+    "title": "Astrophysical Jets",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/astrophysical-jets.astro",
+    "created_date": "2026-03-18 17:04:14"
+  },
+  {
+    "id": 13,
+    "page_slug": "pages/shock-waves",
+    "title": "Shock Waves",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/shock-waves.astro",
+    "created_date": "2026-03-18 17:04:14"
+  }
+]

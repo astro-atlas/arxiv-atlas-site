@@ -1,0 +1,91 @@
+---
+import Base from '../layouts/Base.astro';
+import Sidebar from '../components/Sidebar.astro';
+import WikiLink from '../components/WikiLink.astro';
+import stats from '../data/stats.json';
+import pagesIndex from '../data/pages_index.json';
+
+const title = "ArXiv Atlas - Galaxy Evolution Knowledge Portal";
+
+// Get the 3 most recent paper pages
+const recentPaperPages = pagesIndex
+  .filter((p: any) => p.page_type === 'paper' && p.page_slug !== 'papers/index')
+  .sort((a: any, b: any) => (b.created_date || '').localeCompare(a.created_date || ''))
+  .slice(0, 3);
+
+const latestPaper = recentPaperPages.filter((p: any) => p.page_slug !== 'papers/index')[0];
+
+// Derive URL from file path when available, fall back to slug
+// Canonical URLs use no trailing slash (both /pages/X and /pages/X/ work in Astro)
+function pageHref(p: any) {
+  const path = p.path || '';
+  const m = path.match(/src\/pages\/(.+)\.astro$/);
+  if (m) return '/' + m[1];
+  const slug = (p.page_slug || '').replace(/^papers\//, 'pages/');
+  return '/' + slug;
+}
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <div class="hero-splash">
+      <div class="hero-content">
+        <div class="hero-badge">Galaxy Evolution Research</div>
+        <h1>ArXiv Atlas</h1>
+        <p class="hero-tagline">A living knowledge graph — tracking the literature from star-forming disks to quiescent spheroids</p>
+        
+        <div class="hero-counters">
+          <a href="/papers/" class="counter-pill">
+            <span class="counter-icon">📄</span>
+            <span class="counter-value">{stats.total_papers}</span>
+            <span class="counter-label">papers</span>
+          </a>
+          <a href="/pages/portal-particle-acceleration-in-jets/" class="counter-pill">
+            <span class="counter-icon">📚</span>
+            <span class="counter-value">{stats.total_pages}</span>
+            <span class="counter-label">pages</span>
+          </a>
+        </div>
+      </div>
+      
+      {latestPaper && (
+        <div class="hero-latest">
+          <div class="latest-label">Latest Addition</div>
+          <a href={pageHref(latestPaper)} class="latest-paper">
+            <span class="latest-title">{latestPaper.title}</span>
+            <span class="latest-meta">{latestPaper.created_date ? latestPaper.created_date.slice(0, 10) : ''}</span>
+          </a>
+        </div>
+      )}
+      
+      <div class="hero-actions">
+        <a class="hero-btn primary wikilink" href="/pages/portal-particle-acceleration-in-jets/">Browse Portal →</a>
+        <a class="hero-btn secondary wikilink" href="/random/">Random Article</a>
+      </div>
+    </div>
+
+        <h2 id="section-0">About This Wiki</h2>
+        
+        <p>ArXiv Atlas is a knowledge portal for galaxy evolution research. Unlike traditional paper databases, we:</p>
+        
+        <ul>
+            <li><strong>Connect concepts:</strong> Every paper links to relevant concepts, and concepts link to each other</li>
+            <li><strong>Track claims:</strong> Papers are summarized with their key claims and evidence</li>
+            <li><strong>Show disagreements:</strong> When papers contradict, we note it</li>
+            <li><strong>Stay current:</strong> Daily updates from astro-ph.GA</li>
+        </ul>
+
+        <h2 id="section-1">Recently Analyzed Papers</h2>
+        
+        <ul class="paper-list">
+            {recentPaperPages.map((p: any) => (
+              <li>
+                <div class="paper-title">
+                  <a href={pageHref(p)}>{p.title || p.page_slug}</a>
+                </div>
+                <div class="paper-date">{p.created_date ? p.created_date.slice(0, 10) : ''}</div>
+              </li>
+            ))}
+        </ul>
+  </main>
+</Base>

@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Thermodynamic blocking";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Thermodynamic blocking</h1>
+
+    <p><strong>Definition:</strong> A theoretical mechanism whereby certain adiabatic/entropy-extremum configurations (notably harmonic cores) suppress heat and matter flows at leading order, delaying relaxation and equilibration. Proposed as an explanation for delayed relaxation in degenerate systems (see Deme & Fouvry 2025, cited in Tep et al. 2026).</p>
+
+    <h2>References</h2>
+    <ol>
+      <li id="ref1">Deme, B. & Fouvry, J.-B. (2025). Thermodynamic blocking (see Tep et al. 2026 for discussion). </li>
+      <li id="ref2">Tep, K.; Fouvry, J.-B.; Pichon, C. (2026). "Very long-term relaxation of harmonic 1D self-gravitating systems." arXiv:2603.11238. <a href="https://arxiv.org/abs/2603.11238">https://arxiv.org/abs/2603.11238</a></li>
+    </ol>
+
+    <div class="page-tags">
+      <strong>Tags:</strong>
+      <WikiLink slug="pages/statistical_mechanics" text="Statistical mechanics" />
+    </div>
+  </main>
+</Base>

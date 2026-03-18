@@ -1,0 +1,145 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Star Formation Scaling Relations - ArXiv Atlas";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Star Formation Scaling Relations in Giant Molecular Clouds</h1>
+        
+        <div class="infobox">
+            <h3 class="infobox-title">Paper Details</h3>
+            <table>
+                <tr>
+                    <th>ArXiv:</th>
+                    <td><a href="https://arxiv.org/abs/2603.12212">arXiv:2603.12212</a></td>
+                </tr>
+                <tr>
+                    <th>Authors:</th>
+                    <td>Román-Zúñiga, C. G.; Palau, A.; Ballesteros-Paredes, J.; Zamora-Avilés, M.; Peltonen, J.; Gutiérrez-Davila, K.</td>
+                </tr>
+                <tr>
+                    <th>Submitted:</th>
+                    <td>March 12, 2026</td>
+                </tr>
+                <tr>
+                    <th>Category:</th>
+                    <td>Astrophysics of Galaxies (astro-ph.GA)</td>
+                </tr>
+                <tr>
+                    <th>Status:</th>
+                    <td>Accepted for publication in MNRAS (12 pages)</td>
+                </tr>
+                <tr>
+                    <th>Related Topics:</th>
+                    <td><WikiLink slug="pages/Star_Formation_Rate" text="Star Formation Rates" /><br>
+                        <WikiLink slug="pages/Molecular_Clouds" text="Molecular Clouds" /><br>
+                        <WikiLink slug="pages/Schmidt_Relation" text="Schmidt Relation" /></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="abstract-box">
+            <h2 id="section-0">Abstract</h2>
+            <p>This paper presents an analysis of fundamental scaling relations in star formation derived from the Schmidt conjecture, examining them at the intra-cloud scale within the nearby Giant Molecular Cloud Orion A. Using hierarchical dendrograms with a constant threshold (A_V = 7 mag), the authors separated individual gas structures from Herschel far-infrared column density maps. Combined with young stellar object (YSO) catalogs, they constructed scaling relation plots including N_yso vs. M_gas, Σ_SFR vs. Σ_gas, and R_eq vs. M_gas.</p>
+            
+            <p>A key finding is the validation of a linear relation for N_yso vs. M_gas spanning three orders of magnitude from intra-cloud to inter-cloud scales, potentially extending over even larger scale ranges. The data also support previously proposed R_eq vs. M_gas relations. However, the authors note discrepancies with existing Σ_SFR vs. Σ_gas fits and discuss implications of using free-fall timescale as the primary parameter for star-forming efficiency in dense gas regions.</p>
+        </div>
+
+        <h2 id="section-1">Main Findings</h2>
+
+        <h3>Consistency of N_yso-M_gas Scaling</h3>
+        <p>The most significant finding is the robust <strong>linear relationship between number of young stellar objects and gas mass</strong> (N_yso ∝ M_gas)<sup><a href="#ref1">1</a></sup>. This relation holds remarkably well across:</p>
+        <ul>
+            <li>Intra-cloud structures within Orion A</li>
+            <li>Inter-cloud comparisons with literature data</li>
+            <li>A span of three orders of magnitude in mass</li>
+            <li>Possibly extending to even larger scales</li>
+        </ul>
+
+        <p>This universality suggests a <WikiLink slug="pages/Schmidt_Relation" text="fundamental scaling law" /> connecting available gas mass to star formation output, independent of environment or cloud properties.</p>
+
+        <h3>Radius-Mass Relation Confirmed</h3>
+        <p>The relation between equivalent radius (R_eq) and gas mass (R_eq ∝ M_gas<sup>α</sup>) aligns with previous studies, providing further evidence for <WikiLink slug="pages/Self-Similar_Structure" text="self-similar structure" /> in molecular clouds<sup><a href="#ref1">1</a></sup>. This suggests that denser structures are not just smaller versions of larger clouds.</p>
+
+        <h3>Σ_SFR vs. Σ_gas Tension</h3>
+        <p>The authors identify important discrepancies with the widely-used <WikiLink slug="pages/Schmidt_Relation" text="Schmidt-Kennicutt relation" /> (Σ_SFR ∝ Σ_gas<sup>N</sup>), where their intra-cloud data do not match previously proposed exponent values. This suggests:</p>
+        <ul>
+            <li>The free-fall timescale may not be the primary parameter governing <WikiLink slug="pages/Star_Formation_Efficiency" text="star formation efficiency" /> in dense gas</li>
+            <li>Different physical regimes may operate at intra-cloud versus larger scales</li>
+            <li>Additional factors beyond surface density determine efficiency</li>
+        </ul>
+
+        <h2 id="section-2">Observational Approach</h2>
+
+        <h3>Data and Methods</h3>
+        <p>The study leverages <strong>Herschel far-infrared observations</strong> to construct high-resolution column density maps of Orion A. Hierarchical decomposition using dendrograms with A_V = 7 mag threshold allowed systematic identification of distinct gas structures within the cloud<sup><a href="#ref1">1</a></sup>.</p>
+
+        <p>For star formation activity, the authors cross-matched structures with <WikiLink slug="pages/Young_Stellar_Objects" text="young stellar object" /> catalogs, enabling quantitative assessment of star formation output in each structure.</p>
+
+        <h3>Multi-Scale Analysis</h3>
+        <p>A key strength is examining scaling relations simultaneously at multiple scales:</p>
+        <ul>
+            <li><strong>Intra-cloud:</strong> Individual structures and clumps within Orion A</li>
+            <li><strong>Cloud-cloud:</strong> Different molecular clouds in the literature</li>
+            <li><strong>Cross-scale:</strong> Testing if single relations span all regimes</li>
+        </ul>
+
+        <h2 id="section-3">Implications for Galaxy Evolution Research</h2>
+
+        <p>While focused on Galactic star-forming regions, these results carry broader implications:</p>
+
+        <h3>Understanding Star Formation Efficiency</h3>
+        <p>The breakdown of simple free-fall timescale predictions suggests that <WikiLink slug="pages/Star_Formation_Rate_Indicators" text="star formation rate indicators" /> used in galaxy studies may require scale-dependent corrections. What works at cloud scales may not apply to galactic scales.</p>
+
+        <h3>Scaling Laws Across Cosmic Scales</h3>
+        <p>The universality of the N_yso-M_gas relation across three orders of magnitude raises the intriguing possibility of a fundamental <WikiLink slug="pages/Star_Formation_Universality" text="universal scaling law" /> in star formation. If confirmed, this could provide a physical foundation for <WikiLink slug="pages/Schmidt_Relation" text="star formation rate laws" /> used in <WikiLink slug="pages/Galaxy_Simulations" text="galaxy simulations" />.</p>
+
+        <h3>Constraints on Feedback and Regulation</h3>
+        <p>The linear N_yso-M_gas relation suggests that <WikiLink slug="pages/Stellar_Feedback" text="stellar feedback" /> and other regulation mechanisms may operate to maintain a constant ratio of formed stars to available gas. This has implications for understanding <WikiLink slug="pages/Star_Formation_Efficiency" text="global star formation efficiency" /> in galaxies.</p>
+
+        <h2 id="section-4">Related Concepts</h2>
+        <ul>
+            <li><WikiLink slug="pages/Schmidt_Relation" text="Schmidt-Kennicutt Relation" /> - The empirical star formation law relating surface density of star formation to gas surface density</li>
+            <li><WikiLink slug="pages/Star_Formation_Rate" text="Star Formation Rate" /> - Measures of star formation output and indicators</li>
+            <li><WikiLink slug="pages/Molecular_Clouds" text="Molecular Clouds" /> - Giant molecular clouds and their structure</li>
+            <li><WikiLink slug="pages/Young_Stellar_Objects" text="Young Stellar Objects" /> - Early stages of stellar evolution</li>
+            <li><WikiLink slug="pages/Star_Formation_Efficiency" text="Star Formation Efficiency" /> - What fraction of available gas forms stars</li>
+            <li><WikiLink slug="pages/Hierarchical_Structure" text="Hierarchical Structure in Clouds" /> - Multi-scale structure of molecular clouds</li>
+        </ul>
+
+        <h2 id="section-5">Open Questions Raised</h2>
+        <ul>
+            <li>Does the linear N_yso-M_gas relation extend to even larger scales (kpc scales in galaxies)?</li>
+            <li>What physical processes maintain this universal scaling across orders of magnitude?</li>
+            <li>Why does the Σ_SFR vs. Σ_gas relation break down, and what parameters actually control efficiency?</li>
+            <li>How do <WikiLink slug="pages/AGN_Feedback" text="feedback" /> and <WikiLink slug="pages/Magnetic_Fields" text="magnetic fields" /> modify these relations in different environments?</li>
+        </ul>
+
+        <h2 id="section-6">See Also</h2>
+        <ul>
+            <li><WikiLink slug="pages/Star_Formation_Rate" text="Star Formation Rates and Indicators" /></li>
+            <li><WikiLink slug="pages/Molecular_Clouds" text="Molecular Clouds and Clumps" /></li>
+            <li><WikiLink slug="pages/Schmidt_Relation" text="Schmidt-Kennicutt Relation" /></li>
+            <li><WikiLink slug="pages/Galaxy_Simulations" text="Galaxy Simulations and Star Formation" /></li>
+            <li><WikiLink slug="pages/Orion_Nebula_Complex" text="Orion Nebula Complex" /></li>
+        </ul>
+
+        <h2 id="section-7">References</h2>
+        <ol class="references">
+            <li id="ref1">Román-Zúñiga, C. G., Palau, A., Ballesteros-Paredes, J., Zamora-Avilés, M., Peltonen, J., &amp; Gutiérrez-Davila, K. (2026) "Comparing the M_gas-N_yso Relation inside a Giant Molecular Cloud" <em>Monthly Notices of the Royal Astronomical Society</em> arXiv:2603.12212</li>
+        </ol>
+
+        <div class="page-tags">
+            <strong>Tags:</strong>
+            <WikiLink slug="pages/Tag_Star_Formation" text="Star Formation" />
+            <WikiLink slug="pages/Tag_Scaling_Relations" text="Scaling Relations" />
+            <WikiLink slug="pages/Tag_Molecular_Clouds" text="Molecular Clouds" />
+            <WikiLink slug="pages/Tag_Observational_Studies" text="Observational Studies" />
+            <WikiLink slug="pages/Tag_Efficiency_Mechanisms" text="Efficiency Mechanisms" />
+        </div>
+  </main>
+</Base>

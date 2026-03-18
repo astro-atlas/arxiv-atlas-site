@@ -1,0 +1,43 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Jet–Cocoon systems - ArXiv Atlas";
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Jet–Cocoon systems</h1>
+
+    <div class="infobox">
+      <h3 class="infobox-title">Jet–Cocoon systems</h3>
+      <table>
+        <tr><th>Type:</th><td>Concept / Framework</td></tr>
+        <tr><th>Educational level:</th><td>Intermediate</td></tr>
+        <tr><th>Key Papers:</th><td><WikiLink slug="pages/Bromberg_2011" text="Bromberg et al. (2011)" /></td></tr>
+      </table>
+    </div>
+
+    <p>When a jet propagates into an ambient medium it shocks the surroundings, inflating a hot, overpressured cocoon that exerts lateral pressure on the jet and can collimate it. The jet–cocoon interaction sets scalings for cocoon pressure P_c(t), jet-head motion z_h(t), and can create recollimation shocks.</p>
+
+    <h2>Why this matters</h2>
+    <p>Cocoon pressure determines whether an initially expanding jet will recollimate and where standing shocks form. In 2603.16647 the Bromberg (2011) framework is extended to sub-relativistic jets to predict recollimation-shock locations and the resulting particle acceleration conditions.</p>
+
+    <h2>Key references</h2>
+    <ol>
+      <li>Bromberg et al. 2011 — analytic jet–cocoon model used as the basis for sub-relativistic extension.</li>
+      <li>Weaver 1977 — wind-blown bubble analogy for cocoon self-similar scalings.</li>
+    </ol>
+
+    <h2>Related concepts</h2>
+    <ul>
+      <li><WikiLink slug="pages/astrophysical-jets" text="Astrophysical jets" /></li>
+      <li><WikiLink slug="pages/recollimation-shocks" text="Recollimation shocks" /></li>
+    </ul>
+
+    <h2>See also</h2>
+    <ul>
+      <li><WikiLink slug="pages/2603.16647" text="Peretti et al. (2603.16647)" /></li>
+    </ul>
+  </main>
+</Base>

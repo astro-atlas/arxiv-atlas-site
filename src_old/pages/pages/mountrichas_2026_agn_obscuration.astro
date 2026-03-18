@@ -1,0 +1,80 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Mountrichas et al. (2026) — AGN obscuration in optical and X-rays";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">AGN obscuration in optical and X-rays: Host properties and the interplay of nuclear and galactic gas and dust</h1>
+
+    <div class="infobox">
+      <h3 class="infobox-title">AGN obscuration in optical and X-rays</h3>
+      <table>
+        <tr>
+          <th>Type:</th>
+          <td>Paper</td>
+        </tr>
+        <tr>
+          <th>Authors:</th>
+          <td>G. Mountrichas; F. J. Carrera; E. Quintin; A. Viitanen; A. Corral; N. Webb</td>
+        </tr>
+        <tr>
+          <th>arXiv:</th>
+          <td><a href="https://arxiv.org/abs/2603.11180">arXiv:2603.11180</a></td>
+        </tr>
+        <tr>
+          <th>DOI:</th>
+          <td><a href="https://doi.org/10.48550/arXiv.2603.11180">10.48550/arXiv.2603.11180</a></td>
+        </tr>
+        <tr>
+          <th>Status:</th>
+          <td>Accepted to A&A</td>
+        </tr>
+        <tr>
+          <th>Related concepts:</th>
+          <td>
+            <WikiLink slug="pages/agn_obscuration" text="AGN obscuration" /><br>
+            <WikiLink slug="pages/agn_unification" text="AGN unification" /><br>
+            <WikiLink slug="pages/agn_host_properties" text="AGN host properties" />
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <p><strong>Abstract.</strong> Mountrichas et al. (2026) combine XMM-Newton X-ray spectroscopy with SDSS optical spectroscopy for 241 X-ray AGN at z &lt; 1.9 to investigate the link between optical AGN classification and X-ray absorption. They identify two mismatched populations: broad-line AGN with X-ray absorption (BLAbs) and narrow-line AGN unobscured in X-rays (NLUnabs), suggesting that AGN obscuration arises from multi-scale gas/dust distributions, not orientation alone.</p>
+
+    <h2>Key findings</h2>
+    <ol>
+      <li><strong>Optical-X-ray agreement:</strong> ~70% of sources (172/241) show agreement between optical classification and X-ray absorption properties.</li>
+      <li><strong>BLAbs population:</strong> 11 broad-line AGN with X-ray absorption; elevated gas-to-dust ratios suggest dust-free or host-scale absorbers.</li>
+      <li><strong>NLUnabs population:</strong> 58 narrow-line AGN unobscured in X-rays; ~50% assigned type-1 properties by SED fitting; higher Balmer decrements than standard NL AGN.</li>
+      <li><strong>Host property contrasts:</strong> NLUnabs resemble BL AGN in SFR and accretion efficiency; NL AGN reside in quiescent hosts with lower star formation.</li>
+    </ol>
+
+    <h2>Implications</h2>
+    <p>Obscuration in AGN arises from multi-scale gas and dust distributions, not orientation alone. Mismatched populations complicate AGN demographic interpretation in large surveys (Euclid, LSST/VRO).</p>
+
+    <h2>References</h2>
+    <ol>
+      <li id="ref1">Mountrichas, G., Carrera, F. J., Quintin, E., Viitanen, A., Corral, A., Webb, N. (2026). "AGN obscuration in optical and X-rays: Host properties and the interplay of nuclear and galactic gas and dust in a combined SDSS-XMM sample." A&A accepted. arXiv:2603.11180. <a href="https://arxiv.org/abs/2603.11180">https://arxiv.org/abs/2603.11180</a></li>
+      <li>Urry, C. M. & Padovani, P. (1995). "Unified Schemes for Radio-Loud Active Galactic Nuclei." ApJ 487, 413.</li>
+      <li>Hickox, R. C. & Alexander, D. M. (2018). "Hosts and Fuels of Nuclear Star Formation and AGN." arXiv:1805.09182.</li>
+    </ol>
+
+    <h2>Related concepts</h2>
+    <ul>
+      <li><a href="/concepts/galaxy-bimodality">Galaxy bimodality</a> — AGN obscuration and host-properties link to quenching demographics</li>
+      <li><WikiLink slug="pages/AGN_obscuration" text="AGN obscuration" /></li>
+      <li><WikiLink slug="pages/agn_classification" text="AGN classification" /></li>
+    </ul>
+
+    <div class="page-tags">
+      <strong>Tags:</strong>
+      <WikiLink slug="pages/agn_classification" text="AGN classification" />
+      <WikiLink slug="pages/x_ray_astronomy" text="X-ray astronomy" />
+    </div>
+  </main>
+</Base>

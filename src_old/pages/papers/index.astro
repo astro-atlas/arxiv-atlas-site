@@ -1,0 +1,97 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+import pagesIndex from '../../data/pages_index.json';
+import pageTags from '../../data/page_tags.json';
+import stats from '../../data/stats.json';
+
+const title = "Paper Summaries - ArXiv Atlas";
+
+const tagsMap: Record<string, string[]> = pageTags as any;
+
+// Filter to paper pages and sort by created_date descending
+const paperPages = pagesIndex
+  .filter((p: any) => p.page_type === 'paper')
+  .sort((a: any, b: any) => (b.created_date || '').localeCompare(a.created_date || ''));
+
+// Collect all tags used across paper pages
+const allTagSet = new Set<string>();
+paperPages.forEach((p: any) => {
+  const tags = tagsMap[p.page_slug] || [];
+  tags.forEach((t: string) => allTagSet.add(t));
+});
+const sortedTags = [...allTagSet].sort();
+
+// Derive URL from the file path (src/pages/X.astro -> /X/)
+function pathToHref(p: any) {
+  const path = p.path || '';
+  const m = path.match(/src\/pages\/(.+)\.astro$/);
+  if (m) return '/' + m[1] + '/';
+  // Fallback: use slug, normalizing papers/ prefix to pages/
+  const slug = p.page_slug.replace(/^papers\//, 'pages/');
+  return '/' + slug + '/';
+}
+
+// Normalize slug for tag lookup (tags are keyed by pages/ prefix)
+function tagSlug(p: any) {
+  const path = p.path || '';
+  const m = path.match(/src\/pages\/(.+)\.astro$/);
+  if (m) return m[1];
+  return p.page_slug;
+}
+
+// Pre-compute per-page tags for template use
+const paperData = paperPages
+  .filter((p: any) => p.page_slug !== 'papers/index')
+  .map((p: any) => ({
+    slug: p.page_slug,
+    title: p.title || p.page_slug,
+    date: p.created_date ? p.created_date.slice(0, 10) : '',
+    href: pathToHref(p),
+    tags: (tagsMap[tagSlug(p)] || []).map((t: string) => t.replace(/^Tag_/, '').replace(/_/g, ' ')),
+  }));
+
+function tagLabel(tag: string) {
+  return tag.replace(/^Tag_/, '').replace(/_/g, ' ');
+}
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <div class="page-header">
+      <h1>Paper Summaries</h1>
+      <p class="page-meta">
+        {paperData.length} summarized papers from arXiv astro-ph
+      </p>
+    </div>
+
+    {sortedTags.length > 0 && (
+      <section class="tag-filter-bar">
+        <strong>Filter by tag:</strong>
+        {sortedTags.map((tag) => (
+          <span class="tag">{tagLabel(tag)}</span>
+        ))}
+      </section>
+    )}
+
+    <section>
+      <ul class="paper-list">
+        {paperData.map((p) => (
+          <li>
+            <div class="paper-title">
+              <a href={p.href}>{p.title}</a>
+            </div>
+            <div class="paper-date">{p.date}</div>
+            {p.tags.length > 0 && (
+              <div class="page-tags" style="margin-top: 0.25em;">
+                {p.tags.map((t) => (
+                  <span class="tag">{t}</span>
+                ))}
+              </div>
+            )}
+          </li>
+        ))}
+      </ul>
+    </section>
+  </main>
+</Base>

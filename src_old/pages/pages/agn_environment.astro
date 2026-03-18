@@ -1,0 +1,33 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "AGN environment";
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">AGN environment</h1>
+
+    <p>
+      <strong>AGN environment</strong> refers to the large-scale structures (dark-matter halos, groups, clusters, filaments) that host active galactic nuclei and the surrounding galaxy population that affects gas supply and triggering probability. Environment is commonly quantified via halo mass, local galaxy density, or cluster membership.
+    </p>
+
+    <h2>Key points</h2>
+    <ul>
+      <li>Environment can modulate gas supply and duty cycle, affecting the probability that a galaxy hosts an AGN.</li>
+      <li>However, environment may not determine instantaneous accretion indicators (e.g., λ_Edd) once host-galaxy properties are controlled for.</li>
+    </ul>
+
+    <p>
+      For the X-ray BLAGN sample studied by Mountrichas et al. (2026), halo masses are consistent across bins of black-hole mass, Eddington ratio, and X-ray luminosity after host matching, suggesting internal host processes dominate AGN variability on short timescales<sup><a href="/pages/mountrichas_2026_agn_environments">1</a></sup>.
+    </p>
+
+    <div class="references">
+      <h2>References</h2>
+      <ol>
+        <li>Mountrichas G., Carrera F. J., Shankar F., Georgakakis A. (2026). arXiv:2603.11169.</li>
+      </ol>
+    </div>
+  </main>
+</Base>

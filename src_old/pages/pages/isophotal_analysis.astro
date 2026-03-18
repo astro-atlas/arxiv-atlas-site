@@ -1,0 +1,35 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Isophotal analysis";
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Isophotal analysis</h1>
+
+    <p>
+      <strong>Isophotal analysis</strong> measures the radial profiles of galaxy light distribution by fitting concentric ellipses to isophotes (contours of constant surface brightness). Derived parameters include position angle (θ), ellipticity (ε), and higher-order Fourier moments (a₄/a boxiness).
+    </p>
+
+    <h2>Physical interpretation</h2>
+    <ul>
+      <li><strong>Position angle twists:</strong> Variations in PA across radius can indicate triaxiality or projection effects from viewing a non-spherical system at an angle.</li>
+      <li><strong>Ellipticity:</strong> Measures the flattening of isophotes; related to intrinsic geometry and viewing angle.</li>
+      <li><strong>Boxiness (a₄/a):</strong> Deviations from perfect ellipses; negative values (boxy) may indicate triaxiality or embedded bars; positive values (disky) trace disk-like or edge-on structures.</li>
+    </ul>
+
+    <h2>Application to dwarf galaxies</h2>
+    <p>
+      Watkins et al. (2026) apply isophotal analysis to 193 dwarf galaxies and find that traditional isophotal parameters show limited discriminatory power for dwarf morphological classification compared to more massive galaxies<sup><a href="/pages/watkins_2026_isophote_dwarf_structure">1</a></sup>. They argue that dwarf galaxy structures are self-similar in this parameter space, necessitating higher-dimensional statistical approaches.
+    </p>
+
+    <div class="references">
+      <h2>References</h2>
+      <ol>
+        <li>Watkins A. E., et al. (2026). arXiv:2603.11166.</li>
+      </ol>
+    </div>
+  </main>
+</Base>

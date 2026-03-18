@@ -1,0 +1,91 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Mountrichas et al. (2026) — AGN environments and halo connection";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Large-scale environments of star-forming active galactic nuclei</h1>
+
+    <div class="infobox">
+      <h3 class="infobox-title">Mountrichas et al. (2026)</h3>
+      <table>
+        <tr>
+          <th>Type:</th>
+          <td>Paper</td>
+        </tr>
+        <tr>
+          <th>Authors:</th>
+          <td>G. Mountrichas, F. J. Carrera, F. Shankar, A. Georgakakis</td>
+        </tr>
+        <tr>
+          <th>arXiv / DOI:</th>
+          <td><a href="https://arxiv.org/abs/2603.11169">arXiv:2603.11169</a> — <a href="https://doi.org/10.48550/arXiv.2603.11169">DOI</a></td>
+        </tr>
+        <tr>
+          <th>Date:</th>
+          <td>2026-03-11 (v1) — A&A accepted</td>
+        </tr>
+        <tr>
+          <th>Analysis:</th>
+          <td><a href="/data/papers/mountrichas2026_agn_environments.md">Paper analysis (markdown)</a></td>
+        </tr>
+        <tr>
+          <th>Related concepts:</th>
+          <td>
+            <WikiLink slug="pages/dark_matter_halos" text="Dark matter halos" /><br>
+            <WikiLink slug="pages/agn_environment" text="AGN environment" />
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <p><strong>Abstract (short)</strong> — Mountrichas et al. combine XXL and Stripe82X X-ray AGN samples (427 broad-line AGN at 0.5&lt;z&lt;1.2; >20,000 galaxies) to measure AGN large-scale environments via AGN–galaxy cross-correlation and a multivariate nearest-neighbour matching scheme. They find typical AGN halo masses of log(M_DMH/h^{-1}M_☉) ≃ 13 and no significant dependence of halo mass on M_BH, λ_Edd, or L_X within their uncertainties.</p>
+
+    <h2 id="key-findings">Key findings</h2>
+    <ol>
+      <li>
+        Typical halo mass for X-ray BLAGN is group-scale (log(M_DMH/h^{-1}M_☉) ≃ 13).  
+        <small><a href="https://arxiv.org/abs/2603.11169">(Mountrichas et al. 2026, arXiv:2603.11169)</a></small>
+      </li>
+      <li>
+        No statistically significant variation of halo mass with black-hole mass, Eddington ratio, or X-ray luminosity after controlling for host-galaxy properties using nearest-neighbour matching.  
+        <small>(Mountrichas+2026)</small>
+      </li>
+      <li>
+        Interpretation: AGN short-term accretion and long-term BH growth are primarily regulated by internal host-galaxy processes; large-scale environment supplies boundary conditions (gas reservoir, duty cycle).  
+        <small>(Mountrichas+2026)</small>
+      </li>
+    </ol>
+
+    <h2 id="methods">Methods</h2>
+    <p>The authors infer dark-matter halo masses by measuring AGN–galaxy cross-correlation functions and converting clustering amplitude (bias) to halo mass using standard halo-bias relations. They control for host properties with a multivariate nearest-neighbour matching algorithm so that comparisons across bins of M_BH, λ_Edd and L_X are performed under similar host-galaxy distributions.</p>
+
+    <h2 id="limitations">Limitations</h2>
+    <p>Results apply to X-ray selected, broad-line AGN at 0.5&lt;z&lt;1.2. The study does not directly constrain obscured AGN, very low-luminosity AGN, or other redshift ranges; selection effects and sample size limit sensitivity to subtle environmental trends.</p>
+
+    <h2 id="see-also">See also</h2>
+    <ul>
+      <li><WikiLink slug="pages/dark_matter_halos" text="Dark matter halos" /> — halo mass definitions and clustering-based inference</li>
+      <li><WikiLink slug="pages/black_hole_mass" text="Black hole mass" /> — BH mass measurements and scaling relations</li>
+      <li><WikiLink slug="pages/eddington_ratio" text="Eddington ratio" /> — accretion rate diagnostics</li>
+      <li><a href="/concepts/galaxy-bimodality">Galaxy bimodality</a> — environmental role vs. internal processes in quenching and BH growth</li>
+    </ul>
+
+    <div class="references">
+      <h2>References</h2>
+      <ol>
+        <li id="ref1">Mountrichas G., Carrera F. J., Shankar F., Georgakakis A. (2026). "Large-scale environments of star-forming active galactic nuclei: How black hole mass, accretion rate, and luminosity connect to dark matter halos." <a href="https://arxiv.org/abs/2603.11169">arXiv:2603.11169</a>. A&A accepted.</li>
+      </ol>
+    </div>
+
+    <div class="page-tags">
+      <strong>Tags:</strong>
+      <WikiLink slug="pages/Tag_AGN" text="AGN" />
+      <WikiLink slug="pages/Tag_Clustering" text="Clustering" />
+    </div>
+  </main>
+</Base>

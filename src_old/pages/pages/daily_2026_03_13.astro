@@ -1,0 +1,66 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Daily summary — 2026-03-13 — ArXiv Atlas";
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Daily summary — 2026-03-13</h1>
+
+    <div class="paper-meta">
+      <p><strong>Date:</strong> 2026-03-13</p>
+      <p><strong>Papers:</strong> 2</p>
+    </div>
+
+    <p>Two papers submitted today span very different astronomical domains—Galactic structure and extragalactic evolution—yet both exemplify how modern simulations bridge theory and observation.</p>
+
+    <h2 id="theme-1">Simulation-to-Observation Pipelines</h2>
+    <p>Both papers develop simulation frameworks explicitly designed to produce observables that match real survey data, enabling direct comparison between theory and upcoming observations.</p>
+    
+    <ul>
+      <li><WikiLink slug="pages/huston_2026_synthpop" text="Huston et al. (2026)" /> present an updated SynthPop Galactic model optimized for simulating the Nancy Grace Roman Space Telescope's Galactic Bulge Time Domain Survey (GBTDS). They validate their synthetic stellar catalogs against existing WFC3 and OGLE observations, finding good agreement at intermediate latitudes but systematic issues near the Galactic plane.</li>
+      <li><WikiLink slug="pages/masson_2026_infall_time_pps" text="Masson & Parker (2026)" /> use IllustrisTNG simulations to calibrate galaxy infall times from projected phase-space observables. Their continuous analytic formula enables observers to estimate when a galaxy first entered a cluster environment—a quantity fundamental to understanding environmental quenching but impossible to measure directly.</li>
+    </ul>
+
+    <h2 id="theme-2">Predictive Population Synthesis</h2>
+    <p>Both works generate large synthetic populations to understand statistical distributions and observational selection effects.</p>
+    
+    <ul>
+      <li>The <WikiLink slug="pages/huston_2026_synthpop" text="SynthPop model" /> combines components for the Galactic bulge, disk, nuclear stellar disk, and halo, producing millions of synthetic stars with realistic kinematics, metallicities, and extinction. This enables prediction of microlensing event rates and survey completeness for Roman's GBTDS.</li>
+      <li>The <WikiLink slug="pages/masson_2026_infall_time_pps" text="infall-time calibration" /> tracks >1.5 million satellite galaxies across redshift in TNG300 and TNG-Cluster, deriving the relationship between projected observables (position, velocity, stellar mass) and true infall history. The bimodal infall-time distributions they find suggest distinct early- and late-infall populations.</li>
+    </ul>
+
+    <h2 id="theme-3">Model Validation and Limitations</h2>
+    <p>Both papers rigorously test their models against independent data and are transparent about where predictions break down.</p>
+    
+    <ul>
+      <li><WikiLink slug="pages/huston_2026_synthpop" text="Huston et al." /> show their Galactic model systematically overpredicts star counts within |b| &lt; 0.5° of the Galactic plane by factors of 50-100%, likely due to extinction modeling failures and missing stellar populations. They clearly delineate the valid regime for their model.</li>
+      <li><WikiLink slug="pages/masson_2026_infall_time_pps" text="Masson & Parker" /> quantify the intrinsic scatter in their infall-time predictions (RMSE ~ 2.3 Gyr at z=0) and identify that interloper contamination exceeds 60% at large projected radii. They recommend restricting observational applications to r &lt; 2 R₂₀₀.</li>
+    </ul>
+
+    <h2>Papers processed</h2>
+    <ul>
+      <li><WikiLink slug="pages/huston_2026_synthpop" text="Huston et al. (2026) - SynthPop Galactic Model for Microlensing" /> [arXiv:2603.12219]</li>
+      <li><WikiLink slug="pages/masson_2026_infall_time_pps" text="Masson & Parker (2026) - Calibrating Galaxy Infall Times" /> [arXiv:2603.13010]</li>
+    </ul>
+
+    <h2>Related Concepts</h2>
+    <ul>
+      <li><WikiLink slug="pages/Gravitational_Microlensing" text="Gravitational Microlensing" /></li>
+      <li><WikiLink slug="pages/Galactic_Models" text="Galactic Models" /></li>
+      <li><WikiLink slug="pages/projected_phase_space" text="Projected Phase Space" /></li>
+      <li><WikiLink slug="pages/environmental_quenching" text="Environmental Quenching" /></li>
+      <li><WikiLink slug="pages/galaxy_infall_time" text="Galaxy Infall Time" /></li>
+      <li><WikiLink slug="pages/Nancy_Grace_Roman_Space_Telescope" text="Nancy Grace Roman Space Telescope" /></li>
+    </ul>
+
+    <div class="page-tags">
+      <strong>Tags:</strong>
+      <WikiLink slug="pages/Tag_Simulations" text="Simulations" />
+      <WikiLink slug="pages/tag_environmental_effects" text="Environmental Effects" />
+      <WikiLink slug="pages/Tag_Galactic_Structure" text="Galactic Structure" />
+      <WikiLink slug="pages/tag_galaxy_clusters" text="Galaxy Clusters" />
+    </div>
+  </main>
+</Base>

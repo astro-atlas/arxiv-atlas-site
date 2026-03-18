@@ -1,0 +1,34 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Weaver et al. (1977) - ArXiv Atlas";
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Weaver et al. (1977)</h1>
+
+    <div class="stub-banner">⚠️ <strong>Stub</strong> — content pending analysis</div>
+
+    <div class="infobox">
+      <h3 class="infobox-title">Weaver et al. 1977</h3>
+      <table>
+        <tr><th>Type:</th><td>Paper</td></tr>
+        <tr><th>DOI:</th><td><a href="https://doi.org/10.1086/155692">10.1086/155692</a></td></tr>
+        <tr><th>Topic:</th><td>Interstellar bubble dynamics; wind-blown bubble self-similar solutions</td></tr>
+      </table>
+    </div>
+
+    <p><strong>Weaver et al. (1977)</strong> developed the classic analytic model for the structure and evolution of interstellar bubbles driven by stellar winds. The self-similar scalings derived in this work (e.g., radius ∝ t<sup>3/5</sup>) are widely used as analogies for jet–cocoon expansion in astrophysical jet theory.</p>
+
+    <h2>Relevance to ArXiv Atlas</h2>
+    <p>Cited by <WikiLink slug="pages/2603.16647" text="Peretti et al. (2603.16647)" /> as the origin of the t<sup>3/5</sup> self-similar scaling applied to cocoon expansion around sub-relativistic jets.</p>
+
+    <h2>See also</h2>
+    <ul>
+      <li><WikiLink slug="pages/jet-cocoon-systems" text="Jet–Cocoon systems" /></li>
+      <li><WikiLink slug="pages/Bromberg_2011" text="Bromberg et al. (2011)" /></li>
+    </ul>
+  </main>
+</Base>

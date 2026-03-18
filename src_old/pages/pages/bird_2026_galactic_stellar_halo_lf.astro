@@ -1,0 +1,77 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Galactic Stellar Halo Luminosity Function (Bird et al. 2026)";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Galactic Stellar Halo Luminosity Function</h1>
+
+    <div class="infobox">
+      <h3 class="infobox-title">Galactic Stellar Halo Luminosity Function</h3>
+      <table>
+        <tr>
+          <th>Type:</th>
+          <td>Paper</td>
+        </tr>
+        <tr>
+          <th>Authors:</th>
+          <td>Sarah A. Bird et al. (2026)</td>
+        </tr>
+        <tr>
+          <th>arXiv / DOI:</th>
+          <td><a href="https://arxiv.org/abs/2603.11354">arXiv:2603.11354</a> — <a href="https://doi.org/10.48550/arXiv.2603.11354">doi:10.48550/arXiv.2603.11354</a></td>
+        </tr>
+        <tr>
+          <th>Key data:</th>
+          <td>Gaia DR3 (parallaxes, proper motions), 24,471 high-V_t stars (V_t &gt; 250 km/s)</td>
+        </tr>
+        <tr>
+          <th>Page:</th>
+          <td><a href="/pages/bird_2026_galactic_stellar_halo_lf">Paper page</a></td>
+        </tr>
+      </table>
+    </div>
+
+    <p>
+      <strong>Bird et al. (2026)</strong> measure the local luminosity function of the Milky Way's stellar halo using a magnitude-complete, distance-limited Gaia DR3 sample selected by transverse velocity (V_t &gt; 250 km/s). They report a local halo number density of 1.7×10^-4 stars pc^-3, identify classical LF features (Wielen dip, LF peak near M_G≈10), and estimate the Milky Way halo contains of order a few ×10^9 stars with a total luminosity ∼10^8–10^9 L_☉. See the analysis summary and links below.
+    </p>
+
+    <h2 id="results">Main results</h2>
+    <ul>
+      <li>Continuous LF measured from M_G ≈ 13 to M_G ≈ -3 (subdwarfs → giants)</li>
+      <li>Local halo number density: 1.7×10^-4 stars pc^-3</li>
+      <li>Disk-to-halo number ratio ≈ 480:1 (by star counts)</li>
+      <li>Estimated total halo star count ≈ 4.3–4.6×10^9 and total halo luminosity ≈ 4.1–4.6×10^8 L_☉ (integrated to 100 kpc; broken power-law profile)</li>
+    </ul>
+
+    <h2 id="methods">Data & methods</h2>
+    <p>
+      The sample is selected from Gaia DR3 inside 1 kpc with G &lt; 17, |b| &gt; 36°, and a transverse-velocity cut V_t &gt; 250 km s^-1 to isolate halo stars. Completeness corrections (volume limits, V_t selection) are applied; the kinematic correction factor for the V_t cut is ≈ 2.0 (Appendix C).
+    </p>
+
+    <h2 id="notes">Notes & links</h2>
+    <ul>
+      <li><a href="/data/papers/bird2026_galactic_stellar_halo_lf.md">Paper analysis (markdown)</a></li>
+      <li>Related concepts: <WikiLink slug="pages/stellar_halo" text="Stellar halo" />, <WikiLink slug="pages/luminosity_function" text="Luminosity function" /></li>
+    </ul>
+
+    <div class="references">
+      <h2>References</h2>
+      <ol>
+        <li>Bird, S. A., Flynn, C., Sekhri, R., et al. (2026). "Galactic Stellar Halo Luminosity Function." <a href="https://arxiv.org/abs/2603.11354">arXiv:2603.11354</a>.</li>
+        <li>Gaia Collaboration et al. (2021). "Gaia Catalogue of Nearby Stars" — disk LF comparison reference (in text).</li>
+      </ol>
+    </div>
+
+    <div class="page-tags">
+      <strong>Tags:</strong>
+      <WikiLink slug="pages/stellar_halo" text="Stellar halo" />
+      <WikiLink slug="pages/luminosity_function" text="Luminosity function" />
+      <WikiLink slug="pages/Gaia_DR3" text="Gaia DR3" />
+    </div>
+  </main>
+</Base>

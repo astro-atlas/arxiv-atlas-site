@@ -1,0 +1,34 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Stellar halo";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Stellar halo</h1>
+
+    <p>
+      The <strong>stellar halo</strong> is the diffuse, roughly spheroidal component of stars that surrounds the main disk and bulge of the Milky Way and other galaxies. It is dominated by old, metal-poor stars and preserves kinematic and chemical signatures of the Galaxy's accretion and assembly history.
+    </p>
+
+    <h2>Why it matters</h2>
+    <p>
+      Halo stars trace early formation epochs, tidal debris from accreted satellites, and dynamical heating. Measurements of the halo luminosity function, density profile, and metallicity distribution provide constraints on galaxy formation and the Milky Way's merger history.
+    </p>
+
+    <h2>Recent work</h2>
+    <ul>
+      <li><a href="/pages/bird_2026_galactic_stellar_halo_lf">Bird et al. (2026) — Galactic Stellar Halo Luminosity Function</a> — Gaia DR3 measurement of the local halo LF; local density ≃1.7×10^-4 stars pc^-3.</li>
+    </ul>
+
+    <h2>See also</h2>
+    <ul>
+      <li><WikiLink slug="pages/luminosity_function" text="Luminosity function" /></li>
+      <li><WikiLink slug="pages/halo_kinematics" text="Halo kinematics" /></li>
+      <li><WikiLink slug="pages/Gaia_DR3" text="Gaia DR3" /></li>
+    </ul>
+  </main>
+</Base>

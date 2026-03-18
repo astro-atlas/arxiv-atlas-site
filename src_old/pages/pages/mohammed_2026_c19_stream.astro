@@ -1,0 +1,67 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Mohammed et al. (2026) — C-19 Stellar Stream in DESI DR2";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">The Kinematically Hot, Extremely Metal-Poor C-19 Stellar Stream in DESI DR2</h1>
+
+    <div class="infobox">
+      <h3 class="infobox-title">C-19 Stellar Stream</h3>
+      <table>
+        <tr>
+          <th>Type:</th>
+          <td>Paper</td>
+        </tr>
+        <tr>
+          <th>Authors:</th>
+          <td>Nasser Mohammed, Joseph Y. Tang, Ting S. Li, and DESI Collaboration</td>
+        </tr>
+        <tr>
+          <th>arXiv:</th>
+          <td><a href="https://arxiv.org/abs/2603.11171">arXiv:2603.11171</a></td>
+        </tr>
+        <tr>
+          <th>Status:</th>
+          <td>Submitted to ApJ</td>
+        </tr>
+        <tr>
+          <th>Related concepts:</th>
+          <td>
+            <WikiLink slug="pages/stellar_streams" text="Stellar streams" /><br>
+            <WikiLink slug="pages/globular_cluster_disruption" text="GC disruption" /><br>
+            <WikiLink slug="pages/ultra_metal_poor_stars" text="Ultra-metal-poor stars" />
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <p><strong>Abstract.</strong> Mohammed et al. (2026) characterize the C-19 stellar stream using DESI DR2 spectroscopy and a mixture model approach. They identify 47 confirmed members (41 newly discovered) with extreme metal-poverty ([Fe/H] = -3.36) and surprisingly large velocity dispersion (7.8 km/s), inconsistent with standard globular cluster disruption models. A novel 'spur' feature is also identified.</p>
+
+    <h2>Key findings</h2>
+    <ol>
+      <li><strong>Kinematically hot stream:</strong> Velocity dispersion σ_v = 7.8<sup>+1.5</sup>_-1.3 km/s — much larger than expected for simple GC disruption.</li>
+      <li><strong>Extremely metal-poor:</strong> Mean [Fe/H] = -3.36<sup>+0.12</sup>_-0.10, with chemical abundance patterns characteristic of globular clusters.</li>
+      <li><strong>Large sample discovery:</strong> 47 spectroscopically confirmed members; 41 are newly identified using DESI.</li>
+      <li><strong>Novel sub-structure:</strong> 'Spur' feature identified within the stream.</li>
+    </ol>
+
+    <h2>Implications</h2>
+    <p>Standard globular cluster disruption models may be incomplete. The combination of extreme metal-poverty and high velocity dispersion suggests alternative scenarios: merger remnant, multiple progenitors, or modified dynamical evolution. DESI spectroscopy enables population-level stream studies, opening a new window on galactic potential and early assembly processes.</p>
+
+    <h2>References</h2>
+    <ol>
+      <li id="ref1">Mohammed, N., et al. (2026). "The Kinematically Hot, Extremely Metal-Poor C-19 Stellar Stream in DESI DR2." ApJ submitted. arXiv:2603.11171. <a href="https://arxiv.org/abs/2603.11171">https://arxiv.org/abs/2603.11171</a></li>
+    </ol>
+
+    <div class="page-tags">
+      <strong>Tags:</strong>
+      <WikiLink slug="pages/stellar_streams" text="Stellar streams" />
+      <WikiLink slug="pages/galactic_structure" text="Galactic structure" />
+    </div>
+  </main>
+</Base>
