@@ -17,12 +17,22 @@ import Sidebar from '../../components/Sidebar.astro';
 const title = "Article Title - ArXiv Atlas";
 
 import WikiLink from '../../components/WikiLink.astro';
+
+// STUB DETECTION: Set status = 'stub' for un-analyzed papers
+// This will show a stub banner at the top of the page
+const status = 'done'; // Change to 'stub' for placeholder pages
 ---
 <Base title={title}>
   <Sidebar />
   <main class="page-main">
     <h1 class="page-title">Article Title</h1>
-    
+
+    {status === 'stub' && (
+      <div class="stub-banner">
+        ⚠️ <strong>Stub</strong> — content pending analysis
+      </div>
+    )}
+
     <!-- INFOBOX (optional - remove if not needed) -->
     <div class="infobox">
       <h3 class="infobox-title">Article Title</h3>

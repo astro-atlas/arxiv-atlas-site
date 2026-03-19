@@ -11,11 +11,8 @@ const paperPages = pagesIndex
   .sort((a: any, b: any) => (b.created_date || '').localeCompare(a.created_date || ''));
 
 function pageHref(p: any) {
-  const path = p.path || '';
-  const m = path.match(/src\/pages\/(.+)\.astro$/);
-  if (m) return '/' + m[1] + '/';
-  const slug = p.page_slug || '';
-  return '/' + (slug.startsWith('pages/') ? slug : ('pages/' + slug)) + '/';
+  const slug = (p.page_slug || '').replace(/^papers\//, '');
+  return '/pages/' + slug + '/';
 }
 ---
 <Base title={title}>

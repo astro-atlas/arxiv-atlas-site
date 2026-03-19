@@ -1,0 +1,183 @@
+# arXiv paper workflow — Orchestrator
+
+This is the reference for how we ingest, process, and record arXiv papers in the Atlas. The orchestrator (main agent) coordinates subagents and handles DB/build operations that require serialization.
+
+---
+
+## 1. Fetching daily papers from arxiv.org [model: GPT]
+
+**URL:** `https://arxiv.org/list/astro-ph.GA/recent?skip=0&show=2000`
+
+- Extract all papers between the [DATE] header and the [DATE-1] header
+- **Skip cross-listed papers** (marked with "cross-list from astro-ph.XX")
+
+---
+
+## 2. Storing the paper queue [model: GPT]
+
+**Tracking file:** `data/papers/tracking/YYYY-MM-DD_analyzed.md`
+
+```
+# YYYY-MM-DD Papers (astro-ph.GA)
+
+- [ ] arXiv:2603.XXXXX — Author et al. — "Title"
+- [ ] arXiv:2603.YYYYY — Author et al. — "Title"
+```
+
+- `[x]` = done, `[ ]` = in queue, `[?]` = failed to fetch
+
+---
+
+## 3. Spawn subagents to process papers
+
+For each paper, spawn a subagent with the arxiv ID. The subagent follows `SUBAGENT_PARSE_WORKFLOW.md` and performs the **full pipeline**:
+
+1. Fetch paper (tarball → HTML → PDF fallback)
+2. Extract metadata
+3. Analyze all sections with citation mapping
+4. Check wiki connections
+5. Recommend wiki pages
+6. Critical analysis
+7. Synthesize Key Takeaways (big-picture, field-level)
+8. **Create all `.md` pages** (paper page, new concept pages, updates to existing concept pages)
+9. Return a **JSON manifest** to the orchestrator
+
+**Subagents write `.md` files directly to `src/content/pages/`.** They do NOT touch the database or run builds.
+
+**Parallelism:** Multiple subagents can run simultaneously since they write to different files. Conflicts on existing concept pages are unlikely but possible — the orchestrator reviews manifests and resolves any conflicts before DB ingestion.
+
+---
+
+## 4. Handle subagent results
+
+When a subagent completes, it returns a JSON manifest:
+
+```json
+{
+  "arxiv_id": "2603.XXXXX",
+  "title": "Paper title",
+  "authors": ["..."],
+  "date": "YYYY-MM-DD",
+  "doi": "...",
+  "status": "done",
+  "files_created": ["src/content/pages/2603-XXXXX.md", "..."],
+  "files_modified": ["src/content/pages/existing-concept.md"],
+  "analysis_file": "data/papers/2603.XXXXX.md",
+  "bibliography_file": "data/papers/2603.XXXXX_bibliography_complete.json",
+  "pages_created": [
+    {"slug": "2603-XXXXX", "type": "paper", "title": "Paper title"},
+    {"slug": "concept-slug", "type": "concept", "title": "Concept Name", "level": "research"}
+  ],
+  "pages_modified": [
+    {"slug": "existing-concept", "change_summary": "Added subsection on X"}
+  ],
+  "key_takeaways": { "..." }
+}
+```
+
+**If subagent returns "Failed to fetch the paper":** mark `[?]` in the tracking file and notify Sai.
+
+---
+
+## 5. DB ingestion and site rebuild [model: GPT]
+
+After each subagent completes (or after a batch), the orchestrator runs these serialized steps:
+
+### 5.1 Ingest into database
+
+Using the manifest, update `data/arxiv.db`:
+
+```bash
+cd /home/node/.openclaw/workspace/projects/arxiv-atlas
+
+# 1. Ingest analysis file → creates paper + page records
+python3 tools/ingest_analysis_files.py data/papers/[arxiv-id].md
+
+# 2. Sync .md files from disk → pages table
+python3 tools/sync_pages_from_disk.py
+
+# 3. Extract links from .md files → page_links table
+python3 tools/extract_and_insert_page_links.py
+```
+
+### 5.2 Rebuild site
+
+```bash
+python3 tools/build_site.py
+```
+
+This exports DB → JSON, generates link graph, and runs `npm run build`.
+
+### 5.3 Update tracking
+
+Mark paper as `[x]` in `data/papers/tracking/YYYY-MM-DD_analyzed.md`.
+
+---
+
+## 6. Batch processing strategy
+
+**Option A: Sequential** — Spawn one subagent at a time. Wait for completion, ingest, rebuild, then spawn the next. Safest but slowest.
+
+**Option B: Parallel spawn, serial ingest** (recommended) — Spawn multiple subagents in parallel. As each completes, collect its manifest. After all complete (or after each), run the DB ingestion and site rebuild once. This avoids DB conflicts and minimizes rebuilds.
+
+**Conflict resolution:** If two subagents modify the same concept page, the orchestrator reviews both changes and merges them manually before the DB sync.
+
+---
+
+## 7. Daily summary [model: Sonnet]
+
+Once all papers for a date are processed:
+
+1. Create `src/content/pages/daily_YYYY_MM_DD.md` grouping papers into 3–4 themes
+2. Insert a `pages` row in DB (page_type: 'daily_summary')
+3. Update `src/data/daily_summaries.json`
+4. Run site rebuild
+
+---
+
+## 8. Portal organization [model: GPT]
+
+**When to create a portal:** 10+ papers share a common theme.
+
+**Portal naming:** `src/content/pages/portal-<theme>.md` — sidebar auto-detects `portal-` prefix.
+
+---
+
+## URL & Link Conventions
+
+| Target | URL path | Source file |
+|--------|----------|-------------|
+| Home | `/` | `src/pages/index.astro` |
+| Paper summaries index | `/papers/` | `src/pages/papers.astro` |
+| Random page | `/random/` | `src/pages/random.astro` |
+| Concept page | `/pages/<concept-slug>/` | `src/content/pages/<concept-slug>.md` |
+| Paper page | `/pages/<arxiv-id>/` | `src/content/pages/<arxiv-id>.md` |
+| Portal page | `/pages/portal-<theme>/` | `src/content/pages/portal-<theme>.md` |
+
+**Note:** arXiv IDs use hyphens in slugs/filenames (e.g., `2603-16183`), dots in display text (`arXiv:2603.16183`).
+
+**Rules:**
+1. All wiki pages go in `src/content/pages/` → routed at `/pages/...` via content collections
+2. Top-level utility pages go in `src/pages/` → routed at `/papers/`, `/random/`
+3. Kebab-case only — no PascalCase paths
+4. `<a href="/pages/slug" class="wikilink">` for cross-references; plain `<a>` for external links
+5. Portal pages use `portal-` prefix for sidebar auto-detection
+
+---
+
+## Quick Reference
+
+| What | Where |
+|------|-------|
+| Paper queue | `data/papers/tracking/YYYY-MM-DD_analyzed.md` |
+| Analysis files | `data/papers/<arxiv-id>.md` |
+| Bibliography JSON | `data/papers/<arxiv-id>_bibliography_complete.json` |
+| Wiki pages | `src/pages/pages/` |
+| Page template | `src/pages/pages/_template.astro` |
+| Database | `data/arxiv.db` |
+| Database schema | `instructions/DATABASE.md` |
+| Subagent workflow | `instructions/SUBAGENT_PARSE_WORKFLOW.md` |
+| Key takeaways spec | `instructions/KEY_TAKEAWAYS_SPEC.md` |
+| CSS styles | `public/styles/global.css` |
+| Site build | `tools/build_site.py` |
+| Built site | `dist/` |

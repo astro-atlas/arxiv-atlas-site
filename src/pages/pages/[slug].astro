@@ -1,0 +1,32 @@
+---
+/**
+ * Dynamic route for content collection pages.
+ * Renders .md pages from src/content/pages/ via Astro content collections.
+ */
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('pages');
+  return pages.map(page => ({
+    params: { slug: page.id },
+    props: { page },
+  }));
+}
+
+const { page } = Astro.props;
+const { Content } = await render(page);
+const pageTitle = page.data.title + ' - ArXiv Atlas';
+---
+<Base title={pageTitle}>
+  <Sidebar />
+  <main class="page-main">
+    {page.data.status === 'stub' && (
+      <div class="stub-banner">
+        ⚠️ <strong>Stub</strong> — content pending analysis
+      </div>
+    )}
+    <Content />
+  </main>
+</Base>

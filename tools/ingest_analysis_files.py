@@ -129,13 +129,14 @@ def ingest_paper(md_file):
     )
 
     # Create page for this paper
-    page_slug = f"pages/{arxiv_id}"
+    slug = arxiv_id.replace('.', '-')
+    page_slug = f"pages/{slug}"
     page_id = db.create_or_get_page(
         page_slug=page_slug,
         title=title,
         page_type='paper',
         source_paper_id=paper_id,
-        path=f'src/pages/pages/{arxiv_id}.astro'
+        path=f'src/content/pages/{slug}.md'
     )
 
     # Link paper to its page

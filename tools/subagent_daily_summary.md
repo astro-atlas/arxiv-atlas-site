@@ -16,8 +16,8 @@ You are a Sonnet agent. Your job:
    - Example: [2603.13010, 2602.45678, ...]
 
 2. **Read concept/paper pages created for those papers**
-   - For each paper, find its page in `src/pages/pages/`
-   - Read all concept pages linked to that paper (from src/pages/concepts/)
+   - For each paper, find its page in `src/pages/pages/` (.astro) or `src/content/pages/` (.mdx)
+   - Read all concept pages linked to that paper
    - Extract: key claims, main arguments, central concepts
    - You now have the full context of what was discovered that day
 
@@ -35,9 +35,9 @@ You are a Sonnet agent. Your job:
 
 5. **Create the daily summary page**
    - Call or run: `tools/generate_daily_summary.py --date {DATE}`
-   - This script creates `src/pages/pages/daily_YYYY_MM_DD.astro`
-   - The .astro template includes your theme groupings and summaries
-   - Verify the file was created: `ls -la src/pages/pages/daily_YYYY_MM_DD.astro`
+   - This creates the daily summary as MDX in `src/content/pages/daily_YYYY_MM_DD.mdx` (preferred)
+   - Or as .astro in `src/pages/pages/daily_YYYY_MM_DD.astro` (legacy)
+   - Verify the file was created
 
 6. **Update database and indices**
    - Ensure `data/arxiv.db` has a row in the pages table:

@@ -1,33 +1,14 @@
 ---
 /**
  * Random page — redirects to a random wiki page.
- * Reads pages_index.json and links.json at build time.
- * Only includes pages that actually exist on disk (exists=true in links.json).
+ * Reads existing-slugs.json (generated from disk by export_for_site.py).
  */
-import pagesIndex from '../data/pages_index.json';
-import links from '../data/links.json';
+import existingSlugs from '../../public/existing-slugs.json';
 
-// Normalize slug for links.json lookup (uses underscores)
-function normalizeSlug(s: string) {
-  return s.trim().replace(/^\/+|\/+$/g, '').replace(/[\s-]+/g, '_').toLowerCase();
-}
-
-// Build set of existing slugs from links.json
-const existingSet = new Set(
-  Object.entries(links as Record<string, any>)
-    .filter(([_, v]) => v.exists)
-    .map(([k, _]) => k)
-);
-
-// Filter to real content pages that exist on disk
-const contentPages = (pagesIndex as any[]).filter((p: any) => {
-  if (p.page_slug === 'index' || p.page_slug.includes('_template') || p.page_slug === 'random') return false;
-  if (!p.page_slug.startsWith('pages/')) return false;
-  const norm = normalizeSlug(p.page_slug);
-  return existingSet.has(norm);
-});
-
-const pageUrls = contentPages.map((p: any) => '/' + p.page_slug);
+// Build page URLs from slugs that exist on disk
+const pageUrls = (existingSlugs as {slug: string, title: string}[])
+  .filter(e => !e.slug.includes('_template') && e.slug !== 'random' && e.slug !== 'index')
+  .map(e => '/pages/' + e.slug);
 ---
 <!DOCTYPE html>
 <html>

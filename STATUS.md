@@ -1,7 +1,7 @@
 # ArXiv Atlas Project Status
 
-## Current Phase: Pipeline Restructure & Instructions Complete
-Updated: 2026-03-17 (major reorganization by Sai)
+## Current Phase: Active Paper Processing
+Updated: 2026-03-19 01:46 UTC
 
 ## Architecture
 
@@ -78,9 +78,9 @@ arxiv-atlas/
 
 ### Database State
 
-**New clean database:** `data/arxiv.db`
-- Papers: 0 entries (fresh start)
-- Pages: 11 template/portal entries
+**Active database:** `data/arxiv.db`
+- Papers: 9 entries (processing March 18 batch)
+- Pages: 140 total (9 paper pages + 131 concept pages)
 - Schema: matches DATABASE.md exactly
 
 **Old database preserved:** `arxiv_atlas.db` contains 53 analyzed papers from previous workflow (in `data_old/`)
@@ -102,22 +102,23 @@ arxiv-atlas/
 
 ## Current State
 
-✅ **Ready to process papers:**
+✅ **Actively processing papers:**
 - Complete workflow documentation in `instructions/`
 - Full tool suite in `tools/`
-- Clean database with correct schema
+- 9 papers processed from March 18 batch
+- 140 wiki pages live (9 paper + 131 concept)
 - Directory structure matches instructions
 - Astro components and layouts functional
-- Build pipeline operational and verified
-- Example files available for reference
+- Build pipeline operational (site rebuilds in ~2s)
 
 ## Next Steps
 
-1. **Immediate:** Fix directory structure to match instructions (create `src/pages/pages/`, `data/papers/`, `data/temp/`)
-2. **Soon:** Start processing papers with new workflow
-3. **Future:** Add GitHub Action for weekly automated builds
+1. **Continue:** Process remaining 6 papers from March 18 queue (2603.15860, 15825, 15769, 15761, 15752, 15738, 15729)
+2. **Future:** Daily paper checks at ~10 AM EST on weekdays
+3. **Later:** Add GitHub Action for weekly automated builds
 
 ## Recent Updates
+- 2026-03-19: Processed 2603.15841 (EGS-z11-R0, first red dust-rich galaxy at z=11.45) — added 8 concept pages
+- 2026-03-18: Processed 8 papers from March 18 batch
 - 2026-03-17: Complete pipeline restructure, instructions centralized, structure analysis completed
 - 2026-03-16: Added link-map generator and build pipeline
-- 2026-03-11: Completed Astro paper pages for March 11 papers

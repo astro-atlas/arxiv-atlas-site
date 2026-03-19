@@ -100,8 +100,9 @@ def format_citation(ref, pages_dir):
     
     # Check if page exists
     if ref['arxiv_id']:
-        pagelink = f"/pages/{ref['arxiv_id']}"
-        page_file = pages_dir / f"{ref['arxiv_id']}.astro"
+        slug = ref['arxiv_id'].replace('.', '-')
+        pagelink = f"/pages/{slug}"
+        page_file = pages_dir / f"{slug}.md"
         exists = page_file.exists()
     else:
         pagelink = ""

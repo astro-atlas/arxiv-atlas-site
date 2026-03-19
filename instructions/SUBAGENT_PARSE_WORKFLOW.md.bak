@@ -1,0 +1,342 @@
+# arXiv paper analysis workflow - orchestrator-driven
+
+These are the instructions to analyze a single arxiv paper AND create all wiki pages for it.
+
+**IMPORTANT: Model switching is done by the MAIN AGENT (orchestrator), NOT by subagents.**
+Subagents do NOT have access to `sessions_send`, `sessions_spawn`, or any session management tools.
+The main agent spawns separate subagents for each step, passing data between them via the filesystem.
+
+The `[model: X]` annotations on each step indicate which model the main agent should use when spawning the subagent for that step.
+
+---
+
+## Step 1: Fetch the paper [model: GPT]
+- Fetch the arXiv abstract page: `https://arxiv.org/abs/[arxiv id]`
+- Download the source tarball: `https://arxiv.org/e-print/[arxiv id]`
+- Extract the tarball and locate:
+  - The main `.tex` file (usually `main.tex` or `aanda.tex`)
+  - The bibliography file (usually `*.bib` or embedded in the main `.tex` as `\begin{thebibliography}`)
+- **If tarball is unavailable**, fall back to HTML (`https://arxiv.org/html/[arxiv id]`) or PDF (`https://arxiv.org/pdf/[arxiv id].pdf`)
+- If none of these can be fetched, return "Failed to fetch the paper" and stop
+- If a step fails at any point during this workflow, return early with error details
+
+## Step 2: Extract metadata [model: GPT]
+
+From the abstract/HTML page, extract:
+- **Title**
+- **Authors** (full list)
+- **arXiv ID** (e.g., `2603.12070`)
+- **DOI**
+- **Submitted date**
+- **Comments / status** (can be blank)
+- **Abstract** (full text)
+
+Write these as the first section to `data/papers/[arxiv id].md`.
+
+**Note:** Do NOT parse the full .bib file here. Many bib files contain 1000+ entries, most unused by the paper. Sonnet will identify actually-cited references in Step 3, and GPT will resolve them against the .bib in Step 3c.
+
+## Step 3: Section-by-section analysis [model: Sonnet]
+
+**⚠️ CONTEXT MANAGEMENT IS CRITICAL IN THIS STEP.**
+
+You will analyze a long paper section by section. You MUST manage your context window carefully.
+
+### Process for EACH section:
+
+1. **Read the LaTeX source** for ONE section only (use `grep -n` or `sed` to extract section boundaries)
+2. **Analyze the section** and extract:
+   - **3–5 key claims/findings** with specific evidence
+   - **Key concepts** — across five dimensions AND three depth levels (see below)
+   - **Every in-text citation** (`\cite{key}`): record the citation key and write a **1-sentence claim summary** of what this reference supports in context
+3. **APPEND results to `data/papers/[arxiv-id].md`** using the format below
+4. **⚠️ COMPACT CONTEXT.** Write a checkpoint file (`/tmp/[arxiv-id]_checkpoint.txt`) with:
+   - Which sections are done
+   - Which sections remain
+   - Running list of all concepts identified so far
+   Then request context compaction before proceeding to the next section.
+
+### After ALL sections are analyzed:
+- Collect all unique citation keys referenced across all sections
+- Write the list of used citation keys to `data/papers/[arxiv-id]_cited_keys.json` as a JSON array of objects:
+  ```json
+  [
+    {"key": "LyndsToomre1976", "claim_summary": "Seminal work on collisional ring formation"},
+    {"key": "Madore2009", "claim_summary": "Low-z CRG catalog, ~1% of all rings are collisional"}
+  ]
+  ```
+- Write a final concepts summary to `data/papers/[arxiv-id]_concepts.json`
+
+**Important:** Do NOT try to resolve DOIs, first authors, or full bibliographic data from the .bib file. Just record the citation keys and claim summaries. GPT will resolve these against the .bib in Step 3c.
+
+### Section analysis format (append to md file):
+
+```
+## [Section Name]
+
+### Key claims
+- [claim with evidence]
+
+### Concepts and connections
+FOUNDATIONAL: [list]
+INTERMEDIATE: [list]
+SPECIALIST: [list]
+
+### References cited
+- [citation_key]: [1-sentence claim summary]
+```
+
+### Five dimensions for concepts:
+1. **Core astronomy concepts**: physical processes/phenomena
+2. **Techniques and methods**: analysis techniques
+3. **Important objects**: named clusters, galaxies, notable sources
+4. **Instruments and observatories**: major telescopes/arrays
+5. **Surveys and programs**: large surveys or monitoring programs
+
+### Three depth levels (ALL required — think like Wikipedia):
+1. **Foundational** — broadest, most fundamental concepts a general reader needs. The bedrock of the knowledge graph. Examples: "magnetic-field", "star-formation", "dust", "galaxy", "interstellar-medium", "gravity"
+2. **Intermediate** — concepts a grad student would know. Examples: "infrared-dark-clouds", "dust-polarimetry", "mass-to-flux-ratio"
+3. **Specialist** — research-level concepts specific to this subfield. Examples: "davis-chandrasekhar-fermi-method", "hourglass-magnetic-field-morphology"
+
+**You MUST identify foundational concepts.** Every paper touches fundamental physics and astronomy — name those concepts explicitly. The goal is a complete knowledge graph where a reader can start from "magnetic field" and traverse all the way to specialist topics.
+
+Name concepts after the fact — NO "basics", "overview", "fundamentals" suffixes.
+
+## Step 3c: Resolve bibliography [model: GPT]
+
+**After Sonnet completes Step 3**, GPT resolves the cited keys against the .bib file.
+
+Inputs:
+- Cited keys with claim summaries: `data/papers/[arxiv-id]_cited_keys.json`
+- Raw .bib file: `/tmp/[arxiv-id]/*.bib` (or embedded in .tex)
+
+For each citation key in the cited keys JSON, look it up in the .bib file and extract:
+- First author name
+- Year
+- DOI (if present)
+- Single author? true/false
+
+Output: `data/papers/[arxiv-id]_bibliography_complete.json`
+```json
+[
+  {
+    "key": "LyndsToomre1976",
+    "first_author": "Lynds",
+    "year": "1976",
+    "doi": null,
+    "single_author": false,
+    "claim_summary": "Seminal work on collisional ring formation"
+  }
+]
+```
+
+This step is fast and mechanical — only resolving the ~80-100 actually-cited references, not the full 1000+ entry .bib file.
+
+## Step 4: Check wiki connections [model: Haiku]
+
+**First: Read the full index of existing pages.** Load `public/existing-slugs.json` (located at `/home/node/.openclaw/workspace/projects/arxiv-atlas/public/existing-slugs.json`) for all page slugs and titles. This JSON file contains a complete index of all wiki pages and their metadata.
+
+For every key concept and cited paper from Step 3, check the slug list from `existing-slugs.json`.
+Mark as [x] if exists, [] if not. Create a summary table showing all concepts by level and their existence status.
+
+**Also: scan the full index for any existing pages that are relevant to this paper — even if you didn't identify them as key concepts.** If the paper touches a topic that has an existing page, that's a cross-link opportunity. Add these to a "cross-link candidates" list.
+
+The goal: when writing wiki pages in Step 8, link to every relevant existing page you found — don't limit cross-links to only the concepts you explicitly identified. More links = better knowledge graph.
+
+Append results to `data/papers/[arxiv-id].md` as `## Wiki Connections`.
+
+## Step 5: Recommend wiki pages [model: Haiku]
+
+For each missing concept, create a recommendation with:
+- **Page name** (kebab-case)
+- **Level** (undergraduate / intermediate / research)
+- **Why needed**
+- **Suggested first reference**
+- **Related pages**
+
+Note which existing wiki pages should be updated.
+
+Append results to `data/papers/[arxiv-id].md` as `## Recommended Pages`.
+
+## Step 6: Critical Analysis [model: Opus]
+
+**⚠️ CONTEXT MANAGEMENT IS CRITICAL IN THIS STEP.**
+
+Read through the complete summary in `data/papers/[arxiv-id].md`.
+
+For identified relevant papers and concepts, read existing wiki pages from `src/content/pages/`. **For each page you read, compact it to ~1k tokens in your notes before moving to the next page.** Do NOT try to hold multiple full pages in context simultaneously. Process them one at a time:
+
+1. Read page → extract key claims and positions → write 1k-token summary to `/tmp/[arxiv-id]_page_[slug].txt`
+2. Move to next page → repeat
+3. After reading all relevant pages, read your summaries and perform the analysis
+
+Answer these five questions:
+
+1. **What are 3-5 key claims and findings?** (with supporting evidence)
+2. **Which papers/concepts does this paper support?** (specific pages, frameworks)
+3. **Which papers/concepts does this paper contradict?** (specific pages, challenges)
+4. **How should existing concept pages be updated?** For each page, specify exactly what content to add, which wikilinks to include, and what references to add. Write this as a structured JSON file so Haiku can execute the updates mechanically.
+5. **Knowledge graph traversal — what concepts are needed to understand this paper?** Trace the full path from "astronomy" (or "galaxy") down to the most specific concepts in this paper. Example chain: astronomy → galaxy → active-galactic-nucleus → radio-jet → recollimation-shocks. Every node in that chain is a concept page that should exist. List ALL nodes, not just the terminal ones. This is how we ensure foundational concepts are never missing from the wiki.
+
+Additionally, identify broader concept pages that should exist across the five dimensions above.
+
+Write your analysis as the `## Critical Analysis` section of `data/papers/[arxiv-id].md`.
+
+**IMPORTANT:** For question 4, output a JSON file at `data/papers/[arxiv-id]_page_updates.json` with structured update instructions:
+```json
+{
+  "pages_to_update": [
+    {
+      "slug": "star-formation",
+      "sections_to_add": [
+        {
+          "title": "Interaction-Triggered Star Formation",
+          "content": "Full markdown content with <a href=\"#refN\">[N]</a> citations",
+          "insert_after": "## Related Processes",
+          "wikilinks_to_add": [
+            {"text": "Galaxy mergers", "slug": "galaxy-mergers"},
+            {"text": "Collisional ring galaxies", "slug": "collisional-ring-galaxies"}
+          ]
+        }
+      ],
+      "references_to_add": [
+        {"id": "ref10", "author_year": "Di Matteo et al. (2007)", "title": "Star formation enhancement", "doi": "10.xxxx/yyyy"}
+      ]
+    }
+  ]
+}
+```
+
+This makes it trivial for Haiku to execute the updates in Step 8.3.
+
+## Step 7: Key Takeaways [model: Opus]
+
+Synthesize a big-picture Key Takeaways block for the paper (see `instructions/KEY_TAKEAWAYS_SPEC.md`):
+
+- **Main Results** — 3–6 bullet points (concise, science-first, each traceable to a citation)
+- **Implications** — 1 short paragraph about field-level implications, with an eye to galaxy evolution
+- **Other Works** — 1 short paragraph about how this paper compares to similar results / broader field context
+
+Write this as `## Key Takeaways` section in `data/papers/[arxiv-id].md`.
+
+## Step 8: Create wiki pages [model: Opus for 8.1-8.2, Haiku for 8.3]
+
+### 8.1 & 8.2: Opus writes paper page and new concept pages (Steps 8.1 and 8.2 above)
+- Create paper page at `src/content/pages/[arxiv-id].md`
+- Create new concept pages at `src/content/pages/[concept-slug].md`
+- Follow all page-writing rules (citations, wikilinks, HTML, no LaTeX, etc.)
+- Return a list of files created
+
+### 8.3: Haiku updates existing pages with wikilinks and references [model: Haiku]
+
+**After Opus completes 8.1-8.2**, Haiku reads the update instructions from Opus and executes page updates:
+
+Input from Opus:
+- `data/papers/[arxiv-id]_page_updates.json` — structured update instructions from Step 6 Critical Analysis
+
+For each page to update:
+1. Read the existing `.md` file at `src/content/pages/[slug].md`
+2. For each section in `sections_to_add`: insert the new section at the `insert_after` marker
+3. Add all wikilinks specified in `wikilinks_to_add` to the page's "Related Concepts" or "See Also" section
+4. Add all references from `references_to_add` to the References section
+5. Keep the page focused — compress/prune if sections grow too large
+6. Use the `edit` tool to make each change
+
+This is mechanical link-adding and reference merging — perfect for Haiku. No creative content generation needed.
+
+After all pages are updated, return a summary listing:
+- Pages modified
+- Sections added per page
+- Wikilinks added per page
+- New references integrated
+
+### Page-writing rules
+
+- **Every factual statement** must cite a reference: `<a href="#refN">[N]</a>`
+- **`<a href="/pages/slug" class="wikilink">`** for all cross-references (not WikiLink component)
+- **No LaTeX** in .md files — use HTML: `<sup>`, `<sub>`, `&times;`, etc.
+- **Kebab-case** filenames only; arXiv IDs use hyphens (`2603-16183`, not `2603.16183`)
+- **Collapsible references** using `<details class="references">` (collapsed by default)
+- **No blank lines** inside HTML blocks (breaks Markdown parsing)
+- **Key takeaways box** on paper pages using `.key-takeaways` class
+- **Exhaustive citations** — list ALL supporting refs for each fact, not just one
+
+---
+
+## Step 9: Return manifest to orchestrator
+
+After creating all files, return a **JSON manifest** that the orchestrator needs for DB ingestion and site build. Format:
+
+```json
+{
+  "arxiv_id": "2603.XXXXX",
+  "title": "Paper title",
+  "authors": ["Author A", "Author B"],
+  "date": "YYYY-MM-DD",
+  "doi": "10.xxxx/yyyy or null",
+  "status": "done",
+  "files_created": [
+    "src/content/pages/2603-XXXXX.md",
+    "src/content/pages/concept-slug.md",
+    "..."
+  ],
+  "files_modified": [
+    "src/content/pages/existing-concept.md"
+  ],
+  "analysis_file": "data/papers/2603.XXXXX.md",
+  "bibliography_file": "data/papers/2603.XXXXX_bibliography_complete.json",
+  "pages_created": [
+    {"slug": "2603-XXXXX", "type": "paper", "title": "Paper title"},
+    {"slug": "concept-slug", "type": "concept", "title": "Concept Name", "level": "research"}
+  ],
+  "pages_modified": [
+    {"slug": "existing-concept", "change_summary": "Added new subsection on X from this paper"}
+  ],
+  "key_takeaways": {
+    "main_results": ["bullet 1", "bullet 2", "..."],
+    "confidence": "paragraph",
+    "implications": "paragraph",
+    "next_steps": ["bullet 1", "bullet 2"]
+  }
+}
+```
+
+**Return this manifest as the final output.** The orchestrator handles:
+1. DB ingestion (papers, pages, page_links tables)
+2. Site rebuild (export JSON, npm build)
+3. Tracking file update
+
+---
+
+## Key paths
+
+| What | Where |
+|------|-------|
+| Working directory | `/home/node/.openclaw/workspace/projects/arxiv-atlas/` |
+| Analysis output | `data/papers/[arxiv-id].md` |
+| Bibliography JSON | `data/papers/[arxiv-id]_bibliography_complete.json` |
+| Wiki pages | `src/content/pages/` |
+| Page template | see existing `.md` files for structure |
+| Existing page index | `public/existing-slugs.json` |
+| CSS styles | `public/styles/global.css` |
+
+## Key constraints
+
+- **The orchestrator spawns you for specific steps.** Do your step thoroughly and return results via files.
+- **Compact context aggressively.** After processing each section/page, write a checkpoint and request compaction. Do NOT try to hold an entire paper in context at once.
+- **Every factual statement** must cite a source paper.
+- **DO write wiki pages** — this is your job in Step 8.
+- **Do NOT modify the database** — return the manifest; the orchestrator handles DB writes.
+- **Do NOT run build scripts** — the orchestrator handles site rebuilds.
+- If a step fails, return early with error details.
+
+## Success criteria
+
+1. ✅ Paper fetched and metadata extracted
+2. ✅ Every section analyzed with claims, concepts, and citation maps (Sonnet)
+3. ✅ Cited references resolved against .bib with DOIs and author info (GPT)
+4. ✅ Wiki connectivity checked
+5. ✅ Recommended wiki pages identified
+6. ✅ Critical analysis completed (with page-by-page compacted reading)
+7. ✅ Key Takeaways synthesized (big-picture, field-level)
+8. ✅ All `.md` pages created/updated in `src/content/pages/`
+9. ✅ JSON manifest returned to orchestrator

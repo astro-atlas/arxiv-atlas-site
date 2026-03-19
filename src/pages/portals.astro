@@ -1,0 +1,33 @@
+---
+/**
+ * /portals/ — Index of all portal pages.
+ * Reads directly from the content collection so it's always in sync.
+ */
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Sidebar from '../components/Sidebar.astro';
+
+const allPages = await getCollection('pages');
+const portals = allPages
+  .filter(p => p.data.pageType === 'portal')
+  .sort((a, b) => (a.data.title || '').localeCompare(b.data.title || ''));
+---
+<Base title="Portals — ArXiv Atlas">
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Portals</h1>
+    <p>Portals are curated entry points that organize related pages around a major scientific theme.</p>
+
+    <div class="portal-grid" style="margin-top:1.5rem;">
+      {portals.map(p => {
+        const href = '/pages/' + p.id + '/';
+        const label = (p.data.title || p.id).replace(/^Portal:\s*/i, '');
+        return (
+          <div class="portal-card">
+            <h4><a href={href}>{label}</a></h4>
+          </div>
+        );
+      })}
+    </div>
+  </main>
+</Base>

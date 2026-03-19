@@ -25,7 +25,8 @@ def extract_arxiv_id(text):
 
 def check_page_exists(arxiv_id, pages_dir):
     """Check if a wiki page exists for this paper"""
-    page_file = pages_dir / f"{arxiv_id}.astro"
+    slug = arxiv_id.replace('.', '-')
+    page_file = pages_dir / f"{slug}.md"
     return page_file.exists()
 
 def normalize_file(filepath, pages_dir):

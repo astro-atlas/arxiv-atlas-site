@@ -15,14 +15,21 @@ const recentPaperPages = pagesIndex
 
 const latestPaper = recentPaperPages.filter((p: any) => p.page_slug !== 'papers/index')[0];
 
+// Get the most recent daily summary
+const latestDaily = pagesIndex
+  .filter((p: any) => p.page_type === 'daily_summary')
+  .sort((a: any, b: any) => (b.page_slug || '').localeCompare(a.page_slug || ''))[0];
+
+const latestDailyHref = latestDaily ? '/' + latestDaily.page_slug + '/' : null;
+const latestDailyLabel = latestDaily
+  ? (latestDaily.title || '').replace(/^Daily Summary\s*—\s*/i, '')
+  : null;
+
 // Derive URL from file path when available, fall back to slug
 // Canonical URLs use no trailing slash (both /pages/X and /pages/X/ work in Astro)
 function pageHref(p: any) {
-  const path = p.path || '';
-  const m = path.match(/src\/pages\/(.+)\.astro$/);
-  if (m) return '/' + m[1];
-  const slug = (p.page_slug || '').replace(/^papers\//, 'pages/');
-  return '/' + slug;
+  const slug = (p.page_slug || '').replace(/^papers\//, '');
+  return '/pages/' + slug;
 }
 ---
 <Base title={title}>
@@ -32,7 +39,7 @@ function pageHref(p: any) {
       <div class="hero-content">
         <div class="hero-badge">Galaxy Evolution Research</div>
         <h1>ArXiv Atlas</h1>
-        <p class="hero-tagline">A living knowledge graph — tracking the literature from star-forming disks to quiescent spheroids</p>
+        <p class="hero-tagline">A living knowledge web of the astrophysical literature — one paper at a time</p>
         
         <div class="hero-counters">
           <a href="/papers/" class="counter-pill">
@@ -59,7 +66,10 @@ function pageHref(p: any) {
       )}
       
       <div class="hero-actions">
-        <a class="hero-btn primary wikilink" href="/pages/portal-particle-acceleration-in-jets/">Browse Portal →</a>
+        {latestDailyHref && (
+          <a class="hero-btn primary" href={latestDailyHref}>📰 Daily Summary — {latestDailyLabel}</a>
+        )}
+        <a class="hero-btn secondary wikilink" href="/portals/">Browse Portals →</a>
         <a class="hero-btn secondary wikilink" href="/random/">Random Article</a>
       </div>
     </div>

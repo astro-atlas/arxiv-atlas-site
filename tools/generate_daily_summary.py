@@ -161,7 +161,7 @@ def create_astro_page(date_str: str, summary_data: dict) -> str:
             summary_sentence = paper.get("summary_sentence", "")
             # NOTE: In real implementation, use WikiLink for the paper
             papers_html += f"""    <div class="theme-paper">
-      <strong><a href="/papers/{arxiv_id}/">{title}</a></strong>
+      <strong><a href="/pages/{arxiv_id.replace('.', '-')}/">{title}</a></strong>
       <p>{summary_sentence}</p>
     </div>
 """

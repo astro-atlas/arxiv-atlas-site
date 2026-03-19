@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "pageType": {
+      "default": "concept",
+      "type": "string",
+      "enum": [
+        "concept",
+        "paper",
+        "portal",
+        "daily_summary"
+      ]
+    },
+    "status": {
+      "default": "done",
+      "type": "string",
+      "enum": [
+        "done",
+        "stub"
+      ]
+    },
+    "$schema": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "title",
+    "pageType",
+    "status"
+  ],
+  "additionalProperties": false
+}

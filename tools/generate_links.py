@@ -1,4 +1,7 @@
-"""Generate links.json by reading page_links from DB and scanning src/pages for existing pages."""
+"""Generate links.json for build-time WikiLink resolution.
+Only emits {slug: {title, exists}} — the minimum needed for WikiLink.
+Full link graph data stays in SQLite; use export_for_site.py for other views.
+"""
 import json
 import sys
 from pathlib import Path
@@ -8,6 +11,7 @@ import db_access
 
 ROOT = Path(__file__).resolve().parents[1]
 SRC_PAGES = ROOT / 'src' / 'pages'
+CONTENT_PAGES = ROOT / 'src' / 'content' / 'pages'
 OUT = ROOT / 'src' / 'data' / 'links.json'
 
 
@@ -22,12 +26,21 @@ def normalize_slug(s):
 
 
 def scan_disk_pages():
-    # Gather page slugs from files under src/pages, normalized
+    """Gather page slugs from .astro files under src/pages and .mdx under src/content/pages."""
     slugs = set()
     for p in SRC_PAGES.rglob('*.astro'):
+        if p.stem.startswith(('_', '[')):
+            continue
         rel = p.relative_to(SRC_PAGES).with_suffix('')
         slug = str(rel).replace('\\', '/').lower()
         slugs.add(normalize_slug(slug))
+    if CONTENT_PAGES.exists():
+        for p in CONTENT_PAGES.rglob('*.md'):
+            slug = 'pages/' + p.stem.lower()
+            slugs.add(normalize_slug(slug))
+        for p in CONTENT_PAGES.rglob('*.mdx'):
+            slug = 'pages/' + p.stem.lower()
+            slugs.add(normalize_slug(slug))
     return slugs
 
 
@@ -36,55 +49,31 @@ def build_link_map():
     pages = db_access.all_pages_index()
     page_map = {normalize_slug(p['page_slug']): p for p in pages}
 
-    # gather page_links from DB
+    # Gather all target slugs referenced in page_links
     import sqlite3
     conn = sqlite3.connect(str(db_access.DB_PATH))
     conn.row_factory = sqlite3.Row
     cur = conn.cursor()
-    cur.execute('SELECT source_page_id, target_page_slug, link_text FROM page_links')
-    rows = cur.fetchall()
-    links_by_source = {}
-    for r in rows:
-        sid = r['source_page_id']
-        target_norm = normalize_slug(r['target_page_slug'])
-        links_by_source.setdefault(sid, []).append({'target': target_norm, 'text': r['link_text']})
+    cur.execute('SELECT DISTINCT target_page_slug FROM page_links')
+    target_slugs = {normalize_slug(r['target_page_slug']) for r in cur.fetchall()}
+    conn.close()
 
-    # reverse map: target -> list of sources
-    linked_from = {}
-    for sid, items in links_by_source.items():
-        source_slug = None
-        # find source slug from pages
-        for slug, p in page_map.items():
-            if p['id'] == sid:
-                source_slug = slug
-                break
-        for it in items:
-            linked_from.setdefault(it['target'], []).append({'source': source_slug, 'text': it['text']})
-
-    # assemble final map
+    # Slim link map: only title + exists
     link_map = {}
     for slug, p in page_map.items():
-        exists = slug in slugs_on_disk
-        outgoing = [{'target': it['target'], 'text': it['text'], 'exists': (it['target'] in slugs_on_disk)} for it in links_by_source.get(p['id'], [])]
-        incoming = linked_from.get(slug, [])
         link_map[slug] = {
             'title': p.get('title'),
-            'exists': exists,
-            'links_to': outgoing,
-            'linked_from': incoming,
-            'path': p.get('path')
+            'exists': slug in slugs_on_disk,
         }
 
-    # also include targets that are referred-to but not in pages table
-    for target, sources in linked_from.items():
-        if target not in link_map:
+    # Also include targets that are referenced but not in pages table
+    for target in target_slugs:
+        if target and target not in link_map:
             link_map[target] = {
                 'title': None,
-                'exists': (target in slugs_on_disk),
-                'links_to': [],
-                'linked_from': sources,
-                'path': None
+                'exists': target in slugs_on_disk,
             }
+
     return link_map
 
 
@@ -93,7 +82,7 @@ def main():
     lm = build_link_map()
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(lm, indent=2, ensure_ascii=False))
-    print('Wrote', OUT)
+    print(f'Wrote {OUT} ({len(lm)} entries)')
 
 if __name__ == '__main__':
     main()

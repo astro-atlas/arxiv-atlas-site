@@ -200,6 +200,56 @@ img { max-width: 100%; height: auto; }
   background: var(--c-bg);
 }
 
+/* Search results dropdown */
+.search-results {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: 4px;
+  background: var(--c-bg);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius);
+  box-shadow: 0 4px 12px rgba(0,0,0,.12);
+  list-style: none;
+  padding: 4px 0;
+  max-height: 360px;
+  overflow-y: auto;
+  z-index: 200;
+  min-width: 280px;
+}
+.search-results a {
+  display: block;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  color: var(--c-text);
+  text-decoration: none;
+}
+.search-results a:hover,
+.search-results a.active {
+  background: var(--c-bg-alt);
+  color: var(--c-accent);
+}
+
+/* Header button (random, etc.) */
+.header-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius);
+  border: 1px solid var(--c-border);
+  background: var(--c-bg-alt);
+  color: var(--c-text-secondary);
+  cursor: pointer;
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: background .15s;
+}
+.header-btn:hover { background: var(--c-border-light); color: var(--c-text); text-decoration: none; }
+
 /* Theme toggle */
 .theme-toggle {
   display: flex;
@@ -1065,21 +1115,147 @@ img { max-width: 100%; height: auto; }
 
 /* --- References (wiki-style) ------------------------------- */
 .references { margin-top: 2rem; padding-top: 1.2rem; border-top: 1px solid var(--c-border-light); font-size: 0.93rem; }
-.references h2 { border: none; padding: 0; margin-top: 0; }
+.references h2 { border: none; padding: 0; margin-top: 0; margin-bottom: 0.8rem; font-size: 1rem; display: block; }
 .references ol { margin-left: 1.5rem; }
 .references li { margin-bottom: 0.8rem; line-height: 1.65; color: var(--c-text-secondary); }
 .references li a { color: var(--c-link); }
 
-/* --- Inline citation superscripts -------------------------- */
-sup a {
-  font-size: 0.72em;
-  color: var(--c-link);
-  text-decoration: none;
-  padding: 0 1px;
+/* Non-collapsible references (preferred) */
+.references:not(details) ol { margin-top: 0.8rem; }
+
+/* Collapsible references toggle (legacy, use sparingly) */
+details.references > summary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 4px 18px 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.12s;
+  background: var(--c-accent);
+  color: #fff;
+  border: 0;
+  list-style: none;
+  user-select: none;
+  gap: 8px;
+  margin-bottom: 0.4rem;
 }
-sup a:hover {
-  text-decoration: underline;
+details.references > summary h2 {
+  font-size: 0.85rem;
+  margin: 0;
+  padding: 0;
+  border: none;
+  color: inherit;
+  line-height: 1;
+}
+
+details.references > summary::-webkit-details-marker { display: none; }
+details.references > summary::before { display: none; }
+details.references > summary:hover {
+  background: var(--c-bg-alt);
+  color: var(--c-text);
+}
+
+@media (max-width: 800px) {
+  details.references > summary { display: flex; width: 100%; }
+}
+
+details.references { margin-top: 1rem; padding-top: 0.6rem; }
+details.references > ol { margin-top: 0.8rem; }
+details.references > summary h2 {
+  font-size: 0.92rem;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* --- Inline citation links (regular text, NOT superscript) --- */
+a[href^="#ref"] {
+  color: var(--c-link);
+  font-size: 1em;
+  text-decoration: none;
+  border-bottom: 1px dotted var(--c-border-light);
+}
+a[href^="#ref"]:hover {
   color: var(--c-link-hover);
+  text-decoration: underline;
+  border-bottom-style: solid;
+}
+
+/* --- Dispute / Disagreement Boxes ------------------------- */
+.dispute {
+  background: color-mix(in srgb, var(--c-claims) 8%, var(--c-bg));
+  border: 1px solid color-mix(in srgb, var(--c-claims) 40%, var(--c-border));
+  border-left: 5px solid var(--c-claims);
+  border-radius: var(--radius);
+  padding: 1.2rem;
+  margin: 1.5rem 0;
+}
+.dispute h3 {
+  color: var(--c-claims);
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+.dispute h4 {
+  font-size: 0.92rem;
+  font-weight: 600;
+  margin: 1rem 0 0.5rem;
+  color: var(--c-text);
+}
+.dispute h4:first-of-type {
+  margin-top: 0;
+}
+.dispute p {
+  margin-bottom: 0.6rem;
+  color: var(--c-text-secondary);
+  font-size: 0.95rem;
+}
+.dispute p:last-child {
+  margin-bottom: 0;
+}
+.dispute ul, .dispute ol {
+  margin-left: 1.5em;
+  margin-bottom: 0.6rem;
+}
+.dispute li {
+  margin-bottom: 0.3rem;
+  font-size: 0.95rem;
+}
+
+/* Dispute viewpoint subsections */
+.dispute-side {
+  margin: 0.8rem 0;
+  padding: 0.8rem;
+  background: var(--c-bg-alt);
+  border-radius: 4px;
+  border-left: 3px solid var(--c-claims);
+}
+.dispute-side h5 {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 0 0 0.4rem 0;
+  color: var(--c-claims);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.dispute-side p {
+  margin-bottom: 0.4rem;
+  font-size: 0.93rem;
+}
+.dispute-side p:last-child {
+  margin-bottom: 0;
+}
+
+/* Dark theme adjustments for dispute */
+[data-theme="dark"] .dispute {
+  background: color-mix(in srgb, var(--c-claims) 12%, var(--c-bg));
+  border-color: color-mix(in srgb, var(--c-claims) 50%, var(--c-border));
+}
+[data-theme="dark"] .dispute-side {
+  background: color-mix(in srgb, var(--c-claims) 8%, var(--c-bg-alt));
+  border-left-color: color-mix(in srgb, var(--c-claims) 60%, var(--c-link));
 }
 
 /* --- Red Links --------------------------------------------- */
@@ -1092,6 +1268,87 @@ a.redlink:hover { color: var(--c-questions); text-decoration: underline; }
 .wikilink.missing { color: var(--c-text-muted); border-bottom-style: dashed; opacity: 0.8; }
 .wikilink.missing:hover { color: var(--c-questions); opacity: 1; }
 
+/* --- Key Takeaways Box ------------------------------------- */
+.key-takeaways {
+  position: relative;
+  background: linear-gradient(135deg, var(--c-accent-light) 0%, var(--c-bg-alt) 100%);
+  border: 1px solid color-mix(in srgb, var(--c-accent) 30%, var(--c-border-light));
+  border-left: 5px solid var(--c-accent);
+  border-radius: var(--radius);
+  padding: 1.4rem 1.6rem 1.2rem;
+  margin: 1.2rem 0 2rem;
+}
+.key-takeaways::before {
+  content: '🔑';
+  position: absolute;
+  top: -12px;
+  left: 16px;
+  font-size: 1.3rem;
+  background: var(--c-bg);
+  padding: 0 6px;
+  border-radius: 50%;
+  border: 1px solid var(--c-border-light);
+  line-height: 1.6;
+}
+.key-takeaways-title {
+  font-family: var(--font-serif);
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: var(--c-accent);
+  margin: 0 0 0.9rem 0;
+  letter-spacing: -0.01em;
+}
+.key-takeaways h4 {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--c-text);
+  margin: 1rem 0 0.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.key-takeaways h4:first-of-type {
+  margin-top: 0;
+}
+.key-takeaways ul {
+  margin: 0 0 0.6rem 0;
+  padding-left: 1.4em;
+}
+.key-takeaways li {
+  margin-bottom: 0.45rem;
+  line-height: 1.6;
+  font-size: 0.92rem;
+}
+.key-takeaways p {
+  font-size: 0.92rem;
+  line-height: 1.65;
+  margin-bottom: 0.6rem;
+  color: var(--c-text-secondary);
+}
+.key-takeaways p:last-child {
+  margin-bottom: 0;
+}
+
+/* Dark mode adjustments */
+[data-theme="dark"] .key-takeaways {
+  background: linear-gradient(135deg, var(--c-accent-light) 0%, var(--c-bg-alt) 100%);
+  border-color: color-mix(in srgb, var(--c-accent) 40%, var(--c-border));
+}
+[data-theme="dark"] .key-takeaways::before {
+  background: var(--c-bg-alt);
+  border-color: var(--c-border);
+}
+
+/* --- Stub banner ------------------------------------------- */
+.stub-banner {
+  background: var(--c-accent-light);
+  border: 1px solid var(--c-accent);
+  border-radius: var(--radius);
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+  color: var(--c-text);
+  font-size: 0.95rem;
+}
+
 /* --- Responsive: infobox ----------------------------------- */
 @media (max-width: 860px) {
   .infobox { float: none; width: 100%; margin: 1rem 0; }
@@ -1100,4 +1357,37 @@ a.redlink:hover { color: var(--c-questions); text-decoration: underline; }
   .hero-splash h1 { font-size: 1.8rem; }
   .hero-counters { flex-wrap: wrap; }
   .hero-actions { flex-wrap: wrap; }
+}
+
+/* Calendar */
+.calendar-container { margin: 1.5rem 0; }
+.calendar-year-heading { font-size: 1.4rem; margin-bottom: 0.75rem; }
+.calendar-months { display: flex; flex-wrap: wrap; gap: 1.5rem; margin-bottom: 2rem; }
+.calendar-month { min-width: 200px; }
+.calendar-month-heading { font-size: 0.95rem; font-weight: 600; margin-bottom: 0.4rem; color: var(--text-secondary, #888); }
+.calendar-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; text-align: center; font-size: 0.85rem; }
+.calendar-dow { font-weight: 600; color: var(--text-secondary, #888); padding: 4px 0; font-size: 0.75rem; }
+.calendar-empty { }
+.calendar-day { padding: 4px 2px; border-radius: 4px; color: var(--text-muted, #666); }
+.calendar-day.has-summary {
+  background: var(--accent, #6c8eef);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+.calendar-day.has-summary:hover {
+  transform: scale(1.15);
+  box-shadow: 0 2px 8px rgba(108, 142, 239, 0.4);
+}
+
+/* Daily summary */
+.daily-intro {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-secondary, #b0b0b0);
+  border-left: 3px solid var(--accent, #6c8eef);
+  padding-left: 1rem;
+  margin-bottom: 2rem;
 }
