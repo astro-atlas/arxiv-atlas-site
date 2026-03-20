@@ -11,34 +11,37 @@ This is the orchestrator reference for processing arXiv papers. The orchestrator
 ```
 Step 1  [GPT]     Fetch paper source (tarball → HTML → PDF)
 Step 2  [GPT]     Extract metadata → data/papers/[id].md
-Step 3  [Sonnet]  Section-by-section analysis → append to data/papers/[id].md
+Step 3  [Haiku]  Section-by-section analysis → append to data/papers/[id].md
 Step 3c [GPT]     Resolve cited keys against .bib → bibliography JSON
-Step 4  [Haiku]   Check wiki connections against existing pages
+Step 4  [GPT]   Check wiki connections against existing pages
 Step 5  [Haiku]   Recommend new wiki pages
 Step 6  [Opus]    Critical analysis + knowledge graph + page update instructions
 Step 7  [Opus]    Key Takeaways synthesis
 Step 8  [Opus]    Write paper page + new concept pages
 Step 8.3[Haiku]   Update existing concept pages (mechanical)
   ↓
-Orchestrator:     Ingest manifest → DB → extract links → rebuild site
+Orchestrator:     Ingest manifest → DB → extract links → rebuild site. Then push updates to github.
 ```
 
 ---
 
 ## Subagent Dispatch
 
-Subagents should write their outputs in the files noted in `Outputs`. The primary output file is the `data/papers/[id].md` summary file that is shared between subagents. Avoid creating unneccessart files.
+Subagents should write their outputs in the files noted in `Outputs`. The primary output file is the `data/papers/[id].md` summary file that is shared between subagents. Avoid creating unneccessary files.
+**Agents must finish their runs in this order - do not start another subagent until the previous one completed their task.**
 
 | Step(s)  | Model  | Instructions File      | Inputs                                      | Outputs                                                |
 |----------|--------|------------------------|----------------------------------------------|--------------------------------------------------------|
 | 1 & 2   | GPT    | `PAPER_PIPELINE_1.md`  | arXiv ID                                     | `/tmp/[id]/fetch_result.json`, `data/papers/[id].md`   |
-| 3        | Sonnet | `PAPER_PIPELINE_2.md`  | `.tex` source, `data/papers/[id].md`         | Appended analysis, `_cited_keys.json`, `_concepts.json`|
+| 3        | Haiku | `PAPER_PIPELINE_2.md`  | `.tex` source, `data/papers/[id].md`         | Appended analysis, `_cited_keys.json`, `_concepts.json`|
 | 3c       | GPT    | `PAPER_PIPELINE_3.md`  | `_cited_keys.json`, `.bib` file              | `_bibliography_complete.json`                          |
-| 4 & 5   | Haiku  | `PAPER_PIPELINE_4.md`  | `data/papers/[id].md`, `existing-slugs.json` | Appended Wiki Connections + Recommended Pages          |
+| 4 & 5   | GPT  | `PAPER_PIPELINE_4.md`  | `data/papers/[id].md`, `existing-slugs.json` | Appended Wiki Connections + Recommended Pages          |
 | 6, 7, 8 | Opus   | `PAPER_PIPELINE_5.md`  | `data/papers/[id].md`, existing wiki pages   | Critical Analysis, Key Takeaways, wiki pages, manifest |
 | 8.3      | Haiku  | `PAPER_PIPELINE_6.md`  | `_page_updates.json`, existing wiki pages    | Modified `.md` files + update summary                  |
 
 **Tools available to subagents:** `read`, `write`, `edit`, `exec`, `process`, `web_fetch`, `web_search`, `image`. They do NOT have session tools.
+
+**Agent ID:** All pipeline subagents MUST be spawned with `agentId: "pipeline"`. This routes them through the `pipeline` agent config which has `cacheRetention: "none"` — avoiding unnecessary cache writes for one-shot paper processing runs.
 
 ---
 
@@ -66,6 +69,8 @@ Subagents should write their outputs in the files noted in `Outputs`. The primar
    ```
 
 4. **Update tracking:** Mark `[x]` in tracking file.
+
+5. **Push updates to github:** push the contents of `arxiv-atlas` repository to `https://github.com/astro-atlas/arxiv-atlas-site.git`
 
 ### Batch processing
 - Spawn multiple subagents in parallel (they write to different files)
