@@ -1,0 +1,74 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Tep et al. (2026) — Very long-term relaxation of harmonic 1D self-gravitating systems";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Very long-term relaxation of harmonic 1D self-gravitating systems</h1>
+
+    <div class="infobox">
+      <h3 class="infobox-title">Very long-term relaxation of harmonic 1D self-gravitating systems</h3>
+      <table>
+        <tr>
+          <th>Type:</th>
+          <td>Paper</td>
+        </tr>
+        <tr>
+          <th>Authors:</th>
+          <td>Kerwann Tep; Jean-Baptiste Fouvry; Christophe Pichon</td>
+        </tr>
+        <tr>
+          <th>arXiv:</th>
+          <td><a href="https://arxiv.org/abs/2603.11238">arXiv:2603.11238</a></td>
+        </tr>
+        <tr>
+          <th>DOI:</th>
+          <td><a href="https://doi.org/10.48550/arXiv.2603.11238">10.48550/arXiv.2603.11238</a></td>
+        </tr>
+        <tr>
+          <th>Status:</th>
+          <td>Submitted to A&A</td>
+        </tr>
+        <tr>
+          <th>Related concepts:</th>
+          <td>
+            <WikiLink slug="pages/1d_self_gravitating_systems" text="1D self-gravitating systems" /><br>
+            <WikiLink slug="pages/harmonic_cores" text="Harmonic cores" /><br>
+            <WikiLink slug="pages/balescu_lenard_equation" text="Balescu–Lenard equation" /><br>
+            <WikiLink slug="pages/thermodynamic_blocking" text="Thermodynamic blocking" />
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <p><strong>Abstract.</strong> One-dimensional self-gravitating systems admit thermodynamical equilibria. Tep et al. (2026) use an exact collision-driven integrator to measure long-term relaxation times of several 1D equilibrium families (Plummer, Compact, Harmonic, and Anharmonic). The key result is that fully degenerate (harmonic) systems relax on a timescale scaling as N²t_dyn, much slower than the N t_dyn scaling predicted by quasilinear kinetic theory.</p>
+
+    <h2>Key findings</h2>
+    <ol>
+      <li><strong>Harmonic systems:</strong> trel ∝ N² t_dyn (very slow thermalization). See <a href="https://arxiv.org/abs/2603.11238">the paper</a> and Figure 2.</li>
+      <li><strong>Partially degenerate systems:</strong> two regimes — N² scaling at low N, transitioning to N scaling at large N as the fraction of non-degenerate orbits increases (Figure 3).</li>
+      <li><strong>Non-degenerate systems (Plummer, Compact):</strong> trel ∝ N t_dyn; compact support increases the prefactor (quasi-kinetic blocking).</li>
+      <li><strong>Theoretical implication:</strong> Balescu–Lenard and related quasilinear kinetic theories fail for flat-frequency profiles; thermodynamic blocking and non-quasilinear effects must be considered.</li>
+    </ol>
+
+    <h2>Implications</h2>
+    <p>This work implies that dynamically degenerate cores (e.g., harmonic-like density cores in dwarf galaxies) may remain out of equilibrium for much longer than standard kinetic theory predicts, with potential consequences for dynamical friction and the survival of cores.</p>
+
+    <h2>References</h2>
+    <ol>
+      <li id="ref1">Tep, K.; Fouvry, J.-B.; Pichon, C. (2026). "Very long-term relaxation of harmonic 1D self-gravitating systems." arXiv:2603.11238. <a href="https://arxiv.org/abs/2603.11238">https://arxiv.org/abs/2603.11238</a></li>
+      <li>Roule, M.; Fouvry, J.-B., et al. (2022). Quasi kinetic blocking (discussed in text).</li>
+      <li>Deme, B. & Fouvry, J.-B. (2025). Thermodynamic blocking (perspective cited).</li>
+    </ol>
+
+    <div class="page-tags">
+      <strong>Tags:</strong>
+      <WikiLink slug="pages/1d_self_gravitating_systems" text="1D gravity" />
+      <WikiLink slug="pages/harmonic_cores" text="Harmonic cores" />
+    </div>
+  </main>
+</Base>

@@ -1,0 +1,191 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Classical Bulges - ArXiv Atlas";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Classical Bulges</h1>
+        
+        <div class="disambiguation">
+            Not to be confused with <WikiLink slug="pages/Pseudobulges" text="Pseudobulges" /> or <WikiLink slug="pages/Boxy_Bulges" text="Boxy/Peanut Bulges" />
+        </div>
+
+        <div class="infobox">
+            <h3 class="infobox-title">Classical Bulges</h3>
+            <table>
+                <tr>
+                    <th>Type:</th>
+                    <td>Galaxy component</td>
+                </tr>
+                <tr>
+                    <th>Formation:</th>
+                    <td><WikiLink slug="pages/Major_Mergers" text="Mergers" />, early collapse</td>
+                </tr>
+                <tr>
+                    <th>Kinematics:</th>
+                    <td>Pressure-supported</td>
+                </tr>
+                <tr>
+                    <th>Profile:</th>
+                    <td>r<sup>1/4</sup> or high-n <WikiLink slug="pages/Sersic_Profile" text="Sérsic" /></td>
+                </tr>
+                <tr>
+                    <th>Related:</th>
+                    <td><WikiLink slug="pages/Elliptical_Galaxies" text="Elliptical Galaxies" /><br>
+                        <WikiLink slug="pages/Bulge_Formation" text="Bulge Formation" /></td>
+                </tr>
+            </table>
+        </div>
+
+        <p><strong>Classical bulges</strong> are spheroidal stellar components found in the centers of many <WikiLink slug="pages/Disk_Galaxies" text="disk galaxies" />. They share similar properties with <WikiLink slug="pages/Elliptical_Galaxies" text="elliptical galaxies" /> and are thought to form through violent processes early in galaxy evolution.</p>
+
+        <h2 id="section-0">Characteristics</h2>
+        
+        <h3>Structural Properties</h3>
+        <ul>
+            <li>Follow <a href="de_Vaucouleurs_Profile.html">de Vaucouleurs</a> (r<sup>1/4</sup>) profiles</li>
+            <li>High <WikiLink slug="pages/Sersic_Index" text="Sérsic indices" /> (n > 2)</li>
+            <li>Round or slightly elliptical isophotes</li>
+            <li>Smooth light distribution</li>
+        </ul>
+
+        <h3>Kinematic Properties</h3>
+        <ul>
+            <li>Primarily pressure-supported (high σ/v)</li>
+            <li>Little net rotation</li>
+            <li>Isotropic or mildly anisotropic orbits</li>
+            <li>Follow the <WikiLink slug="pages/Fundamental_Plane" text="fundamental plane" /> of ellipticals</li>
+        </ul>
+
+        <h3>Stellar Populations</h3>
+        <ul>
+            <li>Old stellar ages (> 10 Gyr)</li>
+            <li>Enhanced <WikiLink slug="pages/Alpha_Elements" text="α-elements" /></li>
+            <li>Red colors</li>
+            <li>Little ongoing star formation</li>
+        </ul>
+
+        <h2 id="section-1">Formation Mechanisms</h2>
+
+        <div class="evidence-for">
+            <h4>Major Merger Scenario</h4>
+            <ul>
+                <li><WikiLink slug="pages/Major_Mergers" text="Major mergers" /> destroy disk structure</li>
+                <li>Violent relaxation creates spheroidal component</li>
+                <li>Explains kinematic properties and α-enhancement</li>
+                <li>Consistent with merger simulations</li>
+            </ul>
+        </div>
+
+        <div class="evidence-for">
+            <h4>Early Collapse Model</h4>
+            <ul>
+                <li>Rapid collapse of gas at high redshift</li>
+                <li>Intense early star formation</li>
+                <li>Forms bulge before disk assembly</li>
+                <li>Explains old ages and high metallicities</li>
+            </ul>
+        </div>
+
+        <h2 id="section-2">Effects on Galaxy Evolution</h2>
+
+        <h3>Bar Formation</h3>
+        <p>Classical bulges significantly affect <WikiLink slug="pages/Bar_Formation" text="bar formation" /> in disk galaxies<sup>[1]</sup>:</p>
+        <ul>
+            <li>Increase disk stability (<WikiLink slug="pages/Toomre_Q_Parameter" text="Toomre Q" />)</li>
+            <li>Delay or suppress bar formation</li>
+            <li>Affect bar <WikiLink slug="pages/Pattern_Speed" text="pattern speeds" /> and evolution</li>
+            <li>More massive/compact bulges have stronger effects</li>
+        </ul>
+
+        <h3>Star Formation Regulation</h3>
+        <ul>
+            <li>Deep potential wells stabilize gas</li>
+            <li>May contribute to <WikiLink slug="pages/Morphological_Quenching" text="morphological quenching" /></li>
+            <li>Host <WikiLink slug="pages/Supermassive_Black_Holes" text="supermassive black holes" /></li>
+        </ul>
+
+        <h2 id="section-3">Distinguishing from Pseudobulges</h2>
+
+        <table style="width: 100%; margin: 1em 0;">
+            <tr>
+                <th>Property</th>
+                <th>Classical Bulges</th>
+                <th><WikiLink slug="pages/Pseudobulges" text="Pseudobulges" /></th>
+            </tr>
+            <tr>
+                <td>Sérsic index</td>
+                <td>n > 2</td>
+                <td>n &lt; 2</td>
+            </tr>
+            <tr>
+                <td>Kinematics</td>
+                <td>Pressure-supported</td>
+                <td>Rotation-supported</td>
+            </tr>
+            <tr>
+                <td>Formation</td>
+                <td>Mergers/collapse</td>
+                <td>Secular evolution</td>
+            </tr>
+            <tr>
+                <td>Star formation</td>
+                <td>Quiescent</td>
+                <td>Often active</td>
+            </tr>
+        </table>
+
+        <h2 id="section-4">Observational Challenges</h2>
+
+        <ul>
+            <li>Decomposition degeneracies with disks</li>
+            <li>Composite bulges (classical + pseudo)</li>
+            <li>Projection effects</li>
+            <li>Central point sources (<WikiLink slug="pages/AGN" text="AGN" />)</li>
+        </ul>
+
+        <h2 id="section-5">Cosmological Context</h2>
+
+        <p>The fraction and properties of classical bulges evolve with redshift:</p>
+        <ul>
+            <li>More common in massive galaxies</li>
+            <li>Fraction decreases at higher redshift</li>
+            <li>May trace merger history</li>
+            <li>Important for <WikiLink slug="pages/Galaxy_Morphology_Evolution" text="morphology evolution" /></li>
+        </ul>
+
+        <h2 id="section-6">Open Questions</h2>
+
+        <ul>
+            <li>What fraction of bulges are purely classical vs. composite?</li>
+            <li>How do classical bulges form in isolated galaxies?</li>
+            <li>What is the connection to <WikiLink slug="pages/Compact_Massive_Galaxies" text="compact massive galaxies" /> at high-z?</li>
+            <li>Can secular processes create classical-like bulges?</li>
+        </ul>
+
+        <h2 id="section-7">See Also</h2>
+        <ul>
+            <li><WikiLink slug="pages/Pseudobulges" text="Pseudobulges" /></li>
+            <li><WikiLink slug="pages/Bulge_Formation" text="Bulge Formation" /></li>
+            <li><WikiLink slug="pages/Galaxy_Mergers" text="Galaxy Mergers" /></li>
+            <li><WikiLink slug="pages/Elliptical_Galaxies" text="Elliptical Galaxies" /></li>
+            <li><WikiLink slug="pages/Morphological_Quenching" text="Morphological Quenching" /></li>
+        </ul>
+
+        <h2 id="section-8">References</h2>
+        <ol class="references">
+            <li>Zheng et al. (2026) - "Comparison of Bar Formation Mechanisms. IIIA. The role of classical bulges in spontaneous bar formation" arXiv:2603.12121</li>
+        </ol>
+
+        <div class="page-tags">
+            <strong>Tags:</strong>
+            <WikiLink slug="pages/Tag_Galaxy_Components" text="Galaxy Components" />
+            <WikiLink slug="pages/Tag_Galaxy_Structure" text="Galaxy Structure" />
+            <WikiLink slug="pages/Tag_Galaxy_Formation" text="Galaxy Formation" />
+        </div>
+  </main>
+</Base>

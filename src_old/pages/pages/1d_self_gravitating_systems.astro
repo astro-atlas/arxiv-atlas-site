@@ -1,0 +1,29 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "1D self-gravitating systems";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">1D self-gravitating systems</h1>
+
+    <p><strong>Definition:</strong> Simplified models of gravity restricted to one spatial dimension where the pairwise interaction is proportional to |x−x'|. These models admit well-defined thermodynamical equilibria and are widely used as numerically tractable proxies for studying long-range interacting dynamics and relaxation processes.</p>
+
+    <h2>Why they matter</h2>
+    <p>1D systems are analytically and numerically simpler than 3D gravity while retaining key features of long-range interactions (violent relaxation, shot-noise driven collisional relaxation). They provide insight into kinetic theory (Landau / Balescu–Lenard) and the limits of quasilinear approximations (see Tep et al. 2026 for a recent study).</p>
+
+    <h2>References</h2>
+    <ol>
+      <li id="ref1">Tep, K.; Fouvry, J.-B.; Pichon, C. (2026). "Very long-term relaxation of harmonic 1D self-gravitating systems." arXiv:2603.11238. <a href="https://arxiv.org/abs/2603.11238">https://arxiv.org/abs/2603.11238</a></li>
+      <li>Noullez et al. (2003). Exact collision-driven integrator for 1D gravity (cited in Tep et al.).</li>
+    </ol>
+
+    <div class="page-tags">
+      <strong>Tags:</strong>
+      <WikiLink slug="pages/long_range_interactions" text="Long-range interactions" />
+    </div>
+  </main>
+</Base>

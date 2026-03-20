@@ -1,0 +1,35 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Luminosity function";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Luminosity function</h1>
+
+    <p>
+      A <strong>luminosity function (LF)</strong> describes the number density of objects (e.g., stars, galaxies) as a function of luminosity or absolute magnitude. For stellar populations it is a fundamental diagnostic used to infer the underlying mass function, evolutionary states, and integrated light of systems.
+    </p>
+
+    <h2>Applications</h2>
+    <ul>
+      <li>Convert star counts into mass functions.</li>
+      <li>Estimate integrated luminosity and stellar mass of galactic components.</li>
+      <li>Compare populations across environments (disk vs halo).</li>
+    </ul>
+
+    <h2>Example measurement</h2>
+    <p>
+      <a href="/pages/bird_2026_galactic_stellar_halo_lf">Bird et al. (2026)</a> present a continuous measurement of the Milky Way stellar halo LF from M_G ≈ 13 to M_G ≈ -3 using Gaia DR3.
+    </p>
+
+    <h2>See also</h2>
+    <ul>
+      <li><WikiLink slug="pages/stellar_halo" text="Stellar halo" /></li>
+      <li><WikiLink slug="pages/color-magnitude_diagram" text="Color–magnitude diagram" /></li>
+    </ul>
+  </main>
+</Base>

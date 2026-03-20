@@ -1,0 +1,556 @@
+# Paper Pipeline — Unified Workflow
+
+This is the single reference for how the orchestrator (main agent) processes arXiv papers. Each numbered step is run by a subagent spawned with the indicated model. The orchestrator passes only the relevant step instructions to each subagent.
+
+**Architecture:** Orchestrator spawns one subagent per step, passing data between them via the filesystem. Subagents have access to: `read`, `write`, `edit`, `exec`, `process`, `web_fetch`, `web_search`, `image`. They do NOT have session tools.
+
+**Working directory:** `/home/node/.openclaw/workspace/projects/arxiv-atlas/`
+
+---
+
+## Overview
+
+```
+Step 1  [GPT]     Fetch paper source (tarball → HTML → PDF)
+Step 2  [GPT]     Extract metadata → data/papers/[id].md
+Step 3  [Sonnet]  Section-by-section analysis → append to data/papers/[id].md
+Step 3c [GPT]     Resolve cited keys against .bib → bibliography JSON
+Step 4  [Haiku]   Check wiki connections against existing pages
+Step 5  [Haiku]   Recommend new wiki pages
+Step 6  [Opus]    Critical analysis + knowledge graph + page update instructions
+Step 7  [Opus]    Key Takeaways synthesis
+Step 8  [Opus]    Write paper page + new concept pages
+Step 8.3[Haiku]   Update existing concept pages (mechanical)
+  ↓
+Orchestrator:     Ingest manifest → DB → extract links → rebuild site
+```
+
+---
+
+## Orchestrator Responsibilities
+
+### Before spawning subagents
+1. Claim paper in DB: `python3 -c "import db_access; db_access.claim_paper_for_processing('[arxiv-id]')"`
+2. Create tracking entry in `data/papers/tracking/YYYY-MM-DD_analyzed.md`
+
+### After subagent returns manifest
+1. **Ingest into database:**
+   ```bash
+   python3 tools/ingest_manifest.py data/papers/[arxiv-id]_manifest.json
+   ```
+   This upserts the paper, creates all page records, and links them.
+
+2. **Extract page links from .md files:**
+   ```bash
+   python3 tools/extract_and_insert_page_links.py
+   ```
+
+3. **Rebuild site:**
+   ```bash
+   python3 tools/build_site.py
+   ```
+
+4. **Update tracking:** Mark `[x]` in tracking file.
+
+### Batch processing
+- Spawn multiple subagents in parallel (they write to different files)
+- Collect manifests as they complete
+- Run DB ingestion + site rebuild once after all complete (or after each)
+- If two subagents modify the same concept page, review and merge before ingestion
+
+---
+
+## Step 1: Fetch Paper
+
+**Model:** GPT | **Output:** Extracted source files in `/tmp/[arxiv-id]/`
+
+<step_instructions id="fetch">
+You are processing arXiv paper [ARXIV_ID].
+
+Working directory: `/home/node/.openclaw/workspace/projects/arxiv-atlas/`
+
+### Task
+Fetch the paper source and extract it.
+
+1. Fetch abstract page: `https://arxiv.org/abs/[ARXIV_ID]`
+2. Download source tarball: `https://arxiv.org/e-print/[ARXIV_ID]`
+3. Extract to `/tmp/[ARXIV_ID]/` and locate:
+   - Main `.tex` file (usually `main.tex`, `ms.tex`, or `aanda.tex`)
+   - Bibliography file (`*.bib` or embedded `\begin{thebibliography}`)
+4. **Fallbacks:** If tarball unavailable, try HTML (`https://arxiv.org/html/[ARXIV_ID]`) then PDF (`https://arxiv.org/pdf/[ARXIV_ID].pdf`)
+5. If nothing works, return: `{"status": "failed", "error": "Failed to fetch the paper"}`
+
+### Output
+Write a summary to `/tmp/[ARXIV_ID]/fetch_result.json`:
+```json
+{
+  "status": "ok",
+  "tex_file": "/tmp/[ARXIV_ID]/main.tex",
+  "bib_file": "/tmp/[ARXIV_ID]/refs.bib",
+  "fallback_used": null
+}
+```
+</step_instructions>
+
+---
+
+## Step 2: Extract Metadata
+
+**Model:** GPT | **Output:** First section of `data/papers/[arxiv-id].md`
+
+<step_instructions id="metadata">
+You are processing arXiv paper [ARXIV_ID].
+
+Working directory: `/home/node/.openclaw/workspace/projects/arxiv-atlas/`
+
+### Task
+From the abstract page and source files, extract metadata and write it as the first section of `data/papers/[ARXIV_ID].md`:
+
+```markdown
+# [ARXIV_ID]: [Title]
+
+**Authors:** [full author list]
+**arXiv ID:** [ARXIV_ID]
+**DOI:** [if available]
+**Submitted:** [date]
+**Comments:** [if any]
+
+## Abstract
+[full abstract text]
+```
+
+**Do NOT parse the .bib file here.** Many bib files have 1000+ entries. Citation resolution happens later in Step 3c.
+</step_instructions>
+
+---
+
+## Step 3: Section-by-Section Analysis
+
+**Model:** Sonnet | **Output:** Appended sections in `data/papers/[arxiv-id].md` + `_cited_keys.json` + `_concepts.json`
+
+<step_instructions id="analysis">
+You are analyzing arXiv paper [ARXIV_ID] section by section.
+
+Working directory: `/home/node/.openclaw/workspace/projects/arxiv-atlas/`
+
+### ⚠️ Context management is critical
+You will analyze a long paper. Process ONE section at a time. After each section, write a checkpoint and compact context.
+
+### Process for each section
+
+1. **Read ONE section** from the LaTeX source (use `grep -n` or `sed` to extract boundaries, look for `\section` tex command)
+2. **Analyze** and extract:
+   - 3–5 key claims/findings with specific evidence
+   - Key concepts across five dimensions AND three depth levels (see below)
+   - Every `\cite{key}`: record the key + 1-sentence claim summary of what it supports
+3. **Append** to `data/papers/[ARXIV_ID].md`:
+   ```markdown
+   ## [Section Name]
+
+   ### Key claims
+   - [claim with evidence]
+
+   ### Concepts and connections
+   FOUNDATIONAL: [list]
+   INTERMEDIATE: [list]
+   SPECIALIST: [list]
+
+   ### References cited
+   - [citation_key]: [1-sentence claim summary]
+4. **Compact context** before next section
+
+### After ALL sections
+- Write `data/papers/[ARXIV_ID]_cited_keys.json`:
+  ```json
+  [{"key": "LyndsToomre1976", "claim_summary": "Seminal work on collisional ring formation"}]
+  ```
+- Write `data/papers/[ARXIV_ID]_concepts.json` with all concepts by level
+
+### Five concept dimensions
+1. Core astronomy concepts (physical processes/phenomena)
+2. Techniques and methods
+3. Important objects (named clusters, galaxies, notable sources)
+4. Instruments and observatories
+5. Surveys and programs
+
+### Three depth levels (ALL required)
+1. **Foundational** — broadest concepts a general reader needs. Examples: "magnetic-field", "star-formation", "dust", "galaxy", "gravity"
+2. **Intermediate** — grad-student level. Examples: "infrared-dark-clouds", "dust-polarimetry"
+3. **Specialist** — research-level. Examples: "davis-chandrasekhar-fermi-method"
+
+**You MUST identify foundational concepts.** Every paper touches fundamental physics — name them. Goal: a reader can traverse from "galaxy" to the most specialist topic. Every step should have a corresponding wiki page.
+
+Name concepts directly — NO "basics", "overview", "fundamentals" suffixes.
+</step_instructions>
+
+---
+
+## Step 3c: Resolve Bibliography
+
+**Model:** GPT | **Output:** `data/papers/[arxiv-id]_bibliography_complete.json`
+
+<step_instructions id="bibliography">
+You are resolving bibliography entries for arXiv paper [ARXIV_ID].
+
+Working directory: `/home/node/.openclaw/workspace/projects/arxiv-atlas/`
+
+### Task
+Match cited keys against the .bib file and extract bibliographic data.
+
+**Inputs:**
+- Cited keys: `data/papers/[ARXIV_ID]_cited_keys.json`
+- Bib file: `/tmp/[ARXIV_ID]/*.bib` (or embedded in .tex)
+
+**For each key**, look it up in the .bib and extract:
+- First author name
+- Year
+- DOI (if present)
+- Single author? true/false
+
+**Output:** `data/papers/[ARXIV_ID]_bibliography_complete.json`
+```json
+[
+  {
+    "key": "LyndsToomre1976",
+    "first_author": "Lynds",
+    "year": "1976",
+    "doi": null,
+    "single_author": false,
+    "claim_summary": "Seminal work on collisional ring formation"
+  }
+]
+```
+
+This is mechanical — only resolve the ~80-100 actually-cited references, not the full .bib.
+</step_instructions>
+
+---
+
+## Step 4: Wiki Connections
+
+**Model:** Haiku | **Output:** Appended `## Wiki Connections` section
+
+<step_instructions id="wiki-connections">
+You are checking wiki connections for arXiv paper [ARXIV_ID].
+
+Working directory: `/home/node/.openclaw/workspace/projects/arxiv-atlas/`
+
+### Task
+1. **Read the existing page index:** Load `public/existing-slugs.json` for all page slugs and titles
+2. **Read the analysis:** `data/papers/[ARXIV_ID].md`
+3. For every concept and cited paper, check if a page exists. Mark `[x]` if yes, `[ ]` if no
+4. **Scan the full index** for existing pages relevant to this paper that weren't identified as key concepts — these are cross-link candidates
+
+Append results to `data/papers/[ARXIV_ID].md` as:
+```markdown
+## Wiki Connections
+
+### Concepts
+- [x] star-formation (exists)
+- [ ] collisional-ring-galaxies (new)
+
+### Cross-link candidates
+- galaxy-mergers — relevant to merger discussion in §3
+```
+</step_instructions>
+
+---
+
+## Step 5: Page Recommendations
+
+**Model:** Haiku | **Output:** Appended `## Recommended Pages` section
+
+<step_instructions id="recommendations">
+You are recommending wiki pages for arXiv paper [ARXIV_ID].
+
+Working directory: `/home/node/.openclaw/workspace/projects/arxiv-atlas/`
+
+### Task
+Read the wiki connections from `data/papers/[ARXIV_ID].md`. For each missing concept, recommend:
+- **Page name** (kebab-case slug)
+- **Level** (foundational / intermediate / specialist)
+- **Why needed**
+- **Suggested first reference**
+- **Related existing pages**
+
+Also note which existing pages should be updated with content from this paper.
+
+Append to `data/papers/[ARXIV_ID].md` as `## Recommended Pages`.
+</step_instructions>
+
+---
+
+## Step 6: Critical Analysis
+
+**Model:** Opus | **Output:** `## Critical Analysis` in analysis file + `_page_updates.json`
+
+<step_instructions id="critical-analysis">
+You are performing critical analysis of arXiv paper [ARXIV_ID].
+
+Working directory: `/home/node/.openclaw/workspace/projects/arxiv-atlas/`
+
+### ⚠️ Context management
+Read existing wiki pages ONE at a time. For each: read → compare and contrast to the information in this paper. Summarize your comparison in `data/papers/[ARXIV_ID].md` as `## Broader context` under subheader `### [page slug]`. Summary should be max two sentences. Then move to next. Do NOT hold multiple full pages in context.
+
+### Task
+Read `data/papers/[ARXIV_ID].md` and relevant existing wiki pages. Answer five questions:
+
+1. **What are 3–5 key claims and findings?** (with evidence)
+2. **Which papers/concepts does this support?** (specific pages, frameworks)
+3. **Which papers/concepts does this contradict?** (specific pages, challenges)
+4. **How should existing concept pages be updated?** Output structured instructions (see below)
+5. **Knowledge graph traversal:** Trace concept paths from "astronomy" down to this paper's most specific concepts. Example: astronomy → galaxy → agn → radio-jet → recollimation-shocks. Every node = a required wiki page. List ALL nodes.
+
+### Output
+
+Append `## Critical Analysis` to `data/papers/[ARXIV_ID].md`.
+
+Write `data/papers/[ARXIV_ID]_page_updates.json`:
+```json
+{
+  "pages_to_update": [
+    {
+      "slug": "star-formation",
+      "sections_to_add": [
+        {
+          "title": "Interaction-Triggered Star Formation",
+          "content": "Full markdown with <a href=\"#refN\">[N]</a> citations",
+          "insert_after": "## Related Processes",
+          "wikilinks_to_add": [
+            {"text": "Galaxy mergers", "slug": "galaxy-mergers"}
+          ]
+        }
+      ],
+      "references_to_add": [
+        {"id": "ref10", "author_year": "Di Matteo et al. (2007)", "title": "...", "doi": "10.xxxx/yyyy"}
+      ]
+    }
+  ]
+}
+```
+</step_instructions>
+
+---
+
+## Step 7: Key Takeaways
+
+**Model:** Opus | **Output:** `## Key Takeaways` in analysis file
+
+<step_instructions id="key-takeaways">
+You are synthesizing Key Takeaways for arXiv paper [ARXIV_ID].
+
+Working directory: `/home/node/.openclaw/workspace/projects/arxiv-atlas/`
+
+### Task
+Read `data/papers/[ARXIV_ID].md` (especially Critical Analysis). Synthesize:
+
+1. **Main Results** — 3–5 bullet points (concise, science-first, each traceable to a citation)
+2. **Implications** — 1 short paragraph on field-level implications, with an eye to galaxy evolution
+3. **Other Works** — 1 short paragraph on how this paper fits in the broader field
+
+Append as `## Key Takeaways` to `data/papers/[ARXIV_ID].md`.
+</step_instructions>
+
+---
+
+## Step 8: Write Wiki Pages
+
+**Model:** Opus | **Output:** New `.md` files DIRECTLY in `src/content/pages/` + manifest JSON
+
+<step_instructions id="write-pages">
+You are creating wiki pages for arXiv paper [ARXIV_ID].
+
+Working directory: `/home/node/.openclaw/workspace/projects/arxiv-atlas/`
+
+### Task
+Read `data/papers/[ARXIV_ID].md` (full analysis including Key Takeaways). **DIRECTLY WRITE** the following files using the `write` tool:
+
+1. **Paper page:** `src/content/pages/[ARXIV_ID_WITH_HYPHENS].md` (convert dots to hyphens: `2603.15899` → `2603-15899.md`)
+2. **New concept pages:** One `src/content/pages/[concept-slug].md` for each recommended page from the analysis
+
+### Paper Page Structure
+
+**Study the example:** `src/content/pages/2603-15899.md` — your page must follow this exact structure.
+
+**Required sections (in order):**
+
+1. **Frontmatter** (YAML):
+   ```yaml
+   ---
+   title: "First Author et al. (Year) — Paper Title"
+   pageType: paper
+   status: done
+   ---
+   ```
+
+2. **Page title + infobox** (HTML table with paper metadata):
+   - Authors (abbreviated with "et al." if >6)
+   - arXiv ID (linked)
+   - Submitted date
+   - Journal (if applicable)
+   - Type (e.g., "Observational — multi-wavelength")
+   - Instruments
+   - Key concepts (wikilinked list from Recommended Pages)
+
+3. **Key Takeaways box** (`.key-takeaways` div):
+   - Main Results (3–6 bullets, each with inline citations)
+   - Implications (1 paragraph)
+   - Other works (1 paragraph on literature context)
+   
+   Copy directly from the `## Key Takeaways` section of the analysis file.
+
+4. **Summary** (`<h2 id="summary">`): 2–3 paragraph overview of the paper
+
+5. **Key Findings** (`<h2 id="findings">`): Organized by theme, each subsection with:
+   - Descriptive heading
+   - Evidence with citations
+   - Wikilinks to related concepts
+
+6. **Methodology** (`<h2 id="methodology">`): Instruments, techniques, data sources
+
+7. **Literature Context** (`<h2 id="literature">`): How this fits in the field
+
+8. **What This Paper Supports** (`<h2 id="supports">`): Bullet list with wikilinks
+
+9. **What This Paper Challenges** (`<h2 id="challenges">`): Bullet list (if applicable)
+
+10. **References** (`<details class="references"><summary><h2>References</h2></summary>`):
+    - Numbered list matching all `<a href="#refN">[N]</a>` citations
+    - Format: `Author(s) (Year). "Title." Journal/arXiv. DOI link.`
+
+### Concept Page Structure
+
+**Study the example:** `src/content/pages/agn-feedback.md`
+
+**Required sections:**
+
+1. **Frontmatter**:
+   ```yaml
+   ---
+   title: "Concept Name"
+   pageType: concept
+   status: done
+   level: foundational|intermediate|specialist
+   ---
+   ```
+
+2. **Title + infobox** with concept metadata
+
+3. **Opening paragraph** (definition + importance)
+
+4. **Thematic sections** (H2 headers) with evidence from literature
+
+5. **References** (same format as paper pages)
+
+### Formatting Rules
+
+- **Every claim** must cite: `<a href="#refN">[N]</a>` (can cite multiple: `[1][2][3]`)
+- **WikiLinks:** `<a href="/pages/slug" class="wikilink">Text</a>`
+- **No LaTeX:** Use HTML entities (`&times;`, `&asymp;`, `&ge;`) and tags (`<sup>`, `<sub>`)
+- **No blank lines** inside HTML blocks (divs, tables)
+- **Exhaustive references:** Include ALL cited works from the analysis file
+
+### Output
+
+After writing all files, save a manifest to `data/papers/[ARXIV_ID]_manifest.json`:
+
+```json
+{
+  "arxiv_id": "[ARXIV_ID]",
+  "status": "done",
+  "files_created": [
+    "src/content/pages/2603-XXXXX.md",
+    "src/content/pages/concept-slug.md"
+  ]
+}
+```
+
+Return this manifest as your final message.
+</step_instructions>
+
+---
+
+## Step 8.3: Update Existing Pages
+
+**Model:** Haiku | **Output:** Modified `.md` files + update summary
+
+<step_instructions id="update-pages">
+You are updating existing wiki pages with content from arXiv paper [ARXIV_ID].
+
+Working directory: `/home/node/.openclaw/workspace/projects/arxiv-atlas/`
+
+### Task
+Read `data/papers/[ARXIV_ID]_page_updates.json` (structured instructions from Opus).
+
+For each page to update:
+1. Read `src/content/pages/[slug].md`
+2. Insert new sections at the specified `insert_after` marker
+3. Add wikilinks to "Related Concepts" or "See Also" section
+4. Add references to the References section
+5. Compress/prune if sections grow too large
+6. Use the `edit` tool for each change
+
+This is mechanical: no creative content generation needed.
+
+### Output
+Return a summary:
+```json
+{
+  "pages_modified": [
+    {"slug": "star-formation", "sections_added": 1, "wikilinks_added": 2, "refs_added": 3}
+  ]
+}
+```
+</step_instructions>
+
+---
+
+## Daily Summary
+
+**Model:** Sonnet | **After all papers for a date are processed**
+
+Create `src/content/pages/daily_YYYY_MM_DD.md` grouping papers into 3–4 themes. The orchestrator inserts a page record (page_type: `daily_summary`) and rebuilds.
+
+---
+
+## Portal Organization
+
+**When:** 10+ papers share a common theme.
+**Naming:** `src/content/pages/portal-<theme>.md` — sidebar auto-detects `portal-` prefix.
+
+---
+
+## URL & Link Conventions
+
+| Target | URL | Source file |
+|--------|-----|-------------|
+| Home | `/` | `src/pages/index.astro` |
+| Paper index | `/papers/` | `src/pages/papers.astro` |
+| Random | `/random/` | `src/pages/random.astro` |
+| Concept page | `/pages/<slug>/` | `src/content/pages/<slug>.md` |
+| Paper page | `/pages/<id>/` | `src/content/pages/<id>.md` |
+| Portal | `/pages/portal-<theme>/` | `src/content/pages/portal-<theme>.md` |
+
+**Rules:**
+1. All wiki pages in `src/content/pages/` → routed at `/pages/...`
+2. Top-level utility pages in `src/pages/`
+3. Kebab-case only
+4. `<a href="/pages/slug" class="wikilink">` for cross-references
+5. arXiv IDs: hyphens in slugs/filenames (`2603-16183`), dots in display (`arXiv:2603.16183`)
+
+---
+
+## Key Paths
+
+| What | Where |
+|------|-------|
+| Analysis files | `data/papers/<id>.md` |
+| Bibliography JSON | `data/papers/<id>_bibliography_complete.json` |
+| Manifest JSON | `data/papers/<id>_manifest.json` |
+| Page updates JSON | `data/papers/<id>_page_updates.json` |
+| Wiki pages | `src/content/pages/` |
+| Existing page index | `public/existing-slugs.json` |
+| Database | `data/arxiv.db` |
+| Ingestion script | `tools/ingest_manifest.py` |
+| Build script | `tools/build_site.py` |
+| Tracking | `data/papers/tracking/YYYY-MM-DD_analyzed.md` |

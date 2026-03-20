@@ -1,0 +1,142 @@
+<!DOCTYPE html><html lang="en" data-theme="light" data-astro-cid-5hce7sga> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Turbulence &amp; Diffusion Regimes - ArXiv Atlas</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"><link rel="stylesheet" href="/styles/global.css"><style>@keyframes highlight-pulse{0%{background-color:transparent}50%{background-color:var(--c-accent-light)}to{background-color:transparent}}.references[data-astro-cid-5hce7sga] li[data-astro-cid-5hce7sga].highlight{animation:highlight-pulse 1.5s ease-in-out}
+</style></head> <body data-astro-cid-5hce7sga> <header class="site-header" data-astro-cid-5hce7sga> <div class="header-inner" data-astro-cid-5hce7sga> <a class="site-logo" href="/" data-astro-cid-5hce7sga> <span class="logo-icon" data-astro-cid-5hce7sga>α</span>ArXiv Atlas
+</a> <div class="header-actions" data-astro-cid-5hce7sga> <form class="search-form" id="searchForm" role="search" autocomplete="off" data-astro-cid-5hce7sga> <i class="fa-solid fa-magnifying-glass search-icon" data-astro-cid-5hce7sga></i> <input type="text" id="searchInput" placeholder="Search pages…" aria-label="Search pages" data-astro-cid-5hce7sga> <ul class="search-results" id="searchResults" data-astro-cid-5hce7sga></ul> </form> <a class="header-btn" href="/random" title="Random page" data-astro-cid-5hce7sga> <i class="fa-solid fa-shuffle" data-astro-cid-5hce7sga></i> </a> <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" data-astro-cid-5hce7sga> <i class="fa-solid fa-sun" id="themeIcon" data-astro-cid-5hce7sga></i> </button> </div> <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu" data-astro-cid-5hce7sga> <i class="fa-solid fa-bars" data-astro-cid-5hce7sga></i> </button> </div> </header> <div class="page-layout" data-astro-cid-5hce7sga>  <aside class="page-sidebar"> <div class="sidebar-section"> <div class="sidebar-heading">Contents</div> <ul class="sidebar-nav" id="toc-nav"> <!-- Auto-populated by JS from page headings --> </ul> </div> <div class="sidebar-section"> <div class="sidebar-heading">Navigation</div> <ul class="sidebar-nav"> <li><a href="/">Home</a></li> <li><a href="/papers/">Paper Summaries</a></li> <li><a href="/random/">Random Page</a></li> </ul> </div> <div class="sidebar-section"> <a class="sidebar-heading" href="/portals/" style="text-decoration:none;color:inherit;">Portals</a> <ul class="sidebar-nav"> <li><a href="/pages/portal-galaxy-clusters/">Galaxy Clusters &amp; Large-Scale Structure</a></li><li><a href="/pages/portal-galaxy-evolution/">Galaxy Evolution</a></li><li><a href="/pages/portal-star-formation-ism/">Star Formation &amp; the Interstellar Medium</a></li> <li><a href="/portals/" class="sidebar-more">More portals →</a></li> </ul> </div> <div class="sidebar-section"> <a class="sidebar-heading" href="/summaries/" style="text-decoration:none;color:inherit;">Daily Summaries</a> <ul class="sidebar-nav"> <li><a href="/pages/daily-2026-03-18/">March 18, 2026</a></li> <li><a href="/summaries/" class="sidebar-more">More summaries →</a></li> </ul> </div> </aside> <main class="page-main">  <h1 class="page-title">Turbulence &#x26; Diffusion Regimes</h1>
+<div class="infobox">
+  <h3 class="infobox-title">Turbulence &#x26; Particle Diffusion</h3>
+  <table>
+    <tbody><tr>
+      <th>Type:</th>
+      <td>Plasma physics / transport theory</td>
+    </tr>
+    <tr>
+      <th>Key regimes:</th>
+      <td>Bohm (δ = 1), Kraichnan (δ = 1/2), Kolmogorov (δ = 1/3)</td>
+    </tr>
+    <tr>
+      <th>Key papers:</th>
+      <td>
+        Subedi et al. (2017), Dundovic et al. (2020),<br>
+        <a href="/pages/2603-16647" class="wikilink">Peretti et al. (2026)</a>
+      </td>
+    </tr>
+    <tr>
+      <th>Related:</th>
+      <td>
+        <a href="/pages/diffusive-shock-acceleration" class="wikilink">Diffusive Shock Acceleration</a><br>
+        <a href="/pages/recollimation-shocks" class="wikilink">Recollimation Shocks</a><br>
+        <a href="/pages/shock-waves" class="wikilink">Shock Waves</a>
+      </td>
+    </tr>
+  </tbody></table>
+</div>
+<p>
+  <strong>Turbulence and diffusion regimes</strong> govern how charged particles scatter and propagate in magnetized astrophysical plasmas. The spectrum of <a href="/pages/turbulence" class="wikilink">magnetic turbulence</a> sets the spatial diffusion coefficient κ(p), which in turn controls the acceleration timescale and maximum energy achievable by <a href="/pages/diffusive-shock-acceleration" class="wikilink">diffusive shock acceleration</a> <a href="#ref1">[1]</a><a href="#ref2">[2]</a>. Different turbulence cascades — Kolmogorov, Kraichnan, or Bohm-like — predict diffusion coefficients with distinct momentum scalings, leading to orders-of-magnitude variation in predicted maximum particle energies <a href="#ref3">[3]</a>.
+</p>
+<h2 id="turbulence-cascades">Magnetic Turbulence Cascades</h2>
+<h3>Kolmogorov Cascade</h3>
+<p>
+  The Kolmogorov (1941) cascade describes incompressible hydrodynamic turbulence with an energy spectrum E(k) ∝ k<sup>−5/3</sup>, where energy is injected at large scales and cascades to smaller scales through eddy interactions <a href="#ref4">[4]</a>. When applied to magnetized plasmas, this yields a turbulent magnetic-field power spectrum W(k) ∝ k<sup>−5/3</sup> <a href="#ref1">[1]</a>. The resulting spatial diffusion coefficient for particles with Larmor radius r<sub>L</sub> much smaller than the turbulence coherence length l<sub>c</sub> scales as κ ∝ p<sup>1/3</sup> <a href="#ref1">[1]</a><a href="#ref2">[2]</a>. This is the slowest momentum scaling among the standard regimes, meaning high-energy particles diffuse relatively slowly and DSA is least efficient <a href="#ref3">[3]</a>.
+</p>
+<h3>Kraichnan Turbulence</h3>
+<p>
+  Kraichnan (1965) proposed an alternative cascade for magnetohydrodynamic turbulence based on Alfvén wave interactions, yielding a steeper spectrum E(k) ∝ k<sup>−3/2</sup> <a href="#ref5">[5]</a>. This gives a diffusion coefficient κ ∝ p<sup>1/2</sup>, intermediate between Kolmogorov and Bohm scalings <a href="#ref1">[1]</a><a href="#ref2">[2]</a>. Peretti et al. (2026) adopted Kraichnan diffusion as their benchmark regime for modeling particle acceleration at <a href="/pages/recollimation-shocks" class="wikilink">recollimation shocks</a>, as it represents a physically motivated middle ground <a href="#ref3">[3]</a>.
+</p>
+<h3>Goldreich-Sridhar Turbulence</h3>
+<p>
+  Goldreich &#x26; Sridhar (1995) showed that MHD turbulence is fundamentally anisotropic, with eddies elongated along the local <a href="/pages/magnetic-field" class="wikilink">magnetic field</a> direction <a href="#ref6">[6]</a>. The perpendicular cascade follows a Kolmogorov-like k<sub>⊥</sub><sup>−5/3</sup> spectrum, while the parallel correlation scale varies as l<sub>∥</sub> ∝ l<sub>⊥</sub><sup>2/3</sup> <a href="#ref6">[6]</a>. This anisotropy complicates quasi-linear predictions for particle scattering rates, as resonant interactions depend on the parallel wavenumber spectrum <a href="#ref1">[1]</a>.
+</p>
+<h2 id="bohm-diffusion">Bohm Diffusion</h2>
+<p>
+  Bohm diffusion represents the theoretical minimum diffusion coefficient: κ<sub>B</sub> = r<sub>L</sub>c/3, corresponding to scattering at every Larmor orbit <a href="#ref1">[1]</a><a href="#ref3">[3]</a>. This limit is approached when the turbulent magnetic field amplitude δB is comparable to the mean field B<sub>0</sub> at the particle's resonant scale <a href="#ref1">[1]</a>. In the Bohm regime, κ ∝ p (i.e., δ = 1), and <a href="/pages/diffusive-shock-acceleration" class="wikilink">DSA</a> achieves its highest efficiency and maximum energy <a href="#ref3">[3]</a>.
+</p>
+<p>
+  Bohm diffusion is often assumed as an optimistic upper limit in acceleration models. Peretti et al. (2026) showed that for Seyfert-galaxy jets, the Bohm limit allows proton acceleration to EeV energies at <a href="/pages/recollimation-shocks" class="wikilink">recollimation shocks</a>, while Kolmogorov diffusion reduces this by up to three orders of magnitude <a href="#ref3">[3]</a>.
+</p>
+<h2 id="diffusion-scalings">Diffusion Coefficient Scalings</h2>
+<p>
+  The spatial diffusion coefficient is commonly parameterized as <a href="#ref1">[1]</a><a href="#ref2">[2]</a><a href="#ref3">[3]</a>:
+</p>
+<p style="text-align:center;">
+  κ(p) = κ<sub>0</sub> (p / p<sub>0</sub>)<sup>δ</sup>
+</p>
+<p>
+  where δ is set by the turbulence spectrum:
+</p>
+<ul>
+  <li><strong>δ = 1 (Bohm):</strong> Maximum scattering rate; κ = r<sub>L</sub>c/3 <a href="#ref3">[3]</a></li>
+  <li><strong>δ = 1/2 (Kraichnan):</strong> κ ∝ p<sup>1/2</sup>; intermediate regime <a href="#ref1">[1]</a></li>
+  <li><strong>δ = 1/3 (Kolmogorov):</strong> κ ∝ p<sup>1/3</sup>; weakest momentum dependence <a href="#ref1">[1]</a></li>
+</ul>
+<p>
+  The normalization κ<sub>0</sub> depends on the turbulence amplitude ε<sub>B</sub> = δB<sup>2</sup>/B<sup>2</sup> and the coherence length l<sub>c</sub> of the turbulence <a href="#ref3">[3]</a>. In the quasi-linear regime (r<sub>L</sub> &#x3C;&#x3C; l<sub>c</sub>), resonant pitch-angle scattering on waves with wavelength ~ r<sub>L</sub> dominates the diffusion <a href="#ref1">[1]</a>. At high energies (r<sub>L</sub> > l<sub>c</sub>), particles enter the small-angle scattering regime where κ ∝ p<sup>2</sup> regardless of the turbulence spectrum <a href="#ref2">[2]</a>.
+</p>
+<h2 id="maximum-energy">Effect on Maximum Particle Energy</h2>
+<p>
+  The maximum energy E<sub>max</sub> achievable by DSA is set by the competition between acceleration time t<sub>acc</sub> ∝ κ/u<sub>s</sub><sup>2</sup> and loss or escape timescales <a href="#ref3">[3]</a><a href="#ref7">[7]</a>. Since κ increases with δ, steeper momentum scalings (larger δ) produce faster acceleration and higher E<sub>max</sub> for a given source <a href="#ref3">[3]</a>.
+</p>
+<p>
+  For <a href="/pages/recollimation-shocks" class="wikilink">recollimation shocks</a>, the confinement limit typically determines E<sub>max</sub>: the upstream diffusion length κ/u<sub>1</sub> must not exceed the shock height z<sub>sh</sub> <a href="#ref3">[3]</a>. Peretti et al. (2026) demonstrated the sensitivity quantitatively: for their Seyfert prototype, E<sub>max</sub> varies from ~10<sup>18</sup> eV (Bohm) to ~10<sup>17</sup> eV (Kraichnan) to ~10<sup>15</sup> eV (Kolmogorov) <a href="#ref3">[3]</a>. For microquasars, the spread is similarly dramatic <a href="#ref3">[3]</a>.
+</p>
+<h2 id="downstream-decay">Downstream Turbulence Decay</h2>
+<p>
+  Turbulence injected or amplified at the shock can decay downstream as energy cascades to dissipation scales <a href="#ref3">[3]</a>. Peretti et al. (2026) parameterized this as a power-law decay of the turbulent energy density with distance from the shock <a href="#ref3">[3]</a>. When the downstream diffusion coefficient grows rapidly with distance, particles can escape the acceleration region before achieving the confinement-limited E<sub>max</sub>, making downstream decay the dominant limitation on maximum energy <a href="#ref3">[3]</a>. This effect is particularly important for protostellar jets, where the downstream region is compact <a href="#ref3">[3]</a>.
+</p>
+<h2 id="modern-developments">Modern Developments</h2>
+<p>
+  Lazarian &#x26; Yan (2021) explored mirror diffusion regimes relevant when turbulence levels are low and magnetic mirroring dominates over pitch-angle scattering <a href="#ref8">[8]</a>. Barreto-Mota et al. (2025) investigated diffusion in turbulence generated by streaming instabilities, finding that self-generated turbulence can maintain near-Bohm diffusion close to shocks even if the ambient turbulence supports a Kolmogorov or Kraichnan spectrum <a href="#ref9">[9]</a>. These developments suggest that the effective diffusion regime may vary spatially around astrophysical shocks <a href="#ref8">[8]</a><a href="#ref9">[9]</a>.
+</p>
+<h2 id="see-also">See Also</h2>
+<ul>
+  <li><a href="/pages/diffusive-shock-acceleration" class="wikilink">Diffusive Shock Acceleration</a> — How diffusion regime sets the acceleration rate and E<sub>max</sub></li>
+  <li><a href="/pages/recollimation-shocks" class="wikilink">Recollimation Shocks</a> — Application showing orders-of-magnitude sensitivity to turbulence model</li>
+  <li><a href="/pages/shock-waves" class="wikilink">Shock Waves</a> — The discontinuities where turbulence is amplified</li>
+  <li><a href="/pages/jet-cocoon-dynamics" class="wikilink">Jet-Cocoon Dynamics</a> — Environments hosting turbulence-mediated acceleration</li>
+  <li><a href="/pages/2603-16647" class="wikilink">Peretti et al. (2026)</a> — Systematic comparison of Bohm/Kraichnan/Kolmogorov at recollimation shocks</li>
+</ul>
+<details class="references"><summary><h2>References</h2></summary>
+  <ol>
+    <li id="ref1">
+      Subedi, P. et al. (2017). "Charged particle diffusion in isotropic random magnetic fields."
+      <em>ApJ</em>, 837, 140.
+      <a href="https://doi.org/10.3847/1538-4357/aa603a">DOI</a>
+    </li>
+    <li id="ref2">
+      Dundovic, A. et al. (2020). "Novel aspects of cosmic ray diffusion in synthetic magnetic turbulence."
+      <em>Phys. Rev. D</em>, 102, 103016.
+      <a href="https://doi.org/10.1103/PhysRevD.102.103016">DOI</a>
+    </li>
+    <li id="ref3">
+      Peretti, E., Amato, E., Cerri, S. S., Morlino, G., Pullano, L. P., &#x26; Recchia, S. (2026). "Particle acceleration at recollimation shocks in sub-relativistic jets."
+      <a href="https://arxiv.org/abs/2603.16647">arXiv:2603.16647</a>
+    </li>
+    <li id="ref4">
+      Kolmogorov, A. N. (1941). "The local structure of turbulence in incompressible viscous fluid for very large Reynolds numbers."
+      <em>Doklady Akademii Nauk SSSR</em>, 30, 301.
+    </li>
+    <li id="ref5">
+      Kraichnan, R. H. (1965). "Inertial-range spectrum of hydromagnetic turbulence."
+      <em>Physics of Fluids</em>, 8, 1385.
+      <a href="https://doi.org/10.1063/1.1761412">DOI</a>
+    </li>
+    <li id="ref6">
+      Goldreich, P. &#x26; Sridhar, S. (1995). "Toward a theory of interstellar turbulence. II. Strong Alfvénic turbulence."
+      <em>ApJ</em>, 438, 763.
+      <a href="https://doi.org/10.1086/175121">DOI</a>
+    </li>
+    <li id="ref7">
+      Hillas, A. M. (1984). "The origin of ultra-high-energy cosmic rays."
+      <em>ARA&#x26;A</em>, 22, 425.
+      <a href="https://doi.org/10.1146/annurev.aa.22.090184.002233">DOI</a>
+    </li>
+    <li id="ref8">
+      Lazarian, A. &#x26; Yan, H. (2021). "Mirror diffusion of cosmic rays in turbulent magnetic fields."
+    </li>
+    <li id="ref9">
+      Barreto-Mota, L. et al. (2025). "Particle diffusion in self-generated turbulence near shocks."
+    </li>
+  </ol>
+
+<div class="page-tags">
+  <strong>Tags:</strong>
+  Turbulence · Diffusion · Bohm · Kraichnan · Kolmogorov · Particle Transport · MHD · Cosmic Rays
+</div></details> </main>  </div> <footer class="site-footer" data-astro-cid-5hce7sga> <div class="footer-inner" data-astro-cid-5hce7sga> <span data-astro-cid-5hce7sga>ArXiv Atlas — Galaxy Evolution Knowledge Portal</span> <span class="footer-sep" data-astro-cid-5hce7sga>·</span> <span class="footer-muted" data-astro-cid-5hce7sga>Built for Sai · 2026</span> </div> </footer> <script type="module">const r=document.documentElement,l=localStorage.getItem("atlas-theme");(l==="dark"||l==="light")&&r.setAttribute("data-theme",l);document.addEventListener("DOMContentLoaded",()=>{const m=document.getElementById("themeToggle"),u=document.getElementById("themeIcon");if(!m||!u)return;function g(){const t=r.getAttribute("data-theme")==="dark";u.className=t?"fa-solid fa-moon":"fa-solid fa-sun"}g(),m.addEventListener("click",()=>{const t=r.getAttribute("data-theme")==="dark"?"light":"dark";r.setAttribute("data-theme",t),localStorage.setItem("atlas-theme",t),g()});const d=document.getElementById("mobileMenuBtn"),o=document.querySelector(".page-sidebar");d&&o&&(d.addEventListener("click",()=>o.classList.toggle("open")),document.addEventListener("click",t=>{o.classList.contains("open")&&!o.contains(t.target)&&!d.contains(t.target)&&o.classList.remove("open")}));const c=document.getElementById("toc-nav"),f=document.querySelector(".page-main");if(c&&f){const t=f.querySelectorAll("h2, h3");t.forEach((e,i)=>{e.id||(e.id="section-"+i);const a=document.createElement("li"),n=document.createElement("a");n.href="#"+e.id,n.textContent=e.textContent,e.tagName==="H3"&&(n.style.paddingLeft="20px"),a.appendChild(n),c.appendChild(a)});const s=new IntersectionObserver(e=>{e.forEach(i=>{if(i.isIntersecting){c.querySelectorAll("a").forEach(n=>n.classList.remove("active"));const a=c.querySelector('a[href="#'+i.target.id+'"]');a&&a.classList.add("active")}})},{rootMargin:"-80px 0px -60% 0px"});t.forEach(e=>s.observe(e))}document.addEventListener("click",t=>{const s=t.target.closest('a[href^="#"]');if(!s)return;const e=document.querySelector(s.getAttribute("href"));e&&(t.preventDefault(),e.scrollIntoView({behavior:"smooth",block:"start"}))})});</script> <script type="module">let n=null;function r(){return n||(n=fetch("/existing-slugs.json").then(e=>e.json()).then(e=>new Set(e.map(t=>t.slug.replace(/[-\s]/g,"-").toLowerCase())))),n}function a(){r().then(e=>{document.querySelectorAll('a[href^="/pages/"]').forEach(t=>{const s=t.getAttribute("href").replace(/\/+$/,"").match(/^\/pages\/([^/]+)$/);if(s){const o=s[1].toLowerCase();e.has(o)||t.classList.add("redlink")}})})}document.readyState==="loading"?document.addEventListener("DOMContentLoaded",a):a();</script> <script type="module">document.addEventListener("DOMContentLoaded",()=>{const n=document.getElementById("searchInput"),r=document.getElementById("searchResults"),d=document.getElementById("searchForm");if(!n||!r||!d)return;let l=null,i=-1;async function f(){return l||(l=await(await fetch("/search-index.json")).json(),l)}function c(e){if(r.innerHTML="",i=-1,e.length===0){r.style.display="none";return}r.style.display="block",e.slice(0,12).forEach((t,o)=>{const s=document.createElement("li"),a=document.createElement("a");a.href="/"+t.slug,a.textContent=t.title,a.setAttribute("data-idx",String(o)),s.appendChild(a),r.appendChild(s)})}function u(e){const t=r.querySelectorAll("a");t.forEach(o=>o.classList.remove("active")),e>=0&&e<t.length?(t[e].classList.add("active"),i=e):i=-1}n.addEventListener("input",async()=>{const e=n.value.trim().toLowerCase();if(!e){c([]);return}const o=(await f()).filter(s=>s.title.toLowerCase().includes(e)).sort((s,a)=>{const h=s.title.toLowerCase().indexOf(e),m=a.title.toLowerCase().indexOf(e);return h-m});c(o)}),n.addEventListener("keydown",e=>{const t=r.querySelectorAll("a");t.length&&(e.key==="ArrowDown"?(e.preventDefault(),u(Math.min(i+1,t.length-1))):e.key==="ArrowUp"?(e.preventDefault(),u(Math.max(i-1,0))):e.key==="Enter"?(e.preventDefault(),i>=0&&t[i]?window.location.href=t[i].href:t.length>0&&(window.location.href=t[0].href)):e.key==="Escape"&&(c([]),n.blur()))}),document.addEventListener("click",e=>{d.contains(e.target)||c([])}),n.addEventListener("focus",()=>{n.value.trim()&&n.dispatchEvent(new Event("input"))})});</script> <script type="module">document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll('a[href^="#ref"]').forEach(o=>{o.addEventListener("click",c=>{c.preventDefault();const r=o.getAttribute("href");if(!r)return;const e=document.querySelector(".references")||document.querySelector("details.references");e&&(e instanceof HTMLDetailsElement&&(e.open=!0),e.scrollIntoView({behavior:"smooth",block:"start"}));const t=document.querySelector(r);t&&setTimeout(()=>{t.scrollIntoView({behavior:"smooth",block:"nearest"}),t.classList.add("highlight"),setTimeout(()=>t.classList.remove("highlight"),2e3)},300)})})});</script> </body> </html>

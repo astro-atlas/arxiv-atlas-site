@@ -1,0 +1,96 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Watkins et al. (2026) — Isophote shape analysis of dwarf galaxies";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Isophote shape analysis and the unfortunate subtlety of dwarf galaxy structure</h1>
+
+    <div class="infobox">
+      <h3 class="infobox-title">Watkins et al. (2026)</h3>
+      <table>
+        <tr>
+          <th>Type:</th>
+          <td>Paper</td>
+        </tr>
+        <tr>
+          <th>Authors:</th>
+          <td>A. E. Watkins, I. Lazar, T. Sedgwick, G. Martin, S. Kaviraj, D. Kakkad, C. Collins, B. Bichang'a</td>
+        </tr>
+        <tr>
+          <th>arXiv / DOI:</th>
+          <td><a href="https://arxiv.org/abs/2603.11166">arXiv:2603.11166</a> — <a href="https://doi.org/10.48550/arXiv.2603.11166">DOI</a></td>
+        </tr>
+        <tr>
+          <th>Date:</th>
+          <td>2026-03-11 (v1) — MNRAS accepted</td>
+        </tr>
+        <tr>
+          <th>Analysis:</th>
+          <td><a href="/data/papers/watkins2026_isophote_dwarf_structure.md">Paper analysis (markdown)</a></td>
+        </tr>
+        <tr>
+          <th>Related concepts:</th>
+          <td>
+            <WikiLink slug="pages/dwarf_galaxies" text="Dwarf galaxies" /><br>
+            <WikiLink slug="pages/isophotal_analysis" text="Isophotal analysis" />
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <p><strong>Abstract (short)</strong> — Watkins et al. perform isophotal-shape analysis of 193 dwarf galaxies (10<sup>8</sup> ≤ M<sub>*</sub>/M<sub>☉</sub> &lt; 10<sup>9.5</sup>) using radial profiles of ellipse fits (position angle, ellipticity, a<sub>4</sub>/a boxiness). They compare with 2,334 nearby massive galaxies (CS4G sample) and apply PCA and spectral clustering. Key finding: dwarf morphological classes are largely indistinguishable in isophotal parameter space; no principal component explains more than ~26% of variance.</p>
+
+    <h2 id="key-findings">Key findings</h2>
+    <ol>
+      <li>
+        Dwarf morphological classes are self-similar in isophotal parameter space.  
+        <small><a href="https://arxiv.org/abs/2603.11166">(Watkins et al. 2026, arXiv:2603.11166)</a></small>
+      </li>
+      <li>
+        Dwarf spirals appear structurally simpler than massive spirals: isophotal twistiness (TT) correlates with stellar mass for spirals, and dwarf spirals show lower median TT.  
+        <small>(Watkins+2026)</small>
+      </li>
+      <li>
+        Dwarf early-type galaxies resemble massive ETGs in isophotal measurements, consistent with triaxial structures.  
+        <small>(Watkins+2026)</small>
+      </li>
+      <li>
+        Isophotal parameters alone provide limited discriminatory power for dwarf evolution; large-dimensional statistical analyses on extensive surveys (LSST, Euclid) are needed.  
+        <small>(Watkins+2026)</small>
+      </li>
+    </ol>
+
+    <h2 id="methods">Methods</h2>
+    <p>The authors fit isophotes (via IRAF ellipse) to dwarf ii-band images and extract radial profiles of ellipticity, position angle, and a4/a (boxiness). They derive integrated quantities including luminosity-weighted means and the "twistiness" parameter TT (Ryden et al. 1999). PCA is applied to all available morphological, isophotal, and physical parameters; spectral clustering assesses population structure.</p>
+
+    <h2 id="implications">Implications</h2>
+    <p>
+      Upcoming wide-field surveys (LSST, Euclid) will discover millions of dwarfs with only broadband photometry available. This work cautions that isophotal-shape parameters alone are insufficient for robust morphological separation; high-resolution follow-up and kinematic measurements remain essential for understanding dwarf evolution.
+    </p>
+
+    <h2 id="see-also">See also</h2>
+    <ul>
+      <li><WikiLink slug="pages/dwarf_galaxies" text="Dwarf galaxies" /> — low-mass galaxy populations and their evolutionary pathways</li>
+      <li><WikiLink slug="pages/isophotal_analysis" text="Isophotal analysis" /> — measuring galaxy structure via ellipse-fitting</li>
+      <li><WikiLink slug="pages/principal_component_analysis" text="Principal component analysis" /> — statistical method for dimensionality reduction</li>
+    </ul>
+
+    <div class="references">
+      <h2>References</h2>
+      <ol>
+        <li id="ref1">Watkins A. E., Lazar I., Sedgwick T., Martin G., Kaviraj S., Kakkad D., Collins C., Bichang'a B. (2026). "Isophote shape analysis and the unfortunate subtlety of dwarf galaxy structure." <a href="https://arxiv.org/abs/2603.11166">arXiv:2603.11166</a>. MNRAS accepted.</li>
+      </ol>
+    </div>
+
+    <div class="page-tags">
+      <strong>Tags:</strong>
+      <WikiLink slug="pages/Tag_Galaxy_Structure" text="Galaxy Structure" />
+      <WikiLink slug="pages/Tag_Morphology" text="Morphology" />
+    </div>
+  </main>
+</Base>

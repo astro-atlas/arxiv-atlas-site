@@ -1,0 +1,39 @@
+---
+import Base from '../layouts/Base.astro';
+import Sidebar from '../components/Sidebar.astro';
+import pagesIndex from '../data/pages_index.json';
+
+const title = "All Papers - ArXiv Atlas";
+
+// Get all paper-type pages
+const paperPages = pagesIndex
+  .filter((p: any) => p.page_type === 'paper')
+  .sort((a: any, b: any) => (b.created_date || '').localeCompare(a.created_date || ''));
+
+function pageHref(p: any) {
+  const slug = (p.page_slug || '').replace(/^papers\//, '');
+  return '/pages/' + slug + '/';
+}
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Paper Summaries</h1>
+    <p>All papers analyzed by ArXiv Atlas, sorted by date.</p>
+
+    {paperPages.length === 0 ? (
+      <p class="empty-state">No papers have been analyzed yet. Check back after the next daily run!</p>
+    ) : (
+      <ul class="paper-list">
+        {paperPages.map((p: any) => (
+          <li>
+            <div class="paper-title">
+              <a href={pageHref(p)}>{p.title || p.page_slug}</a>
+            </div>
+            <div class="paper-date">{p.created_date ? p.created_date.slice(0, 10) : ''}</div>
+          </li>
+        ))}
+      </ul>
+    )}
+  </main>
+</Base>

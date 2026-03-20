@@ -1,0 +1,25 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Chemo-dynamical reconstruction methods";
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Chemo-dynamical reconstruction</h1>
+
+    <p>Chemo-dynamical reconstruction combines chemical abundances and kinematics to infer progenitor identities and assembly histories. Techniques include chemo-dynamical clustering and Bayesian reconstruction of age--metallicity relations.</p>
+
+    <h2>Methods</h2>
+    <ul>
+      <li>Hierarchical Bayesian CMD modelling</li>
+      <li>Chemo-dynamical clustering using kinematics + abundances</li>
+    </ul>
+
+    <h2>Key paper</h2>
+    <ul>
+      <li><WikiLink slug="pages/lardo_2026_gc_progenitors" text="Lardo et al. (2026)" /></li>
+    </ul>
+  </main>
+</Base>

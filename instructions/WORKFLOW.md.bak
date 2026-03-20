@@ -1,0 +1,72 @@
+ArXiv Atlas - Workflow
+
+1) Paper ingestion
+- Daily ArXiv fetch (astro-ph.GA). Claim papers into DB per-day.
+- Each paper gets a sub-agent worker (use GPT model for analysis while setup continues).
+- Prefer HTML when available; fall back to PDF -> extract text.
+- Deduplicate by DOI/arXiv id and title similarity.
+
+2) Paper processing (per paper)
+- Sub-agent fetches full text, extracts sections, identifies key concepts and claims.
+- Create or update paper page in DB and on-disk wiki pages (pages table + filesystem).
+- Register page_links for concept↔concept and paper↔page links.
+- Commit to data/arxiv.db (transactional); sub-agent reports summary and created pages.
+
+**Citation rule (CRITICAL):** Every factual statement on any wiki page MUST include a reference.
+- The reference can be the paper being processed, or any paper it cites.
+- Use DOIs from the paper's reference list to identify cited works.
+- Citation format: clickable numbered references `<a href="#ref1">[1]</a>` mapping to a References section.
+- If a fact is supported by multiple citations, list ALL of them: `<a href="#ref1">[1]</a><a href="#ref2">[2]</a><a href="#ref3">[3]</a>`
+- No unsourced claims. If a fact can't be traced to a specific paper, flag it as [citation needed].
+- This applies to concept pages, paper pages, summary pages — everything.
+- Use EXHAUSTIVE references from each paper's analysis — aim to capture the full literature, not just examples.
+
+**References section format:**
+- Must be collapsible (collapsed by default): `<details class="references"><summary><h2>References</h2></summary>` ... `</details>`
+- Each ref: `<li id="refN">` with author, year, title, journal, DOI/arXiv link where available.
+
+**WikiLink slugs:** Always lowercase with hyphens (e.g., `pages/recollimation-shocks`).
+
+**Concept page philosophy:**
+When identifying concepts for wiki pages, think broadly across three dimensions:
+1. **Core astronomy concepts** — What physical processes or phenomena are discussed? Think in terms of galaxy evolution, not just the paper's niche. (e.g., "outflows", "accretion", "faraday-rotation", not "faraday-rotation-basics")
+2. **Techniques and methods** — Are there important or commonly-used analysis techniques? (e.g., "frequency-phase-transfer", "rotation-measure-synthesis")
+3. **Important objects** — Named clusters, galaxies, notable sources that deserve hub pages (e.g., "perseus-cluster", "ss433", "ngc-1068")
+4. **Instruments and observatories** — Major telescopes/arrays used (e.g., "vlba", "alma", "jwst", "kvn", "hst")
+5. **Surveys and programs** — Large surveys or monitoring programs (e.g., "sdss", "lsst", "vlba-bu-blazar")
+
+Name pages after the concept itself — NO "basics", "overview", "fundamentals", "introduction" suffixes. Broader parent concepts should exist alongside specific ones (e.g., both "perseus-cluster" and "3c84-ngc1275-jet" can coexist).
+
+**Updating existing concept pages with new papers:**
+- Merge new references into the page, but compress and prune to keep only what's relevant.
+- Don't let sections grow infinitely — distill to key arguments, pros/cons, evidence.
+- Keep citations for everything that remains; remove uncited text.
+- Create subpages when a concept page gets too bloated (e.g., `recollimation-shocks/oblique-geometry`).
+
+**Disagreements in literature:**
+- If papers have an ONGOING disagreement, create a highlighted/flashy callout box discussing pros and cons of each side with citations.
+- If the argument has been resolved in later literature, just state the resolution — no debate box needed.
+
+3) Daily summary pages (NEW - added 2026-03-16)
+- At end of parsing each day, create a [YYYY-MM-DD] summary page and DB entry.
+- Each daily summary must:
+  * Identify 3-4 key areas (themes) explored that day.
+  * Split the day's papers into those key areas; list each paper under the area with a 1-2 sentence summary.
+  * Provide links to the paper pages (internal wiki links) for each paper.
+- Ensure there is a portal page "Daily summaries" on the wiki that links to these date pages.
+- Daily summaries are exported into src/data/daily_summaries.json for site build.
+
+4) Weekly & Monthly summaries (future)
+- Aggregate daily summaries into weekly and monthly pages.
+- Metadata: counts per area, notable disagreements, candidate review papers.
+
+5) Site build
+- Run tools/build_site.py after DB updates to export JSON and rebuild the static site.
+- CI: add a weekly scheduled GitHub Action to run the export + build and deploy to gh-pages.
+
+6) Notes
+- Use GPT model for analysis tasks in this setup phase (as requested by Sai).
+- Maintain transactions in sqlite (WAL) and simple retry/backoff for writers.
+- Track processed paper dates in processing_log table.
+
+Last updated: 2026-03-16

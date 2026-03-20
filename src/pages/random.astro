@@ -1,0 +1,31 @@
+---
+/**
+ * Random page — redirects to a random wiki page.
+ * Reads existing-slugs.json (generated from disk by export_for_site.py).
+ */
+import existingSlugs from '../../public/existing-slugs.json';
+
+// Build page URLs from slugs that exist on disk
+const pageUrls = (existingSlugs as {slug: string, title: string}[])
+  .filter(e => !e.slug.includes('_template') && e.slug !== 'random' && e.slug !== 'index')
+  .map(e => '/pages/' + e.slug);
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Random Page - ArXiv Atlas</title>
+  <script define:vars={{ pageUrls }}>
+    const urls = pageUrls;
+    if (urls.length > 0) {
+      const pick = urls[Math.floor(Math.random() * urls.length)];
+      window.location.replace(pick);
+    } else {
+      window.location.replace('/');
+    }
+  </script>
+</head>
+<body>
+  <p>Redirecting to a random page...</p>
+</body>
+</html>

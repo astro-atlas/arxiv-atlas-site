@@ -1,0 +1,52 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Feng et al. (2026) - H I 21-cm Properties of IRAS 04296+2923 - ArXiv Atlas";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">H I 21-cm Line Properties of the Nearby LIRG IRAS 04296+2923</h1>
+        
+        <div class="paper-meta">
+            <p><strong>Authors:</strong> Guixiang Feng, Zhongzu Wu, Chuanpeng Zhang, Ming Zhu</p>
+            <p><strong>arXiv ID:</strong> <a href="https://arxiv.org/abs/2603.11899" target="_blank">2603.11899</a></p>
+            <p><strong>Date:</strong> 2026-03-12</p>
+            <p><strong>Status:</strong> Accepted by A&amp;A</p>
+        </div>
+
+        <div class="abstract-box">
+            <h3>Abstract</h3>
+            <p>Archival VLA and FAST H I 21-cm imaging plus multi-band radio continuum reveal that IRAS 04296+2923 resides in a small group of five H I-detected galaxies and that its nearest companion HI 0432+2926 has comparable H I mass and a small velocity offset; both show rotation-dominated H I kinematics while radio continuum is concentrated in IRAS 04296+2923's nucleus, indicative of a compact, young, dust-obscured starburst<sup><a href="#ref1">1</a></sup>.</p>
+        </div>
+
+        <h2 id="section-0">Key Findings</h2>
+        <ul>
+            <li>H I imaging identifies five group members and a close companion (HI 0432+2926) at projected ~40 kpc with Δv ≈ 26 km s<sup>-1</sup><sup><a href="#ref1">1</a></sup>.</li>
+            <li>Both IRAS 04296+2923 and its companion display regular H I velocity fields and double-horn profiles consistent with rotation-dominated kinematics<sup><a href="#ref1">1</a></sup>.</li>
+            <li>Radio continuum is detected only from IRAS 04296+2923 and is nuclear and compact; spectral modeling shows a strong free–free component at &gt;30 GHz and a high FIR-to-radio ratio (q_8.4 ≈ 3.2), indicating a young, dust-obscured nuclear starburst<sup><a href="#ref1">1</a></sup>.</li>
+            <li>The authors favour a scenario where the LIRG activity is driven by internal processes (e.g., bar-induced inflow) possibly modulated by weak tidal interactions in the small group, rather than an advanced merger<sup><a href="#ref1">1</a></sup>.</li>
+        </ul>
+
+        <h2 id="section-1">Related Concepts</h2>
+        <ul>
+            <li><WikiLink slug="pages/hi_21cm_line" text="H I 21-cm observations" /></li>
+            <li><WikiLink slug="pages/luminous_infrared_galaxies" text="Luminous Infrared Galaxies (LIRGs)" /></li>
+            <li><WikiLink slug="pages/Bar_Formation" text="Bar Formation" /></li>
+        </ul>
+
+        <h2 id="section-2">References</h2>
+        <ol class="references">
+            <li id="ref1">Feng, G., Wu, Z., Zhang, C., Zhu, M. (2026). "H I 21-cm Line Properties of the Nearby LIRG IRAS 04296+2923." arXiv:2603.11899. (Accepted by A&amp;A) <a href="https://arxiv.org/abs/2603.11899">arXiv:2603.11899</a></li>
+        </ol>
+
+        <div class="page-tags">
+            <strong>Tags:</strong>
+            <WikiLink slug="pages/Tag_HI" text="H I" />
+            <WikiLink slug="pages/Tag_Starbursts" text="Starbursts" />
+            <WikiLink slug="pages/Tag_Radio_Astronomy" text="Radio Astronomy" />
+        </div>
+  </main>
+</Base>

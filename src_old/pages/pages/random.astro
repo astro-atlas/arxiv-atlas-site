@@ -1,0 +1,23 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+// build-time: collect page filenames in this directory
+const pageFiles = import.meta.glob('./*.astro');
+const pages = Object.keys(pageFiles)
+  .map(p => p.split('/').pop().replace('.astro',''))
+  .filter(s => s && !s.startsWith('_') && s.toLowerCase() !== 'random');
+const title = "Random Article - ArXiv Atlas";
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Random Article</h1>
+    <p id="loading">Picking a random article…</p>
+  </main>
+</Base>
+
+<script type="module" define:vars={{ pages }}>
+  // pages already match the on-disk filenames / generated routes (use as-is)
+  const pick = pages[Math.floor(Math.random() * pages.length)];
+  window.location.replace('/pages/' + pick + '/');
+</script>

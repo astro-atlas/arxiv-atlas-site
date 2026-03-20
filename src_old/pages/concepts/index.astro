@@ -1,0 +1,54 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Concepts - ArXiv Atlas";
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <div class="page-header">
+            <h1>Concepts</h1>
+            <p class="page-meta">Wiki pages tracking galaxy evolution topics, claims, and debates</p>
+        </div>
+
+        <section>
+            <div class="concept-grid">
+                <a href="galaxy-bimodality.html" class="concept-card">
+                    <h3>Galaxy Bimodality</h3>
+                    <p>The observed dichotomy between star-forming disk galaxies and quiescent early-types.</p>
+                    <span class="tag">Structure</span>
+                    <span class="tag">Evolution</span>
+                </a>
+
+                <a href="blue-dominant-lyalpha.html" class="concept-card">
+                    <h3>Blue-dominant Lyα emission</h3>
+                    <p>Double-peaked Lyα profiles with a stronger blue peak — a potential inflow tracer.</p>
+                    <span class="tag">CGM</span>
+                    <span class="tag">Lyα</span>
+                </a>
+
+                <a href="clumpy-multiphase-radiative-transfer.html" class="concept-card">
+                    <h3>Clumpy radiative-transfer models</h3>
+                    <p>Models treating the neutral CGM/ISM as cool HI clumps in a hot ionised medium used to model Lyα transfer.</p>
+                    <span class="tag">Theory</span>
+                    <span class="tag">Radiative transfer</span>
+                </a>
+
+                <a href="cosmic-web-gas-accretion.html" class="concept-card">
+                    <h3>Cosmic-web gas accretion</h3>
+                    <p>Filamentary inflow of IGM gas into halos — important at high redshift and in low-mass systems.</p>
+                    <span class="tag">Cosmology</span>
+                    <span class="tag">Accretion</span>
+                </a>
+
+                <a href="ultra-low-mass-galaxies.html" class="concept-card">
+                    <h3>Ultra-low-mass galaxies</h3>
+                    <p>Very low stellar-mass systems (log M* &lt;~ 7) with bursty SF and strong feedback sensitivity.</p>
+                    <span class="tag">Dwarfs</span>
+                    <span class="tag">Feedback</span>
+                </a>
+
+            </div>
+        </section>
+  </main>
+</Base>

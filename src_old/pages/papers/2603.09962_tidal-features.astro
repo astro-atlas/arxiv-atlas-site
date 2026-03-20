@@ -1,0 +1,65 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Tidal Features in Galaxy Pairs: A Deep Learning Approach - ArXiv Atlas";
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <div class="page-header">
+      <h1>Tidal Features in Galaxy Pairs: A Deep Learning Approach</h1>
+      <div class="page-meta">
+        <span class="tag">arXiv:2603.09962</span>
+        <span class="tag">2026-03-11</span>
+        <span class="tag">astro-ph.GA</span>
+      </div>
+    </div>
+
+    <div class="content">
+      <h2 id="section-0">Overview</h2>
+      <p>
+        Deep learning framework (TidalNet) for detecting tidal features in galaxy pairs using SDSS and DESI Legacy Survey imaging.
+      </p>
+
+      <h2 id="section-1">Key Findings</h2>
+      <ul>
+        <li><strong>94% accuracy</strong> in identifying tidal tails, bridges, and shells</li>
+        <li><strong>23% of galaxy pairs</strong> show detectable tidal features</li>
+        <li>Detection rate increases with pair separation and stellar mass ratio</li>
+        <li>Sample: 2,847 galaxy pairs from Galaxy Zoo catalog</li>
+      </ul>
+
+      <h2 id="section-2">Methods</h2>
+      <ul>
+        <li>TidalNet convolutional neural network</li>
+        <li>Training on SDSS and DESI Legacy Survey imaging</li>
+        <li>Galaxy Zoo catalog as reference</li>
+      </ul>
+
+      <h2 id="section-3">Relevance to Galaxy Evolution</h2>
+      <p>
+        Tidal interactions are common (23% of pairs) and drive morphological transformation. Deep learning enables systematic studies at scale.
+      </p>
+
+      <h2 id="section-4">Concepts</h2>
+      <ul>
+        <li><a href="/concepts/tidal-features">Tidal features</a></li>
+        <li><a href="/concepts/galaxy-pairs">Galaxy pairs</a></li>
+        <li><a href="/concepts/morphological-transformation">Morphological transformation</a></li>
+        <li><a href="/concepts/deep-learning">Deep learning</a></li>
+      </ul>
+
+      <div class="references">
+        <h2 id="section-5">Citation</h2>
+        <pre><code>@article&#123;pandey2026tidal,&#125;
+  title=&#123;Tidal Features in Galaxy Pairs: A Deep Learning Approach&#125;,
+  author=&#123;Pandey, S. K. and others&#125;,
+  journal=&#123;arXiv:2603.09962&#125;,
+  year=&#123;2026&#125;
+&#125;</code></pre>
+      </div>
+
+      <p><a href="https://arxiv.org/abs/2603.09962" target="_blank">View on arXiv →</a></p>
+    </div>
+  </main>
+</Base>

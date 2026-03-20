@@ -1,0 +1,33 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Stellar Reddening - ArXiv Atlas";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Stellar Reddening</h1>
+
+    <p>
+      <strong>Stellar reddening</strong> refers to the attenuation of the stellar continuum and is typically inferred from SED fitting (e.g., Prospector) or UV/optical colors. It traces the diffuse dust affecting the broader stellar population (Karthikeyan et al. 2026, Section II). [Section II]
+    </p>
+
+    <h2 id="relationship-to-nebular">Relationship to nebular reddening</h2>
+    <p>Comparisons between stellar and nebular E(B−V) reveal dust geometry: nebular regions are often more reddened than the continuum, but the offset evolves with redshift and galaxy properties (Karthikeyan et al. 2026, Section III.2). [Section III.2]</p>
+
+    <h2 id="see-also">See also</h2>
+    <ul>
+      <li><WikiLink slug="pages/nebular_reddening" text="Nebular Reddening" /></li>
+      <li><WikiLink slug="pages/balmer_decrement" text="Balmer Decrement" /></li>
+    </ul>
+
+    <div class="references">
+      <h2>References</h2>
+      <ol>
+        <li>Karthikeyan, S., Clarke, L., Shapley, A. E., et al. (2026). "Balmer Decrements and Nebular-Stellar Reddening in JADES Galaxies at 2.7&lt;z&lt;7." arXiv:2603.11338. <a href="https://arxiv.org/abs/2603.11338">https://arxiv.org/abs/2603.11338</a> (Section II; Section III.2).</li>
+      </ol>
+    </div>
+  </main>
+</Base>

@@ -1,0 +1,36 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "X-ray Power Spectra (PSD) - ArXiv Atlas";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">X-ray Power Spectra (PSD)</h1>
+
+    <p>Power spectral density (PSD) analysis quantifies the variability power as a function of temporal frequency. In X-ray astronomy PSDs are used to study accretion processes in X-ray binaries and active galactic nuclei (AGN).</p>
+
+    <h2 id="section-0">Key Concepts</h2>
+    <ul>
+      <li>Bending power-law models: low-frequency slope, bend (characteristic) frequency, high-frequency slope.</li>
+      <li>Energy dependence: PSD parameters can vary with photon energy, probing different emitting regions.</li>
+      <li>Applications: mass and accretion diagnostics, constraining coronal variability and propagation models.</li>
+    </ul>
+
+    <h2 id="section-1">Recent Results</h2>
+    <p>Diamantopoulos et al. (2026) analysed NGC4051 and NGC4395 and found energy-independent bending frequencies but energy-dependent high-frequency slopes and PSD amplitudes, with harder energies showing flatter high-frequency slopes and lower amplitudes<sup>[1]</sup>.</p>
+
+    <h2 id="section-2">References</h2>
+    <ol>
+      <li id="ref1">Diamantopoulos, V. A., Papadakis, I. E., Akylas, A., et al. (2026). "Energy dependence of the X-ray power spectrum in NGC4051 and NGC4395." <em>A&amp;A</em>, 707, A180. DOI: <a href="https://doi.org/10.1051/0004-6361/202557606">10.1051/0004-6361/202557606</a>.</li>
+    </ol>
+
+    <div class="page-tags">
+      <strong>Tags:</strong>
+      <WikiLink slug="pages/Tag_Xray" text="X-ray" />
+      <WikiLink slug="pages/Tag_Variability" text="Variability" />
+    </div>
+  </main>
+</Base>

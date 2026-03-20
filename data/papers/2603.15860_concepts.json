@@ -1,0 +1,283 @@
+{
+  "core_astronomy": {
+    "foundational": [
+      "dark-matter",
+      "dwarf-galaxy",
+      "stellar-mass",
+      "galaxy-formation",
+      "gravity",
+      "kinematics",
+      "velocity-dispersion",
+      "dark-matter-halo",
+      "gas-cooling",
+      "star-formation",
+      "escape-velocity",
+      "feedback",
+      "supernovae",
+      "globular-cluster",
+      "radial-velocity",
+      "metallicity",
+      "stellar-age",
+      "redshift",
+      "stellar-rotation",
+      "binary-star",
+      "orbital-motion",
+      "dynamical-mass",
+      "stellar-mass-to-light-ratio",
+      "effective-radius",
+      "half-light-radius",
+      "dark-matter-halo-mass",
+      "baryon-fraction",
+      "Local-Group",
+      "baryonic-mass",
+      "gas-content",
+      "tidal-stripping",
+      "galaxy-merger",
+      "quasar",
+      "nature-of-dark-matter"
+    ],
+    "intermediate": [
+      "dark-matter-dominated-galaxy",
+      "stellar-mass-halo-mass-relation",
+      "dwarf-spheroidal",
+      "bottom-up-formation",
+      "ultra-diffuse-galaxy",
+      "galaxy-alignment",
+      "kinematic-connection",
+      "stellar-population",
+      "synthetic-spectra",
+      "macroturbulence",
+      "binary-fraction",
+      "stellar-density",
+      "surface-brightness",
+      "projected-radius",
+      "circularized-radius",
+      "virial-mass",
+      "NFW-profile",
+      "halo-concentration",
+      "universal-baryon-fraction",
+      "dispersion-supported-galaxy",
+      "rotation-supported-galaxy",
+      "v_rot-over-sigma",
+      "photometric-mass-estimate",
+      "neutral-gas",
+      "ionized-gas",
+      "tidal-dwarf-galaxy",
+      "tidal-feature",
+      "infalling-stream",
+      "tidal-field",
+      "AGN-feedback",
+      "ram-pressure-stripping",
+      "extreme-galaxy-formation",
+      "galaxy-formation-channels"
+    ],
+    "specialist": [
+      "dark-matter-free-galaxy",
+      "bullet-cluster-analog",
+      "calcium-triplet",
+      "absorption-line",
+      "integrated-light-spectroscopy",
+      "resolved-stellar-population",
+      "star-cluster-velocity",
+      "systemic-velocity",
+      "velocity-tracer",
+      "nuclear-star-cluster",
+      "central-star-cluster",
+      "SMHM-relation",
+      "halo-mass-function",
+      "r_e-sigma-M_star-plane",
+      "dark-matter-fraction",
+      "top-down-formation",
+      "baryon-dark-matter-separation",
+      "monochromatic-globular-clusters",
+      "quasar-driven-outflow",
+      "bullet-dwarf-collision",
+      "survivability-under-tides",
+      "falsifiable-prediction",
+      "dark-matter-stripping"
+    ]
+  },
+  "techniques": {
+    "foundational": [
+      "spectroscopy",
+      "velocity-measurement",
+      "sky-subtraction",
+      "exposure-time",
+      "seeing",
+      "data-reduction",
+      "wavelength-calibration",
+      "cosmic-ray-removal",
+      "template-fitting",
+      "continuum-fitting",
+      "confusion-noise",
+      "quadrature-subtraction",
+      "apparent-magnitude",
+      "distance-determination",
+      "likelihood-function",
+      "statistical-consistency",
+      "gas-kinematics",
+      "optical-spectroscopy",
+      "statistical-power",
+      "falsification",
+      "distance-measurement",
+      "error-propagation"
+    ],
+    "intermediate": [
+      "integral-field-spectroscopy",
+      "image-slicer",
+      "spectral-resolution",
+      "binning",
+      "spectral-cube",
+      "spatial-alignment",
+      "model-fitting",
+      "sigma-clipping",
+      "noise-normalization",
+      "MCMC-sampling",
+      "posterior-distribution",
+      "Gaussian-fitting",
+      "wavelength-dependent-resolution",
+      "line-broadening",
+      "low-N-statistics",
+      "prior-selection",
+      "Jeffreys-prior",
+      "photometric-band",
+      "V-band",
+      "HI-observation",
+      "emission-line-spectroscopy",
+      "small-sample-statistics",
+      "consistency-check",
+      "distance-scaling",
+      "sensitivity-analysis"
+    ],
+    "specialist": [
+      "absorption-line-spectroscopy",
+      "velocity-dispersion-measurement",
+      "cosmic-ray-rejection",
+      "sky-offset",
+      "sky-line-subtraction",
+      "weighted-spectral-extraction",
+      "vacuum-to-air-wavelength-conversion",
+      "3D-to-1D-collapse",
+      "standardized-residuals",
+      "burn-in",
+      "walker-position",
+      "velocity-outlier-rejection",
+      "asymmetric-uncertainties",
+      "Sersic-correction",
+      "reliability-limits",
+      "spatial-gas-distribution",
+      "gas-dynamics",
+      "velocity-separation-test",
+      "photometric-distance",
+      "linear-distance-relation"
+    ]
+  },
+  "objects": {
+    "foundational": [],
+    "intermediate": [],
+    "specialist": [
+      "NGC-1052-DF2",
+      "NGC-1052-DF4",
+      "NGC-1052-DF9",
+      "NGC-1052-field",
+      "Bullet-Cluster",
+      "trail-galaxies",
+      "Ursa-Minor",
+      "UNIONS-I",
+      "Draco-dwarf-spheroidal",
+      "VCC-917",
+      "Virgo-Cluster-dwarfs"
+    ]
+  },
+  "instruments": {
+    "foundational": [
+      "telescope"
+    ],
+    "intermediate": [
+      "Keck-KCWI",
+      "Keck-II",
+      "spectral-grating",
+      "RH3-grating",
+      "Keck-Cosmic-Web-Imager",
+      "Keck-LRIS"
+    ],
+    "specialist": [
+      "HST-ACS"
+    ]
+  },
+  "surveys": {
+    "foundational": [],
+    "intermediate": [
+      "DECaLS",
+      "HST-mid-cycle-program",
+      "Virgo-Cluster-survey"
+    ],
+    "specialist": [
+      "bullet-dwarf-scenario",
+      "HST-program-16912"
+    ]
+  },
+  "models_theory": {
+    "foundational": [
+      "cosmology",
+      "Lambda-CDM"
+    ],
+    "intermediate": [
+      "stellar-isochrone",
+      "MIST-isochrone",
+      "WMAP9",
+      "cosmological-parameters",
+      "astrophysical-relations",
+      "mass-follows-light",
+      "astrophysical-effects",
+      "dynamical-interaction",
+      "environmental-dependence",
+      "scenarios"
+    ],
+    "specialist": [
+      "Navarro-Frenk-White-profile",
+      "concentration-mass-relation",
+      "astrophysical-signatures",
+      "smoking-gun-evidence",
+      "collision-remnant",
+      "dark-matter-model-discrimination"
+    ]
+  },
+  "measurements": {
+    "foundational": [],
+    "intermediate": [
+      "systemic-velocity",
+      "instrumental-resolution",
+      "gravitational-velocity-dispersion",
+      "mass-within-effective-radius",
+      "photometric-mass",
+      "halo-mass-estimate",
+      "scatter-in-relation",
+      "distance-uncertainty",
+      "systematic-error"
+    ],
+    "specialist": [
+      "HI-gas-mass",
+      "gas-to-stellar-mass-ratio"
+    ]
+  },
+  "software": {
+    "foundational": [],
+    "intermediate": [
+      "data-reduction-pipeline",
+      "CRCombine"
+    ],
+    "specialist": [
+      "emcee"
+    ]
+  },
+  "data_products": {
+    "foundational": [],
+    "intermediate": [],
+    "specialist": [
+      "error-spectrum",
+      "1D-spectrum",
+      "2D-spatial-map"
+    ]
+  }
+}

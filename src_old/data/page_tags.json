@@ -1,0 +1,175 @@
+{
+  "pages/zheng_2026_bar_formation": [
+    "Tag_Bar_Dynamics",
+    "Tag_Bulge_Structure",
+    "Tag_Secular_Evolution",
+    "Tag_Simulations"
+  ],
+  "pages/bar_formation": [
+    "Tag_Dynamical_Processes",
+    "Tag_Galaxy_Structure",
+    "Tag_Secular_Evolution"
+  ],
+  "pages/color-magnitude_diagram": [
+    "Tag_Fundamental_Tools",
+    "Tag_Galaxy_Properties",
+    "Tag_Observations"
+  ],
+  "pages/feng_2026_iras04296_hi21": [
+    "Tag_HI",
+    "Tag_Radio_Astronomy",
+    "Tag_Starbursts"
+  ],
+  "pages/gravitational_lensing": [
+    "Tag_Cosmology",
+    "Tag_Dark_Matter",
+    "Tag_Observational_Techniques"
+  ],
+  "pages/sales-silva_2026_bulge_bar_gradients": [
+    "Tag_Bulge_Structure",
+    "Tag_Galaxy_Chemistry",
+    "Tag_Spectroscopic_Surveys"
+  ],
+  "pages/huston_2026_synthpop": [
+    "Tag_Galactic_Structure",
+    "Tag_Microlensing",
+    "Tag_Roman_Space_Telescope",
+    "Tag_Simulations"
+  ],
+  "pages/interacting_galaxies_hcg77": [
+    "Tag_Galaxy_Interactions",
+    "Tag_Observations",
+    "Tag_Specific_Observations",
+    "Tag_Star_Formation"
+  ],
+  "pages/hi_21cm_line": [
+    "Tag_HI",
+    "Tag_Radio_Astronomy"
+  ],
+  "pages/dillamore_2026_gse_lmc": [
+    "Tag_Dynamics",
+    "Tag_Galaxy_Structure"
+  ],
+  "pages/morphological_quenching": [
+    "Tag_Controversial",
+    "Tag_Galaxy_Structure",
+    "Tag_Quenching_Mechanisms",
+    "Tag_Theories"
+  ],
+  "pages/cluster_merger_shocks_norma": [
+    "Tag_AGN",
+    "Tag_Environmental_Effects",
+    "Tag_Galaxy_Clusters",
+    "Tag_Observations",
+    "Tag_Specific_Observations"
+  ],
+  "pages/xray_power_spectrum": [
+    "Tag_Variability",
+    "Tag_Xray"
+  ],
+  "pages/agn_outflows_dust_kinematics": [
+    "Tag_AGN",
+    "Tag_Dust",
+    "Tag_Feedback",
+    "Tag_Galaxy_Evolution",
+    "Tag_JWST",
+    "Tag_Outflows",
+    "Tag_Spectroscopy"
+  ],
+  "pages/galaxy_bimodality": [
+    "Tag_Fundamental_Concepts",
+    "Tag_Galaxy_Properties",
+    "Tag_Observations",
+    "Tag_Open_Questions"
+  ],
+  "pages/classical_bulges": [
+    "Tag_Galaxy_Components",
+    "Tag_Galaxy_Formation",
+    "Tag_Galaxy_Structure"
+  ],
+  "pages/nuclear_stellar_disk": [
+    "Tag_Galactic_Center",
+    "Tag_Galactic_Components",
+    "Tag_Stellar_Populations"
+  ],
+  "pages/galaxy_interactions_hcg77": [
+    "Tag_Dwarf_Galaxies",
+    "Tag_Galaxy_Groups",
+    "Tag_Galaxy_Interactions",
+    "Tag_Star_Formation",
+    "Tag_Starbursts",
+    "Tag_Tidal_Effects",
+    "Tag_UV_Observations"
+  ],
+  "pages/chazov_2026_trgb_jwst": [
+    "Tag_Distances",
+    "Tag_JWST"
+  ],
+  "pages/collisional_ring_galaxies": [
+    "Tag_Galaxy_Mergers",
+    "Tag_Peculiar_Galaxies",
+    "Tag_Rare_Objects",
+    "Tag_Star_Formation"
+  ],
+  "pages/toomre_q_parameter": [
+    "Tag_Dynamics",
+    "Tag_Fundamental_Parameters",
+    "Tag_Stability"
+  ],
+  "pages/karthikeyan_2026_balmer_reddening": [
+    "Tag_Dust",
+    "Tag_JWST",
+    "Tag_Observations"
+  ],
+  "pages/pattern_speed": [
+    "Tag_Bar_Properties",
+    "Tag_Dynamics",
+    "Tag_Kinematics"
+  ],
+  "pages/vizgan_2026_ring_galaxy": [
+    "Tag_High",
+    "Tag_JWST",
+    "Tag_Morphology",
+    "Tag_Observations",
+    "Tag_Ring_Galaxies"
+  ],
+  "pages/starformation_scaling_relations": [
+    "Tag_Efficiency_Mechanisms",
+    "Tag_Molecular_Clouds",
+    "Tag_Observational_Studies",
+    "Tag_Scaling_Relations",
+    "Tag_Star_Formation"
+  ],
+  "pages/diamantopoulos_2026_xray_psd": [
+    "Tag_AGN",
+    "Tag_Variability",
+    "Tag_Xray"
+  ],
+  "pages/portal_galaxy_evolution": [
+    "Tag_Galaxy_Evolution",
+    "Tag_Portal"
+  ],
+  "pages/metallicity_gradients": [
+    "Tag_Bulge_Structure",
+    "Tag_Galaxy_Chemistry"
+  ],
+  "pages/ring_galaxies": [
+    "Tag_Galaxy_Dynamics",
+    "Tag_Galaxy_Morphology",
+    "Tag_High_Redshift",
+    "Tag_Rare_Objects"
+  ],
+  "pages/mountrichas_2026_agn_environments": [
+    "Tag_AGN",
+    "Tag_Clustering"
+  ],
+  "pages/watkins_2026_isophote_dwarf_structure": [
+    "Tag_Galaxy_Structure",
+    "Tag_Morphology"
+  ],
+  "pages/gravitational_microlensing": [
+    "Tag_Exoplanets",
+    "Tag_Galactic_Structure",
+    "Tag_Observational_Techniques"
+  ]
+}

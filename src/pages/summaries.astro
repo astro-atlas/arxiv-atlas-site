@@ -1,0 +1,99 @@
+---
+import Base from '../layouts/Base.astro';
+import Sidebar from '../components/Sidebar.astro';
+import pagesIndex from '../data/pages_index.json';
+
+const title = "Daily Summaries - ArXiv Atlas";
+
+// Get all daily_summary pages, extract dates from slug (daily-YYYY-MM-DD)
+const summaries = pagesIndex
+  .filter((p: any) => p.page_type === 'daily_summary')
+  .map((p: any) => {
+    const m = (p.page_slug || '').match(/daily-(\d{4})-(\d{2})-(\d{2})/);
+    return {
+      ...p,
+      year: m ? parseInt(m[1]) : 0,
+      month: m ? parseInt(m[2]) : 0,
+      day: m ? parseInt(m[3]) : 0,
+      dateStr: m ? `${m[1]}-${m[2]}-${m[3]}` : '',
+      href: '/' + p.page_slug + '/',
+    };
+  })
+  .filter((s: any) => s.year > 0)
+  .sort((a: any, b: any) => b.dateStr.localeCompare(a.dateStr));
+
+// Build a set of "YYYY-MM-DD" strings for the JS calendar
+const dateSet = summaries.map((s: any) => s.dateStr);
+
+// Build a map of dateStr -> href for navigation
+const dateHrefMap = Object.fromEntries(summaries.map((s: any) => [s.dateStr, s.href]));
+
+// Group by year
+const years = [...new Set(summaries.map((s: any) => s.year))].sort((a, b) => b - a);
+
+const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Daily Summaries</h1>
+    <p>Browse daily digests of new astro-ph.GA papers analyzed by ArXiv Atlas.</p>
+
+    <div class="calendar-container" id="calendarContainer">
+      {years.map((year) => (
+        <div class="calendar-year" data-year={year}>
+          <h2 class="calendar-year-heading">{year}</h2>
+          <div class="calendar-months">
+            {Array.from({ length: 12 }, (_, i) => i + 1).map((month) => {
+              const monthSummaries = summaries.filter((s: any) => s.year === year && s.month === month);
+              if (monthSummaries.length === 0) return null;
+              
+              // Build the calendar grid for this month
+              const firstDay = new Date(year, month - 1, 1).getDay(); // 0=Sun
+              const daysInMonth = new Date(year, month, 0).getDate();
+              
+              return (
+                <div class="calendar-month">
+                  <h3 class="calendar-month-heading">{monthNames[month - 1]}</h3>
+                  <div class="calendar-grid">
+                    <div class="calendar-dow">S</div>
+                    <div class="calendar-dow">M</div>
+                    <div class="calendar-dow">T</div>
+                    <div class="calendar-dow">W</div>
+                    <div class="calendar-dow">T</div>
+                    <div class="calendar-dow">F</div>
+                    <div class="calendar-dow">S</div>
+                    {Array.from({ length: firstDay }, (_, i) => (
+                      <div class="calendar-empty" />
+                    ))}
+                    {Array.from({ length: daysInMonth }, (_, i) => {
+                      const day = i + 1;
+                      const ds = `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+                      const href = dateHrefMap[ds];
+                      if (href) {
+                        return <a class="calendar-day has-summary" href={href}>{day}</a>;
+                      }
+                      return <div class="calendar-day">{day}</div>;
+                    })}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <h2 id="section-0">All Summaries</h2>
+    <ul class="paper-list">
+      {summaries.map((s: any) => (
+        <li>
+          <div class="paper-title">
+            <a href={s.href}>{s.title || s.dateStr}</a>
+          </div>
+          <div class="paper-date">{s.dateStr}</div>
+        </li>
+      ))}
+    </ul>
+  </main>
+</Base>

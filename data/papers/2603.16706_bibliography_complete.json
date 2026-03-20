@@ -1,0 +1,1066 @@
+[
+  {
+    "cite_key": "Sato_2011",
+    "entry_type": "article",
+    "first_author": "Sato",
+    "year": "2011",
+    "doi": "10.1093/pasj/63.sp3.s991",
+    "single_author": false
+  },
+  {
+    "cite_key": "Biviano_2023",
+    "entry_type": "article",
+    "first_author": "Biviano",
+    "year": "2023",
+    "doi": "10.3847/1538-4357/acf832",
+    "single_author": false
+  },
+  {
+    "cite_key": "bartelmann1996",
+    "entry_type": "ARTICLE",
+    "first_author": "Bartelmann",
+    "year": "1996",
+    "doi": "10.48550/arXiv.astro-ph/9602053",
+    "single_author": true
+  },
+  {
+    "cite_key": "Collister_2005",
+    "entry_type": "article",
+    "first_author": "Collister",
+    "year": "2005",
+    "doi": "10.1111/j.1365-2966.2005.09172.x",
+    "single_author": false
+  },
+  {
+    "cite_key": "Lin_2004",
+    "entry_type": "ARTICLE",
+    "first_author": "Lin",
+    "year": "2004",
+    "doi": "10.1086/421714",
+    "single_author": true
+  },
+  {
+    "cite_key": "Lotz_2019",
+    "entry_type": "ARTICLE",
+    "first_author": "Lotz",
+    "year": "2019",
+    "doi": "10.1093/mnras/stz2070",
+    "single_author": true
+  },
+  {
+    "cite_key": "Chabrier2003",
+    "entry_type": "article",
+    "first_author": "Chabrier",
+    "year": "2003",
+    "doi": "10.1086/376392",
+    "single_author": true
+  },
+  {
+    "cite_key": "Boquien2019",
+    "entry_type": "article",
+    "first_author": "Boquien",
+    "year": "2019",
+    "doi": "10.1051/0004-6361/201834156",
+    "single_author": false
+  },
+  {
+    "cite_key": "Zibetti_2009",
+    "entry_type": "article",
+    "first_author": "Zibetti",
+    "year": "2009",
+    "doi": "10.1111/j.1365-2966.2009.15528.x",
+    "single_author": false
+  },
+  {
+    "cite_key": "Nagai2007",
+    "entry_type": "ARTICLE",
+    "first_author": "Nagai",
+    "year": "2007",
+    "doi": "10.1086/521328",
+    "single_author": true
+  },
+  {
+    "cite_key": "Sunyaev1972",
+    "entry_type": "ARTICLE",
+    "first_author": "Sunyaev",
+    "year": "1972",
+    "doi": "",
+    "single_author": true
+  },
+  {
+    "cite_key": "Taffoni2020",
+    "entry_type": "INPROCEEDINGS",
+    "first_author": "Taffoni",
+    "year": "2020",
+    "doi": "",
+    "single_author": true
+  },
+  {
+    "cite_key": "Bertocco2020",
+    "entry_type": "INPROCEEDINGS",
+    "first_author": "Bertocco",
+    "year": "2020",
+    "doi": "",
+    "single_author": true
+  },
+  {
+    "cite_key": "Bonafede2011",
+    "entry_type": "ARTICLE",
+    "first_author": "Bonafede",
+    "year": "2011",
+    "doi": "10.1111/j.1365-2966.2011.19523.x",
+    "single_author": true
+  },
+  {
+    "cite_key": "Rasia2015",
+    "entry_type": "ARTICLE",
+    "first_author": "Rasia",
+    "year": "2015",
+    "doi": "10.1088/2041-8205/813/1/L17",
+    "single_author": true
+  },
+  {
+    "cite_key": "Dolag2025",
+    "entry_type": "ARTICLE",
+    "first_author": "Dolag",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2504.01061",
+    "single_author": true
+  },
+  {
+    "cite_key": "Tornatore2004",
+    "entry_type": "ARTICLE",
+    "first_author": "Tornatore",
+    "year": "2004",
+    "doi": "10.1111/j.1365-2966.2004.07689.x",
+    "single_author": true
+  },
+  {
+    "cite_key": "Hirschmann2014",
+    "entry_type": "ARTICLE",
+    "first_author": "Hirschmann",
+    "year": "2014",
+    "doi": "10.1093/mnras/stu1023",
+    "single_author": true
+  },
+  {
+    "cite_key": "Ragagnin2025",
+    "entry_type": "ARTICLE",
+    "first_author": "Ragagnin",
+    "year": "2025",
+    "doi": "10.1051/0004-6361/202451347",
+    "single_author": true
+  },
+  {
+    "cite_key": "Singh2020",
+    "entry_type": "ARTICLE",
+    "first_author": "Singh",
+    "year": "2020",
+    "doi": "10.1093/mnras/staa1004",
+    "single_author": true
+  },
+  {
+    "cite_key": "Ragagnin2021",
+    "entry_type": "ARTICLE",
+    "first_author": "Ragagnin",
+    "year": "2021",
+    "doi": "10.1093/mnras/staa3523",
+    "single_author": true
+  },
+  {
+    "cite_key": "Giocoli2024",
+    "entry_type": "ARTICLE",
+    "first_author": "Giocoli",
+    "year": "2024",
+    "doi": "10.1051/0004-6361/202346058",
+    "single_author": true
+  },
+  {
+    "cite_key": "Meneghetti2014",
+    "entry_type": "ARTICLE",
+    "first_author": "Meneghetti",
+    "year": "2014",
+    "doi": "10.1088/0004-637X/797/1/34",
+    "single_author": true
+  },
+  {
+    "cite_key": "Ragone-Figueroa2018",
+    "entry_type": "ARTICLE",
+    "first_author": "Ragone-Figueroa",
+    "year": "2018",
+    "doi": "10.1093/mnras/sty1639",
+    "single_author": true
+  },
+  {
+    "cite_key": "Springel2005",
+    "entry_type": "ARTICLE",
+    "first_author": "Springel",
+    "year": "2005",
+    "doi": "10.1111/j.1365-2966.2005.09655.x",
+    "single_author": true
+  },
+  {
+    "cite_key": "Gavazzi_2010",
+    "entry_type": "ARTICLE",
+    "first_author": "Gavazzi",
+    "year": "2010",
+    "doi": "10.1051/0004-6361/201014153",
+    "single_author": true
+  },
+  {
+    "cite_key": "Churazov_2021",
+    "entry_type": "article",
+    "first_author": "Churazov",
+    "year": "2021",
+    "doi": "10.1051/0004-6361/202040197",
+    "single_author": false
+  },
+  {
+    "cite_key": "Gunn_1972",
+    "entry_type": "ARTICLE",
+    "first_author": "Gunn",
+    "year": "1972",
+    "doi": "10.1086/151605",
+    "single_author": true
+  },
+  {
+    "cite_key": "Dressler_1997",
+    "entry_type": "article",
+    "first_author": "Dressler",
+    "year": "1997",
+    "doi": "10.1086/304890",
+    "single_author": false
+  },
+  {
+    "cite_key": "Dressler_1980",
+    "entry_type": "ARTICLE",
+    "first_author": "Dressler",
+    "year": "1980",
+    "doi": "10.1086/157753",
+    "single_author": true
+  },
+  {
+    "cite_key": "Planck_2020",
+    "entry_type": "article",
+    "first_author": "Aghanim",
+    "year": "2020",
+    "doi": "10.1051/0004-6361/201833910",
+    "single_author": false
+  },
+  {
+    "cite_key": "Riess_2018",
+    "entry_type": "article",
+    "first_author": "Riess",
+    "year": "2018",
+    "doi": "10.3847/1538-4357/aaadb7",
+    "single_author": false
+  },
+  {
+    "cite_key": "Krolewski2025",
+    "entry_type": "ARTICLE",
+    "first_author": "Krolewski",
+    "year": "2025",
+    "doi": "10.1103/PhysRevD.111.063526",
+    "single_author": true
+  },
+  {
+    "cite_key": "Healy_2021",
+    "entry_type": "article",
+    "first_author": "Healy",
+    "year": "2021",
+    "doi": "10.1051/0004-6361/202038738",
+    "single_author": false
+  },
+  {
+    "cite_key": "Biviano_2021",
+    "entry_type": "article",
+    "first_author": "Biviano",
+    "year": "2021",
+    "doi": "10.1051/0004-6361/202140564",
+    "single_author": false
+  },
+  {
+    "cite_key": "Biviano_2003",
+    "entry_type": "article",
+    "first_author": "Biviano",
+    "year": "2003",
+    "doi": "10.1086/345893",
+    "single_author": false
+  },
+  {
+    "cite_key": "Sartoris_2020",
+    "entry_type": "ARTICLE",
+    "first_author": "Sartoris",
+    "year": "2020",
+    "doi": "10.1051/0004-6361/202037521",
+    "single_author": true
+  },
+  {
+    "cite_key": "SartorisDM",
+    "entry_type": "ARTICLE",
+    "first_author": "Sartoris",
+    "year": "2014",
+    "doi": "10.1088/2041-8205/783/1/L11",
+    "single_author": true
+  },
+  {
+    "cite_key": "Annunziatella_2014",
+    "entry_type": "article",
+    "first_author": "Annunziatella",
+    "year": "2014",
+    "doi": "10.1051/0004-6361/201424102",
+    "single_author": true
+  },
+  {
+    "cite_key": "Xie_2025",
+    "entry_type": "article",
+    "first_author": "Xie",
+    "year": "2025",
+    "doi": "10.1051/0004-6361/202553915",
+    "single_author": true
+  },
+  {
+    "cite_key": "Malavasi20",
+    "entry_type": "ARTICLE",
+    "first_author": "Malavasi",
+    "year": "2020",
+    "doi": "10.1051/0004-6361/201936629",
+    "single_author": true
+  },
+  {
+    "cite_key": "Biviano25",
+    "entry_type": "ARTICLE",
+    "first_author": "Biviano",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2508.05195",
+    "single_author": true
+  },
+  {
+    "cite_key": "Biviano24",
+    "entry_type": "ARTICLE",
+    "first_author": "Biviano",
+    "year": "2024",
+    "doi": "10.3847/1538-4357/ad2c09",
+    "single_author": true
+  },
+  {
+    "cite_key": "Hwang_2008",
+    "entry_type": "article",
+    "first_author": "Hwang",
+    "year": "2008",
+    "doi": "10.1086/528733",
+    "single_author": false
+  },
+  {
+    "cite_key": "Read21",
+    "entry_type": "ARTICLE",
+    "first_author": "Read",
+    "year": "2021",
+    "doi": "10.1093/mnras/staa3663",
+    "single_author": true
+  },
+  {
+    "cite_key": "Umetsu16",
+    "entry_type": "ARTICLE",
+    "first_author": "Umetsu",
+    "year": "2016",
+    "doi": "10.3847/0004-637X/821/2/116",
+    "single_author": true
+  },
+  {
+    "cite_key": "Benisty25",
+    "entry_type": "ARTICLE",
+    "first_author": "Benisty",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2504.04135",
+    "single_author": true
+  },
+  {
+    "cite_key": "Ragagnin_2024",
+    "entry_type": "article",
+    "first_author": "Ragagnin",
+    "year": "2024",
+    "doi": "10.1051/0004-6361/202449872",
+    "single_author": false
+  },
+  {
+    "cite_key": "Boselli_2022",
+    "entry_type": "article",
+    "first_author": "Boselli",
+    "year": "2022",
+    "doi": "10.1007/s00159-022-00140-3",
+    "single_author": false
+  },
+  {
+    "cite_key": "Sampaio_2024",
+    "entry_type": "article",
+    "first_author": "Sampaio",
+    "year": "2024",
+    "doi": "10.1093/mnras/stae1533",
+    "single_author": false
+  },
+  {
+    "cite_key": "Pizzuti22",
+    "entry_type": "ARTICLE",
+    "first_author": "Pizzuti",
+    "year": "2022",
+    "doi": "10.1093/mnras/stac746",
+    "single_author": true
+  },
+  {
+    "cite_key": "Vall_s_P_rez_2025",
+    "entry_type": "article",
+    "first_author": "Vallés-Pérez",
+    "year": "2025",
+    "doi": "10.1051/0004-6361/202453483",
+    "single_author": false
+  },
+  {
+    "cite_key": "Biviano:2023oyf",
+    "entry_type": "article",
+    "first_author": "Biviano",
+    "year": "2023",
+    "doi": "10.3847/1538-4357/acf832",
+    "single_author": false
+  },
+  {
+    "cite_key": "Zamani24",
+    "entry_type": "ARTICLE",
+    "first_author": "Zamani",
+    "year": "2024",
+    "doi": "10.1140/epjc/s10052-024-13000-4",
+    "single_author": true
+  },
+  {
+    "cite_key": "Fumagalli_2024",
+    "entry_type": "article",
+    "first_author": "Fumagalli",
+    "year": "2024",
+    "doi": "10.1051/0004-6361/202348296",
+    "single_author": false
+  },
+  {
+    "cite_key": "Fumagalli_2021",
+    "entry_type": "article",
+    "first_author": "Fumagalli",
+    "year": "2021",
+    "doi": "10.1051/0004-6361/202140592",
+    "single_author": false
+  },
+  {
+    "cite_key": "Lacasa_2016",
+    "entry_type": "article",
+    "first_author": "Lacasa",
+    "year": "2016",
+    "doi": "10.1088/1475-7516/2016/08/005",
+    "single_author": false
+  },
+  {
+    "cite_key": "Ettori_2009",
+    "entry_type": "article",
+    "first_author": "Ettori",
+    "year": "2009",
+    "doi": "10.1051/0004-6361/200810878",
+    "single_author": false
+  },
+  {
+    "cite_key": "Kashlinsky_2008",
+    "entry_type": "article",
+    "first_author": "Kashlinsky",
+    "year": "2008",
+    "doi": "10.1086/592947",
+    "single_author": false
+  },
+  {
+    "cite_key": "Ettori_2013",
+    "entry_type": "article",
+    "first_author": "Ettori",
+    "year": "2013",
+    "doi": "10.1007/s11214-013-9976-7",
+    "single_author": true
+  },
+  {
+    "cite_key": "Umetsu_2020",
+    "entry_type": "article",
+    "first_author": "Umetsu",
+    "year": "2020",
+    "doi": "10.1007/s00159-020-00129-w",
+    "single_author": true
+  },
+  {
+    "cite_key": "Mamon_2013",
+    "entry_type": "article",
+    "first_author": "Mamon",
+    "year": "2013",
+    "doi": "10.1093/mnras/sts565",
+    "single_author": false
+  },
+  {
+    "cite_key": "Pizzuti_2021",
+    "entry_type": "article",
+    "first_author": "Pizzuti",
+    "year": "2021",
+    "doi": "10.1093/mnras/stab1727",
+    "single_author": false
+  },
+  {
+    "cite_key": "Singh_2019",
+    "entry_type": "article",
+    "first_author": "Singh",
+    "year": "2019",
+    "doi": "10.1093/mnras/stz2523",
+    "single_author": false
+  },
+  {
+    "cite_key": "Vollmer_2001",
+    "entry_type": "ARTICLE",
+    "first_author": "Vollmer",
+    "year": "2001",
+    "doi": "10.1086/323368",
+    "single_author": true
+  },
+  {
+    "cite_key": "Boselli_2006",
+    "entry_type": "article",
+    "first_author": "Boselli",
+    "year": "2006",
+    "doi": "10.1086/500691",
+    "single_author": false
+  },
+  {
+    "cite_key": "Butcher_1978",
+    "entry_type": "article",
+    "first_author": "Butcher",
+    "year": "1978",
+    "doi": "10.1086/155751",
+    "single_author": true
+  },
+  {
+    "cite_key": "Biviano_2013",
+    "entry_type": "article",
+    "first_author": "Biviano",
+    "year": "2013",
+    "doi": "10.1051/0004-6361/201321955",
+    "single_author": false
+  },
+  {
+    "cite_key": "Host_2009",
+    "entry_type": "article",
+    "first_author": "Host",
+    "year": "2009",
+    "doi": "10.1016/j.nuclphysbps.2009.07.010",
+    "single_author": true
+  },
+  {
+    "cite_key": "Hansen_2006",
+    "entry_type": "article",
+    "first_author": "Hansen",
+    "year": "2006",
+    "doi": "10.1016/j.newast.2005.09.001",
+    "single_author": false
+  },
+  {
+    "cite_key": "Mamon_2010",
+    "entry_type": "article",
+    "first_author": "Mamon",
+    "year": "2010",
+    "doi": "10.1051/0004-6361/200913948",
+    "single_author": false
+  },
+  {
+    "cite_key": "Lokas_2003",
+    "entry_type": "article",
+    "first_author": "\\L",
+    "year": "2003",
+    "doi": "10.1046/j.1365-8711.2003.06684.x",
+    "single_author": true
+  },
+  {
+    "cite_key": "Merritt_1987",
+    "entry_type": "ARTICLE",
+    "first_author": "Merritt",
+    "year": "1987",
+    "doi": "10.1086/164953",
+    "single_author": true
+  },
+  {
+    "cite_key": "Diakogiannis_2014",
+    "entry_type": "ARTICLE",
+    "first_author": "Diakogiannis",
+    "year": "2014",
+    "doi": "10.1093/mnras/stu1154",
+    "single_author": true
+  },
+  {
+    "cite_key": "White_1993",
+    "entry_type": "article",
+    "first_author": "White",
+    "year": "1993",
+    "doi": "10.1093/mnras/261.1.L8",
+    "single_author": false
+  },
+  {
+    "cite_key": "Costa_2025",
+    "entry_type": "article",
+    "first_author": "Costa",
+    "year": "",
+    "doi": "10.3390/universe11030082",
+    "single_author": false
+  },
+  {
+    "cite_key": "Caldwell_1993",
+    "entry_type": "ARTICLE",
+    "first_author": "Caldwell",
+    "year": "1993",
+    "doi": "10.1086/116656",
+    "single_author": true
+  },
+  {
+    "cite_key": "Neumann_2001",
+    "entry_type": "article",
+    "first_author": "Neumann",
+    "year": "2001",
+    "doi": "10.1051/0004-6361:20000182",
+    "single_author": true
+  },
+  {
+    "cite_key": "Baier_1990",
+    "entry_type": "ARTICLE",
+    "first_author": "Baier",
+    "year": "1990",
+    "doi": "10.1002/asna.2113110202",
+    "single_author": true
+  },
+  {
+    "cite_key": "Kang_2025",
+    "entry_type": "article",
+    "first_author": "Kang",
+    "year": "2025",
+    "doi": "10.3847/1538-4365/adcac8",
+    "single_author": false
+  },
+  {
+    "cite_key": "Colless_1996",
+    "entry_type": "article",
+    "first_author": "Colless",
+    "year": "1996",
+    "doi": "10.1086/176827",
+    "single_author": false
+  },
+  {
+    "cite_key": "Navarro_1997",
+    "entry_type": "article",
+    "first_author": "Navarro",
+    "year": "1997",
+    "doi": "10.1086/304888",
+    "single_author": false
+  },
+  {
+    "cite_key": "Pizzuti_2020",
+    "entry_type": "article",
+    "first_author": "Pizzuti",
+    "year": "2020",
+    "doi": "10.1088/1475-7516/2020/04/024",
+    "single_author": false
+  },
+  {
+    "cite_key": "Biviano_2006",
+    "entry_type": "article",
+    "first_author": "Biviano",
+    "year": "2006",
+    "doi": "10.1051/0004-6361:20054508",
+    "single_author": false
+  },
+  {
+    "cite_key": "Budzynski_2012",
+    "entry_type": "article",
+    "first_author": "Budzynski",
+    "year": "2012",
+    "doi": "10.1111/j.1365-2966.2012.20663.x",
+    "single_author": false
+  },
+  {
+    "cite_key": "Maraboli_2025",
+    "entry_type": "article",
+    "first_author": "Maraboli",
+    "year": "2025",
+    "doi": "10.1051/0004-6361/202554495",
+    "single_author": false
+  },
+  {
+    "cite_key": "Hernquist_1990",
+    "entry_type": "ARTICLE",
+    "first_author": "Hernquist",
+    "year": "1990",
+    "doi": "10.1086/168845",
+    "single_author": true
+  },
+  {
+    "cite_key": "Sarazin_1980",
+    "entry_type": "ARTICLE",
+    "first_author": "Sarazin",
+    "year": "1980",
+    "doi": "10.1086/157720",
+    "single_author": true
+  },
+  {
+    "cite_key": "Pizzuti_2025b",
+    "entry_type": "article",
+    "first_author": "Pizzuti",
+    "year": "2025",
+    "doi": "10.1051/0004-6361/202555417",
+    "single_author": true
+  },
+  {
+    "cite_key": "Roberts_2018",
+    "entry_type": "article",
+    "first_author": "Roberts",
+    "year": "2018",
+    "doi": "10.1093/mnras/sty131",
+    "single_author": false
+  },
+  {
+    "cite_key": "Yahil_1977",
+    "entry_type": "ARTICLE",
+    "first_author": "Yahil",
+    "year": "1977",
+    "doi": "10.1086/155257",
+    "single_author": true
+  },
+  {
+    "cite_key": "Ribeiro_2013",
+    "entry_type": "article",
+    "first_author": "Ribeiro",
+    "year": "2013",
+    "doi": "10.1093/mnras/stt1071",
+    "single_author": false
+  },
+  {
+    "cite_key": "Anderson_1952",
+    "entry_type": "article",
+    "first_author": "Anderson",
+    "year": "1952",
+    "doi": "10.1214/aoms/1177729437",
+    "single_author": false
+  },
+  {
+    "cite_key": "Boselli_2014",
+    "entry_type": "article",
+    "first_author": "Boselli",
+    "year": "2014",
+    "doi": "10.1051/0004-6361/201424419",
+    "single_author": false
+  },
+  {
+    "cite_key": "Burkert_1995",
+    "entry_type": "article",
+    "first_author": "Burkert",
+    "year": "1995",
+    "doi": "10.1086/309560",
+    "single_author": true
+  },
+  {
+    "cite_key": "Tiret_2007",
+    "entry_type": "article",
+    "first_author": "Tiret",
+    "year": "2007",
+    "doi": "10.1051/0004-6361:20065075",
+    "single_author": false
+  },
+  {
+    "cite_key": "Merritt_1985",
+    "entry_type": "article",
+    "first_author": "Merritt",
+    "year": "1985",
+    "doi": "10.1086/113775",
+    "single_author": true
+  },
+  {
+    "cite_key": "Osipkov_1979",
+    "entry_type": "article",
+    "first_author": "Osipkov",
+    "year": "1979",
+    "doi": "",
+    "single_author": true
+  },
+  {
+    "cite_key": "Mamon_2019",
+    "entry_type": "ARTICLE",
+    "first_author": "Mamon",
+    "year": "2019",
+    "doi": "10.1051/0004-6361/201935081",
+    "single_author": true
+  },
+  {
+    "cite_key": "Pizzuti_2024",
+    "entry_type": "article",
+    "first_author": "Pizzuti",
+    "year": "2024",
+    "doi": "10.1088/1475-7516/2024/11/014",
+    "single_author": false
+  },
+  {
+    "cite_key": "Gelman_1992",
+    "entry_type": "article",
+    "first_author": "Gelman",
+    "year": "1992",
+    "doi": "10.1214/ss/1177011136",
+    "single_author": false
+  },
+  {
+    "cite_key": "Gavazzi_2009",
+    "entry_type": "article",
+    "first_author": "Gavazzi",
+    "year": "2009",
+    "doi": "10.1051/0004-6361/200911841",
+    "single_author": false
+  },
+  {
+    "cite_key": "Cha_2025",
+    "entry_type": "article",
+    "first_author": "Cha",
+    "year": "2025",
+    "doi": "10.3847/1538-4357/adb1b7",
+    "single_author": false
+  },
+  {
+    "cite_key": "Mirakhor_2020",
+    "entry_type": "article",
+    "first_author": "Mirakhor",
+    "year": "2020",
+    "doi": "10.1093/mnras/staa2203",
+    "single_author": false
+  },
+  {
+    "cite_key": "Ho_2022",
+    "entry_type": "article",
+    "first_author": "Ho",
+    "year": "2022",
+    "doi": "10.1038/s41550-022-01711-1",
+    "single_author": false
+  },
+  {
+    "cite_key": "Geller1999",
+    "entry_type": "ARTICLE",
+    "first_author": "Geller",
+    "year": "1999",
+    "doi": "10.1086/312024",
+    "single_author": true
+  },
+  {
+    "cite_key": "Fusco2009",
+    "entry_type": "ARTICLE",
+    "first_author": "Fusco-Femiano",
+    "year": "2009",
+    "doi": "10.1088/0004-637X/705/1/1019",
+    "single_author": true
+  },
+  {
+    "cite_key": "Benavides_2023",
+    "entry_type": "article",
+    "first_author": "Benavides",
+    "year": "2023",
+    "doi": "10.1051/0004-6361/202245422",
+    "single_author": false
+  },
+  {
+    "cite_key": "Dressler_1988",
+    "entry_type": "ARTICLE",
+    "first_author": "Dressler",
+    "year": "1988",
+    "doi": "10.1086/114694",
+    "single_author": true
+  },
+  {
+    "cite_key": "Adami_2005a",
+    "entry_type": "article",
+    "first_author": "Adami",
+    "year": "2005",
+    "doi": "10.1051/0004-6361:20053504",
+    "single_author": true
+  },
+  {
+    "cite_key": "Adami_2005b",
+    "entry_type": "article",
+    "first_author": "Adami",
+    "year": "2005",
+    "doi": "10.1051/0004-6361:20041322",
+    "single_author": true
+  },
+  {
+    "cite_key": "Neumann_2003",
+    "entry_type": "article",
+    "first_author": "Neumann",
+    "year": "2003",
+    "doi": "10.1051/0004-6361:20021911",
+    "single_author": true
+  },
+  {
+    "cite_key": "Krolewski_2024",
+    "entry_type": "article",
+    "first_author": "Krolewski",
+    "year": "2025",
+    "doi": "10.1103/PhysRevD.111.063526",
+    "single_author": false
+  },
+  {
+    "cite_key": "Jimenez_2025",
+    "entry_type": "article",
+    "first_author": "Jiménez-Teja",
+    "year": "2025",
+    "doi": "10.1051/0004-6361/202452384",
+    "single_author": false
+  },
+  {
+    "cite_key": "Tammann72",
+    "entry_type": "ARTICLE",
+    "first_author": "Tammann",
+    "year": "1972",
+    "doi": "",
+    "single_author": true
+  },
+  {
+    "cite_key": "MD77",
+    "entry_type": "ARTICLE",
+    "first_author": "Moss",
+    "year": "1977",
+    "doi": "",
+    "single_author": true
+  },
+  {
+    "cite_key": "Sodre+89",
+    "entry_type": "ARTICLE",
+    "first_author": "Sodr\\'e",
+    "year": "1989",
+    "doi": "",
+    "single_author": true
+  },
+  {
+    "cite_key": "Biviano+92",
+    "entry_type": "ARTICLE",
+    "first_author": "Biviano",
+    "year": "1992",
+    "doi": "10.1086/171695",
+    "single_author": true
+  },
+  {
+    "cite_key": "ABM98",
+    "entry_type": "ARTICLE",
+    "first_author": "Adami",
+    "year": "1998",
+    "doi": "",
+    "single_author": true
+  },
+  {
+    "cite_key": "ZF93",
+    "entry_type": "ARTICLE",
+    "first_author": "Zabludoff",
+    "year": "1993",
+    "doi": "",
+    "single_author": true
+  },
+  {
+    "cite_key": "Biviano+97",
+    "entry_type": "ARTICLE",
+    "first_author": "Biviano",
+    "year": "1997",
+    "doi": "",
+    "single_author": true
+  },
+  {
+    "cite_key": "Ragagnin2022",
+    "entry_type": "ARTICLE",
+    "first_author": "Ragagnin",
+    "year": "2022",
+    "doi": "10.1051/0004-6361/202244397",
+    "single_author": true
+  },
+  {
+    "cite_key": "Biviano+96",
+    "entry_type": "ARTICLE",
+    "first_author": "Biviano",
+    "year": "1996",
+    "doi": "",
+    "single_author": true
+  },
+  {
+    "cite_key": "Lyskova+19",
+    "entry_type": "ARTICLE",
+    "first_author": "Lyskova",
+    "year": "2019",
+    "doi": "10.1093/mnras/stz597",
+    "single_author": true
+  },
+  {
+    "cite_key": "Biviano98",
+    "entry_type": "INPROCEEDINGS",
+    "first_author": "Biviano",
+    "year": "1998",
+    "doi": "10.48550/arXiv.astro-ph/9711251",
+    "single_author": true
+  },
+  {
+    "cite_key": "Ntampaka+15",
+    "entry_type": "ARTICLE",
+    "first_author": "Ntampaka",
+    "year": "2015",
+    "doi": "10.1088/0004-637X/803/2/50",
+    "single_author": true
+  },
+  {
+    "cite_key": "Diaferio99",
+    "entry_type": "ARTICLE",
+    "first_author": "Diaferio",
+    "year": "1999",
+    "doi": "",
+    "single_author": true
+  },
+  {
+    "cite_key": "Zwicky33",
+    "entry_type": "ARTICLE",
+    "first_author": "Zwicky",
+    "year": "1933",
+    "doi": "",
+    "single_author": true
+  },
+  {
+    "cite_key": "DESI_DR1",
+    "entry_type": "ARTICLE",
+    "first_author": "Collaboration",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2503.14745",
+    "single_author": true
+  },
+  {
+    "cite_key": "Lokas02",
+    "entry_type": "ARTICLE",
+    "first_author": "\\L",
+    "year": "2002",
+    "doi": "",
+    "single_author": true
+  },
+  {
+    "cite_key": "Tiret+07",
+    "entry_type": "ARTICLE",
+    "first_author": "Tiret",
+    "year": "2007",
+    "doi": "10.1051/0004-6361:20078569",
+    "single_author": true
+  },
+  {
+    "cite_key": "KW52",
+    "entry_type": "article",
+    "first_author": "Kruskal",
+    "year": "1952",
+    "doi": "",
+    "single_author": false
+  },
+  {
+    "cite_key": "DM46",
+    "entry_type": "article",
+    "first_author": "Dixon",
+    "year": "1946",
+    "doi": "",
+    "single_author": false
+  }
+]

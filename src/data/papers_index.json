@@ -1,0 +1,83 @@
+[
+  {
+    "id": 2,
+    "arxiv_id": "2603.16796",
+    "title": "Park et al. (2026) — Faraday Rotation Measure of 3C 84",
+    "authors": "[\"See paper page\"]",
+    "processed_date": "2026-03-18T20:03:19.811807",
+    "status": "done",
+    "summary_path": "data/papers/2603.16796.md"
+  },
+  {
+    "id": 1,
+    "arxiv_id": "2603.16647",
+    "title": "Peretti et al. (2026) — Particle acceleration at recollimation shocks",
+    "authors": "[\"See paper page\"]",
+    "processed_date": "2026-03-18T20:03:19.796515",
+    "status": "done",
+    "summary_path": "data/papers/2603.16647.md"
+  },
+  {
+    "id": 4,
+    "arxiv_id": "2603.16425",
+    "title": "Jadhav et al. (2025) — Hourglass Magnetic Field in IRDC G351.77-0.53",
+    "authors": "[\"See paper page\"]",
+    "processed_date": "2026-03-18T20:03:19.779538",
+    "status": "done",
+    "summary_path": "data/papers/2603.16425.md"
+  },
+  {
+    "id": 5,
+    "arxiv_id": "2603.16183",
+    "title": "Akhmetali et al. (2026) — Evolution of fractality in centrally concentrated young clusters",
+    "authors": "[\"See paper page\"]",
+    "processed_date": "2026-03-18T20:03:19.779537",
+    "status": "done",
+    "summary_path": "data/papers/2603.16183.md"
+  },
+  {
+    "id": 6,
+    "arxiv_id": "2603.15899",
+    "title": "SN 2025adpq: A Type Ia supernova in a collisional ring formed during a major galaxy merger",
+    "authors": "[\"Brendan O'Connor\", \"Xander J. Hall\", \"Tomas Cabrera\", \"Lei Hu\", \"Antonella Palmese\", \"Louis-Gregory Strolger\", \"Ariel J. Amsellem\", \"Akash Anumarlapudi\", \"Igor Andreoni\", \"Saul Baltasar\", \"Jonathan Carney\", \"David A. Coulter\", \"James Freeburn\", \"Julius Gassert\", \"Xiaosheng Huang\", \"Keerthi Kunnumkai\", \"Justin D. R. Pierel\", \"Mathew R. Siebert\", \"Christopher J. Storfer\"]",
+    "processed_date": "2026-03-18 22:22:12",
+    "status": "done",
+    "summary_path": "data/papers/2603.15899.md"
+  },
+  {
+    "id": 3,
+    "arxiv_id": "2603.16706",
+    "title": "Pedratti et al. (2026) — Coma Cluster Kinematics with DESI",
+    "authors": "[\"See paper page\"]",
+    "processed_date": null,
+    "status": "done",
+    "summary_path": "data/papers/2603.16706.md"
+  },
+  {
+    "id": 7,
+    "arxiv_id": "2603.15869",
+    "title": "J-PLUS spatially resolved stellar populations: M51 group (Paper II)",
+    "authors": "[\"Thain\\u00e1-Batista\", \"and coauthors\"]",
+    "processed_date": null,
+    "status": "done",
+    "summary_path": "data/papers/2603-15869.md"
+  },
+  {
+    "id": 8,
+    "arxiv_id": "2603.15860",
+    "title": "A Third Galaxy Missing Dark Matter along a Trail of Galaxies in the NGC 1052 Field",
+    "authors": "[\"Matthew A. Keim\", \"Pieter van Dokkum\", \"Zili Shen\", \"Shany Danieli\"]",
+    "processed_date": null,
+    "status": "done",
+    "summary_path": "data/papers/2603.15860.md"
+  },
+  {
+    "id": 9,
+    "arxiv_id": "2603.15841",
+    "title": "EGS-z11-R0: a red, dust-rich galaxy at Cosmic Dawn",
+    "authors": "[\"Giulia Rodighiero\", \"Andrea Ferrara\", \"Michele Catone\", \"Lorenzo Napolitano\", \"Paolo Cassata\", \"Giovanni Gandolfi\", \"Emiliano Merlin\", \"Andrea Grazian\", \"Alvio Renzini\", \"Laura Bisigello\", \"Marco Castellano\", \"Pablo G. P\\u00e9rez-Gonz\\u00e1lez\", \"Borja P\\u00e9rez-D\\u00edaz\", \"Edoardo Iani\", \"Carlotta Gruppioni\", \"Steven L. Finkelstein\", \"Anton M. Koekemoer\", \"Alessandro Bianchetti\", \"Francesco Sinigaglia\"]",
+    "processed_date": null,
+    "status": "done",
+    "summary_path": "data/papers/2603.15841.md"
+  }
+]

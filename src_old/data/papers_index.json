@@ -1,0 +1,227 @@
+[
+  {
+    "id": 24,
+    "arxiv_id": "2603.11159",
+    "title": "GSE vs. LMC: reshaping of radially biased stellar haloes by satellites",
+    "authors": "Adam M. Dillamore; Jason L. Sanders; Richard A. N. Brooks",
+    "processed_date": "2026-03-16 02:29:50",
+    "status": "done",
+    "summary_path": "data/papers/dillamore2026_gse_lmc_halo_perturbation.md"
+  },
+  {
+    "id": 23,
+    "arxiv_id": "2603.11160",
+    "title": "The TRGB-SBF Project. IV. A Color Calibration of the TRGB in the JWST F090W+F150W Filters",
+    "authors": "M. I. Chazov; D. I. Makarov; R. B. Tully; G. S. Anand; L. N. Makarova; Y. Cohen; J. P. Blakeslee; M. Cantiello; J. B. Jensen; G. Raimondo",
+    "processed_date": "2026-03-16 02:28:20",
+    "status": "done",
+    "summary_path": "data/papers/chazov2026_trgb_jwst_calibration.md"
+  },
+  {
+    "id": 20,
+    "arxiv_id": "2603.11180",
+    "title": "AGN obscuration in optical and X-rays: Host properties and the interplay of nuclear and galactic gas and dust in a combined SDSS-XMM sample",
+    "authors": "G. Mountrichas, F. J. Carrera, E. Quintin, A. Viitanen, A. Corral, N. Webb",
+    "processed_date": "2026-03-16 02:27:28",
+    "status": "done",
+    "summary_path": "data/papers/mountrichas_2026_agn_obscuration_sdss_xmm.md"
+  },
+  {
+    "id": 21,
+    "arxiv_id": "2603.11179",
+    "title": "A systematic study of AGN feedback in a disk galaxy I: global overview",
+    "authors": "Yuxuan Zou, Feng Yuan, Suoqing Ji, Luis C. Ho, Yingjie Peng, Jing Wang, Bocheng Zhu, Tao Wang",
+    "processed_date": "2026-03-16 02:27:28",
+    "status": "done",
+    "summary_path": "data/papers/zou_2026_agn_feedback_disk_galaxy.md"
+  },
+  {
+    "id": 22,
+    "arxiv_id": "2603.11171",
+    "title": "The Kinematically Hot, Extremely Metal-Poor C-19 Stellar Stream in DESI DR2",
+    "authors": "Nasser Mohammed, Joseph Y. Tang, Ting S. Li, Sergey E. Koposov, Raymond G. Carlberg, Emma Jarvis, Andrew P. Li, Nathan Sandford, and DESI Collaboration",
+    "processed_date": "2026-03-16 02:27:28",
+    "status": "done",
+    "summary_path": "data/papers/mohammed_2026_c19_stellar_stream.md"
+  },
+  {
+    "id": 19,
+    "arxiv_id": "2603.11166",
+    "title": "Isophote shape analysis and the unfortunate subtlety of dwarf galaxy structure",
+    "authors": "A. E. Watkins; I. Lazar; T. Sedgwick; G. Martin; S. Kaviraj; D. Kakkad; C. Collins; B. Bichang'a",
+    "processed_date": "2026-03-16 02:26:53",
+    "status": "done",
+    "summary_path": "data/papers/watkins2026_isophote_dwarf_structure.md"
+  },
+  {
+    "id": 18,
+    "arxiv_id": "2603.11169",
+    "title": "Large-scale environments of star-forming active galactic nuclei: How black hole mass, accretion rate, and luminosity connect to dark matter halos",
+    "authors": "G. Mountrichas; F. J. Carrera; F. Shankar; A. Georgakakis",
+    "processed_date": "2026-03-16 02:24:15",
+    "status": "done",
+    "summary_path": "data/papers/mountrichas2026_agn_environments.md"
+  },
+  {
+    "id": 17,
+    "arxiv_id": "2603.11238",
+    "title": "Very long-term relaxation of harmonic 1D self-gravitating systems",
+    "authors": "Kerwann Tep, Jean-Baptiste Fouvry, Christophe Pichon",
+    "processed_date": "2026-03-16 02:23:50",
+    "status": "done",
+    "summary_path": "data/papers/tep_2026_harmonic_1d_relaxation.md"
+  },
+  {
+    "id": 16,
+    "arxiv_id": "2603.11354",
+    "title": "Galactic Stellar Halo Luminosity Function",
+    "authors": "Sarah A. Bird; Chris Flynn; Rudra Sekhri; Hai-Jun Tian; Juntai Shen; Xiang-Xiang Xue; Chao Liu; Gang Zhao",
+    "processed_date": "2026-03-16 02:18:09",
+    "status": "done",
+    "summary_path": "data/papers/bird2026_galactic_stellar_halo_lf.md"
+  },
+  {
+    "id": 15,
+    "arxiv_id": "2603.11338",
+    "title": "Balmer Decrements and Nebular-Stellar Reddening in JADES Galaxies at 2.7<z<7",
+    "authors": "Shreya Karthikeyan; Leonardo Clarke; Alice E. Shapley; Natalie Lam; Ryan L. Sanders; Naveen A. Reddy; Michael W. Topping; Gabriel B. Brammer",
+    "processed_date": "2026-03-16 02:18:06",
+    "status": "done",
+    "summary_path": "data/papers/karthikeyan2026_balmer_decrements.md"
+  },
+  {
+    "id": 14,
+    "arxiv_id": "2603.11411",
+    "title": "BLUEPRINT: Blue-dominant Lyman-alpha (Lyα) emission as an evidence of gas inflow in ultra-low-mass galaxies at z = 3",
+    "authors": "Tamal Mukherjee, Zhihui Li, Tayyaba Zafar, Themiya Nanayakkara, Davide Tornotti, Luca Costantin, Aalia Imam Uzma",
+    "processed_date": "2026-03-16 02:18:01",
+    "status": "processed",
+    "summary_path": "data/papers/mukherjee2026_blue_dominant_lyalpha.md"
+  },
+  {
+    "id": 13,
+    "arxiv_id": "2603.11747",
+    "title": "Merger-driven buildup of the M_BH - M_* relation bridging high-z overmassive black holes with the local relation",
+    "authors": "Takumi S. Tanaka; John D. Silverman; Kazuhiro Shimasaku; Knud Jahnke; Junyao Li; Makoto Ando",
+    "processed_date": "2026-03-16 02:02:12",
+    "status": "analyzed",
+    "summary_path": "data/papers/tanaka2026_merger_buildup_mbh_mstar.md"
+  },
+  {
+    "id": 12,
+    "arxiv_id": "2603.11782",
+    "title": "Origin of open clusters revealed by the evolution of the m_max - M_ecl relation",
+    "authors": "J. W. Zhou; Sami Dib; Pavel Kroupa",
+    "processed_date": "2026-03-16 02:01:28",
+    "status": "analyzed",
+    "summary_path": "data/papers/zhou2026_mmax_mecl_openclusters.md"
+  },
+  {
+    "id": 11,
+    "arxiv_id": "2603.11789",
+    "title": "Continuum Reverberation in Bright Quasars Using NASA/ATLAS",
+    "authors": "Zachary Steyn; Christian Wolf; Christopher Onken; Ken Smith; Ji-Jia Tang; Andjelka B. Kovacevic; John Tonry; Alejandro Clocchiatti",
+    "processed_date": "2026-03-16 01:48:12",
+    "status": "done",
+    "summary_path": "data/papers/steyn2026_continuum_reverberation.md"
+  },
+  {
+    "id": 10,
+    "arxiv_id": "2603.11803",
+    "title": "Binary disruption during the early phase of open clusters",
+    "authors": "Zepeng Zheng; Long Wang; Holger Baumgardt",
+    "processed_date": "2026-03-16 01:46:54",
+    "status": "done",
+    "summary_path": "data/papers/zheng2026_binary_disruption.md"
+  },
+  {
+    "id": 9,
+    "arxiv_id": "2603.11814",
+    "title": "Chemo-dynamical reconstruction of Milky Way globular cluster progenitors: age--metallicity relations and the universality of multiple stellar populations",
+    "authors": "Carmela Lardo; David Valcin; Raul Jimenez",
+    "processed_date": "2026-03-16 01:45:30",
+    "status": "done",
+    "summary_path": "data/papers/lardo2026_gc_progenitors.md"
+  },
+  {
+    "id": 8,
+    "arxiv_id": "2603.11899",
+    "title": "HI 21-cm Line Properties of the Nearby LIRG IRAS 04296+2923",
+    "authors": "Guixiang Feng, Zhongzu Wu, Chuanpeng Zhang, Ming Zhu",
+    "processed_date": "2026-03-16 01:39:10",
+    "status": "done",
+    "summary_path": "data/papers/feng2026_iras04296_hi21.md"
+  },
+  {
+    "id": 7,
+    "arxiv_id": "2603.12070",
+    "title": "Chemical radial gradients for the bulge-bar stellar populations from the APOGEE survey",
+    "authors": "J. V. Sales-Silva, K. Cunha, V. V. Smith, S. Daflon, D. Souto, R. Guerço, V. Loaiza-Tacuri, A. Queiroz, C. Chiappini, I. Minchev, S. R. Majewski, B. Barbuy, D. Bizyaev, J. G. Fernández-Trincado, P. M. Frinchaboy, S. Hasselquist, D. Horta, H. Jönsson, T. Masseron, N. Prantzos, R. P. Schiavon, M. Schultheis, M. Zoccali",
+    "processed_date": "2026-03-16 01:37:32",
+    "status": "done",
+    "summary_path": "data/papers/sales-silva2026_bulge_bar_gradients.md"
+  },
+  {
+    "id": 25,
+    "arxiv_id": "2603.13010",
+    "title": "Calibrating Galaxy Infall Times in Groups and Clusters with IllustrisTNG Simulations",
+    "authors": "Florine Masson, Laura C. Parker",
+    "processed_date": "2026-03-16",
+    "status": "done",
+    "summary_path": "src/pages/pages/masson_2026_infall_time_pps.astro"
+  },
+  {
+    "id": 1,
+    "arxiv_id": "zheng2026",
+    "title": "Zheng et al. (2026) — Bar formation with bulges",
+    "authors": "Zheng et al.",
+    "processed_date": null,
+    "status": "done",
+    "summary_path": "src/pages/pages/zheng-2026-bar-formation.astro"
+  },
+  {
+    "id": 2,
+    "arxiv_id": "vizgan2026",
+    "title": "Vizgan et al. (2026) — Ring galaxy at z=4",
+    "authors": "Vizgan et al.",
+    "processed_date": null,
+    "status": "done",
+    "summary_path": "src/pages/pages/vizgan-2026-ring-galaxy.astro"
+  },
+  {
+    "id": 3,
+    "arxiv_id": "huston2026",
+    "title": "Huston et al. (2026) — SynthPop microlensing model",
+    "authors": "Huston et al.",
+    "processed_date": null,
+    "status": "done",
+    "summary_path": "src/pages/pages/huston-2026-synthpop.astro"
+  },
+  {
+    "id": 4,
+    "arxiv_id": "norma2026",
+    "title": "Cluster Merger Shocks Norma",
+    "authors": "Unknown",
+    "processed_date": null,
+    "status": "done",
+    "summary_path": "src/pages/pages/norma-cluster-merger-shocks.astro"
+  },
+  {
+    "id": 5,
+    "arxiv_id": "hcg77",
+    "title": "Galaxy Interactions HCG77",
+    "authors": "Unknown",
+    "processed_date": null,
+    "status": "done",
+    "summary_path": "src/pages/pages/hcg77-interactions.astro"
+  },
+  {
+    "id": 6,
+    "arxiv_id": "agn-outflows",
+    "title": "AGN Outflows",
+    "authors": "Unknown",
+    "processed_date": null,
+    "status": "done",
+    "summary_path": "src/pages/pages/agn-outflows.astro"
+  }
+]

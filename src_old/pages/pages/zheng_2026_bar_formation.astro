@@ -1,0 +1,87 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Zheng et al. (2026) - Bar Formation - ArXiv Atlas";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Comparison of Bar Formation Mechanisms. IIIA. The role of classical bulges in spontaneous bar formation</h1>
+        
+        <div class="paper-meta">
+            <p><strong>Authors:</strong> Yirui Zheng, Juntai Shen, Bin-Hui Chen</p>
+            <p><strong>arXiv ID:</strong> <a href="https://arxiv.org/abs/2603.12121" target="_blank">2603.12121</a></p>
+            <p><strong>Date:</strong> 2026-03-12</p>
+            <p><strong>Status:</strong> Submitted to ApJ</p>
+        </div>
+
+        <div class="abstract-box">
+            <h3>Abstract</h3>
+            <p>This N-body simulation study investigates how classical bulges affect bar formation through the internal (spontaneous) mechanism. The authors incorporate bulges of varying mass and compactness into disk galaxy models and evolve them in isolation.</p>
+        </div>
+
+        <h2 id="section-0">Key Findings</h2>
+
+        <h3>Bulge Effects on Bar Formation</h3>
+        <ul>
+            <li>More massive/compact bulges increase <WikiLink slug="pages/Toomre_Q_Parameter" text="Toomre Q" /> stability parameter</li>
+            <li>Increase circular velocity in central regions</li>
+            <li>Decrease disk mass fraction</li>
+            <li>Result: Delayed bar formation onset and increased growth timescale</li>
+            <li>Sufficiently strong bulges can suppress bar formation entirely</li>
+        </ul>
+
+        <h3>Pattern Speed Evolution</h3>
+        <ul>
+            <li>During formation: Bars with more massive/compact bulges show higher initial <WikiLink slug="pages/Pattern_Speed" text="pattern speeds" /></li>
+            <li>Faster deceleration rates persist after <WikiLink slug="pages/Bar_Buckling" text="bar buckling" /></li>
+            <li>Result: Slower-rotating bars in secular growth stage</li>
+        </ul>
+
+        <h3>Secular Growth Stage</h3>
+        <ul>
+            <li>When bulge's "diluting" effect on bar strength is removed</li>
+            <li>All bars within same disk show similar pattern speed-bar strength (Ωₚ-A₂) distributions</li>
+            <li>Similar co-rotation to bar length ratios (R = R_CR/R_bar)</li>
+            <li>Suggests disk dominates pattern speed evolution in this stage</li>
+        </ul>
+
+        <h2 id="section-1">Implications</h2>
+        
+        <div class="claim-box">
+            <strong>Key Claim:</strong> Bulge influence is most significant during bar formation stage. In secular growth stage, disk component dominates pattern speed evolution.
+        </div>
+
+        <ul>
+            <li>Bulge mass and compactness are key parameters for bar suppression</li>
+            <li>Classical bulges play a critical role in regulating bar formation timescales</li>
+            <li>Pattern speed evolution has distinct phases tied to bar development</li>
+        </ul>
+
+        <h2 id="section-2">Related Concepts</h2>
+        <ul>
+            <li><WikiLink slug="pages/Bar_Formation" text="Bar Formation" /></li>
+            <li><WikiLink slug="pages/Classical_Bulges" text="Classical Bulges" /></li>
+            <li><WikiLink slug="pages/Pattern_Speed" text="Pattern Speed" /></li>
+            <li><WikiLink slug="pages/Toomre_Q_Parameter" text="Toomre Q Parameter" /></li>
+            <li><WikiLink slug="pages/Bar_Buckling" text="Bar Buckling" /></li>
+            <li><WikiLink slug="pages/Secular_Evolution" text="Secular Evolution" /></li>
+        </ul>
+
+        <h2 id="section-3">See Also</h2>
+        <ul>
+            <li><WikiLink slug="pages/Galaxy_Bimodality" text="Galaxy Bimodality" /> - Bulges may contribute to quenching</li>
+            <li><WikiLink slug="pages/Morphological_Quenching" text="Morphological Quenching" /> - Related mechanism</li>
+        </ul>
+
+        <div class="page-tags">
+            <strong>Tags:</strong>
+            <WikiLink slug="pages/Tag_Simulations" text="Simulations" />
+            <WikiLink slug="pages/Tag_Bar_Dynamics" text="Bar Dynamics" />
+            <WikiLink slug="pages/Tag_Bulge_Structure" text="Bulge Structure" />
+            <WikiLink slug="pages/Tag_Secular_Evolution" text="Secular Evolution" />
+        </div>
+  </main>
+</Base>

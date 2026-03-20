@@ -1,0 +1,193 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Nuclear Stellar Disk - ArXiv Atlas";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Nuclear Stellar Disk</h1>
+        
+        <div class="infobox">
+            <h3 class="infobox-title">Nuclear Stellar Disk (NSD)</h3>
+            <table>
+                <tr>
+                    <th>Type:</th>
+                    <td>Galactic component</td>
+                </tr>
+                <tr>
+                    <th>Location:</th>
+                    <td>Galactic center</td>
+                </tr>
+                <tr>
+                    <th>Size:</th>
+                    <td>R ~ 200 pc</td>
+                </tr>
+                <tr>
+                    <th>Mass:</th>
+                    <td>~10<sup>9</sup> M<sub>⊙</sub></td>
+                </tr>
+                <tr>
+                    <th>Age:</th>
+                    <td>>80% stars 8-13.5 Gyr</td>
+                </tr>
+                <tr>
+                    <th>Related:</th>
+                    <td><WikiLink slug="pages/Galactic_Center" text="Galactic Center" /><br>
+                        <WikiLink slug="pages/Galactic_Bulge" text="Galactic Bulge" /><br>
+                        <WikiLink slug="pages/Nuclear_Star_Clusters" text="Nuclear Star Clusters" /></td>
+                </tr>
+            </table>
+        </div>
+
+        <p>The <strong>Nuclear Stellar Disk (NSD)</strong> is a distinct stellar component in the innermost region of the Milky Way, centered on <WikiLink slug="pages/Sagittarius_A_Star" text="Sagittarius A*" />. It represents a flattened, rotating structure that is separate from both the <WikiLink slug="pages/Galactic_Bulge" text="Galactic bulge" /> and the <WikiLink slug="pages/Nuclear_Star_Cluster" text="nuclear star cluster" />.</p>
+
+        <h2 id="section-0">Discovery and Characterization</h2>
+        
+        <p>The NSD was identified through high-resolution infrared observations that could penetrate the extreme extinction toward the Galactic center. Key surveys include:</p>
+        <ul>
+            <li>GALACTICNUCLEUS survey (Nogueras-Lara et al. 2019)</li>
+            <li>Fritz et al. (2021) comprehensive study</li>
+            <li>Spitzer and VLT observations</li>
+        </ul>
+
+        <h2 id="section-1">Physical Properties</h2>
+
+        <h3>Structure</h3>
+        <ul>
+            <li>Scale radius: ~100-200 pc</li>
+            <li>Scale height: ~45 pc</li>
+            <li>Total mass: 1.0-1.5 × 10<sup>9</sup> M<sub>⊙</sub><sup>[1]</sup></li>
+            <li>Axisymmetric structure (unlike the barred bulge)</li>
+        </ul>
+
+        <h3>Kinematics</h3>
+        <ul>
+            <li>Significant rotation (~100 km/s)</li>
+            <li>Velocity dispersion decreases with radius</li>
+            <li>Dynamically hot compared to main disk</li>
+            <li>Self-consistent equilibrium model by Sormani et al. (2022)<sup>[1]</sup></li>
+        </ul>
+
+        <h3>Stellar Population</h3>
+        <ul>
+            <li>Predominantly old stars (>8 Gyr)</li>
+            <li>Metal-rich ([Fe/H] ~ 0.3)</li>
+            <li>Some younger components near center</li>
+            <li>Similar age to bulge<sup>[1]</sup></li>
+        </ul>
+
+        <h2 id="section-2">Formation Mechanisms</h2>
+
+        <div class="evidence-for">
+            <h4>Bar-driven Formation</h4>
+            <p>The leading theory involves gas inflow driven by the Galactic bar:</p>
+            <ul>
+                <li>Bar funnels gas to center</li>
+                <li>Gas accumulates and forms stars</li>
+                <li>Creates distinct disk structure</li>
+                <li>Explains rotation and flattening</li>
+            </ul>
+        </div>
+
+        <h3>Alternative Scenarios</h3>
+        <ul>
+            <li>Merger remnant from early Galaxy formation</li>
+            <li>In-situ formation from primordial gas</li>
+            <li>Secular evolution of inner bulge</li>
+        </ul>
+
+        <h2 id="section-3">Relation to Other Components</h2>
+
+        <h3>vs. Nuclear Star Cluster</h3>
+        <ul>
+            <li>NSC is more concentrated (r &lt; 10 pc)</li>
+            <li>NSD extends to ~200 pc</li>
+            <li>Different formation histories</li>
+            <li>NSC embedded within NSD</li>
+        </ul>
+
+        <h3>vs. Galactic Bulge</h3>
+        <ul>
+            <li>NSD is more flattened</li>
+            <li>Higher rotation in NSD</li>
+            <li>NSD is axisymmetric, bulge is barred</li>
+            <li>Similar ages and metallicities<sup>[1]</sup></li>
+        </ul>
+
+        <h2 id="section-4">Observational Challenges</h2>
+
+        <ul>
+            <li>Extreme extinction (A<sub>V</sub> > 30 mag)</li>
+            <li>Crowded stellar fields</li>
+            <li>Requires infrared observations</li>
+            <li>Difficult to separate from bulge</li>
+        </ul>
+
+        <h2 id="section-5">Scientific Importance</h2>
+
+        <h3>Galaxy Evolution</h3>
+        <ul>
+            <li>Traces gas inflow history</li>
+            <li>Probes bar-driven evolution</li>
+            <li>Tests formation scenarios</li>
+        </ul>
+
+        <h3>Galactic Dynamics</h3>
+        <ul>
+            <li>Constrains central mass distribution</li>
+            <li>Affects orbits near Sgr A*</li>
+            <li>Important for <WikiLink slug="pages/Gravitational_Microlensing" text="microlensing" /> models<sup>[1]</sup></li>
+        </ul>
+
+        <h2 id="section-6">In Other Galaxies</h2>
+
+        <p>Nuclear disks have been observed in other galaxies:</p>
+        <ul>
+            <li>Common in barred spirals</li>
+            <li>Often associated with nuclear rings</li>
+            <li>May be universal in bar-driven systems</li>
+        </ul>
+
+        <h2 id="section-7">Future Observations</h2>
+
+        <ul>
+            <li><WikiLink slug="pages/Nancy_Grace_Roman_Space_Telescope" text="Roman Space Telescope" /> will map NSD structure</li>
+            <li>JWST can probe stellar populations</li>
+            <li>ELT will resolve individual stars</li>
+        </ul>
+
+        <h2 id="section-8">Open Questions</h2>
+
+        <ul>
+            <li>Exact formation epoch?</li>
+            <li>Connection to bar evolution?</li>
+            <li>Star formation history details?</li>
+            <li>Contribution to central black hole growth?</li>
+        </ul>
+
+        <h2 id="section-9">See Also</h2>
+        <ul>
+            <li><WikiLink slug="pages/Galactic_Center" text="Galactic Center" /></li>
+            <li><WikiLink slug="pages/Nuclear_Star_Cluster" text="Nuclear Star Cluster" /></li>
+            <li><WikiLink slug="pages/Galactic_Bar" text="Galactic Bar" /></li>
+            <li><WikiLink slug="pages/Bar_Driven_Evolution" text="Bar-Driven Evolution" /></li>
+        </ul>
+
+        <h2 id="section-10">References</h2>
+        <ol class="references">
+            <li>Huston et al. (2026) - "An Updated SynthPop Model for Microlensing Simulations I" arXiv:2603.12219</li>
+            <li>Sormani et al. (2022) - "The nuclear stellar disc of the Milky Way"</li>
+            <li>Nogueras-Lara et al. (2020) - "GALACTICNUCLEUS survey"</li>
+        </ol>
+
+        <div class="page-tags">
+            <strong>Tags:</strong>
+            <WikiLink slug="pages/Tag_Galactic_Components" text="Galactic Components" />
+            <WikiLink slug="pages/Tag_Galactic_Center" text="Galactic Center" />
+            <WikiLink slug="pages/Tag_Stellar_Populations" text="Stellar Populations" />
+        </div>
+  </main>
+</Base>

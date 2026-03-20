@@ -1,0 +1,191 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Gravitational Lensing - ArXiv Atlas";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Gravitational Lensing</h1>
+        
+        <div class="infobox">
+            <h3 class="infobox-title">Gravitational Lensing</h3>
+            <table>
+                <tr>
+                    <th>Type:</th>
+                    <td>Relativistic effect</td>
+                </tr>
+                <tr>
+                    <th>Predicted by:</th>
+                    <td>Einstein (1936)</td>
+                </tr>
+                <tr>
+                    <th>First observed:</th>
+                    <td>1979 (Q0957+561)</td>
+                </tr>
+                <tr>
+                    <th>Types:</th>
+                    <td>Strong, Weak, Micro</td>
+                </tr>
+                <tr>
+                    <th>Related:</th>
+                    <td><WikiLink slug="pages/General_Relativity" text="General Relativity" /><br>
+                        <WikiLink slug="pages/Dark_Matter" text="Dark Matter" /><br>
+                        <WikiLink slug="pages/Cosmology" text="Cosmology" /></td>
+                </tr>
+            </table>
+        </div>
+
+        <p><strong>Gravitational lensing</strong> is the deflection of light by massive objects, as predicted by <WikiLink slug="pages/General_Relativity" text="general relativity" />. This phenomenon has become a powerful tool for studying <WikiLink slug="pages/Dark_Matter" text="dark matter" />, <WikiLink slug="pages/Galaxy_Evolution" text="galaxy evolution" />, and <WikiLink slug="pages/Cosmology" text="cosmology" />.</p>
+
+        <h2 id="section-0">Types of Gravitational Lensing</h2>
+        
+        <h3>Strong Lensing</h3>
+        <ul>
+            <li>Multiple images or <WikiLink slug="pages/Einstein_Rings" text="Einstein rings" /></li>
+            <li>Large deflection angles (>1")</li>
+            <li>Requires precise alignment</li>
+            <li>Probes mass distribution in lenses</li>
+        </ul>
+
+        <h3>Weak Lensing</h3>
+        <ul>
+            <li>Statistical shape distortions</li>
+            <li>Small deflection angles (<<1")</li>
+            <li>Requires many background galaxies</li>
+            <li>Maps large-scale structure</li>
+        </ul>
+
+        <h3>Microlensing</h3>
+        <ul>
+            <li>Time-variable magnification</li>
+            <li>Stellar-mass lenses</li>
+            <li>Used for exoplanet detection</li>
+        </ul>
+
+        <h2 id="section-1">Galaxy-Galaxy Lensing</h2>
+
+        <p>When a foreground galaxy lenses a background galaxy:</p>
+        
+        <div class="evidence-for">
+            <h4>Observable Features</h4>
+            <ul>
+                <li>Multiple images of background galaxy</li>
+                <li>Arcs or Einstein rings</li>
+                <li>Magnification of background source</li>
+                <li>Time delays between images</li>
+            </ul>
+        </div>
+
+        <h3>Einstein Radius</h3>
+        <p>The characteristic angular scale for strong lensing:</p>
+        
+        <p style="text-align: center;">θ<sub>E</sub> = √(4GM/c² × D<sub>LS</sub>/(D<sub>L</sub>D<sub>S</sub>))</p>
+        
+        <p>Where M is the lens mass within θ<sub>E</sub>, and D are angular diameter distances.</p>
+
+        <h2 id="section-2">Contaminants in Lens Surveys</h2>
+
+        <p>Several types of objects can mimic gravitational lenses, leading to false positives in surveys:</p>
+
+        <h3><WikiLink slug="pages/Ring_Galaxies" text="Ring Galaxies" /></h3>
+        <p>A major source of contamination, particularly <WikiLink slug="pages/Collisional_Ring_Galaxies" text="collisional rings" />:<sup>[1]</sup></p>
+        <ul>
+            <li>Morphologically similar to Einstein rings</li>
+            <li>Central galaxy mimics foreground lens</li>
+            <li>Blue star-forming ring mimics lensed arc</li>
+            <li>Can have similar sizes to Einstein radii</li>
+            <li>Cannot distinguish based on morphology alone</li>
+        </ul>
+
+        <div class="evidence-against">
+            <h4>How to Distinguish Ring Galaxies from Lenses</h4>
+            <ul>
+                <li>Spectroscopy: Ring galaxies show single redshift</li>
+                <li>Color gradients: Rings often show color variations</li>
+                <li>Stellar mass ratios: Ring "lenses" have unrealistic M*/M<sub>total</sub><sup>[1]</sup></li>
+                <li>Kinematics: Rings show expansion, not lensing shear</li>
+                <li>Missing counter-images in ring systems</li>
+            </ul>
+        </div>
+
+        <h3>Other Contaminants</h3>
+        <ul>
+            <li><WikiLink slug="pages/Spiral_Arms" text="Face-on spirals" /> with prominent arms</li>
+            <li><WikiLink slug="pages/Merging_Galaxies" text="Merging systems" /> with tidal features</li>
+            <li><WikiLink slug="pages/Polar_Ring_Galaxies" text="Polar ring galaxies" /></li>
+            <li>Edge-on disks with warps</li>
+        </ul>
+
+        <h2 id="section-3">Lens Surveys</h2>
+
+        <h3>Current/Recent Surveys</h3>
+        <ul>
+            <li>SLACS - Sloan Lens ACS Survey</li>
+            <li>BELLS - BOSS Emission-Line Lens Survey</li>
+            <li>SL2S - Strong Lensing Legacy Survey</li>
+            <li>COSMOS-Web Lens Survey (COWLS)</li>
+        </ul>
+
+        <h3>Future Surveys</h3>
+        <ul>
+            <li><WikiLink slug="pages/Euclid_Mission" text="Euclid" /> - Expects ~10⁵ lenses</li>
+            <li><WikiLink slug="pages/Rubin_LSST" text="LSST" /> - Similar large numbers</li>
+            <li><WikiLink slug="pages/Roman_Space_Telescope" text="Roman" /> - High-resolution imaging</li>
+        </ul>
+
+        <h2 id="section-4">Scientific Applications</h2>
+
+        <h3>Cosmology</h3>
+        <ul>
+            <li>H₀ from time delays</li>
+            <li>Dark energy constraints</li>
+            <li>Testing ΛCDM</li>
+        </ul>
+
+        <h3>Galaxy Evolution</h3>
+        <ul>
+            <li>Dark matter halo profiles</li>
+            <li>Substructure detection</li>
+            <li>High-z galaxy studies via magnification</li>
+        </ul>
+
+        <h3>Dark Matter</h3>
+        <ul>
+            <li>Mass distribution in lenses</li>
+            <li>Dark matter fraction measurements</li>
+            <li>Testing alternative gravity theories</li>
+        </ul>
+
+        <h2 id="section-5">Challenges</h2>
+
+        <ul>
+            <li>Lens modeling degeneracies</li>
+            <li>Contamination from non-lenses<sup>[1]</sup></li>
+            <li>Line-of-sight structures</li>
+            <li>Time delay measurements</li>
+        </ul>
+
+        <h2 id="section-6">See Also</h2>
+        <ul>
+            <li><WikiLink slug="pages/Einstein_Rings" text="Einstein Rings" /></li>
+            <li><WikiLink slug="pages/Ring_Galaxies" text="Ring Galaxies" /></li>
+            <li><WikiLink slug="pages/Dark_Matter" text="Dark Matter" /></li>
+            <li><WikiLink slug="pages/Strong_Lensing_Modeling" text="Strong Lensing Modeling" /></li>
+        </ul>
+
+        <h2 id="section-7">References</h2>
+        <ol class="references">
+            <li>Vizgan et al. (2026) - "JWST's PEARLS: A clumpy ring galaxy at z=4.0148" arXiv:2603.11575</li>
+        </ol>
+
+        <div class="page-tags">
+            <strong>Tags:</strong>
+            <WikiLink slug="pages/Tag_Observational_Techniques" text="Observational Techniques" />
+            <WikiLink slug="pages/Tag_Cosmology" text="Cosmology" />
+            <WikiLink slug="pages/Tag_Dark_Matter" text="Dark Matter" />
+        </div>
+  </main>
+</Base>

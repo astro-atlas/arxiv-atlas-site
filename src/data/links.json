@@ -1,0 +1,830 @@
+{
+  "2603_15860": {
+    "title": "Keim et al. (2026) — A Third Galaxy Missing Dark Matter",
+    "exists": false
+  },
+  "dark_matter_free_galaxy": {
+    "title": "Dark-Matter-Free Galaxy",
+    "exists": false
+  },
+  "bullet_dwarf_scenario": {
+    "title": "Bullet Dwarf Scenario",
+    "exists": false
+  },
+  "ultra_diffuse_galaxy": {
+    "title": "Ultra-Diffuse Galaxy",
+    "exists": false
+  },
+  "stellar_mass_halo_mass_relation": {
+    "title": "Stellar Mass–Halo Mass Relation",
+    "exists": false
+  },
+  "pages/daily_2026_03_18": {
+    "title": "Daily Summary — March 18, 2026",
+    "exists": true
+  },
+  "2603_15841": {
+    "title": "Rodighiero et al. (2026) — EGS-z11-R0: a red, dust-rich galaxy at Cosmic Dawn",
+    "exists": false
+  },
+  "high_redshift_galaxies": {
+    "title": "High-Redshift Galaxies",
+    "exists": false
+  },
+  "cosmic_dawn": {
+    "title": "Cosmic Dawn",
+    "exists": false
+  },
+  "red_monsters": {
+    "title": "Red Monsters",
+    "exists": false
+  },
+  "blue_monsters": {
+    "title": "Blue Monsters",
+    "exists": false
+  },
+  "uv_slope": {
+    "title": "UV Slope",
+    "exists": false
+  },
+  "mv_betauv_relation": {
+    "title": "MUV–βUV Relation",
+    "exists": false
+  },
+  "grain_growth": {
+    "title": "Grain Growth",
+    "exists": false
+  },
+  "nebular_continuum": {
+    "title": "Nebular Continuum",
+    "exists": false
+  },
+  "2603_16706": {
+    "title": "Pedratti et al. (2026) — Coma Cluster Kinematics with DESI",
+    "exists": false
+  },
+  "2603_16796": {
+    "title": "Park et al. (2026) — Faraday Rotation Measure of 3C 84",
+    "exists": false
+  },
+  "2603_16183": {
+    "title": "Akhmetali et al. (2026) — Evolution of fractality in centrally concentrated young clusters",
+    "exists": false
+  },
+  "2603_16425": {
+    "title": "Jadhav et al. (2025) — Hourglass Magnetic Field in IRDC G351.77-0.53",
+    "exists": false
+  },
+  "2603_16647": {
+    "title": "Peretti et al. (2026) — Particle acceleration at recollimation shocks",
+    "exists": false
+  },
+  "2603_15869": {
+    "title": "J-PLUS M51 Group Spatially Resolved Stellar Populations",
+    "exists": false
+  },
+  "galaxy_groups": {
+    "title": "Galaxy Groups",
+    "exists": false
+  },
+  "quenching_star_formation": {
+    "title": "Quenching and Star Formation Suppression",
+    "exists": false
+  },
+  "spatially_resolved_stellar_populations": {
+    "title": "Spatially Resolved Stellar Populations",
+    "exists": false
+  },
+  "metallicity_gradients": {
+    "title": "Metallicity Gradients in Galaxies",
+    "exists": false
+  },
+  "early_type_galaxies": {
+    "title": "Early-Type Galaxies",
+    "exists": false
+  },
+  "spiral_galaxies": {
+    "title": "Spiral Galaxies",
+    "exists": false
+  },
+  "emission_line_diagnostics": {
+    "title": "Emission-Line Diagnostics",
+    "exists": false
+  },
+  "integrated_light_velocity_dispersion_systematics": {
+    "title": "Integrated Light Velocity Dispersion Systematics",
+    "exists": false
+  },
+  "q_parameter_fractality": {
+    "title": "Q Parameter Fractality",
+    "exists": false
+  },
+  "agn_feedback": {
+    "title": "Agn Feedback",
+    "exists": false
+  },
+  "trail_of_galaxies_phenomenon": {
+    "title": "Trail Of Galaxies Phenomenon",
+    "exists": false
+  },
+  "fractal_structure_star_clusters": {
+    "title": "Fractal Structure Star Clusters",
+    "exists": false
+  },
+  "dust": {
+    "title": "Dust",
+    "exists": false
+  },
+  "bullet_dwarf_collision": {
+    "title": "Bullet Dwarf Collision",
+    "exists": false
+  },
+  "magnetic_field": {
+    "title": "Magnetic Field",
+    "exists": false
+  },
+  "sofia_hawc_plus": {
+    "title": "Sofia Hawc Plus",
+    "exists": false
+  },
+  "dust_polarimetry": {
+    "title": "Dust Polarimetry",
+    "exists": false
+  },
+  "davis_chandrasekhar_fermi_method": {
+    "title": "Davis Chandrasekhar Fermi Method",
+    "exists": false
+  },
+  "mamposst": {
+    "title": "Mamposst",
+    "exists": false
+  },
+  "faraday_rotation": {
+    "title": "Faraday Rotation",
+    "exists": false
+  },
+  "turbulence_and_diffusion": {
+    "title": "Turbulence And Diffusion",
+    "exists": false
+  },
+  "star_cluster_formation": {
+    "title": "Star Cluster Formation",
+    "exists": false
+  },
+  "3c84_ngc1275_jet": {
+    "title": "3C84 Ngc1275 Jet",
+    "exists": false
+  },
+  "orbital_anisotropy_in_galaxy_clusters": {
+    "title": "Orbital Anisotropy In Galaxy Clusters",
+    "exists": false
+  },
+  "mass_to_flux_ratio": {
+    "title": "Mass To Flux Ratio",
+    "exists": false
+  },
+  "low_n_kinematic_consistency_checks": {
+    "title": "Low N Kinematic Consistency Checks",
+    "exists": false
+  },
+  "turbulence": {
+    "title": "Turbulence",
+    "exists": false
+  },
+  "subcluster_formation": {
+    "title": "Subcluster Formation",
+    "exists": false
+  },
+  "magnetohydrodynamics": {
+    "title": "Magnetohydrodynamics",
+    "exists": false
+  },
+  "gravity": {
+    "title": "Gravity",
+    "exists": false
+  },
+  "magnetic_fields_in_star_formation": {
+    "title": "Magnetic Fields In Star Formation",
+    "exists": false
+  },
+  "diffusive_shock_acceleration": {
+    "title": "Diffusive Shock Acceleration",
+    "exists": false
+  },
+  "interstellar_medium": {
+    "title": "Interstellar Medium",
+    "exists": false
+  },
+  "dynamical_relaxation_clusters": {
+    "title": "Dynamical Relaxation Clusters",
+    "exists": false
+  },
+  "nfw_profile": {
+    "title": "Nfw Profile",
+    "exists": false
+  },
+  "coma_cluster": {
+    "title": "Coma Cluster",
+    "exists": false
+  },
+  "desi_survey": {
+    "title": "Desi Survey",
+    "exists": false
+  },
+  "molecular_cloud": {
+    "title": "Molecular Cloud",
+    "exists": false
+  },
+  "infrared_dark_clouds": {
+    "title": "Infrared Dark Clouds",
+    "exists": false
+  },
+  "jet_cocoon_dynamics": {
+    "title": "Jet Cocoon Dynamics",
+    "exists": false
+  },
+  "hourglass_magnetic_field_morphology": {
+    "title": "Hourglass Magnetic Field Morphology",
+    "exists": false
+  },
+  "sunyaev_zeldovich_effect": {
+    "title": "Sunyaev Zeldovich Effect",
+    "exists": false
+  },
+  "galaxy_cluster_mass_estimation_methods": {
+    "title": "Galaxy Cluster Mass Estimation Methods",
+    "exists": false
+  },
+  "galaxy_cluster_substructures": {
+    "title": "Galaxy Cluster Substructures",
+    "exists": false
+  },
+  "riaf_adaf_models": {
+    "title": "Riaf Adaf Models",
+    "exists": false
+  },
+  "atlasgal_survey": {
+    "title": "Atlasgal Survey",
+    "exists": false
+  },
+  "perseus_cluster": {
+    "title": "Perseus Cluster",
+    "exists": false
+  },
+  "projected_phase_space": {
+    "title": "Projected Phase Space",
+    "exists": false
+  },
+  "ram_pressure_stripping": {
+    "title": "Ram Pressure Stripping",
+    "exists": false
+  },
+  "bondi_accretion": {
+    "title": "Bondi Accretion",
+    "exists": false
+  },
+  "shock_waves": {
+    "title": "Shock Waves",
+    "exists": false
+  },
+  "minimum_spanning_tree": {
+    "title": "Minimum Spanning Tree",
+    "exists": false
+  },
+  "baryon_fraction_in_galaxy_clusters": {
+    "title": "Baryon Fraction In Galaxy Clusters",
+    "exists": false
+  },
+  "column_density": {
+    "title": "Column Density",
+    "exists": false
+  },
+  "polarimetry": {
+    "title": "Polarimetry",
+    "exists": false
+  },
+  "jeans_equation": {
+    "title": "Jeans Equation",
+    "exists": false
+  },
+  "kcwi_red_side_sky_handling": {
+    "title": "Kcwi Red Side Sky Handling",
+    "exists": false
+  },
+  "filamentary_star_formation": {
+    "title": "Filamentary Star Formation",
+    "exists": false
+  },
+  "vlbi_polarimetry": {
+    "title": "Vlbi Polarimetry",
+    "exists": false
+  },
+  "stellar_feedback": {
+    "title": "Stellar Feedback",
+    "exists": false
+  },
+  "recollimation_shocks": {
+    "title": "Recollimation Shocks",
+    "exists": false
+  },
+  "butcher_oemler_effect": {
+    "title": "Butcher Oemler Effect",
+    "exists": false
+  },
+  "star_formation": {
+    "title": null,
+    "exists": false
+  },
+  "red_sequence_green_valley_blue_cloud": {
+    "title": null,
+    "exists": false
+  },
+  "2603_15899": {
+    "title": "SN 2025adpq in a collisional ring",
+    "exists": false
+  },
+  "type_ia_supernovae": {
+    "title": "Type Ia Supernovae",
+    "exists": false
+  },
+  "galaxy_mergers": {
+    "title": "Galaxy Mergers",
+    "exists": false
+  },
+  "collisional_ring_galaxies": {
+    "title": "Collisional Ring Galaxies",
+    "exists": false
+  },
+  "supernova_delay_times": {
+    "title": "Supernova Delay Times",
+    "exists": false
+  },
+  "hostless_supernovae": {
+    "title": "Hostless Supernovae",
+    "exists": false
+  },
+  "large_offset_supernovae": {
+    "title": "Large-Offset Supernovae",
+    "exists": false
+  },
+  "dynamical_stellar_displacement": {
+    "title": "Dynamical Stellar Displacement",
+    "exists": false
+  },
+  "pages/dynamical_relaxation_clusters": {
+    "title": "Dynamical Relaxation Clusters",
+    "exists": true
+  },
+  "pages/subcluster_formation": {
+    "title": "Subcluster Formation",
+    "exists": true
+  },
+  "pages/q_parameter_fractality": {
+    "title": "Q Parameter Fractality",
+    "exists": true
+  },
+  "pages/magnetohydrodynamics": {
+    "title": "Magnetohydrodynamics",
+    "exists": true
+  },
+  "pages/star_cluster_formation": {
+    "title": "Star Cluster Formation",
+    "exists": true
+  },
+  "pages/fractal_structure_star_clusters": {
+    "title": "Fractal Structure Star Clusters",
+    "exists": true
+  },
+  "pages/stellar_feedback": {
+    "title": "Stellar Feedback",
+    "exists": true
+  },
+  "pages/minimum_spanning_tree": {
+    "title": "Minimum Spanning Tree",
+    "exists": true
+  },
+  "pages/magnetic_field": {
+    "title": "Magnetic Field",
+    "exists": true
+  },
+  "pages/column_density": {
+    "title": "Column Density",
+    "exists": true
+  },
+  "pages/turbulence": {
+    "title": "Turbulence",
+    "exists": true
+  },
+  "pages/sofia_hawc_plus": {
+    "title": "Sofia Hawc Plus",
+    "exists": true
+  },
+  "pages/davis_chandrasekhar_fermi_method": {
+    "title": "Davis Chandrasekhar Fermi Method",
+    "exists": true
+  },
+  "pages/dust": {
+    "title": "Dust",
+    "exists": true
+  },
+  "pages/atlasgal_survey": {
+    "title": "Atlasgal Survey",
+    "exists": true
+  },
+  "pages/hourglass_magnetic_field_morphology": {
+    "title": "Hourglass Magnetic Field Morphology",
+    "exists": true
+  },
+  "pages/dust_polarimetry": {
+    "title": "Dust Polarimetry",
+    "exists": true
+  },
+  "pages/polarimetry": {
+    "title": "Polarimetry",
+    "exists": true
+  },
+  "pages/mass_to_flux_ratio": {
+    "title": "Mass To Flux Ratio",
+    "exists": true
+  },
+  "pages/infrared_dark_clouds": {
+    "title": "Infrared Dark Clouds",
+    "exists": true
+  },
+  "pages/gravity": {
+    "title": "Gravity",
+    "exists": true
+  },
+  "pages/interstellar_medium": {
+    "title": "Interstellar Medium",
+    "exists": true
+  },
+  "pages/filamentary_star_formation": {
+    "title": "Filamentary Star Formation",
+    "exists": true
+  },
+  "pages/molecular_cloud": {
+    "title": "Molecular Cloud",
+    "exists": true
+  },
+  "pages/magnetic_fields_in_star_formation": {
+    "title": "Magnetic Fields In Star Formation",
+    "exists": true
+  },
+  "pages/star_formation": {
+    "title": "Star Formation",
+    "exists": true
+  },
+  "pages/another_topic": {
+    "title": "Another Topic",
+    "exists": false
+  },
+  "pages/author_year": {
+    "title": "Author Year",
+    "exists": false
+  },
+  "pages/bromberg_2011": {
+    "title": "Bromberg_2011",
+    "exists": false
+  },
+  "pages/galaxy_bimodality": {
+    "title": "Galaxy Bimodality",
+    "exists": false
+  },
+  "pages/magnetic_fields_in_elliptical_galaxies": {
+    "title": "Magnetic Fields In Elliptical Galaxies",
+    "exists": false
+  },
+  "pages/norman_1982": {
+    "title": "Norman 1982",
+    "exists": false
+  },
+  "pages/parsec_scale_agn_jets": {
+    "title": "Parsec Scale Agn Jets",
+    "exists": false
+  },
+  "pages/portal_galaxy_evolution": {
+    "title": "Portal Galaxy Evolution",
+    "exists": true
+  },
+  "pages/random": {
+    "title": "Random",
+    "exists": false
+  },
+  "pages/related_concept": {
+    "title": "Related Concept",
+    "exists": false
+  },
+  "pages/related_page": {
+    "title": "Related Page",
+    "exists": false
+  },
+  "pages/tag_concept": {
+    "title": "Tag Concept",
+    "exists": false
+  },
+  "pages/tag_dark_matter": {
+    "title": "Tag Dark Matter",
+    "exists": false
+  },
+  "pages/tag_galaxy_clusters": {
+    "title": "Tag Galaxy Clusters",
+    "exists": false
+  },
+  "pages/tag_galaxy_evolution": {
+    "title": "Tag Galaxy Evolution",
+    "exists": false
+  },
+  "pages/tag_instruments": {
+    "title": "Tag Instruments",
+    "exists": false
+  },
+  "pages/tag_methods": {
+    "title": "Tag Methods",
+    "exists": false
+  },
+  "pages/tag_quenching_mechanisms": {
+    "title": "Tag Quenching Mechanisms",
+    "exists": false
+  },
+  "pages/tag_surveys": {
+    "title": "Tag Surveys",
+    "exists": false
+  },
+  "pages/weaver_1977": {
+    "title": "Weaver_1977",
+    "exists": false
+  },
+  "concepts/sofia_hawc_plus": {
+    "title": "SOFIA/HAWC+ Instrument",
+    "exists": false
+  },
+  "concepts/radfil_filament_fitter": {
+    "title": "RadFil Algorithm",
+    "exists": false
+  },
+  "concepts/magmar_survey": {
+    "title": "MagMaR Survey",
+    "exists": false
+  },
+  "concepts/ballad_pol_survey": {
+    "title": "BALLAD-POL Survey",
+    "exists": false
+  },
+  "concepts/ashes_survey_alma": {
+    "title": "ASHES Survey",
+    "exists": false
+  },
+  "concepts/alma_imf_survey": {
+    "title": "ALMA-IMF Survey",
+    "exists": false
+  },
+  "concepts/atlasgal_survey": {
+    "title": "ATLASGAL Survey",
+    "exists": false
+  },
+  "concepts/fieldmaps_survey": {
+    "title": "FIELDMAPS Survey",
+    "exists": false
+  },
+  "concepts/magnetically_transcritical_cloud": {
+    "title": "Magnetically Transcritical Cloud",
+    "exists": false
+  },
+  "concepts/angular_structure_function_polarimetry": {
+    "title": "Angular Structure Function (Polarimetry)",
+    "exists": false
+  },
+  "concepts/infrared_dark_cloud": {
+    "title": "Infrared Dark Cloud (IRDC)",
+    "exists": false
+  },
+  "concepts/magnetic_field_in_ism": {
+    "title": "Magnetic Field in the ISM",
+    "exists": false
+  },
+  "concepts/filamentary_molecular_cloud": {
+    "title": "Filamentary Molecular Cloud",
+    "exists": false
+  },
+  "concepts/davis_chandrasekhar_fermi_method": {
+    "title": "Davis-Chandrasekhar-Fermi (DCF) Method",
+    "exists": false
+  },
+  "concepts/mass_to_flux_ratio": {
+    "title": "Mass-to-Flux Ratio",
+    "exists": false
+  },
+  "concepts/hub_filament_system": {
+    "title": "Hub-Filament System",
+    "exists": false
+  },
+  "concepts/hourglass_magnetic_field": {
+    "title": "Hourglass-Shaped Magnetic Field",
+    "exists": false
+  },
+  "concepts/dust_grain_alignment": {
+    "title": "Dust Grain Alignment",
+    "exists": false
+  },
+  "pages/ram_pressure_stripping": {
+    "title": "Ram-Pressure Stripping",
+    "exists": true
+  },
+  "pages/galaxy_cluster_substructures": {
+    "title": "Galaxy Cluster Substructures",
+    "exists": true
+  },
+  "pages/sunyaev_zeldovich_effect": {
+    "title": "Sunyaev-Zeldovich Effect",
+    "exists": true
+  },
+  "pages/desi_survey": {
+    "title": "DESI Survey",
+    "exists": true
+  },
+  "pages/baryon_fraction_in_galaxy_clusters": {
+    "title": "Baryon Fraction in Galaxy Clusters",
+    "exists": true
+  },
+  "pages/galaxy_cluster_mass_estimation_methods": {
+    "title": "Galaxy Cluster Mass Estimation Methods",
+    "exists": true
+  },
+  "pages/nfw_profile": {
+    "title": "NFW Profile",
+    "exists": true
+  },
+  "pages/mamposst": {
+    "title": "MAMPOSSt / MG-MAMPOSSt",
+    "exists": true
+  },
+  "pages/coma_cluster": {
+    "title": "Coma Cluster (Abell 1656)",
+    "exists": true
+  },
+  "pages/red_sequence_green_valley_blue_cloud": {
+    "title": "Red Sequence / Green Valley / Blue Cloud Classification",
+    "exists": true
+  },
+  "pages/projected_phase_space": {
+    "title": "Projected Phase Space (PPS) Analysis",
+    "exists": true
+  },
+  "pages/jeans_equation": {
+    "title": "Jeans Equation (Cluster Dynamics)",
+    "exists": true
+  },
+  "pages/orbital_anisotropy_in_galaxy_clusters": {
+    "title": "Orbital Anisotropy in Galaxy Clusters",
+    "exists": true
+  },
+  "pages/butcher_oemler_effect": {
+    "title": "Butcher-Oemler Effect",
+    "exists": true
+  },
+  "pages/riaf_adaf_models": {
+    "title": "Riaf Adaf Models",
+    "exists": true
+  },
+  "pages/turbulence_and_diffusion": {
+    "title": "Turbulence And Diffusion",
+    "exists": true
+  },
+  "pages/vlbi_polarimetry": {
+    "title": "Vlbi Polarimetry",
+    "exists": true
+  },
+  "pages/perseus_cluster": {
+    "title": "Perseus Cluster",
+    "exists": true
+  },
+  "pages/agn_feedback": {
+    "title": "Agn Feedback",
+    "exists": true
+  },
+  "pages/faraday_rotation": {
+    "title": "Faraday Rotation",
+    "exists": true
+  },
+  "pages/jet_cocoon_dynamics": {
+    "title": "Jet Cocoon Dynamics",
+    "exists": true
+  },
+  "pages/shock_waves_basics": {
+    "title": "Shock Waves Basics",
+    "exists": false
+  },
+  "pages/faraday_rotation_basics": {
+    "title": "Faraday Rotation Basics",
+    "exists": false
+  },
+  "pages/bondi_accretion": {
+    "title": "Bondi Accretion",
+    "exists": true
+  },
+  "pages/3c84_ngc1275_jet": {
+    "title": "3C84 Ngc1275 Jet",
+    "exists": true
+  },
+  "pages/subedi2017": {
+    "title": "Subedi2017",
+    "exists": false
+  },
+  "pages/dundovic2020": {
+    "title": "Dundovic2020",
+    "exists": false
+  },
+  "pages/rodriguez_kamentzky2017": {
+    "title": "Rodriguez Kamentzky2017",
+    "exists": false
+  },
+  "pages/ulvestad_2005": {
+    "title": "Ulvestad_2005",
+    "exists": false
+  },
+  "pages/fabrika_2004": {
+    "title": "Fabrika_2004",
+    "exists": false
+  },
+  "pages/bell2011": {
+    "title": "Bell2011",
+    "exists": false
+  },
+  "pages/hillas1984": {
+    "title": "Hillas1984",
+    "exists": false
+  },
+  "pages/kirk1989": {
+    "title": "Kirk1989",
+    "exists": false
+  },
+  "pages/morlino2021": {
+    "title": "Morlino2021",
+    "exists": false
+  },
+  "random": {
+    "title": "Random",
+    "exists": true
+  },
+  "pages/portal_particle_acceleration_in_jets": {
+    "title": "Portal Particle Acceleration In Jets",
+    "exists": false
+  },
+  "index": {
+    "title": "Index",
+    "exists": true
+  },
+  "pages/particle_acceleration_basics": {
+    "title": "Particle Acceleration Basics",
+    "exists": false
+  },
+  "pages/relativistic_jets": {
+    "title": "Relativistic Jets",
+    "exists": false
+  },
+  "pages/recollimation_shocks": {
+    "title": "Recollimation Shocks",
+    "exists": true
+  },
+  "pages/particle_acceleration_oblique_shocks": {
+    "title": "Particle Acceleration Oblique Shocks",
+    "exists": false
+  },
+  "pages/_template": {
+    "title": "_Template",
+    "exists": false
+  },
+  "pages/diffusive_shock_acceleration": {
+    "title": "Diffusive Shock Acceleration",
+    "exists": true
+  },
+  "pages/jet_cocoon_systems": {
+    "title": "Jet Cocoon Systems",
+    "exists": false
+  },
+  "pages/astrophysical_jets": {
+    "title": "Astrophysical Jets",
+    "exists": false
+  },
+  "pages/shock_waves": {
+    "title": "Shock Waves",
+    "exists": true
+  },
+  "pages/2603_16647": {
+    "title": null,
+    "exists": true
+  },
+  "pages/2603_16796": {
+    "title": null,
+    "exists": true
+  },
+  "pages/2603_16706": {
+    "title": null,
+    "exists": true
+  },
+  "pages/2603_16425": {
+    "title": null,
+    "exists": true
+  }
+}

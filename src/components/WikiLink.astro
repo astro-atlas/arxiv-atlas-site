@@ -1,0 +1,23 @@
+---
+// Simple Astro component to render links using precomputed links.json
+const { slug: rawSlug, text, variant } = Astro.props; // variant: 'primary'|'secondary' -> adds hero-btn classes
+import links from '../data/links.json';
+function normalizeSlug(s: string | undefined | null): string {
+  if(!s) return '';
+  return s.toString().trim().replace(/^\/+|\/+$/g,'').replace(/[\s-]+/g,'_').toLowerCase();
+}
+const slug = normalizeSlug(rawSlug);
+// try direct lookup, then prefixed with 'pages/' if not found
+let entry = (links as Record<string, any>)[slug] || null;
+if(!entry && !slug.startsWith('pages/')) entry = (links as Record<string, any>)['pages/' + slug] || null;
+if(!entry) entry = { exists: false, title: null };
+// Build href: use hyphens (matching Astro file names), no trailing slash
+const hrefSlug = slug.startsWith('pages/') ? slug : ('pages/' + slug);
+const href = '/' + hrefSlug.replace(/_/g, '-');
+const exists = !!entry.exists;
+let className = exists ? 'wikilink' : 'wikilink missing redlink';
+if(variant === 'primary' || variant === 'secondary'){
+  className = 'hero-btn ' + variant + ' ' + className;
+}
+---
+<a class={className} href={href} title={entry.title || ''} data-exists={String(exists)}>{text || (entry.title || slug)}</a>

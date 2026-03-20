@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Balescu–Lenard equation";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Balescu–Lenard equation</h1>
+
+    <p>The inhomogeneous Balescu–Lenard (BL) equation is a quasilinear kinetic equation describing slow, self-consistent collisional relaxation (due to finite-N shot noise) in long-range interacting systems. For non-degenerate systems it predicts trel ∝ N t_dyn. However, the BL derivation requires a non-degenerate frequency map Ω(E); when Ω is flat (harmonic), the resonance δ(kΩ−k'Ω') becomes ill-defined and BL does not apply (see Tep et al. 2026).</p>
+
+    <h2>References</h2>
+    <ol>
+      <li id="ref1">Heyvaerts (2010); Chavanis (2012); Roule et al. (2022) — formal derivations and recent applications.</li>
+      <li id="ref2">Tep, K.; Fouvry, J.-B.; Pichon, C. (2026). "Very long-term relaxation of harmonic 1D self-gravitating systems." arXiv:2603.11238. <a href="https://arxiv.org/abs/2603.11238">https://arxiv.org/abs/2603.11238</a></li>
+    </ol>
+
+    <div class="page-tags">
+      <strong>Tags:</strong>
+      <WikiLink slug="pages/kinetic_theory" text="Kinetic theory" />
+    </div>
+  </main>
+</Base>

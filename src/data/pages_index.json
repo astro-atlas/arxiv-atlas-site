@@ -1,0 +1,1642 @@
+[
+  {
+    "id": 219,
+    "page_slug": "2603-15860",
+    "title": "Keim et al. (2026) — A Third Galaxy Missing Dark Matter",
+    "page_type": "paper",
+    "path": "src/content/pages/2603-15860.md",
+    "created_date": "2026-03-20 19:01:55"
+  },
+  {
+    "id": 220,
+    "page_slug": "dark-matter-free-galaxy",
+    "title": "Dark-Matter-Free Galaxy",
+    "page_type": "concept",
+    "path": "src/content/pages/dark-matter-free-galaxy.md",
+    "created_date": "2026-03-20 19:01:55"
+  },
+  {
+    "id": 221,
+    "page_slug": "bullet-dwarf-scenario",
+    "title": "Bullet Dwarf Scenario",
+    "page_type": "concept",
+    "path": "src/content/pages/bullet-dwarf-scenario.md",
+    "created_date": "2026-03-20 19:01:55"
+  },
+  {
+    "id": 222,
+    "page_slug": "ultra-diffuse-galaxy",
+    "title": "Ultra-Diffuse Galaxy",
+    "page_type": "concept",
+    "path": "src/content/pages/ultra-diffuse-galaxy.md",
+    "created_date": "2026-03-20 19:01:55"
+  },
+  {
+    "id": 223,
+    "page_slug": "stellar-mass-halo-mass-relation",
+    "title": "Stellar Mass–Halo Mass Relation",
+    "page_type": "concept",
+    "path": "src/content/pages/stellar-mass-halo-mass-relation.md",
+    "created_date": "2026-03-20 19:01:55"
+  },
+  {
+    "id": 218,
+    "page_slug": "pages/daily-2026-03-18",
+    "title": "Daily Summary — March 18, 2026",
+    "page_type": "daily_summary",
+    "path": "src/content/pages/daily-2026-03-18.md",
+    "created_date": "2026-03-19 14:20:26"
+  },
+  {
+    "id": 209,
+    "page_slug": "2603-15841",
+    "title": "Rodighiero et al. (2026) — EGS-z11-R0: a red, dust-rich galaxy at Cosmic Dawn",
+    "page_type": "paper",
+    "path": "src/content/pages/2603-15841.md",
+    "created_date": "2026-03-19 01:44:55"
+  },
+  {
+    "id": 210,
+    "page_slug": "high-redshift-galaxies",
+    "title": "High-Redshift Galaxies",
+    "page_type": "concept",
+    "path": "src/content/pages/high-redshift-galaxies.md",
+    "created_date": "2026-03-19 01:44:55"
+  },
+  {
+    "id": 211,
+    "page_slug": "cosmic-dawn",
+    "title": "Cosmic Dawn",
+    "page_type": "concept",
+    "path": "src/content/pages/cosmic-dawn.md",
+    "created_date": "2026-03-19 01:44:55"
+  },
+  {
+    "id": 212,
+    "page_slug": "red-monsters",
+    "title": "Red Monsters",
+    "page_type": "concept",
+    "path": "src/content/pages/red-monsters.md",
+    "created_date": "2026-03-19 01:44:55"
+  },
+  {
+    "id": 213,
+    "page_slug": "blue-monsters",
+    "title": "Blue Monsters",
+    "page_type": "concept",
+    "path": "src/content/pages/blue-monsters.md",
+    "created_date": "2026-03-19 01:44:55"
+  },
+  {
+    "id": 214,
+    "page_slug": "uv-slope",
+    "title": "UV Slope",
+    "page_type": "concept",
+    "path": "src/content/pages/uv-slope.md",
+    "created_date": "2026-03-19 01:44:55"
+  },
+  {
+    "id": 215,
+    "page_slug": "mv-betauv-relation",
+    "title": "MUV–βUV Relation",
+    "page_type": "concept",
+    "path": "src/content/pages/mv-betauv-relation.md",
+    "created_date": "2026-03-19 01:44:55"
+  },
+  {
+    "id": 216,
+    "page_slug": "grain-growth",
+    "title": "Grain Growth",
+    "page_type": "concept",
+    "path": "src/content/pages/grain-growth.md",
+    "created_date": "2026-03-19 01:44:55"
+  },
+  {
+    "id": 217,
+    "page_slug": "nebular-continuum",
+    "title": "Nebular Continuum",
+    "page_type": "concept",
+    "path": "src/content/pages/nebular-continuum.md",
+    "created_date": "2026-03-19 01:44:55"
+  },
+  {
+    "id": 207,
+    "page_slug": "2603-16706",
+    "title": "Pedratti et al. (2026) — Coma Cluster Kinematics with DESI",
+    "page_type": "paper",
+    "path": "src/content/pages/2603-16706.md",
+    "created_date": "2026-03-19 00:57:25"
+  },
+  {
+    "id": 208,
+    "page_slug": "2603-16796",
+    "title": "Park et al. (2026) — Faraday Rotation Measure of 3C 84",
+    "page_type": "paper",
+    "path": "src/content/pages/2603-16796.md",
+    "created_date": "2026-03-19 00:57:25"
+  },
+  {
+    "id": 204,
+    "page_slug": "2603-16183",
+    "title": "Akhmetali et al. (2026) — Evolution of fractality in centrally concentrated young clusters",
+    "page_type": "paper",
+    "path": "src/content/pages/2603-16183.md",
+    "created_date": "2026-03-19 00:57:24"
+  },
+  {
+    "id": 205,
+    "page_slug": "2603-16425",
+    "title": "Jadhav et al. (2025) — Hourglass Magnetic Field in IRDC G351.77-0.53",
+    "page_type": "paper",
+    "path": "src/content/pages/2603-16425.md",
+    "created_date": "2026-03-19 00:57:24"
+  },
+  {
+    "id": 206,
+    "page_slug": "2603-16647",
+    "title": "Peretti et al. (2026) — Particle acceleration at recollimation shocks",
+    "page_type": "paper",
+    "path": "src/content/pages/2603-16647.md",
+    "created_date": "2026-03-19 00:57:24"
+  },
+  {
+    "id": 196,
+    "page_slug": "2603-15869",
+    "title": "J-PLUS M51 Group Spatially Resolved Stellar Populations",
+    "page_type": "paper",
+    "path": "src/content/pages/2603-15869.md",
+    "created_date": "2026-03-19 00:53:41"
+  },
+  {
+    "id": 197,
+    "page_slug": "galaxy-groups",
+    "title": "Galaxy Groups",
+    "page_type": "concept",
+    "path": "src/content/pages/galaxy-groups.md",
+    "created_date": "2026-03-19 00:53:41"
+  },
+  {
+    "id": 198,
+    "page_slug": "quenching-star-formation",
+    "title": "Quenching and Star Formation Suppression",
+    "page_type": "concept",
+    "path": "src/content/pages/quenching-star-formation.md",
+    "created_date": "2026-03-19 00:53:41"
+  },
+  {
+    "id": 199,
+    "page_slug": "spatially-resolved-stellar-populations",
+    "title": "Spatially Resolved Stellar Populations",
+    "page_type": "concept",
+    "path": "src/content/pages/spatially-resolved-stellar-populations.md",
+    "created_date": "2026-03-19 00:53:41"
+  },
+  {
+    "id": 200,
+    "page_slug": "metallicity-gradients",
+    "title": "Metallicity Gradients in Galaxies",
+    "page_type": "concept",
+    "path": "src/content/pages/metallicity-gradients.md",
+    "created_date": "2026-03-19 00:53:41"
+  },
+  {
+    "id": 201,
+    "page_slug": "early-type-galaxies",
+    "title": "Early-Type Galaxies",
+    "page_type": "concept",
+    "path": "src/content/pages/early-type-galaxies.md",
+    "created_date": "2026-03-19 00:53:41"
+  },
+  {
+    "id": 202,
+    "page_slug": "spiral-galaxies",
+    "title": "Spiral Galaxies",
+    "page_type": "concept",
+    "path": "src/content/pages/spiral-galaxies.md",
+    "created_date": "2026-03-19 00:53:41"
+  },
+  {
+    "id": 203,
+    "page_slug": "emission-line-diagnostics",
+    "title": "Emission-Line Diagnostics",
+    "page_type": "concept",
+    "path": "src/content/pages/emission-line-diagnostics.md",
+    "created_date": "2026-03-19 00:53:41"
+  },
+  {
+    "id": 135,
+    "page_slug": "integrated-light-velocity-dispersion-systematics",
+    "title": "Integrated Light Velocity Dispersion Systematics",
+    "page_type": "concept",
+    "path": "src/content/pages/integrated-light-velocity-dispersion-systematics.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 136,
+    "page_slug": "q-parameter-fractality",
+    "title": "Q Parameter Fractality",
+    "page_type": "concept",
+    "path": "src/content/pages/q-parameter-fractality.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 137,
+    "page_slug": "agn-feedback",
+    "title": "Agn Feedback",
+    "page_type": "concept",
+    "path": "src/content/pages/agn-feedback.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 138,
+    "page_slug": "trail-of-galaxies-phenomenon",
+    "title": "Trail Of Galaxies Phenomenon",
+    "page_type": "concept",
+    "path": "src/content/pages/trail-of-galaxies-phenomenon.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 140,
+    "page_slug": "fractal-structure-star-clusters",
+    "title": "Fractal Structure Star Clusters",
+    "page_type": "concept",
+    "path": "src/content/pages/fractal-structure-star-clusters.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 141,
+    "page_slug": "dust",
+    "title": "Dust",
+    "page_type": "concept",
+    "path": "src/content/pages/dust.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 144,
+    "page_slug": "bullet-dwarf-collision",
+    "title": "Bullet Dwarf Collision",
+    "page_type": "concept",
+    "path": "src/content/pages/bullet-dwarf-collision.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 145,
+    "page_slug": "magnetic-field",
+    "title": "Magnetic Field",
+    "page_type": "concept",
+    "path": "src/content/pages/magnetic-field.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 146,
+    "page_slug": "sofia-hawc-plus",
+    "title": "Sofia Hawc Plus",
+    "page_type": "concept",
+    "path": "src/content/pages/sofia-hawc-plus.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 147,
+    "page_slug": "dust-polarimetry",
+    "title": "Dust Polarimetry",
+    "page_type": "concept",
+    "path": "src/content/pages/dust-polarimetry.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 148,
+    "page_slug": "davis-chandrasekhar-fermi-method",
+    "title": "Davis Chandrasekhar Fermi Method",
+    "page_type": "concept",
+    "path": "src/content/pages/davis-chandrasekhar-fermi-method.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 149,
+    "page_slug": "mamposst",
+    "title": "Mamposst",
+    "page_type": "concept",
+    "path": "src/content/pages/mamposst.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 150,
+    "page_slug": "faraday-rotation",
+    "title": "Faraday Rotation",
+    "page_type": "concept",
+    "path": "src/content/pages/faraday-rotation.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 151,
+    "page_slug": "turbulence-and-diffusion",
+    "title": "Turbulence And Diffusion",
+    "page_type": "concept",
+    "path": "src/content/pages/turbulence-and-diffusion.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 152,
+    "page_slug": "star-cluster-formation",
+    "title": "Star Cluster Formation",
+    "page_type": "concept",
+    "path": "src/content/pages/star-cluster-formation.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 153,
+    "page_slug": "3c84-ngc1275-jet",
+    "title": "3C84 Ngc1275 Jet",
+    "page_type": "concept",
+    "path": "src/content/pages/3c84-ngc1275-jet.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 154,
+    "page_slug": "orbital-anisotropy-in-galaxy-clusters",
+    "title": "Orbital Anisotropy In Galaxy Clusters",
+    "page_type": "concept",
+    "path": "src/content/pages/orbital-anisotropy-in-galaxy-clusters.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 155,
+    "page_slug": "mass-to-flux-ratio",
+    "title": "Mass To Flux Ratio",
+    "page_type": "concept",
+    "path": "src/content/pages/mass-to-flux-ratio.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 156,
+    "page_slug": "low-n-kinematic-consistency-checks",
+    "title": "Low N Kinematic Consistency Checks",
+    "page_type": "concept",
+    "path": "src/content/pages/low-n-kinematic-consistency-checks.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 157,
+    "page_slug": "turbulence",
+    "title": "Turbulence",
+    "page_type": "concept",
+    "path": "src/content/pages/turbulence.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 158,
+    "page_slug": "subcluster-formation",
+    "title": "Subcluster Formation",
+    "page_type": "concept",
+    "path": "src/content/pages/subcluster-formation.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 159,
+    "page_slug": "magnetohydrodynamics",
+    "title": "Magnetohydrodynamics",
+    "page_type": "concept",
+    "path": "src/content/pages/magnetohydrodynamics.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 160,
+    "page_slug": "gravity",
+    "title": "Gravity",
+    "page_type": "concept",
+    "path": "src/content/pages/gravity.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 161,
+    "page_slug": "magnetic-fields-in-star-formation",
+    "title": "Magnetic Fields In Star Formation",
+    "page_type": "concept",
+    "path": "src/content/pages/magnetic-fields-in-star-formation.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 162,
+    "page_slug": "diffusive-shock-acceleration",
+    "title": "Diffusive Shock Acceleration",
+    "page_type": "concept",
+    "path": "src/content/pages/diffusive-shock-acceleration.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 163,
+    "page_slug": "interstellar-medium",
+    "title": "Interstellar Medium",
+    "page_type": "concept",
+    "path": "src/content/pages/interstellar-medium.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 164,
+    "page_slug": "dynamical-relaxation-clusters",
+    "title": "Dynamical Relaxation Clusters",
+    "page_type": "concept",
+    "path": "src/content/pages/dynamical-relaxation-clusters.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 165,
+    "page_slug": "nfw-profile",
+    "title": "Nfw Profile",
+    "page_type": "concept",
+    "path": "src/content/pages/nfw-profile.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 166,
+    "page_slug": "coma-cluster",
+    "title": "Coma Cluster",
+    "page_type": "concept",
+    "path": "src/content/pages/coma-cluster.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 167,
+    "page_slug": "desi-survey",
+    "title": "Desi Survey",
+    "page_type": "concept",
+    "path": "src/content/pages/desi-survey.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 168,
+    "page_slug": "molecular-cloud",
+    "title": "Molecular Cloud",
+    "page_type": "concept",
+    "path": "src/content/pages/molecular-cloud.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 169,
+    "page_slug": "infrared-dark-clouds",
+    "title": "Infrared Dark Clouds",
+    "page_type": "concept",
+    "path": "src/content/pages/infrared-dark-clouds.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 170,
+    "page_slug": "jet-cocoon-dynamics",
+    "title": "Jet Cocoon Dynamics",
+    "page_type": "concept",
+    "path": "src/content/pages/jet-cocoon-dynamics.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 171,
+    "page_slug": "hourglass-magnetic-field-morphology",
+    "title": "Hourglass Magnetic Field Morphology",
+    "page_type": "concept",
+    "path": "src/content/pages/hourglass-magnetic-field-morphology.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 172,
+    "page_slug": "sunyaev-zeldovich-effect",
+    "title": "Sunyaev Zeldovich Effect",
+    "page_type": "concept",
+    "path": "src/content/pages/sunyaev-zeldovich-effect.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 173,
+    "page_slug": "galaxy-cluster-mass-estimation-methods",
+    "title": "Galaxy Cluster Mass Estimation Methods",
+    "page_type": "concept",
+    "path": "src/content/pages/galaxy-cluster-mass-estimation-methods.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 175,
+    "page_slug": "galaxy-cluster-substructures",
+    "title": "Galaxy Cluster Substructures",
+    "page_type": "concept",
+    "path": "src/content/pages/galaxy-cluster-substructures.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 176,
+    "page_slug": "riaf-adaf-models",
+    "title": "Riaf Adaf Models",
+    "page_type": "concept",
+    "path": "src/content/pages/riaf-adaf-models.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 177,
+    "page_slug": "atlasgal-survey",
+    "title": "Atlasgal Survey",
+    "page_type": "concept",
+    "path": "src/content/pages/atlasgal-survey.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 178,
+    "page_slug": "perseus-cluster",
+    "title": "Perseus Cluster",
+    "page_type": "concept",
+    "path": "src/content/pages/perseus-cluster.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 179,
+    "page_slug": "projected-phase-space",
+    "title": "Projected Phase Space",
+    "page_type": "concept",
+    "path": "src/content/pages/projected-phase-space.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 180,
+    "page_slug": "ram-pressure-stripping",
+    "title": "Ram Pressure Stripping",
+    "page_type": "concept",
+    "path": "src/content/pages/ram-pressure-stripping.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 182,
+    "page_slug": "bondi-accretion",
+    "title": "Bondi Accretion",
+    "page_type": "concept",
+    "path": "src/content/pages/bondi-accretion.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 183,
+    "page_slug": "shock-waves",
+    "title": "Shock Waves",
+    "page_type": "concept",
+    "path": "src/content/pages/shock-waves.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 184,
+    "page_slug": "minimum-spanning-tree",
+    "title": "Minimum Spanning Tree",
+    "page_type": "concept",
+    "path": "src/content/pages/minimum-spanning-tree.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 185,
+    "page_slug": "baryon-fraction-in-galaxy-clusters",
+    "title": "Baryon Fraction In Galaxy Clusters",
+    "page_type": "concept",
+    "path": "src/content/pages/baryon-fraction-in-galaxy-clusters.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 186,
+    "page_slug": "column-density",
+    "title": "Column Density",
+    "page_type": "concept",
+    "path": "src/content/pages/column-density.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 187,
+    "page_slug": "polarimetry",
+    "title": "Polarimetry",
+    "page_type": "concept",
+    "path": "src/content/pages/polarimetry.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 188,
+    "page_slug": "jeans-equation",
+    "title": "Jeans Equation",
+    "page_type": "concept",
+    "path": "src/content/pages/jeans-equation.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 190,
+    "page_slug": "kcwi-red-side-sky-handling",
+    "title": "Kcwi Red Side Sky Handling",
+    "page_type": "concept",
+    "path": "src/content/pages/kcwi-red-side-sky-handling.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 191,
+    "page_slug": "filamentary-star-formation",
+    "title": "Filamentary Star Formation",
+    "page_type": "concept",
+    "path": "src/content/pages/filamentary-star-formation.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 192,
+    "page_slug": "vlbi-polarimetry",
+    "title": "Vlbi Polarimetry",
+    "page_type": "concept",
+    "path": "src/content/pages/vlbi-polarimetry.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 193,
+    "page_slug": "stellar-feedback",
+    "title": "Stellar Feedback",
+    "page_type": "concept",
+    "path": "src/content/pages/stellar-feedback.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 194,
+    "page_slug": "recollimation-shocks",
+    "title": "Recollimation Shocks",
+    "page_type": "concept",
+    "path": "src/content/pages/recollimation-shocks.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 195,
+    "page_slug": "butcher-oemler-effect",
+    "title": "Butcher Oemler Effect",
+    "page_type": "concept",
+    "path": "src/content/pages/butcher-oemler-effect.md",
+    "created_date": "2026-03-18 23:51:23"
+  },
+  {
+    "id": 133,
+    "page_slug": "star-formation",
+    "title": null,
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 22:29:57"
+  },
+  {
+    "id": 134,
+    "page_slug": "red-sequence-green-valley-blue-cloud",
+    "title": null,
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 22:29:57"
+  },
+  {
+    "id": 125,
+    "page_slug": "2603-15899",
+    "title": "SN 2025adpq in a collisional ring",
+    "page_type": "paper",
+    "path": "src/content/pages/2603-15899.md",
+    "created_date": "2026-03-18 22:22:52"
+  },
+  {
+    "id": 126,
+    "page_slug": "type-ia-supernovae",
+    "title": "Type Ia Supernovae",
+    "page_type": "concept",
+    "path": "src/content/pages/type-ia-supernovae.md",
+    "created_date": "2026-03-18 22:22:52"
+  },
+  {
+    "id": 127,
+    "page_slug": "galaxy-mergers",
+    "title": "Galaxy Mergers",
+    "page_type": "concept",
+    "path": "src/content/pages/galaxy-mergers.md",
+    "created_date": "2026-03-18 22:22:52"
+  },
+  {
+    "id": 128,
+    "page_slug": "collisional-ring-galaxies",
+    "title": "Collisional Ring Galaxies",
+    "page_type": "concept",
+    "path": "src/content/pages/collisional-ring-galaxies.md",
+    "created_date": "2026-03-18 22:22:52"
+  },
+  {
+    "id": 129,
+    "page_slug": "supernova-delay-times",
+    "title": "Supernova Delay Times",
+    "page_type": "concept",
+    "path": "src/content/pages/supernova-delay-times.md",
+    "created_date": "2026-03-18 22:22:52"
+  },
+  {
+    "id": 130,
+    "page_slug": "hostless-supernovae",
+    "title": "Hostless Supernovae",
+    "page_type": "concept",
+    "path": "src/content/pages/hostless-supernovae.md",
+    "created_date": "2026-03-18 22:22:52"
+  },
+  {
+    "id": 131,
+    "page_slug": "large-offset-supernovae",
+    "title": "Large-Offset Supernovae",
+    "page_type": "concept",
+    "path": "src/content/pages/large-offset-supernovae.md",
+    "created_date": "2026-03-18 22:22:52"
+  },
+  {
+    "id": 132,
+    "page_slug": "dynamical-stellar-displacement",
+    "title": "Dynamical Stellar Displacement",
+    "page_type": "concept",
+    "path": "src/content/pages/dynamical-stellar-displacement.md",
+    "created_date": "2026-03-18 22:22:52"
+  },
+  {
+    "id": 112,
+    "page_slug": "pages/dynamical-relaxation-clusters",
+    "title": "Dynamical Relaxation Clusters",
+    "page_type": "page",
+    "path": "src/content/pages/dynamical-relaxation-clusters.md",
+    "created_date": "2026-03-18 20:29:01"
+  },
+  {
+    "id": 113,
+    "page_slug": "pages/subcluster-formation",
+    "title": "Subcluster Formation",
+    "page_type": "page",
+    "path": "src/content/pages/subcluster-formation.md",
+    "created_date": "2026-03-18 20:29:01"
+  },
+  {
+    "id": 114,
+    "page_slug": "pages/q-parameter-fractality",
+    "title": "Q Parameter Fractality",
+    "page_type": "page",
+    "path": "src/content/pages/q-parameter-fractality.md",
+    "created_date": "2026-03-18 20:29:01"
+  },
+  {
+    "id": 115,
+    "page_slug": "pages/magnetohydrodynamics",
+    "title": "Magnetohydrodynamics",
+    "page_type": "page",
+    "path": "src/content/pages/magnetohydrodynamics.md",
+    "created_date": "2026-03-18 20:29:01"
+  },
+  {
+    "id": 116,
+    "page_slug": "pages/star-cluster-formation",
+    "title": "Star Cluster Formation",
+    "page_type": "page",
+    "path": "src/content/pages/star-cluster-formation.md",
+    "created_date": "2026-03-18 20:29:01"
+  },
+  {
+    "id": 118,
+    "page_slug": "pages/fractal-structure-star-clusters",
+    "title": "Fractal Structure Star Clusters",
+    "page_type": "page",
+    "path": "src/content/pages/fractal-structure-star-clusters.md",
+    "created_date": "2026-03-18 20:29:01"
+  },
+  {
+    "id": 119,
+    "page_slug": "pages/stellar-feedback",
+    "title": "Stellar Feedback",
+    "page_type": "page",
+    "path": "src/content/pages/stellar-feedback.md",
+    "created_date": "2026-03-18 20:29:01"
+  },
+  {
+    "id": 120,
+    "page_slug": "pages/minimum-spanning-tree",
+    "title": "Minimum Spanning Tree",
+    "page_type": "page",
+    "path": "src/content/pages/minimum-spanning-tree.md",
+    "created_date": "2026-03-18 20:29:01"
+  },
+  {
+    "id": 94,
+    "page_slug": "pages/magnetic-field",
+    "title": "Magnetic Field",
+    "page_type": "page",
+    "path": "src/content/pages/magnetic-field.md",
+    "created_date": "2026-03-18 20:18:12"
+  },
+  {
+    "id": 95,
+    "page_slug": "pages/column-density",
+    "title": "Column Density",
+    "page_type": "page",
+    "path": "src/content/pages/column-density.md",
+    "created_date": "2026-03-18 20:18:12"
+  },
+  {
+    "id": 96,
+    "page_slug": "pages/turbulence",
+    "title": "Turbulence",
+    "page_type": "page",
+    "path": "src/content/pages/turbulence.md",
+    "created_date": "2026-03-18 20:18:12"
+  },
+  {
+    "id": 97,
+    "page_slug": "pages/sofia-hawc-plus",
+    "title": "Sofia Hawc Plus",
+    "page_type": "page",
+    "path": "src/content/pages/sofia-hawc-plus.md",
+    "created_date": "2026-03-18 20:18:12"
+  },
+  {
+    "id": 98,
+    "page_slug": "pages/davis-chandrasekhar-fermi-method",
+    "title": "Davis Chandrasekhar Fermi Method",
+    "page_type": "page",
+    "path": "src/content/pages/davis-chandrasekhar-fermi-method.md",
+    "created_date": "2026-03-18 20:18:12"
+  },
+  {
+    "id": 99,
+    "page_slug": "pages/dust",
+    "title": "Dust",
+    "page_type": "page",
+    "path": "src/content/pages/dust.md",
+    "created_date": "2026-03-18 20:18:12"
+  },
+  {
+    "id": 100,
+    "page_slug": "pages/atlasgal-survey",
+    "title": "Atlasgal Survey",
+    "page_type": "page",
+    "path": "src/content/pages/atlasgal-survey.md",
+    "created_date": "2026-03-18 20:18:12"
+  },
+  {
+    "id": 101,
+    "page_slug": "pages/hourglass-magnetic-field-morphology",
+    "title": "Hourglass Magnetic Field Morphology",
+    "page_type": "page",
+    "path": "src/content/pages/hourglass-magnetic-field-morphology.md",
+    "created_date": "2026-03-18 20:18:12"
+  },
+  {
+    "id": 102,
+    "page_slug": "pages/dust-polarimetry",
+    "title": "Dust Polarimetry",
+    "page_type": "page",
+    "path": "src/content/pages/dust-polarimetry.md",
+    "created_date": "2026-03-18 20:18:12"
+  },
+  {
+    "id": 103,
+    "page_slug": "pages/polarimetry",
+    "title": "Polarimetry",
+    "page_type": "page",
+    "path": "src/content/pages/polarimetry.md",
+    "created_date": "2026-03-18 20:18:12"
+  },
+  {
+    "id": 104,
+    "page_slug": "pages/mass-to-flux-ratio",
+    "title": "Mass To Flux Ratio",
+    "page_type": "page",
+    "path": "src/content/pages/mass-to-flux-ratio.md",
+    "created_date": "2026-03-18 20:18:12"
+  },
+  {
+    "id": 105,
+    "page_slug": "pages/infrared-dark-clouds",
+    "title": "Infrared Dark Clouds",
+    "page_type": "page",
+    "path": "src/content/pages/infrared-dark-clouds.md",
+    "created_date": "2026-03-18 20:18:12"
+  },
+  {
+    "id": 106,
+    "page_slug": "pages/gravity",
+    "title": "Gravity",
+    "page_type": "page",
+    "path": "src/content/pages/gravity.md",
+    "created_date": "2026-03-18 20:18:12"
+  },
+  {
+    "id": 107,
+    "page_slug": "pages/interstellar-medium",
+    "title": "Interstellar Medium",
+    "page_type": "page",
+    "path": "src/content/pages/interstellar-medium.md",
+    "created_date": "2026-03-18 20:18:12"
+  },
+  {
+    "id": 108,
+    "page_slug": "pages/filamentary-star-formation",
+    "title": "Filamentary Star Formation",
+    "page_type": "page",
+    "path": "src/content/pages/filamentary-star-formation.md",
+    "created_date": "2026-03-18 20:18:12"
+  },
+  {
+    "id": 109,
+    "page_slug": "pages/molecular-cloud",
+    "title": "Molecular Cloud",
+    "page_type": "page",
+    "path": "src/content/pages/molecular-cloud.md",
+    "created_date": "2026-03-18 20:18:12"
+  },
+  {
+    "id": 110,
+    "page_slug": "pages/magnetic-fields-in-star-formation",
+    "title": "Magnetic Fields In Star Formation",
+    "page_type": "page",
+    "path": "src/content/pages/magnetic-fields-in-star-formation.md",
+    "created_date": "2026-03-18 20:18:12"
+  },
+  {
+    "id": 111,
+    "page_slug": "pages/star-formation",
+    "title": "Star Formation",
+    "page_type": "page",
+    "path": "src/content/pages/star-formation.md",
+    "created_date": "2026-03-18 20:18:12"
+  },
+  {
+    "id": 73,
+    "page_slug": "pages/another-topic",
+    "title": "Another Topic",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:57"
+  },
+  {
+    "id": 74,
+    "page_slug": "pages/author-year",
+    "title": "Author Year",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:57"
+  },
+  {
+    "id": 75,
+    "page_slug": "pages/bromberg-2011",
+    "title": "Bromberg 2011",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:57"
+  },
+  {
+    "id": 76,
+    "page_slug": "pages/galaxy-bimodality",
+    "title": "Galaxy Bimodality",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:57"
+  },
+  {
+    "id": 77,
+    "page_slug": "pages/magnetic-fields-in-elliptical-galaxies",
+    "title": "Magnetic Fields In Elliptical Galaxies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:57"
+  },
+  {
+    "id": 78,
+    "page_slug": "pages/norman-1982",
+    "title": "Norman 1982",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:57"
+  },
+  {
+    "id": 79,
+    "page_slug": "pages/parsec-scale-agn-jets",
+    "title": "Parsec Scale Agn Jets",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:57"
+  },
+  {
+    "id": 80,
+    "page_slug": "pages/portal-galaxy-evolution",
+    "title": "Portal Galaxy Evolution",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:57"
+  },
+  {
+    "id": 81,
+    "page_slug": "pages/random",
+    "title": "Random",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:57"
+  },
+  {
+    "id": 82,
+    "page_slug": "pages/related-concept",
+    "title": "Related Concept",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:57"
+  },
+  {
+    "id": 83,
+    "page_slug": "pages/related-page",
+    "title": "Related Page",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:57"
+  },
+  {
+    "id": 84,
+    "page_slug": "pages/tag-concept",
+    "title": "Tag Concept",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:57"
+  },
+  {
+    "id": 85,
+    "page_slug": "pages/tag-dark-matter",
+    "title": "Tag Dark Matter",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:57"
+  },
+  {
+    "id": 86,
+    "page_slug": "pages/tag-galaxy-clusters",
+    "title": "Tag Galaxy Clusters",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:57"
+  },
+  {
+    "id": 87,
+    "page_slug": "pages/tag-galaxy-evolution",
+    "title": "Tag Galaxy Evolution",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:57"
+  },
+  {
+    "id": 88,
+    "page_slug": "pages/tag-instruments",
+    "title": "Tag Instruments",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:57"
+  },
+  {
+    "id": 89,
+    "page_slug": "pages/tag-methods",
+    "title": "Tag Methods",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:57"
+  },
+  {
+    "id": 90,
+    "page_slug": "pages/tag-quenching-mechanisms",
+    "title": "Tag Quenching Mechanisms",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:57"
+  },
+  {
+    "id": 91,
+    "page_slug": "pages/tag-surveys",
+    "title": "Tag Surveys",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:57"
+  },
+  {
+    "id": 92,
+    "page_slug": "pages/weaver-1977",
+    "title": "Weaver 1977",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:57"
+  },
+  {
+    "id": 55,
+    "page_slug": "concepts/sofia-hawc-plus",
+    "title": "SOFIA/HAWC+ Instrument",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:51"
+  },
+  {
+    "id": 56,
+    "page_slug": "concepts/radfil-filament-fitter",
+    "title": "RadFil Algorithm",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:51"
+  },
+  {
+    "id": 57,
+    "page_slug": "concepts/magmar-survey",
+    "title": "MagMaR Survey",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:51"
+  },
+  {
+    "id": 58,
+    "page_slug": "concepts/ballad-pol-survey",
+    "title": "BALLAD-POL Survey",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:51"
+  },
+  {
+    "id": 59,
+    "page_slug": "concepts/ashes-survey-alma",
+    "title": "ASHES Survey",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:51"
+  },
+  {
+    "id": 60,
+    "page_slug": "concepts/alma-imf-survey",
+    "title": "ALMA-IMF Survey",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:51"
+  },
+  {
+    "id": 61,
+    "page_slug": "concepts/atlasgal-survey",
+    "title": "ATLASGAL Survey",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:51"
+  },
+  {
+    "id": 62,
+    "page_slug": "concepts/fieldmaps-survey",
+    "title": "FIELDMAPS Survey",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:51"
+  },
+  {
+    "id": 63,
+    "page_slug": "concepts/magnetically-transcritical-cloud",
+    "title": "Magnetically Transcritical Cloud",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:51"
+  },
+  {
+    "id": 64,
+    "page_slug": "concepts/angular-structure-function-polarimetry",
+    "title": "Angular Structure Function (Polarimetry)",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:51"
+  },
+  {
+    "id": 65,
+    "page_slug": "concepts/infrared-dark-cloud",
+    "title": "Infrared Dark Cloud (IRDC)",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:51"
+  },
+  {
+    "id": 66,
+    "page_slug": "concepts/magnetic-field-in-ism",
+    "title": "Magnetic Field in the ISM",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:51"
+  },
+  {
+    "id": 67,
+    "page_slug": "concepts/filamentary-molecular-cloud",
+    "title": "Filamentary Molecular Cloud",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:51"
+  },
+  {
+    "id": 68,
+    "page_slug": "concepts/davis-chandrasekhar-fermi-method",
+    "title": "Davis-Chandrasekhar-Fermi (DCF) Method",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:51"
+  },
+  {
+    "id": 69,
+    "page_slug": "concepts/mass-to-flux-ratio",
+    "title": "Mass-to-Flux Ratio",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:51"
+  },
+  {
+    "id": 70,
+    "page_slug": "concepts/hub-filament-system",
+    "title": "Hub-Filament System",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:51"
+  },
+  {
+    "id": 71,
+    "page_slug": "concepts/hourglass-magnetic-field",
+    "title": "Hourglass-Shaped Magnetic Field",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:51"
+  },
+  {
+    "id": 72,
+    "page_slug": "concepts/dust-grain-alignment",
+    "title": "Dust Grain Alignment",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-18 19:34:51"
+  },
+  {
+    "id": 39,
+    "page_slug": "pages/ram-pressure-stripping",
+    "title": "Ram-Pressure Stripping",
+    "page_type": "concept",
+    "path": "src/content/pages/ram-pressure-stripping.md",
+    "created_date": "2026-03-18 19:10:27"
+  },
+  {
+    "id": 40,
+    "page_slug": "pages/galaxy-cluster-substructures",
+    "title": "Galaxy Cluster Substructures",
+    "page_type": "concept",
+    "path": "src/content/pages/galaxy-cluster-substructures.md",
+    "created_date": "2026-03-18 19:10:27"
+  },
+  {
+    "id": 41,
+    "page_slug": "pages/sunyaev-zeldovich-effect",
+    "title": "Sunyaev-Zeldovich Effect",
+    "page_type": "concept",
+    "path": "src/content/pages/sunyaev-zeldovich-effect.md",
+    "created_date": "2026-03-18 19:10:27"
+  },
+  {
+    "id": 42,
+    "page_slug": "pages/desi-survey",
+    "title": "DESI Survey",
+    "page_type": "concept",
+    "path": "src/content/pages/desi-survey.md",
+    "created_date": "2026-03-18 19:10:27"
+  },
+  {
+    "id": 43,
+    "page_slug": "pages/baryon-fraction-in-galaxy-clusters",
+    "title": "Baryon Fraction in Galaxy Clusters",
+    "page_type": "concept",
+    "path": "src/content/pages/baryon-fraction-in-galaxy-clusters.md",
+    "created_date": "2026-03-18 19:10:27"
+  },
+  {
+    "id": 44,
+    "page_slug": "pages/galaxy-cluster-mass-estimation-methods",
+    "title": "Galaxy Cluster Mass Estimation Methods",
+    "page_type": "concept",
+    "path": "src/content/pages/galaxy-cluster-mass-estimation-methods.md",
+    "created_date": "2026-03-18 19:10:27"
+  },
+  {
+    "id": 45,
+    "page_slug": "pages/nfw-profile",
+    "title": "NFW Profile",
+    "page_type": "concept",
+    "path": "src/content/pages/nfw-profile.md",
+    "created_date": "2026-03-18 19:10:27"
+  },
+  {
+    "id": 46,
+    "page_slug": "pages/mamposst",
+    "title": "MAMPOSSt / MG-MAMPOSSt",
+    "page_type": "concept",
+    "path": "src/content/pages/mamposst.md",
+    "created_date": "2026-03-18 19:10:27"
+  },
+  {
+    "id": 48,
+    "page_slug": "pages/coma-cluster",
+    "title": "Coma Cluster (Abell 1656)",
+    "page_type": "concept",
+    "path": "src/content/pages/coma-cluster.md",
+    "created_date": "2026-03-18 19:10:27"
+  },
+  {
+    "id": 49,
+    "page_slug": "pages/red-sequence-green-valley-blue-cloud",
+    "title": "Red Sequence / Green Valley / Blue Cloud Classification",
+    "page_type": "concept",
+    "path": "src/content/pages/red-sequence-green-valley-blue-cloud.md",
+    "created_date": "2026-03-18 19:10:27"
+  },
+  {
+    "id": 50,
+    "page_slug": "pages/projected-phase-space",
+    "title": "Projected Phase Space (PPS) Analysis",
+    "page_type": "concept",
+    "path": "src/content/pages/projected-phase-space.md",
+    "created_date": "2026-03-18 19:10:27"
+  },
+  {
+    "id": 51,
+    "page_slug": "pages/jeans-equation",
+    "title": "Jeans Equation (Cluster Dynamics)",
+    "page_type": "concept",
+    "path": "src/content/pages/jeans-equation.md",
+    "created_date": "2026-03-18 19:10:27"
+  },
+  {
+    "id": 52,
+    "page_slug": "pages/orbital-anisotropy-in-galaxy-clusters",
+    "title": "Orbital Anisotropy in Galaxy Clusters",
+    "page_type": "concept",
+    "path": "src/content/pages/orbital-anisotropy-in-galaxy-clusters.md",
+    "created_date": "2026-03-18 19:10:27"
+  },
+  {
+    "id": 53,
+    "page_slug": "pages/butcher-oemler-effect",
+    "title": "Butcher-Oemler Effect",
+    "page_type": "concept",
+    "path": "src/content/pages/butcher-oemler-effect.md",
+    "created_date": "2026-03-18 19:10:27"
+  },
+  {
+    "id": 37,
+    "page_slug": "pages/riaf-adaf-models",
+    "title": "Riaf Adaf Models",
+    "page_type": "page",
+    "path": "src/content/pages/riaf-adaf-models.md",
+    "created_date": "2026-03-18 18:55:21"
+  },
+  {
+    "id": 38,
+    "page_slug": "pages/turbulence-and-diffusion",
+    "title": "Turbulence And Diffusion",
+    "page_type": "page",
+    "path": "src/content/pages/turbulence-and-diffusion.md",
+    "created_date": "2026-03-18 18:55:21"
+  },
+  {
+    "id": 34,
+    "page_slug": "pages/vlbi-polarimetry",
+    "title": "Vlbi Polarimetry",
+    "page_type": "page",
+    "path": "src/content/pages/vlbi-polarimetry.md",
+    "created_date": "2026-03-18 18:50:38"
+  },
+  {
+    "id": 35,
+    "page_slug": "pages/perseus-cluster",
+    "title": "Perseus Cluster",
+    "page_type": "page",
+    "path": "src/content/pages/perseus-cluster.md",
+    "created_date": "2026-03-18 18:50:38"
+  },
+  {
+    "id": 36,
+    "page_slug": "pages/agn-feedback",
+    "title": "Agn Feedback",
+    "page_type": "page",
+    "path": "src/content/pages/agn-feedback.md",
+    "created_date": "2026-03-18 18:50:38"
+  },
+  {
+    "id": 33,
+    "page_slug": "pages/faraday-rotation",
+    "title": "Faraday Rotation",
+    "page_type": "page",
+    "path": "src/content/pages/faraday-rotation.md",
+    "created_date": "2026-03-18 18:43:44"
+  },
+  {
+    "id": 28,
+    "page_slug": "pages/jet-cocoon-dynamics",
+    "title": "Jet Cocoon Dynamics",
+    "page_type": "page",
+    "path": "src/content/pages/jet-cocoon-dynamics.md",
+    "created_date": "2026-03-18 18:41:43"
+  },
+  {
+    "id": 29,
+    "page_slug": "pages/shock-waves-basics",
+    "title": "Shock Waves Basics",
+    "page_type": "page",
+    "path": "src/content/pages/shock-waves-basics.md",
+    "created_date": "2026-03-18 18:41:43"
+  },
+  {
+    "id": 30,
+    "page_slug": "pages/faraday-rotation-basics",
+    "title": "Faraday Rotation Basics",
+    "page_type": "page",
+    "path": "src/content/pages/faraday-rotation-basics.md",
+    "created_date": "2026-03-18 18:41:43"
+  },
+  {
+    "id": 31,
+    "page_slug": "pages/bondi-accretion",
+    "title": "Bondi Accretion",
+    "page_type": "page",
+    "path": "src/content/pages/bondi-accretion.md",
+    "created_date": "2026-03-18 18:41:43"
+  },
+  {
+    "id": 32,
+    "page_slug": "pages/3c84-ngc1275-jet",
+    "title": "3C84 Ngc1275 Jet",
+    "page_type": "page",
+    "path": "src/content/pages/3c84-ngc1275-jet.md",
+    "created_date": "2026-03-18 18:41:43"
+  },
+  {
+    "id": 22,
+    "page_slug": "pages/subedi2017",
+    "title": "Subedi2017",
+    "page_type": "page",
+    "path": "src/content/pages/subedi2017.md",
+    "created_date": "2026-03-18 17:28:29"
+  },
+  {
+    "id": 23,
+    "page_slug": "pages/dundovic2020",
+    "title": "Dundovic2020",
+    "page_type": "page",
+    "path": "src/content/pages/dundovic2020.md",
+    "created_date": "2026-03-18 17:28:29"
+  },
+  {
+    "id": 24,
+    "page_slug": "pages/rodriguez-kamentzky2017",
+    "title": "Rodriguez Kamentzky2017",
+    "page_type": "page",
+    "path": "src/content/pages/rodriguez-kamentzky2017.md",
+    "created_date": "2026-03-18 17:28:29"
+  },
+  {
+    "id": 25,
+    "page_slug": "pages/ulvestad_2005",
+    "title": "Ulvestad_2005",
+    "page_type": "page",
+    "path": "src/content/pages/ulvestad_2005.md",
+    "created_date": "2026-03-18 17:28:29"
+  },
+  {
+    "id": 26,
+    "page_slug": "pages/fabrika_2004",
+    "title": "Fabrika_2004",
+    "page_type": "page",
+    "path": "src/content/pages/fabrika_2004.md",
+    "created_date": "2026-03-18 17:28:29"
+  },
+  {
+    "id": 17,
+    "page_slug": "pages/bell2011",
+    "title": "Bell2011",
+    "page_type": "page",
+    "path": "src/content/pages/bell2011.md",
+    "created_date": "2026-03-18 17:26:33"
+  },
+  {
+    "id": 18,
+    "page_slug": "pages/hillas1984",
+    "title": "Hillas1984",
+    "page_type": "page",
+    "path": "src/content/pages/hillas1984.md",
+    "created_date": "2026-03-18 17:26:33"
+  },
+  {
+    "id": 19,
+    "page_slug": "pages/weaver_1977",
+    "title": "Weaver_1977",
+    "page_type": "page",
+    "path": "src/content/pages/weaver_1977.md",
+    "created_date": "2026-03-18 17:26:33"
+  },
+  {
+    "id": 20,
+    "page_slug": "pages/kirk1989",
+    "title": "Kirk1989",
+    "page_type": "page",
+    "path": "src/content/pages/kirk1989.md",
+    "created_date": "2026-03-18 17:26:33"
+  },
+  {
+    "id": 21,
+    "page_slug": "pages/morlino2021",
+    "title": "Morlino2021",
+    "page_type": "page",
+    "path": "src/content/pages/morlino2021.md",
+    "created_date": "2026-03-18 17:26:33"
+  },
+  {
+    "id": 14,
+    "page_slug": "random",
+    "title": "Random",
+    "page_type": "page",
+    "path": "src/content/pages/random.md",
+    "created_date": "2026-03-18 17:12:08"
+  },
+  {
+    "id": 16,
+    "page_slug": "pages/portal-particle-acceleration-in-jets",
+    "title": "Portal Particle Acceleration In Jets",
+    "page_type": "page",
+    "path": "src/content/pages/portal-particle-acceleration-in-jets.md",
+    "created_date": "2026-03-18 17:12:08"
+  },
+  {
+    "id": 2,
+    "page_slug": "index",
+    "title": "Index",
+    "page_type": "page",
+    "path": "src/content/pages/index.md",
+    "created_date": "2026-03-18 17:04:14"
+  },
+  {
+    "id": 3,
+    "page_slug": "pages/particle-acceleration-basics",
+    "title": "Particle Acceleration Basics",
+    "page_type": "page",
+    "path": "src/content/pages/particle-acceleration-basics.md",
+    "created_date": "2026-03-18 17:04:14"
+  },
+  {
+    "id": 4,
+    "page_slug": "pages/relativistic-jets",
+    "title": "Relativistic Jets",
+    "page_type": "page",
+    "path": "src/content/pages/relativistic-jets.md",
+    "created_date": "2026-03-18 17:04:14"
+  },
+  {
+    "id": 6,
+    "page_slug": "pages/recollimation-shocks",
+    "title": "Recollimation Shocks",
+    "page_type": "page",
+    "path": "src/content/pages/recollimation-shocks.md",
+    "created_date": "2026-03-18 17:04:14"
+  },
+  {
+    "id": 7,
+    "page_slug": "pages/particle-acceleration-oblique-shocks",
+    "title": "Particle Acceleration Oblique Shocks",
+    "page_type": "page",
+    "path": "src/content/pages/particle-acceleration-oblique-shocks.md",
+    "created_date": "2026-03-18 17:04:14"
+  },
+  {
+    "id": 8,
+    "page_slug": "pages/bromberg_2011",
+    "title": "Bromberg_2011",
+    "page_type": "page",
+    "path": "src/content/pages/bromberg_2011.md",
+    "created_date": "2026-03-18 17:04:14"
+  },
+  {
+    "id": 9,
+    "page_slug": "pages/_template",
+    "title": "_Template",
+    "page_type": "page",
+    "path": "src/content/pages/_template.md",
+    "created_date": "2026-03-18 17:04:14"
+  },
+  {
+    "id": 10,
+    "page_slug": "pages/diffusive-shock-acceleration",
+    "title": "Diffusive Shock Acceleration",
+    "page_type": "page",
+    "path": "src/content/pages/diffusive-shock-acceleration.md",
+    "created_date": "2026-03-18 17:04:14"
+  },
+  {
+    "id": 11,
+    "page_slug": "pages/jet-cocoon-systems",
+    "title": "Jet Cocoon Systems",
+    "page_type": "page",
+    "path": "src/content/pages/jet-cocoon-systems.md",
+    "created_date": "2026-03-18 17:04:14"
+  },
+  {
+    "id": 12,
+    "page_slug": "pages/astrophysical-jets",
+    "title": "Astrophysical Jets",
+    "page_type": "page",
+    "path": "src/content/pages/astrophysical-jets.md",
+    "created_date": "2026-03-18 17:04:14"
+  },
+  {
+    "id": 13,
+    "page_slug": "pages/shock-waves",
+    "title": "Shock Waves",
+    "page_type": "page",
+    "path": "src/content/pages/shock-waves.md",
+    "created_date": "2026-03-18 17:04:14"
+  }
+]

@@ -1,0 +1,8552 @@
+{
+  "masson_2026_infall_time_pps": {
+    "title": "Masson & Parker (2026) - Calibrating Galaxy Infall Times",
+    "exists": false,
+    "links_to": [
+      {
+        "target": "galaxy_infall_time",
+        "text": "Galaxy Infall Time",
+        "exists": false
+      },
+      {
+        "target": "projected_phase_space",
+        "text": "Projected Phase Space",
+        "exists": false
+      },
+      {
+        "target": "environmental_quenching",
+        "text": "Environmental Quenching",
+        "exists": false
+      },
+      {
+        "target": "ram_pressure_stripping",
+        "text": "Ram Pressure Stripping",
+        "exists": false
+      },
+      {
+        "target": "galaxy_clusters",
+        "text": "Galaxy Clusters",
+        "exists": false
+      },
+      {
+        "target": "galaxy_groups",
+        "text": "Galaxy Groups",
+        "exists": false
+      },
+      {
+        "target": "dark_matter_halos",
+        "text": "Dark Matter Halos",
+        "exists": false
+      },
+      {
+        "target": "preprocessing",
+        "text": "Preprocessing",
+        "exists": false
+      },
+      {
+        "target": "galaxy_bimodality",
+        "text": "Galaxy Bimodality",
+        "exists": false
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "galaxy_infall_time",
+        "text": "Masson & Parker (2026)"
+      },
+      {
+        "source": "projected_phase_space",
+        "text": "Masson & Parker (2026)"
+      },
+      {
+        "source": "environmental_quenching",
+        "text": "Masson & Parker (2026)"
+      }
+    ],
+    "path": "src/pages/pages/masson_2026_infall_time_pps.astro"
+  },
+  "galaxy_infall_time": {
+    "title": "Galaxy Infall Time",
+    "exists": false,
+    "links_to": [
+      {
+        "target": "projected_phase_space",
+        "text": "Projected Phase Space",
+        "exists": false
+      },
+      {
+        "target": "environmental_quenching",
+        "text": "Environmental Quenching",
+        "exists": false
+      },
+      {
+        "target": "ram_pressure_stripping",
+        "text": "Ram Pressure Stripping",
+        "exists": false
+      },
+      {
+        "target": "masson_2026_infall_time_pps",
+        "text": "Masson & Parker (2026)",
+        "exists": false
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "masson_2026_infall_time_pps",
+        "text": "Galaxy Infall Time"
+      },
+      {
+        "source": "projected_phase_space",
+        "text": "Galaxy Infall Time"
+      },
+      {
+        "source": "environmental_quenching",
+        "text": "Infall Time"
+      }
+    ],
+    "path": "src/pages/pages/galaxy_infall_time.astro"
+  },
+  "projected_phase_space": {
+    "title": "Projected Phase Space",
+    "exists": false,
+    "links_to": [
+      {
+        "target": "galaxy_infall_time",
+        "text": "Galaxy Infall Time",
+        "exists": false
+      },
+      {
+        "target": "environmental_quenching",
+        "text": "Environmental Quenching",
+        "exists": false
+      },
+      {
+        "target": "galaxy_clusters",
+        "text": "Galaxy Clusters",
+        "exists": false
+      },
+      {
+        "target": "masson_2026_infall_time_pps",
+        "text": "Masson & Parker (2026)",
+        "exists": false
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "masson_2026_infall_time_pps",
+        "text": "Projected Phase Space"
+      },
+      {
+        "source": "galaxy_infall_time",
+        "text": "Projected Phase Space"
+      },
+      {
+        "source": "environmental_quenching",
+        "text": "Projected Phase Space"
+      }
+    ],
+    "path": "src/pages/pages/projected_phase_space.astro"
+  },
+  "environmental_quenching": {
+    "title": "Environmental Quenching",
+    "exists": false,
+    "links_to": [
+      {
+        "target": "galaxy_infall_time",
+        "text": "Infall Time",
+        "exists": false
+      },
+      {
+        "target": "projected_phase_space",
+        "text": "Projected Phase Space",
+        "exists": false
+      },
+      {
+        "target": "ram_pressure_stripping",
+        "text": "Ram Pressure Stripping",
+        "exists": false
+      },
+      {
+        "target": "strangulation",
+        "text": "Strangulation",
+        "exists": false
+      },
+      {
+        "target": "preprocessing",
+        "text": "Preprocessing",
+        "exists": false
+      },
+      {
+        "target": "morphological_quenching",
+        "text": "Morphological Quenching",
+        "exists": false
+      },
+      {
+        "target": "galaxy_bimodality",
+        "text": "Galaxy Bimodality",
+        "exists": false
+      },
+      {
+        "target": "masson_2026_infall_time_pps",
+        "text": "Masson & Parker (2026)",
+        "exists": false
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "masson_2026_infall_time_pps",
+        "text": "Environmental Quenching"
+      },
+      {
+        "source": "galaxy_infall_time",
+        "text": "Environmental Quenching"
+      },
+      {
+        "source": "projected_phase_space",
+        "text": "Environmental Quenching"
+      }
+    ],
+    "path": "src/pages/pages/environmental_quenching.astro"
+  },
+  "pages/dillamore_2026_gse_lmc": {
+    "title": "GSE vs. LMC: reshaping of radially biased stellar haloes (Dillamore+2026)",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/gaia_sausage_enceladus",
+        "text": "Gaia Sausage-Enceladus",
+        "exists": true
+      },
+      {
+        "target": "pages/lmc_perturbations",
+        "text": "LMC perturbations",
+        "exists": true
+      },
+      {
+        "target": "pages/velocity_anisotropy",
+        "text": "Velocity anisotropy",
+        "exists": true
+      }
+    ],
+    "linked_from": [],
+    "path": "src/pages/pages/dillamore_2026_gse_lmc.astro"
+  },
+  "pages/gaia_sausage_enceladus": {
+    "title": "Gaia Sausage-Enceladus (GSE)",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/dillamore_2026_gse_lmc",
+        "text": "Gaia Sausage-Enceladus"
+      }
+    ],
+    "path": "src/pages/pages/gaia_sausage_enceladus.astro"
+  },
+  "pages/lmc_perturbations": {
+    "title": "LMC perturbations of the Milky Way",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/dillamore_2026_gse_lmc",
+        "text": "LMC perturbations"
+      }
+    ],
+    "path": "src/pages/pages/lmc_perturbations.astro"
+  },
+  "pages/velocity_anisotropy": {
+    "title": "Velocity anisotropy (β parameter)",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/dillamore_2026_gse_lmc",
+        "text": "Velocity anisotropy"
+      }
+    ],
+    "path": "src/pages/pages/velocity_anisotropy.astro"
+  },
+  "pages/chazov_2026_trgb_jwst": {
+    "title": "The TRGB-SBF Project. IV. TRGB Color Calibration in JWST F090W+F150W (Chazov+2026)",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/trgb_distance_indicator",
+        "text": "TRGB distance indicator",
+        "exists": true
+      },
+      {
+        "target": "pages/distance_ladder",
+        "text": "Distance ladder",
+        "exists": true
+      },
+      {
+        "target": "pages/metallicity_effects",
+        "text": "Metallicity effects",
+        "exists": true
+      }
+    ],
+    "linked_from": [],
+    "path": "src/pages/pages/chazov_2026_trgb_jwst.astro"
+  },
+  "pages/trgb_distance_indicator": {
+    "title": "TRGB distance indicator",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/chazov_2026_trgb_jwst",
+        "text": "TRGB distance indicator"
+      }
+    ],
+    "path": "src/pages/pages/trgb_distance_indicator.astro"
+  },
+  "pages/distance_ladder": {
+    "title": "Distance ladder (cosmic distance measurement)",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/chazov_2026_trgb_jwst",
+        "text": "Distance ladder"
+      }
+    ],
+    "path": "src/pages/pages/distance_ladder.astro"
+  },
+  "pages/metallicity_effects": {
+    "title": "Metallicity effects on stellar colors and luminosities",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/chazov_2026_trgb_jwst",
+        "text": "Metallicity effects"
+      }
+    ],
+    "path": "src/pages/pages/metallicity_effects.astro"
+  },
+  "papers/mountrichas_2026_agn_obscuration": {
+    "title": "Mountrichas et al. (2026) — AGN obscuration",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [],
+    "path": "src/pages/pages/mountrichas_2026_agn_obscuration.astro"
+  },
+  "papers/zou_2026_agn_feedback": {
+    "title": "Zou et al. (2026) — AGN feedback in disk galaxy",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [],
+    "path": "src/pages/pages/zou_2026_agn_feedback.astro"
+  },
+  "papers/mohammed_2026_c19_stream": {
+    "title": "Mohammed et al. (2026) — C-19 Stellar Stream",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [],
+    "path": "src/pages/pages/mohammed_2026_c19_stream.astro"
+  },
+  "pages/agn_obscuration": {
+    "title": "AGN obscuration",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [],
+    "path": "src/pages/pages/agn_obscuration.astro"
+  },
+  "pages/agn_unification": {
+    "title": "AGN unification model",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [],
+    "path": "src/pages/pages/agn_unification.astro"
+  },
+  "pages/stellar_streams": {
+    "title": "Stellar streams",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [],
+    "path": "src/pages/pages/stellar_streams.astro"
+  },
+  "pages/globular_cluster_disruption": {
+    "title": "Globular cluster disruption",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [],
+    "path": "src/pages/pages/globular_cluster_disruption.astro"
+  },
+  "pages/watkins_2026_isophote_dwarf_structure": {
+    "title": "Isophote shape analysis and the unfortunate subtlety of dwarf galaxy structure (Watkins+2026)",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/dwarf_galaxies",
+        "text": "Dwarf galaxies",
+        "exists": true
+      },
+      {
+        "target": "pages/isophotal_analysis",
+        "text": "Isophotal analysis",
+        "exists": true
+      },
+      {
+        "target": "pages/principal_component_analysis",
+        "text": "Principal component analysis",
+        "exists": true
+      }
+    ],
+    "linked_from": [],
+    "path": "src/pages/pages/watkins_2026_isophote_dwarf_structure.astro"
+  },
+  "pages/dwarf_galaxies": {
+    "title": "Dwarf Galaxies",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      },
+      {
+        "source": "pages/watkins_2026_isophote_dwarf_structure",
+        "text": "Dwarf galaxies"
+      }
+    ],
+    "path": null
+  },
+  "pages/isophotal_analysis": {
+    "title": "Isophotal analysis",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/watkins_2026_isophote_dwarf_structure",
+        "text": "Isophotal analysis"
+      }
+    ],
+    "path": "src/pages/pages/isophotal_analysis.astro"
+  },
+  "pages/principal_component_analysis": {
+    "title": "Principal component analysis (PCA)",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/watkins_2026_isophote_dwarf_structure",
+        "text": "Principal component analysis"
+      }
+    ],
+    "path": "src/pages/pages/principal_component_analysis.astro"
+  },
+  "pages/mountrichas_2026_agn_environments": {
+    "title": "Large-scale environments of star-forming active galactic nuclei (Mountrichas+2026)",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/dark_matter_halos",
+        "text": "Dark matter halos",
+        "exists": true
+      },
+      {
+        "target": "pages/agn_environment",
+        "text": "AGN environment",
+        "exists": true
+      },
+      {
+        "target": "pages/black_hole_mass",
+        "text": "Black hole mass",
+        "exists": true
+      },
+      {
+        "target": "pages/eddington_ratio",
+        "text": "Eddington ratio",
+        "exists": true
+      }
+    ],
+    "linked_from": [],
+    "path": "src/pages/pages/mountrichas_2026_agn_environments.astro"
+  },
+  "pages/dark_matter_halos": {
+    "title": "Dark Matter Halos",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/toomre_q_parameter",
+        "text": null
+      },
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      },
+      {
+        "source": "pages/mountrichas_2026_agn_environments",
+        "text": "Dark matter halos"
+      }
+    ],
+    "path": null
+  },
+  "pages/agn_environment": {
+    "title": "AGN environment",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/mountrichas_2026_agn_environments",
+        "text": "AGN environment"
+      }
+    ],
+    "path": "src/pages/pages/agn_environment.astro"
+  },
+  "pages/black_hole_mass": {
+    "title": "Black hole mass",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/mountrichas_2026_agn_environments",
+        "text": "Black hole mass"
+      }
+    ],
+    "path": "src/pages/pages/black_hole_mass.astro"
+  },
+  "pages/eddington_ratio": {
+    "title": "Eddington ratio",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/mountrichas_2026_agn_environments",
+        "text": "Eddington ratio"
+      }
+    ],
+    "path": "src/pages/pages/eddington_ratio.astro"
+  },
+  "papers/tep_2026_harmonic_relaxation": {
+    "title": "Tep et al. (2026) — Very long-term relaxation of harmonic 1D self-gravitating systems",
+    "exists": false,
+    "links_to": [
+      {
+        "target": "pages/1d_self_gravitating_systems",
+        "text": "1D self-gravitating systems",
+        "exists": true
+      },
+      {
+        "target": "pages/balescu_lenard_equation",
+        "text": "Balescu–Lenard equation",
+        "exists": true
+      },
+      {
+        "target": "pages/thermodynamic_blocking",
+        "text": "Thermodynamic blocking",
+        "exists": true
+      },
+      {
+        "target": "pages/1d_self_gravitating_systems",
+        "text": "1D self-gravitating systems",
+        "exists": true
+      },
+      {
+        "target": "pages/harmonic_cores",
+        "text": "Harmonic cores",
+        "exists": true
+      },
+      {
+        "target": "pages/balescu_lenard_equation",
+        "text": "Balescu–Lenard equation",
+        "exists": true
+      },
+      {
+        "target": "pages/thermodynamic_blocking",
+        "text": "Thermodynamic blocking",
+        "exists": true
+      }
+    ],
+    "linked_from": [],
+    "path": "src/pages/pages/tep_2026_harmonic_relaxation.astro"
+  },
+  "pages/1d_self_gravitating_systems": {
+    "title": "1D self-gravitating systems",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "papers/tep_2026_harmonic_relaxation",
+        "text": "1D self-gravitating systems"
+      },
+      {
+        "source": "papers/tep_2026_harmonic_relaxation",
+        "text": "1D self-gravitating systems"
+      }
+    ],
+    "path": "src/pages/pages/1d_self_gravitating_systems.astro"
+  },
+  "pages/harmonic_cores": {
+    "title": "Harmonic cores",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "papers/tep_2026_harmonic_relaxation",
+        "text": "Harmonic cores"
+      }
+    ],
+    "path": "src/pages/pages/harmonic_cores.astro"
+  },
+  "pages/balescu_lenard_equation": {
+    "title": "Balescu–Lenard equation",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "papers/tep_2026_harmonic_relaxation",
+        "text": "Balescu–Lenard equation"
+      },
+      {
+        "source": "papers/tep_2026_harmonic_relaxation",
+        "text": "Balescu–Lenard equation"
+      }
+    ],
+    "path": "src/pages/pages/balescu_lenard_equation.astro"
+  },
+  "pages/thermodynamic_blocking": {
+    "title": "Thermodynamic blocking",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "papers/tep_2026_harmonic_relaxation",
+        "text": "Thermodynamic blocking"
+      },
+      {
+        "source": "papers/tep_2026_harmonic_relaxation",
+        "text": "Thermodynamic blocking"
+      }
+    ],
+    "path": "src/pages/pages/thermodynamic_blocking.astro"
+  },
+  "pages/bird_2026_galactic_stellar_halo_lf": {
+    "title": "Bird et al. (2026) — Galactic Stellar Halo Luminosity Function",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [],
+    "path": "src/pages/pages/bird_2026_galactic_stellar_halo_lf.astro"
+  },
+  "pages/stellar_halo": {
+    "title": "Stellar halo",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/luminosity_function",
+        "text": "Luminosity function",
+        "exists": true
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/luminosity_function",
+        "text": "Stellar halo"
+      }
+    ],
+    "path": "src/pages/pages/stellar_halo.astro"
+  },
+  "pages/luminosity_function": {
+    "title": "Luminosity function",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/stellar_halo",
+        "text": "Stellar halo",
+        "exists": true
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/stellar_halo",
+        "text": "Luminosity function"
+      }
+    ],
+    "path": "src/pages/pages/luminosity_function.astro"
+  },
+  "pages/blue_dominant_lyalpha": {
+    "title": "Blue-dominant Lyman-α emission",
+    "exists": false,
+    "links_to": [
+      {
+        "target": "pages/cosmic_web_gas_accretion",
+        "text": "Cosmic-web gas accretion",
+        "exists": false
+      },
+      {
+        "target": "pages/clumpy_multiphase_radiative_transfer",
+        "text": "Clumpy radiative-transfer models",
+        "exists": false
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/cosmic_web_gas_accretion",
+        "text": "Blue-dominant Lyα"
+      }
+    ],
+    "path": "src/pages/concepts/blue-dominant-lyalpha.astro"
+  },
+  "pages/cosmic_web_gas_accretion": {
+    "title": "Cosmic-web gas accretion",
+    "exists": false,
+    "links_to": [
+      {
+        "target": "pages/blue_dominant_lyalpha",
+        "text": "Blue-dominant Lyα",
+        "exists": false
+      },
+      {
+        "target": "pages/ultra_low_mass_galaxies",
+        "text": "Ultra-low-mass galaxies",
+        "exists": false
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/blue_dominant_lyalpha",
+        "text": "Cosmic-web gas accretion"
+      },
+      {
+        "source": "pages/ultra_low_mass_galaxies",
+        "text": "Cosmic-web gas accretion"
+      }
+    ],
+    "path": "src/pages/concepts/cosmic-web-gas-accretion.astro"
+  },
+  "pages/ultra_low_mass_galaxies": {
+    "title": "Ultra-low-mass galaxies",
+    "exists": false,
+    "links_to": [
+      {
+        "target": "pages/cosmic_web_gas_accretion",
+        "text": "Cosmic-web gas accretion",
+        "exists": false
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/cosmic_web_gas_accretion",
+        "text": "Ultra-low-mass galaxies"
+      }
+    ],
+    "path": "src/pages/concepts/ultra-low-mass-galaxies.astro"
+  },
+  "pages/clumpy_multiphase_radiative_transfer": {
+    "title": "Clumpy multiphase radiative-transfer models",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/blue_dominant_lyalpha",
+        "text": "Clumpy radiative-transfer models"
+      }
+    ],
+    "path": "src/pages/concepts/clumpy-multiphase-radiative-transfer.astro"
+  },
+  "pages/karthikeyan_2026_balmer_reddening": {
+    "title": "Balmer Decrements and Nebular-Stellar Reddening in JADES Galaxies at 2.7<z<7",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/balmer_decrement",
+        "text": "Balmer Decrement",
+        "exists": true
+      },
+      {
+        "target": "pages/nebular_reddening",
+        "text": "Nebular Reddening",
+        "exists": true
+      },
+      {
+        "target": "pages/stellar_reddening",
+        "text": "Stellar Reddening",
+        "exists": true
+      },
+      {
+        "target": "pages/dust_geometry",
+        "text": "Dust Geometry",
+        "exists": true
+      },
+      {
+        "target": "pages/gas_phase_metallicity",
+        "text": "Gas-phase Metallicity",
+        "exists": true
+      }
+    ],
+    "linked_from": [],
+    "path": "src/pages/pages/karthikeyan_2026_balmer_reddening.astro"
+  },
+  "pages/balmer_decrement": {
+    "title": "Balmer Decrement",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/karthikeyan_2026_balmer_reddening",
+        "text": "Balmer Decrement"
+      }
+    ],
+    "path": "src/pages/pages/balmer_decrement.astro"
+  },
+  "pages/nebular_reddening": {
+    "title": "Nebular Reddening",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/karthikeyan_2026_balmer_reddening",
+        "text": "Nebular Reddening"
+      }
+    ],
+    "path": "src/pages/pages/nebular_reddening.astro"
+  },
+  "pages/stellar_reddening": {
+    "title": "Stellar Reddening",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/karthikeyan_2026_balmer_reddening",
+        "text": "Stellar Reddening"
+      }
+    ],
+    "path": "src/pages/pages/stellar_reddening.astro"
+  },
+  "pages/dust_geometry": {
+    "title": "Dust Geometry",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/karthikeyan_2026_balmer_reddening",
+        "text": "Dust Geometry"
+      }
+    ],
+    "path": "src/pages/pages/dust_geometry.astro"
+  },
+  "pages/gas_phase_metallicity": {
+    "title": "Gas-phase Metallicity",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/karthikeyan_2026_balmer_reddening",
+        "text": "Gas-phase Metallicity"
+      }
+    ],
+    "path": "src/pages/pages/gas_phase_metallicity.astro"
+  },
+  "papers/mukherjee_2026_blue_dominant_lyalpha": {
+    "title": "Mukherjee et al. (2026) — Blue-dominant Lyα emission",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [],
+    "path": "src/pages/pages/mukherjee_2026_blue_dominant_lyalpha.astro"
+  },
+  "pages/steyn_2026_continuum_reverberation": {
+    "title": "Steyn et al. (2026) — Continuum Reverberation in Bright Quasars",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [],
+    "path": "src/pages/pages/steyn_2026_continuum_reverberation.astro"
+  },
+  "pages/open_cluster_binary_disruption": {
+    "title": "Open cluster binary disruption",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/zheng_2026_binary_disruption",
+        "text": "Open cluster binary disruption"
+      },
+      {
+        "source": "pages/zheng_2026_binary_disruption",
+        "text": "Open cluster binary disruption"
+      }
+    ],
+    "path": "src/pages/pages/open_cluster_binary_disruption.astro"
+  },
+  "pages/binary_survival_fraction": {
+    "title": "Binary survival fraction",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/zheng_2026_binary_disruption",
+        "text": "Binary survival fraction"
+      },
+      {
+        "source": "pages/zheng_2026_binary_disruption",
+        "text": "Binary survival fraction"
+      }
+    ],
+    "path": "src/pages/pages/binary_survival_fraction.astro"
+  },
+  "pages/mass_segregation": {
+    "title": "Mass segregation",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/zheng_2026_binary_disruption",
+        "text": "Mass segregation"
+      },
+      {
+        "source": "pages/zheng_2026_binary_disruption",
+        "text": "Mass segregation"
+      }
+    ],
+    "path": "src/pages/pages/mass_segregation.astro"
+  },
+  "pages/zheng_2026_binary_disruption": {
+    "title": "Zheng et al. (2026) — Binary disruption during the early phase of open clusters",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/open_cluster_binary_disruption",
+        "text": "Open cluster binary disruption",
+        "exists": true
+      },
+      {
+        "target": "pages/binary_survival_fraction",
+        "text": "Binary survival fraction",
+        "exists": true
+      },
+      {
+        "target": "pages/mass_segregation",
+        "text": "Mass segregation",
+        "exists": true
+      },
+      {
+        "target": "pages/open_cluster_binary_disruption",
+        "text": "Open cluster binary disruption",
+        "exists": true
+      },
+      {
+        "target": "pages/binary_survival_fraction",
+        "text": "Binary survival fraction",
+        "exists": true
+      },
+      {
+        "target": "pages/mass_segregation",
+        "text": "Mass segregation",
+        "exists": true
+      }
+    ],
+    "linked_from": [],
+    "path": "src/pages/pages/zheng_2026_binary_disruption.astro"
+  },
+  "pages/multiple_stellar_populations": {
+    "title": "Multiple stellar populations in globular clusters",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/lardo_2026_gc_progenitors",
+        "text": "Multiple stellar populations"
+      }
+    ],
+    "path": "src/pages/pages/multiple_stellar_populations.astro"
+  },
+  "pages/age_metallicity_relation": {
+    "title": "Age--metallicity relations (AMR)",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/lardo_2026_gc_progenitors",
+        "text": "Age--metallicity relation"
+      }
+    ],
+    "path": "src/pages/pages/age-metallicity-relation.astro"
+  },
+  "pages/helium_enrichment_in_gcs": {
+    "title": "Helium enrichment in globular clusters",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/lardo_2026_gc_progenitors",
+        "text": "Helium enrichment in GCs"
+      }
+    ],
+    "path": "src/pages/pages/helium_enrichment_in_gcs.astro"
+  },
+  "pages/chemo_dynamical_reconstruction": {
+    "title": "Chemo-dynamical reconstruction methods",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/lardo_2026_gc_progenitors",
+        "text": "Chemo-dynamical reconstruction"
+      }
+    ],
+    "path": "src/pages/pages/chemo-dynamical-reconstruction.astro"
+  },
+  "pages/lardo_2026_gc_progenitors": {
+    "title": "Lardo et al. (2026) — Chemo-dynamical reconstruction of Milky Way globular cluster progenitors",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/multiple_stellar_populations",
+        "text": "Multiple stellar populations",
+        "exists": true
+      },
+      {
+        "target": "pages/age_metallicity_relation",
+        "text": "Age--metallicity relation",
+        "exists": true
+      },
+      {
+        "target": "pages/helium_enrichment_in_gcs",
+        "text": "Helium enrichment in GCs",
+        "exists": true
+      },
+      {
+        "target": "pages/chemo_dynamical_reconstruction",
+        "text": "Chemo-dynamical reconstruction",
+        "exists": true
+      }
+    ],
+    "linked_from": [],
+    "path": "src/pages/pages/lardo_2026_gc_progenitors.astro"
+  },
+  "pages/feng_2026_iras04296_hi21": {
+    "title": "Feng et al. (2026) - HI 21-cm Properties of IRAS 04296+2923",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/hi_21cm_line",
+        "text": "H I 21-cm observations",
+        "exists": true
+      }
+    ],
+    "linked_from": [],
+    "path": "src/pages/pages/feng_2026_iras04296_hi21.astro"
+  },
+  "pages/hi_21cm_line": {
+    "title": "H I 21-cm Line Observations",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/feng_2026_iras04296_hi21",
+        "text": "H I 21-cm observations"
+      }
+    ],
+    "path": "src/pages/pages/hi_21cm_line.astro"
+  },
+  "pages/sales_silva_2026_bulge_bar_gradients": {
+    "title": "Sales-Silva et al. (2026) - Chemical radial gradients in the bulge-bar",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/metallicity_gradients",
+        "text": "Metallicity Gradients",
+        "exists": true
+      }
+    ],
+    "linked_from": [],
+    "path": "src/pages/pages/sales-silva_2026_bulge_bar_gradients.astro"
+  },
+  "pages/metallicity_gradients": {
+    "title": "Metallicity Gradients",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/sales_silva_2026_bulge_bar_gradients",
+        "text": "Metallicity Gradients"
+      }
+    ],
+    "path": "src/pages/pages/metallicity_gradients.astro"
+  },
+  "pages/daily_2026_03_13": {
+    "title": "Daily summary — 2026-03-13",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [],
+    "path": "src/pages/pages/daily_2026_03_13.astro"
+  },
+  "pages/abell_3627": {
+    "title": "Abell 3627",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      },
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      },
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/active_galactic_nuclei": {
+    "title": "Active Galactic Nuclei",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/agn": {
+    "title": "Agn",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/agn_feedback": {
+    "title": "Agn Feedback",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      },
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      },
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      },
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      },
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      },
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      },
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/agn_jets": {
+    "title": "Agn Jets",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      },
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      },
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      },
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/agn_outflows": {
+    "title": "Agn Outflows",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/alar_toomre": {
+    "title": "Alar Toomre",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/toomre_q_parameter",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/alma": {
+    "title": "Alma",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/alpha_elements": {
+    "title": "Alpha Elements",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/am_0644_741": {
+    "title": "Am 0644 741",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/collisional_ring_galaxies",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/another_topic": {
+    "title": "Another Topic",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/_template",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/arp_147": {
+    "title": "Arp 147",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/collisional_ring_galaxies",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/askap": {
+    "title": "Askap",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      },
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/astrosat": {
+    "title": "Astrosat",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/interacting_galaxies_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/interacting_galaxies_hcg77",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/astrosat_mission": {
+    "title": "Astrosat Mission",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/author_year": {
+    "title": "Author Year",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/_template",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/baldry_2004": {
+    "title": "Baldry 2004",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/bar_buckling": {
+    "title": "Bar Buckling",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/zheng_2026_bar_formation",
+        "text": null
+      },
+      {
+        "source": "pages/zheng_2026_bar_formation",
+        "text": null
+      },
+      {
+        "source": "pages/bar_formation",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/bar_driven_evolution": {
+    "title": "Bar Driven Evolution",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/nuclear_stellar_disk",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/bar_formation": {
+    "title": "Bar_Formation",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/toomre_q_parameter",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/barred_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/disk_instability",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/pattern_speed",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/spiral_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/secular_evolution",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/toomre_q_parameter",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/tidal_interactions",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_flyby",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/minor_mergers",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/classical_bulges",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/pattern_speed",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/bar_buckling",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/boxy_bulges",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/central_black_holes",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/barred_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/pattern_speed",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/toomre_q_parameter",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/secular_evolution",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_dynamics",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_galaxy_structure",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_dynamical_processes",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_secular_evolution",
+        "text": null,
+        "exists": false
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/pattern_speed",
+        "text": null
+      },
+      {
+        "source": "pages/pattern_speed",
+        "text": null
+      },
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      },
+      {
+        "source": "pages/zheng_2026_bar_formation",
+        "text": null
+      },
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/toomre_q_parameter",
+        "text": null
+      },
+      {
+        "source": "pages/toomre_q_parameter",
+        "text": null
+      },
+      {
+        "source": "pages/toomre_q_parameter",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Bar_Formation.astro"
+  },
+  "pages/barred_galaxies": {
+    "title": "Barred Galaxies",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/pattern_speed",
+        "text": null
+      },
+      {
+        "source": "pages/toomre_q_parameter",
+        "text": null
+      },
+      {
+        "source": "pages/bar_formation",
+        "text": null
+      },
+      {
+        "source": "pages/bar_formation",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/blue_cloud": {
+    "title": "Blue Cloud",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/color_magnitude_diagram",
+        "text": null
+      },
+      {
+        "source": "pages/color_magnitude_diagram",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/boxy_bulges": {
+    "title": "Boxy Bulges",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      },
+      {
+        "source": "pages/bar_formation",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/bpt_diagram": {
+    "title": "Bpt Diagram",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/bulge_formation": {
+    "title": "Bulge Formation",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      },
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      },
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/bulge_to_total_ratio": {
+    "title": "Bulge To Total Ratio",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      },
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/bulges": {
+    "title": "Bulges",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/toomre_q_parameter",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/candels": {
+    "title": "Candels",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/cartwheel_galaxy": {
+    "title": "Cartwheel Galaxy",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      },
+      {
+        "source": "pages/collisional_ring_galaxies",
+        "text": null
+      },
+      {
+        "source": "pages/collisional_ring_galaxies",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/central_black_holes": {
+    "title": "Central Black Holes",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/bar_formation",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/chandra": {
+    "title": "Chandra",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      },
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/chemical_evolution": {
+    "title": "Chemical Evolution",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/classical_bulges": {
+    "title": "Classical_Bulges",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/pseudobulges",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/boxy_bulges",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/major_mergers",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/sersic_profile",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/elliptical_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/bulge_formation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/disk_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/elliptical_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/sersic_index",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/fundamental_plane",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/alpha_elements",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/major_mergers",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/bar_formation",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/toomre_q_parameter",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/pattern_speed",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/morphological_quenching",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/supermassive_black_holes",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/pseudobulges",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/agn",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_morphology_evolution",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/compact_massive_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/pseudobulges",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/bulge_formation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_mergers",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/elliptical_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/morphological_quenching",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/tag_galaxy_components",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_galaxy_structure",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_galaxy_formation",
+        "text": null,
+        "exists": false
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/pattern_speed",
+        "text": null
+      },
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      },
+      {
+        "source": "pages/zheng_2026_bar_formation",
+        "text": null
+      },
+      {
+        "source": "pages/toomre_q_parameter",
+        "text": null
+      },
+      {
+        "source": "pages/bar_formation",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Classical_Bulges.astro"
+  },
+  "pages/clumpy_galaxies": {
+    "title": "Clumpy Galaxies",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/toomre_q_parameter",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/cluster_mergers": {
+    "title": "Cluster Mergers",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      },
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/collisional_ring_galaxies": {
+    "title": "Collisional_Ring_Galaxies",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/cartwheel_galaxy",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/ring_galaxies",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/galaxy_mergers",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_interactions",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/jwst",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/gravitational_lensing",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/cartwheel_galaxy",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/arp_147",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/am_0644_741",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/euclid_mission",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/rubin_lsst",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/ring_galaxies",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/galaxy_mergers",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/density_waves",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/peculiar_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_galaxy_mergers",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_peculiar_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_star_formation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_rare_objects",
+        "text": null,
+        "exists": false
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/vizgan_2026_ring_galaxy",
+        "text": null
+      },
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      },
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      },
+      {
+        "source": "pages/gravitational_lensing",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Collisional_Ring_Galaxies.astro"
+  },
+  "pages/color_magnitude_diagram": {
+    "title": "Color Magnitude_Diagram",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/red_sequence",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/blue_cloud",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/green_valley",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_bimodality",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/galaxy_evolution",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/red_sequence",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/blue_cloud",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/green_valley",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/quenching",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/dusty_star_forming_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/red_sequence_formation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/uvj_diagram",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/mass_color_diagram",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/sfr_mass_diagram",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/hertzsprung_russell_diagram",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/sdss",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/lsst",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_colors",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/stellar_populations",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_selection",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_fundamental_tools",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_observations",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_galaxy_properties",
+        "text": null,
+        "exists": false
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Color-Magnitude_Diagram.astro"
+  },
+  "pages/compact_massive_galaxies": {
+    "title": "Compact Massive Galaxies",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/cool_core_clusters": {
+    "title": "Cool Core Clusters",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/corotation_radius": {
+    "title": "Corotation Radius",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/pattern_speed",
+        "text": null
+      },
+      {
+        "source": "pages/pattern_speed",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/corotation_resonance": {
+    "title": "Corotation Resonance",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/pattern_speed",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/cosmology": {
+    "title": "Cosmology",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/gravitational_lensing",
+        "text": null
+      },
+      {
+        "source": "pages/gravitational_lensing",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/cosmos": {
+    "title": "Cosmos",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/dark_matter": {
+    "title": "Dark Matter",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/gravitational_lensing",
+        "text": null
+      },
+      {
+        "source": "pages/gravitational_lensing",
+        "text": null
+      },
+      {
+        "source": "pages/gravitational_lensing",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/density_waves": {
+    "title": "Density Waves",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/collisional_ring_galaxies",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/disk_galaxies": {
+    "title": "Disk Galaxies",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/disk_galaxy_evolution": {
+    "title": "Disk Galaxy Evolution",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/disk_instabilities": {
+    "title": "Disk Instabilities",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/disk_instability": {
+    "title": "Disk Instability",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/bar_formation",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/disk_stability": {
+    "title": "Disk Stability",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      },
+      {
+        "source": "pages/toomre_q_parameter",
+        "text": null
+      },
+      {
+        "source": "pages/toomre_q_parameter",
+        "text": null
+      },
+      {
+        "source": "pages/toomre_q_parameter",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/downsizing": {
+    "title": "Downsizing",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/dust_continuum_observations": {
+    "title": "Dust Continuum Observations",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      },
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/dust_destruction": {
+    "title": "Dust Destruction",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/dust_kinematics": {
+    "title": "Dust Kinematics",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      },
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/dusty_star_forming_galaxies": {
+    "title": "Dusty Star Forming Galaxies",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/color_magnitude_diagram",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/dynamical_friction": {
+    "title": "Dynamical Friction",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/pattern_speed",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/early_type_galaxy": {
+    "title": "Early Type Galaxy",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/einstein_ring": {
+    "title": "Einstein Ring",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/gravitational_microlensing",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/einstein_rings": {
+    "title": "Einstein Rings",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      },
+      {
+        "source": "pages/gravitational_lensing",
+        "text": null
+      },
+      {
+        "source": "pages/gravitational_lensing",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/elliptical_galaxies": {
+    "title": "Elliptical Galaxies",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      },
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      },
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      },
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/environmental_quenching": {
+    "title": "Environmental Quenching",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      },
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/epicyclic_frequency": {
+    "title": "Epicyclic Frequency",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/pattern_speed",
+        "text": null
+      },
+      {
+        "source": "pages/toomre_q_parameter",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/euclid_mission": {
+    "title": "Euclid Mission",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      },
+      {
+        "source": "pages/gravitational_lensing",
+        "text": null
+      },
+      {
+        "source": "pages/collisional_ring_galaxies",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/exoplanet_detection_methods": {
+    "title": "Exoplanet Detection Methods",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/gravitational_microlensing",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/fast_slow_bars": {
+    "title": "Fast Slow Bars",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/pattern_speed",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/font_beckman_method": {
+    "title": "Font Beckman Method",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/pattern_speed",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/fourier_analysis": {
+    "title": "Fourier Analysis",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/pattern_speed",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/fundamental_plane": {
+    "title": "Fundamental Plane",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      },
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/galactic_bar": {
+    "title": "Galactic Bar",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/nuclear_stellar_disk",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/galactic_bulge": {
+    "title": "Galactic Bulge",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/nuclear_stellar_disk",
+        "text": null
+      },
+      {
+        "source": "pages/nuclear_stellar_disk",
+        "text": null
+      },
+      {
+        "source": "pages/gravitational_microlensing",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/galactic_center": {
+    "title": "Galactic Center",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/nuclear_stellar_disk",
+        "text": null
+      },
+      {
+        "source": "pages/nuclear_stellar_disk",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/galactic_gas_dynamics": {
+    "title": "Galactic Gas Dynamics",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/toomre_q_parameter",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/galactic_models": {
+    "title": "Galactic Models",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/huston_2026_synthpop",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/galactic_outflows": {
+    "title": "Galactic Outflows",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      },
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/galaxy_bimodality": {
+    "title": "Galaxy_Bimodality",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/strateva_2001",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/baldry_2004",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/red_sequence",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/blue_cloud",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/green_valley",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/star_formation_rate",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/color_magnitude_diagram",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/blue_cloud",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/red_sequence",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/early_type_galaxy",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/mass_quenching",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/green_valley",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/morphological_quenching",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/classical_bulges",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/agn_feedback",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/stellar_feedback",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/bar_formation",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/ram_pressure_stripping",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/strangulation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_harassment",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/quenching",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/green_valley",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/post_starburst_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_simulations",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/star_formation_history",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/morphological_transformation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_evolution",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/downsizing",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/color_magnitude_diagram",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/quenching",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/star_formation_main_sequence",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_classification",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_fundamental_concepts",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_galaxy_properties",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_observations",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_open_questions",
+        "text": null,
+        "exists": false
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      },
+      {
+        "source": "pages/zheng_2026_bar_formation",
+        "text": null
+      },
+      {
+        "source": "pages/color_magnitude_diagram",
+        "text": null
+      },
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      },
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      },
+      {
+        "source": "pages/_template",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Galaxy_Bimodality.astro"
+  },
+  "pages/galaxy_classification": {
+    "title": "Galaxy Classification",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/galaxy_clusters": {
+    "title": "Galaxy Clusters",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      },
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/galaxy_colors": {
+    "title": "Galaxy Colors",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/color_magnitude_diagram",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/galaxy_dynamics": {
+    "title": "Galaxy Dynamics",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      },
+      {
+        "source": "pages/bar_formation",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/galaxy_evolution": {
+    "title": "Galaxy Evolution",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      },
+      {
+        "source": "pages/color_magnitude_diagram",
+        "text": null
+      },
+      {
+        "source": "pages/gravitational_lensing",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/galaxy_flyby": {
+    "title": "Galaxy Flyby",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/bar_formation",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/galaxy_groups": {
+    "title": "Galaxy Groups",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/galaxy_halo_connection": {
+    "title": "Galaxy Halo Connection",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/galaxy_harassment": {
+    "title": "Galaxy Harassment",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/galaxy_interactions": {
+    "title": "Galaxy Interactions",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/interacting_galaxies_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/interacting_galaxies_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/interacting_galaxies_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/collisional_ring_galaxies",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/galaxy_mergers": {
+    "title": "Galaxy Mergers",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      },
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      },
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      },
+      {
+        "source": "pages/collisional_ring_galaxies",
+        "text": null
+      },
+      {
+        "source": "pages/collisional_ring_galaxies",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/galaxy_morphology": {
+    "title": "Galaxy Morphology",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      },
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/galaxy_morphology_evolution": {
+    "title": "Galaxy Morphology Evolution",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/galaxy_morphology_high_redshift": {
+    "title": "Galaxy Morphology High Redshift",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/vizgan_2026_ring_galaxy",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/galaxy_quenching": {
+    "title": "Galaxy Quenching",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      },
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/galaxy_scaling_relations": {
+    "title": "Galaxy Scaling Relations",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/galaxy_selection": {
+    "title": "Galaxy Selection",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/color_magnitude_diagram",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/galaxy_simulations": {
+    "title": "Galaxy Simulations",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      },
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/gama": {
+    "title": "Gama",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/general_relativity": {
+    "title": "General Relativity",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/gravitational_lensing",
+        "text": null
+      },
+      {
+        "source": "pages/gravitational_lensing",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/giant_molecular_clouds": {
+    "title": "Giant Molecular Clouds",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/gravitational_interactions": {
+    "title": "Gravitational Interactions",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/gravitational_lens_surveys": {
+    "title": "Gravitational Lens Surveys",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/gravitational_lensing": {
+    "title": "Gravitational_Lensing",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/general_relativity",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/dark_matter",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/cosmology",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/general_relativity",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/dark_matter",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_evolution",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/cosmology",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/einstein_rings",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/ring_galaxies",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/collisional_ring_galaxies",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/spiral_arms",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/merging_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/polar_ring_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/euclid_mission",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/rubin_lsst",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/roman_space_telescope",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/einstein_rings",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/ring_galaxies",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/dark_matter",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/strong_lensing_modeling",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_observational_techniques",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_cosmology",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_dark_matter",
+        "text": null,
+        "exists": false
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/vizgan_2026_ring_galaxy",
+        "text": null
+      },
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      },
+      {
+        "source": "pages/gravitational_microlensing",
+        "text": null
+      },
+      {
+        "source": "pages/gravitational_microlensing",
+        "text": null
+      },
+      {
+        "source": "pages/collisional_ring_galaxies",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Gravitational_Lensing.astro"
+  },
+  "pages/gravitational_microlensing": {
+    "title": "Gravitational_Microlensing",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/gravitational_lensing",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/einstein_ring",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/strong_lensing",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/nancy_grace_roman_space_telescope",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/nuclear_stellar_disk",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/gravitational_lensing",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/exoplanet_detection_methods",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galactic_bulge",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/nancy_grace_roman_space_telescope",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_observational_techniques",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_exoplanets",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_galactic_structure",
+        "text": null,
+        "exists": false
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/huston_2026_synthpop",
+        "text": null
+      },
+      {
+        "source": "pages/nuclear_stellar_disk",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Gravitational_Microlensing.astro"
+  },
+  "pages/green_valley": {
+    "title": "Green Valley",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/color_magnitude_diagram",
+        "text": null
+      },
+      {
+        "source": "pages/color_magnitude_diagram",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/halo_quenching": {
+    "title": "Halo Quenching",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/hertzsprung_russell_diagram": {
+    "title": "Hertzsprung Russell Diagram",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/color_magnitude_diagram",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/hickson_compact_groups": {
+    "title": "Hickson Compact Groups",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/interacting_galaxies_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/interacting_galaxies_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/hierarchical_structure": {
+    "title": "Hierarchical Structure",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/hierarchical_structure_formation": {
+    "title": "Hierarchical Structure Formation",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/high_redshift_galaxies": {
+    "title": "High Redshift Galaxies",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/vizgan_2026_ring_galaxy",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/hoags_object": {
+    "title": "Hoags Object",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/hubble_sequence": {
+    "title": "Hubble Sequence",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/huston_2026_synthpop": {
+    "title": "Huston_2026_Synthpop",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/roman_gbtds",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/gravitational_microlensing",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/galactic_models",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/nancy_grace_roman_space_telescope",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/nuclear_stellar_disk",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/synthpop",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_simulations",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_microlensing",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_galactic_structure",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_roman_space_telescope",
+        "text": null,
+        "exists": false
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "index",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Huston_2026_SynthPop.astro"
+  },
+  "pages/hydrodynamical_simulations": {
+    "title": "Hydrodynamical Simulations",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/icm": {
+    "title": "Icm",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      },
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      },
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/inner_lindblad_resonance": {
+    "title": "Inner Lindblad Resonance",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/pattern_speed",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/intracluster_medium": {
+    "title": "Intracluster Medium",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/ionization_diagnostic_lines": {
+    "title": "Ionization Diagnostic Lines",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/ionization_potential": {
+    "title": "Ionization Potential",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/irregular_galaxies": {
+    "title": "Irregular Galaxies",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/jeans_instability": {
+    "title": "Jeans Instability",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/toomre_q_parameter",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/jeans_mass": {
+    "title": "Jeans Mass",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/jwst": {
+    "title": "Jwst",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      },
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      },
+      {
+        "source": "pages/collisional_ring_galaxies",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/jwst_observations": {
+    "title": "Jwst Observations",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/jwst_pearls": {
+    "title": "Jwst Pearls",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/vizgan_2026_ring_galaxy",
+        "text": null
+      },
+      {
+        "source": "pages/vizgan_2026_ring_galaxy",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/jwst_spectroscopy": {
+    "title": "Jwst Spectroscopy",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/lambda_cdm": {
+    "title": "Lambda Cdm",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/lindblad_resonances": {
+    "title": "Lindblad Resonances",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/pattern_speed",
+        "text": null
+      },
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/lsst": {
+    "title": "Lsst",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/color_magnitude_diagram",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/magnetic_fields": {
+    "title": "Magnetic Fields",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/major_mergers": {
+    "title": "Major Mergers",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      },
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      },
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/martig_2009": {
+    "title": "Martig 2009",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/mass_color_diagram": {
+    "title": "Mass Color Diagram",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/color_magnitude_diagram",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/mass_quenching": {
+    "title": "Mass Quenching",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      },
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      },
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      },
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/merging_galaxies": {
+    "title": "Merging Galaxies",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/gravitational_lensing",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/minor_mergers": {
+    "title": "Minor Mergers",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      },
+      {
+        "source": "pages/bar_formation",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/model_fitting": {
+    "title": "Model Fitting",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/pattern_speed",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/molecular_clouds": {
+    "title": "Molecular Clouds",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      },
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      },
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/molecular_gas": {
+    "title": "Molecular Gas",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/morphological_evolution": {
+    "title": "Morphological Evolution",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/morphological_quenching": {
+    "title": "Morphological_Quenching",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/mass_quenching",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/environmental_quenching",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/martig_2009",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/bulge_to_total_ratio",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/stellar_bulge",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/disk_stability",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/stellar_bulge",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/star_formation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_bimodality",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/toomre_q",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/giant_molecular_clouds",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/bulge_to_total_ratio",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/specific_sfr",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/molecular_gas",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/s0_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/pseudobulges",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/mass_quenching",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/mass_quenching",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/agn_feedback",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/environmental_quenching",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/major_mergers",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/disk_instabilities",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/minor_mergers",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/pseudobulges",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/classical_bulges",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/hubble_sequence",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_quenching",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/bulge_formation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/star_formation_efficiency",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/disk_galaxy_evolution",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_quenching_mechanisms",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_galaxy_structure",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_theories",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_controversial",
+        "text": null,
+        "exists": false
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      },
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      },
+      {
+        "source": "pages/zheng_2026_bar_formation",
+        "text": null
+      },
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Morphological_Quenching.astro"
+  },
+  "pages/morphological_transformation": {
+    "title": "Morphological Transformation",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/nancy_grace_roman_space_telescope": {
+    "title": "Nancy Grace Roman Space Telescope",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/huston_2026_synthpop",
+        "text": null
+      },
+      {
+        "source": "pages/nuclear_stellar_disk",
+        "text": null
+      },
+      {
+        "source": "pages/gravitational_microlensing",
+        "text": null
+      },
+      {
+        "source": "pages/gravitational_microlensing",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/nuclear_star_cluster": {
+    "title": "Nuclear Star Cluster",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/nuclear_stellar_disk",
+        "text": null
+      },
+      {
+        "source": "pages/nuclear_stellar_disk",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/nuclear_star_clusters": {
+    "title": "Nuclear Star Clusters",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/nuclear_stellar_disk",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/nuclear_stellar_disk": {
+    "title": "Nuclear_Stellar_Disk",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/galactic_center",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galactic_bulge",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/nuclear_star_clusters",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/sagittarius_a_star",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galactic_bulge",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/nuclear_star_cluster",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/gravitational_microlensing",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/nancy_grace_roman_space_telescope",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galactic_center",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/nuclear_star_cluster",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galactic_bar",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/bar_driven_evolution",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_galactic_components",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_galactic_center",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_stellar_populations",
+        "text": null,
+        "exists": false
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/huston_2026_synthpop",
+        "text": null
+      },
+      {
+        "source": "pages/gravitational_microlensing",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Nuclear_Stellar_Disk.astro"
+  },
+  "pages/orion_nebula_complex": {
+    "title": "Orion Nebula Complex",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/outer_lindblad_resonance": {
+    "title": "Outer Lindblad Resonance",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/pattern_speed",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/pah_emission": {
+    "title": "Pah Emission",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      },
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/pattern_speed": {
+    "title": "Pattern_Speed",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/corotation_radius",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/lindblad_resonances",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/bar_formation",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/barred_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/spiral_arms",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/resonances",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/secular_evolution",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/fourier_analysis",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tremaine_weinberg_method",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/font_beckman_method",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/model_fitting",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/classical_bulges",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/dynamical_friction",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/r_parameter",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/corotation_resonance",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/inner_lindblad_resonance",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/outer_lindblad_resonance",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/epicyclic_frequency",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/pseudobulge_formation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/bar_formation",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/corotation_radius",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tremaine_weinberg_method",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/fast_slow_bars",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_dynamics",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_kinematics",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_bar_properties",
+        "text": null,
+        "exists": false
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      },
+      {
+        "source": "pages/zheng_2026_bar_formation",
+        "text": null
+      },
+      {
+        "source": "pages/zheng_2026_bar_formation",
+        "text": null
+      },
+      {
+        "source": "pages/bar_formation",
+        "text": null
+      },
+      {
+        "source": "pages/bar_formation",
+        "text": null
+      },
+      {
+        "source": "pages/bar_formation",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Pattern_Speed.astro"
+  },
+  "pages/peculiar_galaxies": {
+    "title": "Peculiar Galaxies",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/collisional_ring_galaxies",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/polar_ring_galaxies": {
+    "title": "Polar Ring Galaxies",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/gravitational_lensing",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/portal_galaxy_evolution": {
+    "title": "Portal_Galaxy_Evolution",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/galaxy_bimodality",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/galaxy_quenching",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/star_formation_main_sequence",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_scaling_relations",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_mergers",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/downsizing",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/chemical_evolution",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/morphological_evolution",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/color_magnitude_diagram",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/uvj_diagram",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/bpt_diagram",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/fundamental_plane",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tully_fisher_relation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/morphological_quenching",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/mass_quenching",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/agn_feedback",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/stellar_feedback",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/halo_quenching",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/ram_pressure_stripping",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/strangulation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_harassment",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/preprocessing",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tidal_stripping",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/elliptical_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/spiral_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/s0_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/irregular_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/dwarf_galaxies",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/star_forming_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/quiescent_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/starburst_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/active_galactic_nuclei",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/post_starburst_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/sdss",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/gama",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/cosmos",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/candels",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/alma",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/jwst",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/rubin_lsst",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/lambda_cdm",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/dark_matter_halos",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/hierarchical_structure_formation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/semi_analytic_models",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/hydrodynamical_simulations",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/subgrid_physics",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_bimodality",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/size_evolution",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_halo_connection",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/supermassive_black_holes",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/scatter_in_scaling_relations",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/secular_evolution",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_portal",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_galaxy_evolution",
+        "text": null,
+        "exists": false
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "index",
+        "text": null
+      },
+      {
+        "source": "index",
+        "text": null
+      },
+      {
+        "source": "pages/_template",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Portal_Galaxy_Evolution.astro"
+  },
+  "pages/post_starburst_galaxies": {
+    "title": "Post Starburst Galaxies",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/preprocessing": {
+    "title": "Preprocessing",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/pseudobulge_formation": {
+    "title": "Pseudobulge Formation",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/pattern_speed",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/pseudobulges": {
+    "title": "Pseudobulges",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      },
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      },
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      },
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      },
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/quenching": {
+    "title": "Quenching",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      },
+      {
+        "source": "pages/color_magnitude_diagram",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/quiescent_galaxies": {
+    "title": "Quiescent Galaxies",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/r_parameter": {
+    "title": "R Parameter",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/pattern_speed",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/radio_observations": {
+    "title": "Radio Observations",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/interacting_galaxies_hcg77",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/ram_pressure_stripping": {
+    "title": "Ram Pressure Stripping",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      },
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      },
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      },
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      },
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      },
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      },
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/red_sequence": {
+    "title": "Red Sequence",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/color_magnitude_diagram",
+        "text": null
+      },
+      {
+        "source": "pages/color_magnitude_diagram",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/red_sequence_formation": {
+    "title": "Red Sequence Formation",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/color_magnitude_diagram",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/related_concept": {
+    "title": "Related Concept",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/_template",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/related_page": {
+    "title": "Related Page",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/_template",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/resonances": {
+    "title": "Resonances",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/pattern_speed",
+        "text": null
+      },
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      },
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/ring_galaxies": {
+    "title": "Ring_Galaxies",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/hoags_object",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/cartwheel_galaxy",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_morphology",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_mergers",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/resonances",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_evolution",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_dynamics",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_interactions",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/spiral_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/spiral_density_waves",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/lindblad_resonances",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/bar_formation",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/collisional_ring_galaxies",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/star_formation_main_sequence",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/jwst",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/gravitational_lens_surveys",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/einstein_rings",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/euclid_mission",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/rubin_lsst",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/collisional_ring_galaxies",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/galaxy_morphology",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/resonances",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/gravitational_lensing",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/galaxy_mergers",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_galaxy_morphology",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_galaxy_dynamics",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_rare_objects",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_high_redshift",
+        "text": null,
+        "exists": false
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/vizgan_2026_ring_galaxy",
+        "text": null
+      },
+      {
+        "source": "pages/gravitational_lensing",
+        "text": null
+      },
+      {
+        "source": "pages/gravitational_lensing",
+        "text": null
+      },
+      {
+        "source": "pages/collisional_ring_galaxies",
+        "text": null
+      },
+      {
+        "source": "pages/collisional_ring_galaxies",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Ring_Galaxies.astro"
+  },
+  "pages/roman_gbtds": {
+    "title": "Roman Gbtds",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/huston_2026_synthpop",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/roman_space_telescope": {
+    "title": "Roman Space Telescope",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/gravitational_lensing",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/rubin_lsst": {
+    "title": "Rubin Lsst",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      },
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      },
+      {
+        "source": "pages/gravitational_lensing",
+        "text": null
+      },
+      {
+        "source": "pages/collisional_ring_galaxies",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/s0_galaxies": {
+    "title": "S0 Galaxies",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      },
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/sagittarius_a_star": {
+    "title": "Sagittarius A Star",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/nuclear_stellar_disk",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/scatter_in_scaling_relations": {
+    "title": "Scatter In Scaling Relations",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/schmidt_relation": {
+    "title": "Schmidt Relation",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      },
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      },
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      },
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      },
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      },
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/sdss": {
+    "title": "Sdss",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/color_magnitude_diagram",
+        "text": null
+      },
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/secular_evolution": {
+    "title": "Secular Evolution",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/pattern_speed",
+        "text": null
+      },
+      {
+        "source": "pages/zheng_2026_bar_formation",
+        "text": null
+      },
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      },
+      {
+        "source": "pages/bar_formation",
+        "text": null
+      },
+      {
+        "source": "pages/bar_formation",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/self_similar_structure": {
+    "title": "Self Similar Structure",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/semi_analytic_models": {
+    "title": "Semi Analytic Models",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/sersic_index": {
+    "title": "Sersic Index",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/sersic_profile": {
+    "title": "Sersic Profile",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/seyfert_galaxies": {
+    "title": "Seyfert Galaxies",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      },
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/sfr_mass_diagram": {
+    "title": "Sfr Mass Diagram",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/color_magnitude_diagram",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/size_evolution": {
+    "title": "Size Evolution",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/specific_sfr": {
+    "title": "Specific Sfr",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/spectral_energy_distribution": {
+    "title": "Spectral Energy Distribution",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/interacting_galaxies_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/spiral_arms": {
+    "title": "Spiral Arms",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/pattern_speed",
+        "text": null
+      },
+      {
+        "source": "pages/toomre_q_parameter",
+        "text": null
+      },
+      {
+        "source": "pages/gravitational_lensing",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/spiral_density_waves": {
+    "title": "Spiral Density Waves",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/spiral_galaxies": {
+    "title": "Spiral Galaxies",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      },
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      },
+      {
+        "source": "pages/bar_formation",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/spiral_structure": {
+    "title": "Spiral Structure",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/toomre_q_parameter",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/star_formation": {
+    "title": "Star Formation",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/interacting_galaxies_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/interacting_galaxies_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/interacting_galaxies_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      },
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/toomre_q_parameter",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/star_formation_efficiency": {
+    "title": "Star Formation Efficiency",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      },
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      },
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      },
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/star_formation_history": {
+    "title": "Star Formation History",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/star_formation_main_sequence": {
+    "title": "Star Formation Main Sequence",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/vizgan_2026_ring_galaxy",
+        "text": null
+      },
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      },
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/star_formation_rate": {
+    "title": "Star Formation Rate",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      },
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      },
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/star_formation_rate_indicators": {
+    "title": "Star Formation Rate Indicators",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/star_formation_universality": {
+    "title": "Star Formation Universality",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/star_formation_uv": {
+    "title": "Star Formation Uv",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/star_forming_galaxies": {
+    "title": "Star Forming Galaxies",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/star_forming_regions": {
+    "title": "Star Forming Regions",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/interacting_galaxies_hcg77",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/starburst_galaxies": {
+    "title": "Starburst Galaxies",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/starbursts": {
+    "title": "Starbursts",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/stellar_bulge": {
+    "title": "Stellar Bulge",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      },
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/stellar_feedback": {
+    "title": "Stellar Feedback",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      },
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/stellar_populations": {
+    "title": "Stellar Populations",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/color_magnitude_diagram",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/strangulation": {
+    "title": "Strangulation",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/strateva_2001": {
+    "title": "Strateva 2001",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/strong_lensing": {
+    "title": "Strong Lensing",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/gravitational_microlensing",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/strong_lensing_modeling": {
+    "title": "Strong Lensing Modeling",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/gravitational_lensing",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/subgrid_physics": {
+    "title": "Subgrid Physics",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/supermassive_black_holes": {
+    "title": "Supermassive Black Holes",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      },
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/swing_amplification": {
+    "title": "Swing Amplification",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/toomre_q_parameter",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/synthpop": {
+    "title": "Synthpop",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/huston_2026_synthpop",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_agn": {
+    "title": "Tag Agn",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      },
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_bar_dynamics": {
+    "title": "Tag Bar Dynamics",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/zheng_2026_bar_formation",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_bar_properties": {
+    "title": "Tag Bar Properties",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/pattern_speed",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_bulge_structure": {
+    "title": "Tag Bulge Structure",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/zheng_2026_bar_formation",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_concept": {
+    "title": "Tag Concept",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/_template",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_controversial": {
+    "title": "Tag Controversial",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_cosmology": {
+    "title": "Tag Cosmology",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/gravitational_lensing",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_dark_matter": {
+    "title": "Tag Dark Matter",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/gravitational_lensing",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_dust": {
+    "title": "Tag Dust",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_dwarf_galaxies": {
+    "title": "Tag Dwarf Galaxies",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_dynamical_processes": {
+    "title": "Tag Dynamical Processes",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/bar_formation",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_dynamics": {
+    "title": "Tag Dynamics",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/pattern_speed",
+        "text": null
+      },
+      {
+        "source": "pages/toomre_q_parameter",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_efficiency_mechanisms": {
+    "title": "Tag Efficiency Mechanisms",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_environmental_effects": {
+    "title": "Tag Environmental Effects",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_exoplanets": {
+    "title": "Tag Exoplanets",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/gravitational_microlensing",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_feedback": {
+    "title": "Tag Feedback",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_fundamental_concepts": {
+    "title": "Tag Fundamental Concepts",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_fundamental_parameters": {
+    "title": "Tag Fundamental Parameters",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/toomre_q_parameter",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_fundamental_tools": {
+    "title": "Tag Fundamental Tools",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/color_magnitude_diagram",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_galactic_center": {
+    "title": "Tag Galactic Center",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/nuclear_stellar_disk",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_galactic_components": {
+    "title": "Tag Galactic Components",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/nuclear_stellar_disk",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_galactic_structure": {
+    "title": "Tag Galactic Structure",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/huston_2026_synthpop",
+        "text": null
+      },
+      {
+        "source": "pages/gravitational_microlensing",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_galaxy_clusters": {
+    "title": "Tag Galaxy Clusters",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_galaxy_components": {
+    "title": "Tag Galaxy Components",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_galaxy_dynamics": {
+    "title": "Tag Galaxy Dynamics",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_galaxy_evolution": {
+    "title": "Tag Galaxy Evolution",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      },
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      },
+      {
+        "source": "pages/_template",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_galaxy_formation": {
+    "title": "Tag Galaxy Formation",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_galaxy_groups": {
+    "title": "Tag Galaxy Groups",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_galaxy_interactions": {
+    "title": "Tag Galaxy Interactions",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/interacting_galaxies_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_galaxy_mergers": {
+    "title": "Tag Galaxy Mergers",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/collisional_ring_galaxies",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_galaxy_morphology": {
+    "title": "Tag Galaxy Morphology",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_galaxy_properties": {
+    "title": "Tag Galaxy Properties",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/color_magnitude_diagram",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_galaxy_structure": {
+    "title": "Tag Galaxy Structure",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      },
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      },
+      {
+        "source": "pages/bar_formation",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_high_redshift": {
+    "title": "Tag High Redshift",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/vizgan_2026_ring_galaxy",
+        "text": null
+      },
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_jwst": {
+    "title": "Tag Jwst",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      },
+      {
+        "source": "pages/vizgan_2026_ring_galaxy",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_kinematics": {
+    "title": "Tag Kinematics",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/pattern_speed",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_microlensing": {
+    "title": "Tag Microlensing",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/huston_2026_synthpop",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_molecular_clouds": {
+    "title": "Tag Molecular Clouds",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_morphology": {
+    "title": "Tag Morphology",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/vizgan_2026_ring_galaxy",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_observational_studies": {
+    "title": "Tag Observational Studies",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_observational_techniques": {
+    "title": "Tag Observational Techniques",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/gravitational_microlensing",
+        "text": null
+      },
+      {
+        "source": "pages/gravitational_lensing",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_observations": {
+    "title": "Tag Observations",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/interacting_galaxies_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      },
+      {
+        "source": "pages/vizgan_2026_ring_galaxy",
+        "text": null
+      },
+      {
+        "source": "pages/color_magnitude_diagram",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_open_questions": {
+    "title": "Tag Open Questions",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/galaxy_bimodality",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_outflows": {
+    "title": "Tag Outflows",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_peculiar_galaxies": {
+    "title": "Tag Peculiar Galaxies",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/collisional_ring_galaxies",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_portal": {
+    "title": "Tag Portal",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_quenching_mechanisms": {
+    "title": "Tag Quenching Mechanisms",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_rare_objects": {
+    "title": "Tag Rare Objects",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/ring_galaxies",
+        "text": null
+      },
+      {
+        "source": "pages/collisional_ring_galaxies",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_ring_galaxies": {
+    "title": "Tag Ring Galaxies",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/vizgan_2026_ring_galaxy",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_roman_space_telescope": {
+    "title": "Tag Roman Space Telescope",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/huston_2026_synthpop",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_scaling_relations": {
+    "title": "Tag Scaling Relations",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_secular_evolution": {
+    "title": "Tag Secular Evolution",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/zheng_2026_bar_formation",
+        "text": null
+      },
+      {
+        "source": "pages/bar_formation",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_simulations": {
+    "title": "Tag Simulations",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/huston_2026_synthpop",
+        "text": null
+      },
+      {
+        "source": "pages/zheng_2026_bar_formation",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_specific_observations": {
+    "title": "Tag Specific Observations",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/interacting_galaxies_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_spectroscopy": {
+    "title": "Tag Spectroscopy",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/agn_outflows_dust_kinematics",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_stability": {
+    "title": "Tag Stability",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/toomre_q_parameter",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_star_formation": {
+    "title": "Tag Star Formation",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/interacting_galaxies_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      },
+      {
+        "source": "pages/collisional_ring_galaxies",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_starbursts": {
+    "title": "Tag Starbursts",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_stellar_populations": {
+    "title": "Tag Stellar Populations",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/nuclear_stellar_disk",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_theories": {
+    "title": "Tag Theories",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_tidal_effects": {
+    "title": "Tag Tidal Effects",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tag_uv_observations": {
+    "title": "Tag Uv Observations",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tidal_dwarf_galaxies": {
+    "title": "Tidal Dwarf Galaxies",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/interacting_galaxies_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/interacting_galaxies_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/interacting_galaxies_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/interacting_galaxies_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/interacting_galaxies_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tidal_dwarfs": {
+    "title": "Tidal Dwarfs",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/galaxy_interactions_hcg77",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tidal_features": {
+    "title": "Tidal Features",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/interacting_galaxies_hcg77",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tidal_interactions": {
+    "title": "Tidal Interactions",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/bar_formation",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tidal_stripping": {
+    "title": "Tidal Stripping",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/toomre_q": {
+    "title": "Toomre Q",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/morphological_quenching",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/toomre_q_parameter": {
+    "title": "Toomre_Q_Parameter",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/alar_toomre",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/disk_stability",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/bar_formation",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/spiral_structure",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/disk_stability",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/star_formation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/barred_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/spiral_arms",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/epicyclic_frequency",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/bar_formation",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/classical_bulges",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/bulges",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/clumpy_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/dark_matter_halos",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/galactic_gas_dynamics",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/disk_stability",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/jeans_instability",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/swing_amplification",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/bar_formation",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/tag_dynamics",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_stability",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_fundamental_parameters",
+        "text": null,
+        "exists": false
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "pages/classical_bulges",
+        "text": null
+      },
+      {
+        "source": "pages/zheng_2026_bar_formation",
+        "text": null
+      },
+      {
+        "source": "pages/zheng_2026_bar_formation",
+        "text": null
+      },
+      {
+        "source": "pages/bar_formation",
+        "text": null
+      },
+      {
+        "source": "pages/bar_formation",
+        "text": null
+      },
+      {
+        "source": "pages/bar_formation",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Toomre_Q_Parameter.astro"
+  },
+  "pages/tremaine_weinberg_method": {
+    "title": "Tremaine Weinberg Method",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/pattern_speed",
+        "text": null
+      },
+      {
+        "source": "pages/pattern_speed",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/tully_fisher_relation": {
+    "title": "Tully Fisher Relation",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/uvit": {
+    "title": "Uvit",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/interacting_galaxies_hcg77",
+        "text": null
+      },
+      {
+        "source": "pages/interacting_galaxies_hcg77",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/uvj_diagram": {
+    "title": "Uvj Diagram",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/color_magnitude_diagram",
+        "text": null
+      },
+      {
+        "source": "pages/portal_galaxy_evolution",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/vizgan_2026_ring_galaxy": {
+    "title": "Vizgan_2026_Ring_Galaxy",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/jwst_pearls",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/star_formation_main_sequence",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/ring_galaxies",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/collisional_ring_galaxies",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/high_redshift_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/gravitational_lensing",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/galaxy_morphology_high_redshift",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/jwst_pearls",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_observations",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_jwst",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_high_redshift",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_morphology",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_ring_galaxies",
+        "text": null,
+        "exists": false
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "index",
+        "text": null
+      },
+      {
+        "source": "index",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Vizgan_2026_Ring_Galaxy.astro"
+  },
+  "pages/xmm_newton": {
+    "title": "Xmm Newton",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      },
+      {
+        "source": "pages/cluster_merger_shocks_norma",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/young_stellar_objects": {
+    "title": "Young Stellar Objects",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      },
+      {
+        "source": "pages/starformation_scaling_relations",
+        "text": null
+      }
+    ],
+    "path": null
+  },
+  "pages/zheng_2026_bar_formation": {
+    "title": "Zheng_2026_Bar_Formation",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/toomre_q_parameter",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/pattern_speed",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/bar_buckling",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/bar_formation",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/classical_bulges",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/pattern_speed",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/toomre_q_parameter",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/bar_buckling",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/secular_evolution",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_bimodality",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/morphological_quenching",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/tag_simulations",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_bar_dynamics",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_bulge_structure",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_secular_evolution",
+        "text": null,
+        "exists": false
+      }
+    ],
+    "linked_from": [
+      {
+        "source": "index",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Zheng_2026_Bar_Formation.astro"
+  },
+  "index": {
+    "title": "Index",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/portal_galaxy_evolution",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/vizgan_2026_ring_galaxy",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/portal_galaxy_evolution",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/random",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/zheng_2026_bar_formation",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/vizgan_2026_ring_galaxy",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/huston_2026_synthpop",
+        "text": null,
+        "exists": true
+      }
+    ],
+    "linked_from": [],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/index.astro"
+  },
+  "papers/index": {
+    "title": "Index",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/papers/index.astro"
+  },
+  "pages/interacting_galaxies_hcg77": {
+    "title": "Interacting_Galaxies_Hcg77",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/galaxy_interactions",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tidal_features",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tidal_dwarf_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/star_formation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/astrosat",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/uvit",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/hickson_compact_groups",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/star_formation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tidal_dwarf_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/star_forming_regions",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_interactions",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tidal_dwarf_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/radio_observations",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/hickson_compact_groups",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tidal_dwarf_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_interactions",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/star_formation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/spectral_energy_distribution",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tidal_dwarf_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/astrosat",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/uvit",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_observations",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_galaxy_interactions",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_star_formation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_specific_observations",
+        "text": null,
+        "exists": false
+      }
+    ],
+    "linked_from": [],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Interacting_Galaxies_HCG77.astro"
+  },
+  "pages/cluster_merger_shocks_norma": {
+    "title": "Cluster_Merger_Shocks_Norma",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/abell_3627",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/ram_pressure_stripping",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_clusters",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/ram_pressure_stripping",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/agn_jets",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/icm",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/abell_3627",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/xmm_newton",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/chandra",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/quenching",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/agn_jets",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/icm",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/ram_pressure_stripping",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/icm",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/askap",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/ram_pressure_stripping",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/xmm_newton",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/chandra",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/askap",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_clusters",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/ram_pressure_stripping",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/agn_jets",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/intracluster_medium",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/cool_core_clusters",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/cluster_mergers",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/abell_3627",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/ram_pressure_stripping",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/agn_jets",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/cluster_mergers",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_observations",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_galaxy_clusters",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_environmental_effects",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_agn",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_specific_observations",
+        "text": null,
+        "exists": false
+      }
+    ],
+    "linked_from": [],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Cluster_Merger_Shocks_Norma.astro"
+  },
+  "pages/agn_outflows_dust_kinematics": {
+    "title": "Agn_Outflows_Dust_Kinematics",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/agn_feedback",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galactic_outflows",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/dust_kinematics",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/pah_emission",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/agn_outflows",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/dust_destruction",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/agn_feedback",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/star_formation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/dust_continuum_observations",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/agn_feedback",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galactic_outflows",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/pah_emission",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/seyfert_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/dust_kinematics",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/ionization_potential",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/jwst_spectroscopy",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/agn_feedback",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/seyfert_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/dust_continuum_observations",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/jwst_observations",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/ionization_diagnostic_lines",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_agn",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_feedback",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_outflows",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_dust",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_jwst",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_spectroscopy",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_galaxy_evolution",
+        "text": null,
+        "exists": false
+      }
+    ],
+    "linked_from": [],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/AGN_Outflows_Dust_Kinematics.astro"
+  },
+  "pages/random": {
+    "title": "Random",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "index",
+        "text": null
+      }
+    ],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Random.astro"
+  },
+  "pages/galaxy_interactions_hcg77": {
+    "title": "Galaxy_Interactions_Hcg77",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/galaxy_interactions",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/star_formation_uv",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tidal_dwarfs",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/hickson_compact_groups",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tidal_dwarf_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/star_formation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tidal_dwarf_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/gravitational_interactions",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_mergers",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/starbursts",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/jeans_mass",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/bar_formation",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/galaxy_groups",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_interactions",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tidal_dwarf_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/starbursts",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/star_formation_uv",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/hickson_compact_groups",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/spectral_energy_distribution",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/astrosat_mission",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_interactions",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tidal_dwarf_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/starbursts",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/star_formation_rate",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/hickson_compact_groups",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_galaxy_interactions",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_star_formation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_uv_observations",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_dwarf_galaxies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_starbursts",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_tidal_effects",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_galaxy_groups",
+        "text": null,
+        "exists": false
+      }
+    ],
+    "linked_from": [],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Galaxy_Interactions_HCG77.astro"
+  },
+  "pages/starformation_scaling_relations": {
+    "title": "Starformation_Scaling_Relations",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/star_formation_rate",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/molecular_clouds",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/schmidt_relation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/schmidt_relation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/self_similar_structure",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/schmidt_relation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/star_formation_efficiency",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/young_stellar_objects",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/star_formation_rate_indicators",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/star_formation_universality",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/schmidt_relation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_simulations",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/stellar_feedback",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/star_formation_efficiency",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/schmidt_relation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/star_formation_rate",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/molecular_clouds",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/young_stellar_objects",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/star_formation_efficiency",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/hierarchical_structure",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/agn_feedback",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/magnetic_fields",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/star_formation_rate",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/molecular_clouds",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/schmidt_relation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_simulations",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/orion_nebula_complex",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_star_formation",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_scaling_relations",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_molecular_clouds",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_observational_studies",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_efficiency_mechanisms",
+        "text": null,
+        "exists": false
+      }
+    ],
+    "linked_from": [],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/StarFormation_Scaling_Relations.astro"
+  },
+  "pages/_template": {
+    "title": "_Template",
+    "exists": true,
+    "links_to": [
+      {
+        "target": "pages/author_year",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/related_concept",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/another_topic",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/galaxy_bimodality",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/related_page",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/portal_galaxy_evolution",
+        "text": null,
+        "exists": true
+      },
+      {
+        "target": "pages/tag_concept",
+        "text": null,
+        "exists": false
+      },
+      {
+        "target": "pages/tag_galaxy_evolution",
+        "text": null,
+        "exists": false
+      }
+    ],
+    "linked_from": [],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/_Template.astro"
+  },
+  "concepts/index": {
+    "title": "Index",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/concepts/index.astro"
+  },
+  "concepts/galaxy_bimodality": {
+    "title": "Galaxy Bimodality",
+    "exists": true,
+    "links_to": [],
+    "linked_from": [],
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/concepts/galaxy-bimodality.astro"
+  },
+  "papers/huston_2026_synthpop": {
+    "title": "Huston et al. (2026) — SynthPop microlensing model",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [],
+    "path": "src/pages/pages/huston-2026-synthpop.astro"
+  },
+  "papers/norma_cluster_merger_shocks": {
+    "title": "Cluster Merger Shocks Norma",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [],
+    "path": "src/pages/pages/norma-cluster-merger-shocks.astro"
+  },
+  "papers/hcg77_galaxy_interactions": {
+    "title": "Galaxy Interactions HCG77",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [],
+    "path": "src/pages/pages/hcg77-interactions.astro"
+  },
+  "papers/agn_outflows": {
+    "title": "AGN Outflows",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [],
+    "path": "src/pages/pages/agn-outflows.astro"
+  },
+  "papers/zheng_2026_bar_formation": {
+    "title": "Zheng et al. (2026) — Bar formation with bulges",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [],
+    "path": "src/pages/pages/zheng-2026-bar-formation.astro"
+  },
+  "papers/vizgan_2026_ring_galaxy": {
+    "title": "Vizgan et al. (2026) — Ring galaxy at z=4",
+    "exists": false,
+    "links_to": [],
+    "linked_from": [],
+    "path": "src/pages/pages/vizgan-2026-ring-galaxy.astro"
+  },
+  "ram_pressure_stripping": {
+    "title": null,
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "masson_2026_infall_time_pps",
+        "text": "Ram Pressure Stripping"
+      },
+      {
+        "source": "galaxy_infall_time",
+        "text": "Ram Pressure Stripping"
+      },
+      {
+        "source": "environmental_quenching",
+        "text": "Ram Pressure Stripping"
+      }
+    ],
+    "path": null
+  },
+  "galaxy_clusters": {
+    "title": null,
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "masson_2026_infall_time_pps",
+        "text": "Galaxy Clusters"
+      },
+      {
+        "source": "projected_phase_space",
+        "text": "Galaxy Clusters"
+      }
+    ],
+    "path": null
+  },
+  "galaxy_groups": {
+    "title": null,
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "masson_2026_infall_time_pps",
+        "text": "Galaxy Groups"
+      }
+    ],
+    "path": null
+  },
+  "dark_matter_halos": {
+    "title": null,
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "masson_2026_infall_time_pps",
+        "text": "Dark Matter Halos"
+      }
+    ],
+    "path": null
+  },
+  "preprocessing": {
+    "title": null,
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "masson_2026_infall_time_pps",
+        "text": "Preprocessing"
+      },
+      {
+        "source": "environmental_quenching",
+        "text": "Preprocessing"
+      }
+    ],
+    "path": null
+  },
+  "galaxy_bimodality": {
+    "title": null,
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "masson_2026_infall_time_pps",
+        "text": "Galaxy Bimodality"
+      },
+      {
+        "source": "environmental_quenching",
+        "text": "Galaxy Bimodality"
+      }
+    ],
+    "path": null
+  },
+  "strangulation": {
+    "title": null,
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "environmental_quenching",
+        "text": "Strangulation"
+      }
+    ],
+    "path": null
+  },
+  "morphological_quenching": {
+    "title": null,
+    "exists": false,
+    "links_to": [],
+    "linked_from": [
+      {
+        "source": "environmental_quenching",
+        "text": "Morphological Quenching"
+      }
+    ],
+    "path": null
+  }
+}

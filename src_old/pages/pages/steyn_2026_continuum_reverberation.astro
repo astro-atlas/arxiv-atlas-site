@@ -1,0 +1,43 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Steyn et al. (2026) — Continuum reverberation in bright quasars";
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Steyn et al. (2026) — Continuum Reverberation in Bright Quasars</h1>
+
+    <div class="infobox">
+      <h3 class="infobox-title">Paper</h3>
+      <table>
+        <tr><th>Type:</th><td>Paper</td></tr>
+        <tr><th>Authors:</th><td>Zachary Steyn et al.</td></tr>
+        <tr><th>arXiv:</th><td><a href="https://arxiv.org/abs/2603.11789">2603.11789</a></td></tr>
+        <tr><th>Submitted:</th><td>2026-03-12</td></tr>
+      </table>
+    </div>
+
+    <p><strong>Abstract (short)</strong> — Joint lag fits across 9,498 bright quasars show the disk-size discrepancy persists; complex wavelength dependence suggests diffuse emission contamination. Lags correlate with Eddington ratio and other spectral properties.</p>
+
+    <h2>Key claims</h2>
+    <ul>
+      <li>Observed inter-band continuum lags remain ≈3× larger than thin-disk predictions even in luminous quasars.</li>
+      <li>Wavelength effects and diffuse emission contamination drive complex lag behaviour and the apparent luminosity trends.</li>
+    </ul>
+
+    <h2>See also</h2>
+    <ul>
+      <li><WikiLink slug="pages/continuum_reverberation" text="Continuum reverberation" /></li>
+      <li><WikiLink slug="pages/accretion_disk_size_problem" text="Accretion disk size problem" /></li>
+    </ul>
+
+    <div class="references">
+      <h2>References</h2>
+      <ol>
+        <li>Steyn et al. (2026). <a href="https://arxiv.org/abs/2603.11789">arXiv:2603.11789</a>.</li>
+      </ol>
+    </div>
+  </main>
+</Base>

@@ -1,0 +1,122 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Vizgan et al. (2026) - Ring Galaxy - ArXiv Atlas";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">JWST's PEARLS: A clumpy ring galaxy at z=4.0148</h1>
+        
+        <div class="paper-meta">
+            <p><strong>Authors:</strong> David Vizgan, Ming-Yang Zhuang, Ian Smail, Rogier A. Windhorst, et al.</p>
+            <p><strong>arXiv ID:</strong> <a href="https://arxiv.org/abs/2603.11575" target="_blank">2603.11575</a></p>
+            <p><strong>Date:</strong> 2026-03-15</p>
+            <p><strong>Survey:</strong> <WikiLink slug="pages/JWST_PEARLS" text="JWST PEARLS" /></p>
+        </div>
+
+        <div class="abstract-box">
+            <h3>Abstract</h3>
+            <p>This paper presents HST/ACS, JWST/NIRCam, and JWST/NIRSpec observations of a candidate ring galaxy at z_spec=4.0148, previously identified as a potential gravitational lens. If confirmed as a ring galaxy, this would be the most distant ring galaxy discovered to date.</p>
+        </div>
+
+        <h2 id="section-0">Key Properties</h2>
+
+        <h3>Morphology</h3>
+        <ul>
+            <li>Complex structure with three bright clumps along an apparent ring</li>
+            <li>Ring radius ≈0.25" ≈ 1.8 kpc (smaller than other high-z rings)</li>
+            <li>Red center surrounded by blue ring</li>
+            <li>Five faint companions within ~1" radius</li>
+            <li>Apparent tidal tail extending from ring edge</li>
+        </ul>
+
+        <h3>Physical Properties</h3>
+        <ul>
+            <li><strong>Total SFR:</strong> 140⁺²⁰₋₃₀ M⊙ yr⁻¹</li>
+            <li><strong>Stellar Mass:</strong> log(M*/M⊙) = 10.41⁺⁰·¹¹₋₀.₁₃</li>
+            <li><strong>Dust Mass:</strong> ≈ (9±4)×10⁷ M⊙ from ALMA detection</li>
+            <li>Three main clumps have ~1/3 mass but &gt;2× SFR of center</li>
+        </ul>
+
+        <h3>Spectroscopic Confirmation</h3>
+        <ul>
+            <li>NIRSpec PRISM spectrum shows Hα+[NII], [SII], HeI, [SIII], faint Lyα</li>
+            <li>Redshift z=4.0148 from CANUCS DR1</li>
+            <li>Photometric redshifts of clumps agree (z~3.89-4.19)</li>
+        </ul>
+
+        <h2 id="section-1">Ring Galaxy vs. Gravitational Lens</h2>
+
+        <div class="evidence-for">
+            <h4>Evidence for Ring Galaxy</h4>
+            <ul>
+                <li>Photometric redshifts of all components consistent with z~4</li>
+                <li>Different colors of clumps hard to explain by lensing</li>
+                <li>Two companions at similar redshift along tidal tail</li>
+            </ul>
+        </div>
+
+        <div class="evidence-against">
+            <h4>Evidence Against Lensing</h4>
+            <ul>
+                <li>If foreground lens at z~1.66, would require unrealistic dark matter fraction (~95%)</li>
+                <li>Stellar-to-total mass ratio (~4-6%) much lower than known JWST lenses</li>
+                <li>No strong emission lines in NIRSpec data support z~1.7 solution</li>
+            </ul>
+        </div>
+
+        <h2 id="section-2">Comparison to Other High-z Ring Galaxies</h2>
+
+        <h3>Similarities</h3>
+        <ul>
+            <li>Clumpy structure (common in high-z rings)</li>
+            <li>High SFR, lies on/above <WikiLink slug="pages/Star_Formation_Main_Sequence" text="star-forming main sequence" /></li>
+            <li>Similar stellar mass to other high-z rings</li>
+        </ul>
+
+        <h3>Differences</h3>
+        <ul>
+            <li>Smaller radius (1.8 kpc vs typical 3-10 kpc)</li>
+            <li>No obvious "bullet" galaxy companion</li>
+            <li>Possible candidates: distant galaxy at 125 kpc, low-mass companions, or clump A</li>
+        </ul>
+
+        <h2 id="section-3">Implications</h2>
+
+        <h3>For Galaxy Evolution</h3>
+        <ul>
+            <li>Ring galaxies may be more common at high-z than expected</li>
+            <li>Could trace merger rates across cosmic time</li>
+            <li>Selection effects favor star-forming rings at high-z</li>
+        </ul>
+
+        <h3>For Lens Surveys</h3>
+        <ul>
+            <li>Ring galaxies are significant contaminants</li>
+            <li>Cannot distinguish from lenses based on Einstein radius alone</li>
+            <li>Future surveys (Euclid, LSST) need to account for this contamination</li>
+        </ul>
+
+        <h2 id="section-4">Related Concepts</h2>
+        <ul>
+            <li><WikiLink slug="pages/Ring_Galaxies" text="Ring Galaxies" /></li>
+            <li><WikiLink slug="pages/Collisional_Ring_Galaxies" text="Collisional Ring Galaxies" /></li>
+            <li><WikiLink slug="pages/High-Redshift_Galaxies" text="High-Redshift Galaxies" /></li>
+            <li><WikiLink slug="pages/Gravitational_Lensing" text="Gravitational Lensing" /></li>
+            <li><WikiLink slug="pages/Galaxy_Morphology_High_Redshift" text="Galaxy Morphology at High Redshift" /></li>
+            <li><WikiLink slug="pages/JWST_PEARLS" text="JWST PEARLS Survey" /></li>
+        </ul>
+
+        <div class="page-tags">
+            <strong>Tags:</strong>
+            <WikiLink slug="pages/Tag_Observations" text="Observations" />
+            <WikiLink slug="pages/Tag_JWST" text="JWST" />
+            <WikiLink slug="pages/Tag_High-Redshift" text="High-Redshift" />
+            <WikiLink slug="pages/Tag_Morphology" text="Morphology" />
+            <WikiLink slug="pages/Tag_Ring_Galaxies" text="Ring Galaxies" />
+        </div>
+  </main>
+</Base>

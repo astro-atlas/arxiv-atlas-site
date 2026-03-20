@@ -1,0 +1,40 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Dark matter halos";
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Dark matter halos</h1>
+
+    <p>
+      <strong>Dark matter halos</strong> are the dominant gravitational structures that host galaxies and set the large-scale environmental context for galaxy formation and evolution. Halo mass is a common environmental parameter inferred from clustering or lensing measurements and is often expressed as M_200 or M_vir (or in this work, M_DMH). 
+    </p>
+
+    <h2>Relevance for AGN</h2>
+    <p>
+      Clustering studies convert measured bias into characteristic halo masses. For example, Mountrichas et al. (2026) measure a characteristic halo mass for X-ray broad-line AGN of order log(M_DMH/h^{-1}M_☉) ≃ 13, i.e., group-scale halos<sup><a href="/pages/mountrichas_2026_agn_environments">1</a></sup>. This value is derived from AGN–galaxy cross-correlation functions and standard bias→halo mass conversions.
+    </p>
+
+    <h2>Observational estimators</h2>
+    <ul>
+      <li>Clustering (2-point correlation functions) → bias → halo mass</li>
+      <li>Galaxy–galaxy weak lensing → excess surface mass density → halo mass</li>
+      <li>Satellite kinematics, abundance matching (theoretical)</li>
+    </ul>
+
+    <h2>Open questions</h2>
+    <p>
+      How halo mass correlates with instantaneous AGN indicators (L_X, λ_Edd) across selections and redshift remains an open question. Mountrichas+2026 find little variation with M_BH or λ_Edd for their X-ray BLAGN sample, but different AGN types or redshifts may show different trends.
+    </p>
+
+    <div class="references">
+      <h2>References</h2>
+      <ol>
+        <li id="ref1">Mountrichas G., Carrera F. J., Shankar F., Georgakakis A. (2026). "Large-scale environments of star-forming active galactic nuclei..." arXiv:2603.11169. See paper page: <a href="/pages/mountrichas_2026_agn_environments">Mountrichas et al. (2026)</a>.</li>
+      </ol>
+    </div>
+  </main>
+</Base>

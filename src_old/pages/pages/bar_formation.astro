@@ -1,0 +1,151 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Bar Formation - ArXiv Atlas";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Bar Formation</h1>
+        
+        <div class="infobox">
+            <h3 class="infobox-title">Bar Formation</h3>
+            <table>
+                <tr>
+                    <th>Type:</th>
+                    <td>Dynamical process</td>
+                </tr>
+                <tr>
+                    <th>Timescale:</th>
+                    <td>~1-2 Gyr</td>
+                </tr>
+                <tr>
+                    <th>Key Parameter:</th>
+                    <td><WikiLink slug="pages/Toomre_Q_Parameter" text="Toomre Q" /></td>
+                </tr>
+                <tr>
+                    <th>Related:</th>
+                    <td><WikiLink slug="pages/Barred_Galaxies" text="Barred Galaxies" /><br>
+                        <WikiLink slug="pages/Disk_Instability" text="Disk Instability" /><br>
+                        <WikiLink slug="pages/Pattern_Speed" text="Pattern Speed" /></td>
+                </tr>
+            </table>
+        </div>
+
+        <p><strong>Bar formation</strong> is the dynamical process by which <WikiLink slug="pages/Spiral_Galaxies" text="spiral galaxies" /> develop elongated stellar structures in their central regions. Approximately 50-70% of disk galaxies in the local universe host bars, making this one of the most common forms of <WikiLink slug="pages/Secular_Evolution" text="secular evolution" />.</p>
+
+        <h2 id="section-0">Formation Mechanisms</h2>
+        
+        <h3>Internal (Spontaneous) Mechanism</h3>
+        <p>Bars can form through disk instabilities when the <WikiLink slug="pages/Toomre_Q_Parameter" text="Toomre Q parameter" /> drops below critical values. Key factors include:</p>
+        <ul>
+            <li>Cold, rotationally supported disk</li>
+            <li>Low velocity dispersion</li>
+            <li>Sufficient disk mass fraction</li>
+        </ul>
+
+        <h3>External Mechanisms</h3>
+        <ul>
+            <li><WikiLink slug="pages/Tidal_Interactions" text="Tidal interactions" /> with companion galaxies</li>
+            <li><WikiLink slug="pages/Galaxy_Flyby" text="High-speed flybys" /></li>
+            <li><WikiLink slug="pages/Minor_Mergers" text="Minor mergers" /></li>
+        </ul>
+
+        <h2 id="section-1">Role of Bulges</h2>
+
+        <p><WikiLink slug="pages/Classical_Bulges" text="Classical bulges" /> significantly affect bar formation<sup>[1]</sup>:</p>
+
+        <div class="evidence-for">
+            <h4>Effects of Massive/Compact Bulges</h4>
+            <ul>
+                <li>Increase Toomre Q stability parameter</li>
+                <li>Enhance circular velocity in central regions</li>
+                <li>Decrease disk mass fraction</li>
+                <li>Delay bar formation onset</li>
+                <li>Can suppress bar formation entirely if sufficiently massive</li>
+            </ul>
+        </div>
+
+        <h2 id="section-2">Evolution Stages</h2>
+
+        <h3>1. Formation Stage</h3>
+        <ul>
+            <li>Disk develops non-axisymmetric perturbations</li>
+            <li>Perturbations grow exponentially</li>
+            <li>Initial <WikiLink slug="pages/Pattern_Speed" text="pattern speed" /> is high</li>
+            <li>More massive bulges lead to higher initial pattern speeds<sup>[1]</sup></li>
+        </ul>
+
+        <h3>2. Growth Stage</h3>
+        <ul>
+            <li>Bar amplitude increases</li>
+            <li>Pattern speed decreases due to angular momentum transfer</li>
+            <li>Bulge-dominated systems show faster deceleration<sup>[1]</sup></li>
+        </ul>
+
+        <h3>3. <WikiLink slug="pages/Bar_Buckling" text="Buckling Phase" /></h3>
+        <ul>
+            <li>Vertical instabilities develop</li>
+            <li>Formation of <WikiLink slug="pages/Boxy_Bulges" text="boxy/peanut bulges" /></li>
+            <li>Temporary weakening of bar strength</li>
+        </ul>
+
+        <h3>4. Secular Growth Stage</h3>
+        <ul>
+            <li>Steady state evolution</li>
+            <li>Disk component dominates pattern speed evolution<sup>[1]</sup></li>
+            <li>Similar Ω<sub>p</sub>-A<sub>2</sub> relations regardless of bulge properties<sup>[1]</sup></li>
+        </ul>
+
+        <h2 id="section-3">Observational Signatures</h2>
+
+        <ul>
+            <li>Elongated isophotes in galaxy centers</li>
+            <li>Enhanced star formation at bar ends</li>
+            <li>Characteristic dust lanes along bar leading edges</li>
+            <li>Offset between photometric and kinematic position angles</li>
+        </ul>
+
+        <h2 id="section-4">Environmental Dependence</h2>
+
+        <p>Bar fraction shows weak environmental dependence:</p>
+        <ul>
+            <li>Similar fractions in field and cluster environments</li>
+            <li>Slight enhancement in intermediate-density environments</li>
+            <li>Possible suppression in very dense clusters</li>
+        </ul>
+
+        <h2 id="section-5">Open Questions</h2>
+
+        <ul>
+            <li>Why do some disks remain unbarred despite favorable conditions?</li>
+            <li>What determines the final bar length and strength?</li>
+            <li>Can bars be destroyed and reformed?</li>
+            <li>How do bars affect <WikiLink slug="pages/Central_Black_Holes" text="central black hole" /> growth?</li>
+        </ul>
+
+        <h2 id="section-6">See Also</h2>
+        <ul>
+            <li><WikiLink slug="pages/Barred_Galaxies" text="Barred Galaxies" /></li>
+            <li><WikiLink slug="pages/Pattern_Speed" text="Pattern Speed" /></li>
+            <li><WikiLink slug="pages/Toomre_Q_Parameter" text="Toomre Q Parameter" /></li>
+            <li><WikiLink slug="pages/Secular_Evolution" text="Secular Evolution" /></li>
+            <li><WikiLink slug="pages/Galaxy_Dynamics" text="Galaxy Dynamics" /></li>
+        </ul>
+
+        <h2 id="section-7">References</h2>
+        <ol class="references">
+            <li>Zheng et al. (2026) - "Comparison of Bar Formation Mechanisms. IIIA. The role of classical bulges in spontaneous bar formation" arXiv:2603.12121</li>
+            <li>Sales-Silva et al. (2026) - "Chemical radial gradients for the bulge-bar stellar populations from the APOGEE survey" arXiv:2603.12070</li>
+        </ol>
+
+        <div class="page-tags">
+            <strong>Tags:</strong>
+            <WikiLink slug="pages/Tag_Galaxy_Structure" text="Galaxy Structure" />
+            <WikiLink slug="pages/Tag_Dynamical_Processes" text="Dynamical Processes" />
+            <WikiLink slug="pages/Tag_Secular_Evolution" text="Secular Evolution" />
+        </div>
+  </main>
+</Base>

@@ -1,0 +1,135 @@
+---
+/**
+ * ARTICLE TEMPLATE
+ * ================
+ * Copy this file and rename it to create a new article.
+ * File naming: Use underscores for spaces (e.g., Dark_Matter_Halos.astro)
+ * 
+ * Fill in:
+ * 1. title variable below
+ * 2. Page title h1
+ * 3. Infobox fields (or remove if not needed)
+ * 4. Article content with sections
+ * 5. References at the bottom
+ */
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Article Title - ArXiv Atlas";
+
+import WikiLink from '../../components/WikiLink.astro';
+
+// STUB DETECTION: Set status = 'stub' for un-analyzed papers
+// This will show a stub banner at the top of the page
+const status = 'done'; // Change to 'stub' for placeholder pages
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Article Title</h1>
+
+    {status === 'stub' && (
+      <div class="stub-banner">
+        ⚠️ <strong>Stub</strong> — content pending analysis
+      </div>
+    )}
+
+    <!-- INFOBOX (optional - remove if not needed) -->
+    <div class="infobox">
+      <h3 class="infobox-title">Article Title</h3>
+      <table>
+        <tr>
+          <th>Type:</th>
+          <td>Concept / Paper / Survey / Mechanism</td>
+        </tr>
+        <tr>
+          <th>First described:</th>
+          <td>Year (Author)</td>
+        </tr>
+        <tr>
+          <th>Key Papers:</th>
+          <td>
+            <WikiLink slug="pages/Author_Year" text="Author et al. (Year)" />
+          </td>
+        </tr>
+        <tr>
+          <th>Related:</th>
+          <td>
+            <WikiLink slug="pages/Related_Concept" text="Related Concept" /><br>
+            <WikiLink slug="pages/Another_Topic" text="Another Topic" />
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- LEAD PARAGRAPH -->
+    <p>
+      <strong>Article Title</strong> is a brief definition or introduction to the topic.
+      Include key context and why this matters for galaxy evolution research.
+      Link to related concepts like <WikiLink slug="pages/Galaxy_Bimodality" text="galaxy bimodality" />
+      and cite sources with superscripts<sup><a href="#ref1">1</a></sup>.
+    </p>
+
+    <!-- MAIN SECTIONS -->
+    <h2 id="section-0">Background</h2>
+    
+    <p>Provide context and historical background. What observations or theories led to this concept?</p>
+
+    <h2 id="section-1">Physical Description</h2>
+    
+    <p>Explain the physics or mechanism in detail. Key points:</p>
+    
+    <ul>
+      <li><strong>Point one</strong> — Explanation of the first key aspect</li>
+      <li><strong>Point two</strong> — Explanation of the second aspect</li>
+      <li><strong>Point three</strong> — Additional detail or implication</li>
+    </ul>
+
+    <h3>Subtopic</h3>
+    
+    <p>Use h3 headers for subtopics within a section. Keep paragraphs focused and concise.</p>
+
+    <h2 id="section-2">Observational Evidence</h2>
+    
+    <p>What observations support this? Include:</p>
+    
+    <ul>
+      <li>Key datasets or surveys used</li>
+      <li>Diagnostic techniques or measurements</li>
+      <li>Quantitative results where available</li>
+    </ul>
+
+    <h2 id="section-3">Open Questions</h2>
+    
+    <p>What remains uncertain or debated? This helps readers understand the current state of the field.</p>
+
+    <h2 id="section-4">See Also</h2>
+    
+    <ul>
+      <li><WikiLink slug="pages/Related_Page" text="Related Page" /> — Brief description</li>
+      <li><WikiLink slug="pages/Portal_Galaxy_Evolution" text="Portal: Galaxy Evolution" /></li>
+    </ul>
+
+    <!-- REFERENCES -->
+    <div class="references">
+      <h2>References</h2>
+      <ol>
+        <li id="ref1">
+          Author A., Author B., et al. (Year). "Paper Title." 
+          <em>Journal Name</em>, Volume, Pages. 
+          <a href="https://arxiv.org/abs/XXXX.XXXXX">arXiv:XXXX.XXXXX</a>
+        </li>
+        <li id="ref2">
+          Author C., et al. (Year). "Another Paper." 
+          <em>ApJ</em>, Volume, Article ID.
+        </li>
+      </ol>
+    </div>
+
+    <!-- TAGS -->
+    <div class="page-tags">
+      <strong>Tags:</strong>
+      <WikiLink slug="pages/Tag_Concept" text="Concept" />
+      <WikiLink slug="pages/Tag_Galaxy_Evolution" text="Galaxy Evolution" />
+    </div>
+  </main>
+</Base>

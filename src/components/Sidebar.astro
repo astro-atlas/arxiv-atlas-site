@@ -1,0 +1,67 @@
+---
+/**
+ * Sidebar — Navigation + auto-generated TOC.
+ * Portal links are read directly from the content collection (reliable, not DB-dependent).
+ * Daily summary links are loaded from pages_index.json at build time.
+ */
+import pagesIndex from '../data/pages_index.json';
+import { getCollection } from 'astro:content';
+
+interface Props {
+  currentPage?: string;
+}
+const { currentPage } = Astro.props;
+
+// Find portal pages directly from content collection — always in sync with actual files
+const allPages = await getCollection('pages');
+const portalPages = allPages
+  .filter(p => p.data.pageType === 'portal')
+  .sort((a, b) => (a.data.title || '').localeCompare(b.data.title || ''));
+
+// Find daily summary pages (page_slug starts with 'pages/daily-')
+const dailySummaries = (pagesIndex as any[]).filter((p: any) =>
+  p.page_slug && p.page_slug.startsWith('pages/daily-')
+).sort((a: any, b: any) => (b.page_slug || '').localeCompare(a.page_slug || ''));
+---
+<aside class="page-sidebar">
+  <div class="sidebar-section">
+    <div class="sidebar-heading">Contents</div>
+    <ul class="sidebar-nav" id="toc-nav">
+      <!-- Auto-populated by JS from page headings -->
+    </ul>
+  </div>
+  <div class="sidebar-section">
+    <div class="sidebar-heading">Navigation</div>
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a></li>
+      <li><a href="/papers/">Paper Summaries</a></li>
+      <li><a href="/random/">Random Page</a></li>
+    </ul>
+  </div>
+  {portalPages.length > 0 && (
+    <div class="sidebar-section">
+      <a class="sidebar-heading" href="/portals/" style="text-decoration:none;color:inherit;">Portals</a>
+      <ul class="sidebar-nav">
+        {portalPages.map((p) => {
+          const href = '/pages/' + p.id + '/';
+          const label = (p.data.title || p.id).replace(/^Portal:\s*/i, '');
+          return <li><a href={href}>{label}</a></li>;
+        })}
+        <li><a href="/portals/" class="sidebar-more">More portals →</a></li>
+      </ul>
+    </div>
+  )}
+  {dailySummaries.length > 0 && (
+    <div class="sidebar-section">
+      <a class="sidebar-heading" href="/summaries/" style="text-decoration:none;color:inherit;">Daily Summaries</a>
+      <ul class="sidebar-nav">
+        {dailySummaries.slice(0, 5).map((p: any) => {
+          const href = '/' + p.page_slug + '/';
+          const label = (p.title || p.page_slug).replace(/^Daily Summary\s*—\s*/i, '');
+          return <li><a href={href}>{label}</a></li>;
+        })}
+        <li><a href="/summaries/" class="sidebar-more">More summaries →</a></li>
+      </ul>
+    </div>
+  )}
+</aside>

@@ -1,0 +1,23 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Helium enrichment in globular clusters";
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">Helium enrichment in globular clusters</h1>
+
+    <p>Helium enrichment (δY) quantifies the difference in helium abundance between multiple stellar populations in globular clusters. It is a key diagnostic for formation scenarios and mass--enrichment scaling.</p>
+
+    <h2>Evidence</h2>
+    <p>Helium spreads are inferred from CMD morphology (e.g., multiple main sequences or split sub-giant branches) and spectroscopic indicators. Recent work (Lardo et al. 2026) argues the helium-enrichment amplitude scales with cluster mass and is blind to progenitor origin.</p>
+
+    <h2>Related pages</h2>
+    <ul>
+      <li><WikiLink slug="pages/multiple_stellar_populations" text="Multiple stellar populations" /></li>
+      <li><WikiLink slug="pages/lardo_2026_gc_progenitors" text="Lardo et al. 2026" /></li>
+    </ul>
+  </main>
+</Base>

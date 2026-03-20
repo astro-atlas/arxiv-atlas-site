@@ -1,0 +1,76 @@
+<!DOCTYPE html><html lang="en" data-theme="light" data-astro-cid-5hce7sga> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Q Parameter (Fractality) - ArXiv Atlas</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"><link rel="stylesheet" href="/styles/global.css"><style>@keyframes highlight-pulse{0%{background-color:transparent}50%{background-color:var(--c-accent-light)}to{background-color:transparent}}.references[data-astro-cid-5hce7sga] li[data-astro-cid-5hce7sga].highlight{animation:highlight-pulse 1.5s ease-in-out}
+</style></head> <body data-astro-cid-5hce7sga> <header class="site-header" data-astro-cid-5hce7sga> <div class="header-inner" data-astro-cid-5hce7sga> <a class="site-logo" href="/" data-astro-cid-5hce7sga> <span class="logo-icon" data-astro-cid-5hce7sga>α</span>ArXiv Atlas
+</a> <div class="header-actions" data-astro-cid-5hce7sga> <form class="search-form" id="searchForm" role="search" autocomplete="off" data-astro-cid-5hce7sga> <i class="fa-solid fa-magnifying-glass search-icon" data-astro-cid-5hce7sga></i> <input type="text" id="searchInput" placeholder="Search pages…" aria-label="Search pages" data-astro-cid-5hce7sga> <ul class="search-results" id="searchResults" data-astro-cid-5hce7sga></ul> </form> <a class="header-btn" href="/random" title="Random page" data-astro-cid-5hce7sga> <i class="fa-solid fa-shuffle" data-astro-cid-5hce7sga></i> </a> <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" data-astro-cid-5hce7sga> <i class="fa-solid fa-sun" id="themeIcon" data-astro-cid-5hce7sga></i> </button> </div> <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu" data-astro-cid-5hce7sga> <i class="fa-solid fa-bars" data-astro-cid-5hce7sga></i> </button> </div> </header> <div class="page-layout" data-astro-cid-5hce7sga>  <aside class="page-sidebar"> <div class="sidebar-section"> <div class="sidebar-heading">Contents</div> <ul class="sidebar-nav" id="toc-nav"> <!-- Auto-populated by JS from page headings --> </ul> </div> <div class="sidebar-section"> <div class="sidebar-heading">Navigation</div> <ul class="sidebar-nav"> <li><a href="/">Home</a></li> <li><a href="/papers/">Paper Summaries</a></li> <li><a href="/random/">Random Page</a></li> </ul> </div> <div class="sidebar-section"> <a class="sidebar-heading" href="/portals/" style="text-decoration:none;color:inherit;">Portals</a> <ul class="sidebar-nav"> <li><a href="/pages/portal-galaxy-clusters/">Galaxy Clusters &amp; Large-Scale Structure</a></li><li><a href="/pages/portal-galaxy-evolution/">Galaxy Evolution</a></li><li><a href="/pages/portal-star-formation-ism/">Star Formation &amp; the Interstellar Medium</a></li> <li><a href="/portals/" class="sidebar-more">More portals →</a></li> </ul> </div> <div class="sidebar-section"> <a class="sidebar-heading" href="/summaries/" style="text-decoration:none;color:inherit;">Daily Summaries</a> <ul class="sidebar-nav"> <li><a href="/pages/daily-2026-03-18/">March 18, 2026</a></li> <li><a href="/summaries/" class="sidebar-more">More summaries →</a></li> </ul> </div> </aside> <main class="page-main">  <h1 class="page-title">Q Parameter (Fractality)</h1>
+<div class="infobox">
+  <h3 class="infobox-title">Q Parameter</h3>
+  <table>
+    <tbody><tr><th>Type:</th><td>Intermediate concept / statistical diagnostic</td></tr>
+    <tr><th>Introduced by:</th><td>Cartwright &#x26; Whitworth (2004)<sup><a href="#ref1">1</a></sup></td></tr>
+    <tr><th>Threshold:</th><td>Q &#x3C; 0.8 (2D) or &#x3C; 0.7 (3D) → fractal; Q > threshold → centrally concentrated</td></tr>
+    <tr><th>Related:</th>
+      <td>
+        <a href="/pages/fractal-structure-star-clusters" class="wikilink">Fractal structure of star clusters</a><br>
+        <a href="/pages/star-cluster-formation" class="wikilink">Star cluster formation</a><br>
+        <a href="/pages/dynamical-relaxation-clusters" class="wikilink">Dynamical relaxation</a><br>
+        <a href="/pages/minimum-spanning-tree" class="wikilink">Minimum spanning tree</a>
+      </td>
+    </tr>
+  </tbody></table>
+</div>
+<p>
+  The <strong>Q parameter</strong> is a dimensionless statistic that quantifies whether a stellar cluster has a hierarchically substructured (fractal) or centrally concentrated, smooth spatial distribution. It is the most widely used diagnostic for <a href="/pages/fractal-structure-star-clusters" class="wikilink">fractal structure in star clusters</a> in both observations and simulations.<sup><a href="#ref1">1</a></sup>
+</p>
+<h2 id="definition">Definition</h2>
+<p>
+  Q is defined as:
+</p>
+<blockquote>
+  Q = m̄ / s̄
+</blockquote>
+<p>
+  where m̄ is the normalized mean edge length of the <a href="/pages/minimum-spanning-tree" class="wikilink">minimum spanning tree</a> (MST) connecting all stars, and s̄ is the normalized mean interparticle separation.<sup><a href="#ref1">1</a></sup> Both quantities are normalized by the cluster size r<sub>cl</sub> (radius enclosing 95% of the cluster mass). The normalization for m̄ in 2D is (r<sub>cl</sub><sup>2</sup> N<sub>s</sub>)<sup>1/2</sup>; in 3D it is (4/3 π r<sub>cl</sub><sup>3</sup> N<sub>s</sub>)<sup>1/3</sup>.<sup><a href="#ref2">2</a></sup>
+</p>
+<h2 id="interpretation">Interpretation</h2>
+<ul>
+  <li><strong>Q ≪ 1</strong>: Highly substructured (fractal) distribution — points form tight isolated groups with small m̄ separated by large s̄.</li>
+  <li><strong>Q &#x3C; 0.8 (2D) / Q &#x3C; 0.7 (3D)</strong>: Fractal substructure present.</li>
+  <li><strong>Q ≈ threshold</strong>: Approximately uniform density profile.</li>
+  <li><strong>Q > threshold</strong>: Centrally concentrated, radially smooth cluster.</li>
+  <li><strong>Q ~ 1.2</strong>: Strongly centrally concentrated cluster (seen in high-resolution simulations at late times<sup><a href="#ref3">3</a></sup>).</li>
+</ul>
+<h2 id="s-m-plots">s̄–m̄ Diagnostic Plots</h2>
+<p>
+  Plotting s̄ vs. m̄ provides an even more sensitive diagnostic than Q alone: the location in s̄–m̄ space distinguishes fractal distributions (with different fractal dimensions f<sub>dim</sub> ~ 1.6, 2.0) from radial density profiles (with different power-law slopes α).<sup><a href="#ref2">2</a></sup>
+</p>
+<h2 id="evolution">Temporal Evolution</h2>
+<p>
+  Young clusters typically start with Q below the fractal threshold, reflecting inherited structure from the parent <a href="/pages/molecular-cloud" class="wikilink">molecular cloud</a><sup><a href="#ref4">4</a></sup>. As dynamical relaxation proceeds, Q rises. Key empirical findings:
+</p>
+<ul>
+  <li>Q exceeds the fractal threshold at ~2.5 t<sub>ff</sub> in most simulations of centrally concentrated clouds<sup><a href="#ref3">3</a></sup><sup><a href="#ref5">5</a></sup>.</li>
+  <li>Q fluctuates when subclusters merge and re-fragment — sensitive to dynamical subcluster interactions<sup><a href="#ref3">3</a></sup>.</li>
+  <li>Some young observed clusters (e.g., ρ Ophiuchus) show centrally concentrated Q at ~1 Myr; others (NGC 1513, NGC 1641) retain substructure beyond 100 Myr<sup><a href="#ref6">6</a></sup>.</li>
+</ul>
+<h2 id="correlation-with-fdim">Correlation with Fractal Dimension</h2>
+<p>
+  Q is a binary fractal indicator (fractal vs. not), while the <a href="/pages/fractal-structure-star-clusters" class="wikilink">fractal dimension</a> quantifies the degree of fractality. The correlation between Q and fractal dimension in physical simulations is weak-to-moderate (Spearman ρ): Q correlates more strongly with the correlation dimension (sensitive to local clustering) than with the box-counting dimension (global measure).<sup><a href="#ref3">3</a></sup> This contrasts with stronger correlations found in artificially constructed fractal clusters.<sup><a href="#ref6">6</a></sup>
+</p>
+<h2 id="see-also">See Also</h2>
+<ul>
+  <li><a href="/pages/fractal-structure-star-clusters" class="wikilink">Fractal structure of star clusters</a></li>
+  <li><a href="/pages/minimum-spanning-tree" class="wikilink">Minimum spanning tree</a></li>
+  <li><a href="/pages/star-cluster-formation" class="wikilink">Star cluster formation</a></li>
+  <li><a href="/pages/dynamical-relaxation-clusters" class="wikilink">Dynamical relaxation in clusters</a></li>
+</ul>
+<details class="references"><summary><h2>References</h2></summary>
+  <ol>
+    <li id="ref1">Cartwright, A. &#x26; Whitworth, A. P. (2004). "The statistical analysis of star clusters." <em>MNRAS</em>, 348, 589–598.</li>
+    <li id="ref2">Cartwright, A. (2009). "Measuring clustering in 2dv space." <em>MNRAS</em>, 400, 1427–1430.</li>
+    <li id="ref3">Akhmetali, A. et al. (2026). "Evolution of fractality in centrally concentrated young clusters." <em>A&#x26;A</em> (submitted). <a href="https://arxiv.org/abs/2603.16183">arXiv:2603.16183</a></li>
+    <li id="ref4">Schmeja, S. &#x26; Klessen, R. S. (2006). "Evolving structures of star-forming clusters." <em>A&#x26;A</em>, 449, 151–159.</li>
+    <li id="ref5">Laverde-Villarreal, E. et al. (2025). "The Evolution of Substructure during Star Cluster Assembly." <em>ApJ</em>, 989, 22.</li>
+    <li id="ref6">Sánchez, N. &#x26; Alfaro, E. J. (2009). "The spatial distribution of stars in open clusters." <em>ApJ</em>, 696, 2086.</li>
+    <li id="ref7">Bastian, N. et al. (2009). "The spatial evolution of stellar structures in the LMC." <em>MNRAS</em>, 392, 868–878.</li>
+    <li id="ref8">Parker, R. J. &#x26; Meyer, M. R. (2012). "Characterizing the dynamical state of star clusters from snapshots." <em>MNRAS</em>, 427, 637–650.</li>
+  </ol>
+</details> </main>  </div> <footer class="site-footer" data-astro-cid-5hce7sga> <div class="footer-inner" data-astro-cid-5hce7sga> <span data-astro-cid-5hce7sga>ArXiv Atlas — Galaxy Evolution Knowledge Portal</span> <span class="footer-sep" data-astro-cid-5hce7sga>·</span> <span class="footer-muted" data-astro-cid-5hce7sga>Built for Sai · 2026</span> </div> </footer> <script type="module">const r=document.documentElement,l=localStorage.getItem("atlas-theme");(l==="dark"||l==="light")&&r.setAttribute("data-theme",l);document.addEventListener("DOMContentLoaded",()=>{const m=document.getElementById("themeToggle"),u=document.getElementById("themeIcon");if(!m||!u)return;function g(){const t=r.getAttribute("data-theme")==="dark";u.className=t?"fa-solid fa-moon":"fa-solid fa-sun"}g(),m.addEventListener("click",()=>{const t=r.getAttribute("data-theme")==="dark"?"light":"dark";r.setAttribute("data-theme",t),localStorage.setItem("atlas-theme",t),g()});const d=document.getElementById("mobileMenuBtn"),o=document.querySelector(".page-sidebar");d&&o&&(d.addEventListener("click",()=>o.classList.toggle("open")),document.addEventListener("click",t=>{o.classList.contains("open")&&!o.contains(t.target)&&!d.contains(t.target)&&o.classList.remove("open")}));const c=document.getElementById("toc-nav"),f=document.querySelector(".page-main");if(c&&f){const t=f.querySelectorAll("h2, h3");t.forEach((e,i)=>{e.id||(e.id="section-"+i);const a=document.createElement("li"),n=document.createElement("a");n.href="#"+e.id,n.textContent=e.textContent,e.tagName==="H3"&&(n.style.paddingLeft="20px"),a.appendChild(n),c.appendChild(a)});const s=new IntersectionObserver(e=>{e.forEach(i=>{if(i.isIntersecting){c.querySelectorAll("a").forEach(n=>n.classList.remove("active"));const a=c.querySelector('a[href="#'+i.target.id+'"]');a&&a.classList.add("active")}})},{rootMargin:"-80px 0px -60% 0px"});t.forEach(e=>s.observe(e))}document.addEventListener("click",t=>{const s=t.target.closest('a[href^="#"]');if(!s)return;const e=document.querySelector(s.getAttribute("href"));e&&(t.preventDefault(),e.scrollIntoView({behavior:"smooth",block:"start"}))})});</script> <script type="module">let n=null;function r(){return n||(n=fetch("/existing-slugs.json").then(e=>e.json()).then(e=>new Set(e.map(t=>t.slug.replace(/[-\s]/g,"-").toLowerCase())))),n}function a(){r().then(e=>{document.querySelectorAll('a[href^="/pages/"]').forEach(t=>{const s=t.getAttribute("href").replace(/\/+$/,"").match(/^\/pages\/([^/]+)$/);if(s){const o=s[1].toLowerCase();e.has(o)||t.classList.add("redlink")}})})}document.readyState==="loading"?document.addEventListener("DOMContentLoaded",a):a();</script> <script type="module">document.addEventListener("DOMContentLoaded",()=>{const n=document.getElementById("searchInput"),r=document.getElementById("searchResults"),d=document.getElementById("searchForm");if(!n||!r||!d)return;let l=null,i=-1;async function f(){return l||(l=await(await fetch("/search-index.json")).json(),l)}function c(e){if(r.innerHTML="",i=-1,e.length===0){r.style.display="none";return}r.style.display="block",e.slice(0,12).forEach((t,o)=>{const s=document.createElement("li"),a=document.createElement("a");a.href="/"+t.slug,a.textContent=t.title,a.setAttribute("data-idx",String(o)),s.appendChild(a),r.appendChild(s)})}function u(e){const t=r.querySelectorAll("a");t.forEach(o=>o.classList.remove("active")),e>=0&&e<t.length?(t[e].classList.add("active"),i=e):i=-1}n.addEventListener("input",async()=>{const e=n.value.trim().toLowerCase();if(!e){c([]);return}const o=(await f()).filter(s=>s.title.toLowerCase().includes(e)).sort((s,a)=>{const h=s.title.toLowerCase().indexOf(e),m=a.title.toLowerCase().indexOf(e);return h-m});c(o)}),n.addEventListener("keydown",e=>{const t=r.querySelectorAll("a");t.length&&(e.key==="ArrowDown"?(e.preventDefault(),u(Math.min(i+1,t.length-1))):e.key==="ArrowUp"?(e.preventDefault(),u(Math.max(i-1,0))):e.key==="Enter"?(e.preventDefault(),i>=0&&t[i]?window.location.href=t[i].href:t.length>0&&(window.location.href=t[0].href)):e.key==="Escape"&&(c([]),n.blur()))}),document.addEventListener("click",e=>{d.contains(e.target)||c([])}),n.addEventListener("focus",()=>{n.value.trim()&&n.dispatchEvent(new Event("input"))})});</script> <script type="module">document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll('a[href^="#ref"]').forEach(o=>{o.addEventListener("click",c=>{c.preventDefault();const r=o.getAttribute("href");if(!r)return;const e=document.querySelector(".references")||document.querySelector("details.references");e&&(e instanceof HTMLDetailsElement&&(e.open=!0),e.scrollIntoView({behavior:"smooth",block:"start"}));const t=document.querySelector(r);t&&setTimeout(()=>{t.scrollIntoView({behavior:"smooth",block:"nearest"}),t.classList.add("highlight"),setTimeout(()=>t.classList.remove("highlight"),2e3)},300)})})});</script> </body> </html>

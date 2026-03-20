@@ -1,0 +1,104 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Huston et al. (2026) - SynthPop Microlensing - ArXiv Atlas";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">An Updated SynthPop Model for Microlensing Simulations I: Model Description, Evaluation, and Microlensing Event Rates Near the Galactic Center</h1>
+        
+        <div class="paper-meta">
+            <p><strong>Authors:</strong> Macy J. Huston, Alison L. Crisp, et al.</p>
+            <p><strong>arXiv ID:</strong> <a href="https://arxiv.org/abs/2603.12219" target="_blank">2603.12219</a></p>
+            <p><strong>Date:</strong> 2026-03-13</p>
+            <p><strong>Survey:</strong> <WikiLink slug="pages/Roman_GBTDS" text="Roman GBTDS" /> preparation</p>
+        </div>
+
+        <div class="abstract-box">
+            <h3>Abstract</h3>
+            <p>This paper presents an updated Galactic model implementation within the SynthPop framework, optimized for simulating the Nancy Grace Roman Space Telescope's Galactic Bulge Time Domain Survey (GBTDS). The model (SP-H25) combines components from existing models and is evaluated against stellar catalogs and kinematics.</p>
+        </div>
+
+        <h2 id="section-0">Model Components</h2>
+
+        <h3>Stellar Densities &amp; Kinematics</h3>
+        <ul>
+            <li><strong>Bulge:</strong> Cao et al. (2013) E3 triaxial model</li>
+            <li><strong>Kinematics:</strong> Koshimoto et al. (2021) Gaussian distribution</li>
+            <li><strong>Disk:</strong> Koshimoto et al. (2021) 7-age thin disk + thick disk</li>
+            <li><strong>Nuclear Stellar Disk:</strong> Sormani et al. (2022) model</li>
+            <li><strong>Halo:</strong> Besançon model (Robin et al. 2003)</li>
+        </ul>
+
+        <h3>Stellar Properties</h3>
+        <ul>
+            <li><strong>IMF:</strong> Kroupa (2001), 0.08-100 M⊙</li>
+            <li><strong>Isochrones:</strong> MIST v1.2</li>
+            <li><strong>Ages:</strong> Bulge/NSD (10 Gyr), Halo (14 Gyr), Thick disk (12 Gyr)</li>
+            <li><strong>Metallicity:</strong> Component-specific distributions</li>
+        </ul>
+
+        <h3>Extinction</h3>
+        <ul>
+            <li>2D map: Surot et al. (2020) at 8.15 kpc</li>
+            <li>3D scaling: Galaxia dust disk scheme</li>
+            <li>Custom SODC extinction law, Rv=2.5</li>
+        </ul>
+
+        <h2 id="section-1">Model Performance</h2>
+
+        <div class="evidence-for">
+            <h4>Good Agreement (|b| &gt; 0.5°)</h4>
+            <ul>
+                <li>WFC3 Bulge Treasury fields: within ~20% for most bins</li>
+                <li>OGLE star counts: ~25% agreement for |b| &gt; 1°</li>
+                <li>RGBTDS fields: underpredicts by 2% (I&lt;18) and 7% (I&lt;21)</li>
+                <li>Kinematics: Good agreement with WFC3 and Gaia proper motions</li>
+            </ul>
+        </div>
+
+        <div class="evidence-against">
+            <h4>Poor Agreement (|b| &lt; 0.5°)</h4>
+            <ul>
+                <li>GNS fields: overpredicts by ~50%</li>
+                <li>Arches field: overpredicts by ~100%</li>
+                <li>Quintuplet field: overpredicts by 0-50%</li>
+            </ul>
+        </div>
+
+        <h2 id="section-2">Implications</h2>
+        
+        <ul>
+            <li>Model performs well for Roman GBTDS contiguous lower bulge fields</li>
+            <li>Significant issues near Galactic plane affect Galactic center field predictions</li>
+            <li>Extinction model limitations for nearby disk stars</li>
+            <li>Need for completeness-corrected observational data</li>
+        </ul>
+
+        <h2 id="section-3">Future Work</h2>
+        <ul>
+            <li>Roman's GBTDS and Galactic Plane Survey will help resolve model inconsistencies</li>
+            <li>Paper II will examine detailed GBTDS simulations with this model</li>
+        </ul>
+
+        <h2 id="section-4">Related Concepts</h2>
+        <ul>
+            <li><WikiLink slug="pages/Gravitational_Microlensing" text="Gravitational Microlensing" /></li>
+            <li><WikiLink slug="pages/Galactic_Models" text="Galactic Models" /></li>
+            <li><WikiLink slug="pages/Nancy_Grace_Roman_Space_Telescope" text="Nancy Grace Roman Space Telescope" /></li>
+            <li><WikiLink slug="pages/Nuclear_Stellar_Disk" text="Nuclear Stellar Disk" /></li>
+            <li><WikiLink slug="pages/SynthPop" text="SynthPop" /> - Population synthesis modeling framework</li>
+        </ul>
+
+        <div class="page-tags">
+            <strong>Tags:</strong>
+            <WikiLink slug="pages/Tag_Simulations" text="Simulations" />
+            <WikiLink slug="pages/Tag_Microlensing" text="Microlensing" />
+            <WikiLink slug="pages/Tag_Galactic_Structure" text="Galactic Structure" />
+            <WikiLink slug="pages/Tag_Roman_Space_Telescope" text="Roman Space Telescope" />
+        </div>
+  </main>
+</Base>

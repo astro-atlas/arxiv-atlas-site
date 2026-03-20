@@ -1,0 +1,79 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+const title = "Zou et al. (2026) — AGN feedback in a disk galaxy";
+
+import WikiLink from '../../components/WikiLink.astro';
+---
+<Base title={title}>
+  <Sidebar />
+  <main class="page-main">
+    <h1 class="page-title">A systematic study of AGN feedback in a disk galaxy I: global overview</h1>
+
+    <div class="infobox">
+      <h3 class="infobox-title">AGN feedback in a disk galaxy</h3>
+      <table>
+        <tr>
+          <th>Type:</th>
+          <td>Paper</td>
+        </tr>
+        <tr>
+          <th>Authors:</th>
+          <td>Yuxuan Zou, Feng Yuan, Suoqing Ji, Luis C. Ho, Yingjie Peng, Jing Wang, Bocheng Zhu, Tao Wang</td>
+        </tr>
+        <tr>
+          <th>arXiv:</th>
+          <td><a href="https://arxiv.org/abs/2603.11179">arXiv:2603.11179</a></td>
+        </tr>
+        <tr>
+          <th>DOI:</th>
+          <td><a href="https://doi.org/10.3847/1538-4357/ae47fe">10.3847/1538-4357/ae47fe</a></td>
+        </tr>
+        <tr>
+          <th>Status:</th>
+          <td>Published in ApJ 1000, 41 (2026)</td>
+        </tr>
+        <tr>
+          <th>Related concepts:</th>
+          <td>
+            <WikiLink slug="pages/agn_feedback" text="AGN feedback" /><br>
+            <WikiLink slug="pages/circumgalactic_medium" text="Circumgalactic medium" /><br>
+            <WikiLink slug="pages/agn_sfr_connection" text="AGN-SFR connection" />
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <p><strong>Abstract.</strong> Zou et al. (2026) use the MACER cosmological simulation framework to investigate AGN feedback in a disk galaxy over Gyr timescales. They demonstrate that AGN feedback acts through multiple channels: enhancing star formation via cold-mode accretion and CGM dynamics, while ultimately quenching the galaxy through strong feedback. A predicted AGN duty cycle of ~0.49% matches observations.</p>
+
+    <h2>Key findings</h2>
+    <ol>
+      <li><strong>AGN duty cycle:</strong> Predicted ~0.49%, consistent with observations.</li>
+      <li><strong>SFR-AGN correlation:</strong> Positive correlation between SFR and AGN luminosity light curves, despite feedback.</li>
+      <li><strong>Cold filaments:</strong> Radiative cooling drives massive cold filament formation in CGM; infall fuels starburst episodes.</li>
+      <li><strong>Feedback quenching:</strong> Strong AGN feedback quenches the galaxy over ~1 Gyr after intense starbursts.</li>
+      <li><strong>Peak SFR enhancement:</strong> Models with AGN feedback produce higher peak SFRs than models without it (via cumulative feedback driving CGM dynamics).</li>
+    </ol>
+
+    <h2>Implications</h2>
+    <p>Cold-mode accretion and circumgalactic medium dynamics are central to understanding AGN-SFR connection. AGN feedback can simultaneously drive starbursts and quench galaxies in different phases, reconciling apparent contradictions in observational data.</p>
+
+    <h2>References</h2>
+    <ol>
+      <li id="ref1">Zou, Y., Yuan, F., Ji, S., Ho, L. C., Peng, Y., Wang, J., Zhu, B., Wang, T. (2026). "A systematic study of AGN feedback in a disk galaxy I: global overview." ApJ 1000, 41. DOI: 10.3847/1538-4357/ae47fe. <a href="https://doi.org/10.3847/1538-4357/ae47fe">https://doi.org/10.3847/1538-4357/ae47fe</a></li>
+    </ol>
+
+    <h2>Related concepts</h2>
+    <ul>
+      <li><a href="/concepts/galaxy-bimodality">Galaxy bimodality</a> — AGN feedback as a quenching channel and its role in transforming star-forming disks</li>
+      <li><a href="/concepts/cosmic-web-gas-accretion">Cosmic-web gas accretion</a> — cold filaments and CGM inflows that fuel concurrent AGN and star formation</li>
+      <li><a href="/concepts/clumpy-multiphase-radiative-transfer">Clumpy multphase radiative transfer</a> — radiative/thermodynamic processes in CGM and cold filaments</li>
+    </ul>
+
+    <div class="page-tags">
+      <strong>Tags:</strong>
+      <WikiLink slug="pages/agn_feedback" text="AGN feedback" />
+      <WikiLink slug="pages/galaxy_evolution" text="Galaxy evolution" />
+    </div>
+  </main>
+</Base>

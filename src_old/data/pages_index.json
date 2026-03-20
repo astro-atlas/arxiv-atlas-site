@@ -1,0 +1,3074 @@
+[
+  {
+    "id": 381,
+    "page_slug": "masson_2026_infall_time_pps",
+    "title": "Masson & Parker (2026) - Calibrating Galaxy Infall Times",
+    "page_type": "paper",
+    "path": "src/pages/pages/masson_2026_infall_time_pps.astro",
+    "created_date": "2026-03-16 02:51:30"
+  },
+  {
+    "id": 382,
+    "page_slug": "galaxy_infall_time",
+    "title": "Galaxy Infall Time",
+    "page_type": "concept",
+    "path": "src/pages/pages/galaxy_infall_time.astro",
+    "created_date": "2026-03-16 02:51:30"
+  },
+  {
+    "id": 383,
+    "page_slug": "projected_phase_space",
+    "title": "Projected Phase Space",
+    "page_type": "concept",
+    "path": "src/pages/pages/projected_phase_space.astro",
+    "created_date": "2026-03-16 02:51:30"
+  },
+  {
+    "id": 384,
+    "page_slug": "environmental_quenching",
+    "title": "Environmental Quenching",
+    "page_type": "concept",
+    "path": "src/pages/pages/environmental_quenching.astro",
+    "created_date": "2026-03-16 02:51:30"
+  },
+  {
+    "id": 377,
+    "page_slug": "pages/dillamore_2026_gse_lmc",
+    "title": "GSE vs. LMC: reshaping of radially biased stellar haloes (Dillamore+2026)",
+    "page_type": "paper",
+    "path": "src/pages/pages/dillamore_2026_gse_lmc.astro",
+    "created_date": "2026-03-16 02:29:55"
+  },
+  {
+    "id": 378,
+    "page_slug": "pages/gaia_sausage_enceladus",
+    "title": "Gaia Sausage-Enceladus (GSE)",
+    "page_type": "concept",
+    "path": "src/pages/pages/gaia_sausage_enceladus.astro",
+    "created_date": "2026-03-16 02:29:55"
+  },
+  {
+    "id": 379,
+    "page_slug": "pages/lmc_perturbations",
+    "title": "LMC perturbations of the Milky Way",
+    "page_type": "concept",
+    "path": "src/pages/pages/lmc_perturbations.astro",
+    "created_date": "2026-03-16 02:29:55"
+  },
+  {
+    "id": 380,
+    "page_slug": "pages/velocity_anisotropy",
+    "title": "Velocity anisotropy (β parameter)",
+    "page_type": "concept",
+    "path": "src/pages/pages/velocity_anisotropy.astro",
+    "created_date": "2026-03-16 02:29:55"
+  },
+  {
+    "id": 373,
+    "page_slug": "pages/chazov_2026_trgb_jwst",
+    "title": "The TRGB-SBF Project. IV. TRGB Color Calibration in JWST F090W+F150W (Chazov+2026)",
+    "page_type": "paper",
+    "path": "src/pages/pages/chazov_2026_trgb_jwst.astro",
+    "created_date": "2026-03-16 02:28:25"
+  },
+  {
+    "id": 374,
+    "page_slug": "pages/trgb_distance_indicator",
+    "title": "TRGB distance indicator",
+    "page_type": "concept",
+    "path": "src/pages/pages/trgb_distance_indicator.astro",
+    "created_date": "2026-03-16 02:28:25"
+  },
+  {
+    "id": 375,
+    "page_slug": "pages/distance_ladder",
+    "title": "Distance ladder (cosmic distance measurement)",
+    "page_type": "concept",
+    "path": "src/pages/pages/distance_ladder.astro",
+    "created_date": "2026-03-16 02:28:25"
+  },
+  {
+    "id": 376,
+    "page_slug": "pages/metallicity_effects",
+    "title": "Metallicity effects on stellar colors and luminosities",
+    "page_type": "concept",
+    "path": "src/pages/pages/metallicity_effects.astro",
+    "created_date": "2026-03-16 02:28:25"
+  },
+  {
+    "id": 366,
+    "page_slug": "papers/mountrichas_2026_agn_obscuration",
+    "title": "Mountrichas et al. (2026) — AGN obscuration",
+    "page_type": "paper",
+    "path": "src/pages/pages/mountrichas_2026_agn_obscuration.astro",
+    "created_date": "2026-03-16 02:27:35"
+  },
+  {
+    "id": 367,
+    "page_slug": "papers/zou_2026_agn_feedback",
+    "title": "Zou et al. (2026) — AGN feedback in disk galaxy",
+    "page_type": "paper",
+    "path": "src/pages/pages/zou_2026_agn_feedback.astro",
+    "created_date": "2026-03-16 02:27:35"
+  },
+  {
+    "id": 368,
+    "page_slug": "papers/mohammed_2026_c19_stream",
+    "title": "Mohammed et al. (2026) — C-19 Stellar Stream",
+    "page_type": "paper",
+    "path": "src/pages/pages/mohammed_2026_c19_stream.astro",
+    "created_date": "2026-03-16 02:27:35"
+  },
+  {
+    "id": 369,
+    "page_slug": "pages/agn_obscuration",
+    "title": "AGN obscuration",
+    "page_type": "concept",
+    "path": "src/pages/pages/agn_obscuration.astro",
+    "created_date": "2026-03-16 02:27:35"
+  },
+  {
+    "id": 370,
+    "page_slug": "pages/agn_unification",
+    "title": "AGN unification model",
+    "page_type": "concept",
+    "path": "src/pages/pages/agn_unification.astro",
+    "created_date": "2026-03-16 02:27:35"
+  },
+  {
+    "id": 371,
+    "page_slug": "pages/stellar_streams",
+    "title": "Stellar streams",
+    "page_type": "concept",
+    "path": "src/pages/pages/stellar_streams.astro",
+    "created_date": "2026-03-16 02:27:35"
+  },
+  {
+    "id": 372,
+    "page_slug": "pages/globular_cluster_disruption",
+    "title": "Globular cluster disruption",
+    "page_type": "concept",
+    "path": "src/pages/pages/globular_cluster_disruption.astro",
+    "created_date": "2026-03-16 02:27:35"
+  },
+  {
+    "id": 362,
+    "page_slug": "pages/watkins_2026_isophote_dwarf_structure",
+    "title": "Isophote shape analysis and the unfortunate subtlety of dwarf galaxy structure (Watkins+2026)",
+    "page_type": "paper",
+    "path": "src/pages/pages/watkins_2026_isophote_dwarf_structure.astro",
+    "created_date": "2026-03-16 02:26:59"
+  },
+  {
+    "id": 363,
+    "page_slug": "pages/dwarf_galaxies",
+    "title": "Dwarf galaxies",
+    "page_type": "concept",
+    "path": "src/pages/pages/dwarf_galaxies.astro",
+    "created_date": "2026-03-16 02:26:59"
+  },
+  {
+    "id": 364,
+    "page_slug": "pages/isophotal_analysis",
+    "title": "Isophotal analysis",
+    "page_type": "concept",
+    "path": "src/pages/pages/isophotal_analysis.astro",
+    "created_date": "2026-03-16 02:26:59"
+  },
+  {
+    "id": 365,
+    "page_slug": "pages/principal_component_analysis",
+    "title": "Principal component analysis (PCA)",
+    "page_type": "concept",
+    "path": "src/pages/pages/principal_component_analysis.astro",
+    "created_date": "2026-03-16 02:26:59"
+  },
+  {
+    "id": 357,
+    "page_slug": "pages/mountrichas_2026_agn_environments",
+    "title": "Large-scale environments of star-forming active galactic nuclei (Mountrichas+2026)",
+    "page_type": "paper",
+    "path": "src/pages/pages/mountrichas_2026_agn_environments.astro",
+    "created_date": "2026-03-16 02:24:28"
+  },
+  {
+    "id": 358,
+    "page_slug": "pages/dark_matter_halos",
+    "title": "Dark matter halos",
+    "page_type": "concept",
+    "path": "src/pages/pages/dark_matter_halos.astro",
+    "created_date": "2026-03-16 02:24:28"
+  },
+  {
+    "id": 359,
+    "page_slug": "pages/agn_environment",
+    "title": "AGN environment",
+    "page_type": "concept",
+    "path": "src/pages/pages/agn_environment.astro",
+    "created_date": "2026-03-16 02:24:28"
+  },
+  {
+    "id": 360,
+    "page_slug": "pages/black_hole_mass",
+    "title": "Black hole mass",
+    "page_type": "concept",
+    "path": "src/pages/pages/black_hole_mass.astro",
+    "created_date": "2026-03-16 02:24:28"
+  },
+  {
+    "id": 361,
+    "page_slug": "pages/eddington_ratio",
+    "title": "Eddington ratio",
+    "page_type": "concept",
+    "path": "src/pages/pages/eddington_ratio.astro",
+    "created_date": "2026-03-16 02:24:28"
+  },
+  {
+    "id": 352,
+    "page_slug": "papers/tep_2026_harmonic_relaxation",
+    "title": "Tep et al. (2026) — Very long-term relaxation of harmonic 1D self-gravitating systems",
+    "page_type": "paper",
+    "path": "src/pages/pages/tep_2026_harmonic_relaxation.astro",
+    "created_date": "2026-03-16 02:24:00"
+  },
+  {
+    "id": 353,
+    "page_slug": "pages/1d_self_gravitating_systems",
+    "title": "1D self-gravitating systems",
+    "page_type": "concept",
+    "path": "src/pages/pages/1d_self_gravitating_systems.astro",
+    "created_date": "2026-03-16 02:24:00"
+  },
+  {
+    "id": 354,
+    "page_slug": "pages/harmonic_cores",
+    "title": "Harmonic cores",
+    "page_type": "concept",
+    "path": "src/pages/pages/harmonic_cores.astro",
+    "created_date": "2026-03-16 02:24:00"
+  },
+  {
+    "id": 355,
+    "page_slug": "pages/balescu_lenard_equation",
+    "title": "Balescu–Lenard equation",
+    "page_type": "concept",
+    "path": "src/pages/pages/balescu_lenard_equation.astro",
+    "created_date": "2026-03-16 02:24:00"
+  },
+  {
+    "id": 356,
+    "page_slug": "pages/thermodynamic_blocking",
+    "title": "Thermodynamic blocking",
+    "page_type": "concept",
+    "path": "src/pages/pages/thermodynamic_blocking.astro",
+    "created_date": "2026-03-16 02:24:00"
+  },
+  {
+    "id": 349,
+    "page_slug": "pages/bird_2026_galactic_stellar_halo_lf",
+    "title": "Bird et al. (2026) — Galactic Stellar Halo Luminosity Function",
+    "page_type": "paper",
+    "path": "src/pages/pages/bird_2026_galactic_stellar_halo_lf.astro",
+    "created_date": "2026-03-16 02:18:14"
+  },
+  {
+    "id": 350,
+    "page_slug": "pages/stellar_halo",
+    "title": "Stellar halo",
+    "page_type": "concept",
+    "path": "src/pages/pages/stellar_halo.astro",
+    "created_date": "2026-03-16 02:18:14"
+  },
+  {
+    "id": 351,
+    "page_slug": "pages/luminosity_function",
+    "title": "Luminosity function",
+    "page_type": "concept",
+    "path": "src/pages/pages/luminosity_function.astro",
+    "created_date": "2026-03-16 02:18:14"
+  },
+  {
+    "id": 345,
+    "page_slug": "pages/blue-dominant-lyalpha",
+    "title": "Blue-dominant Lyman-α emission",
+    "page_type": "concept",
+    "path": "src/pages/concepts/blue-dominant-lyalpha.astro",
+    "created_date": "2026-03-16 02:18:09"
+  },
+  {
+    "id": 346,
+    "page_slug": "pages/cosmic-web-gas-accretion",
+    "title": "Cosmic-web gas accretion",
+    "page_type": "concept",
+    "path": "src/pages/concepts/cosmic-web-gas-accretion.astro",
+    "created_date": "2026-03-16 02:18:09"
+  },
+  {
+    "id": 347,
+    "page_slug": "pages/ultra-low-mass-galaxies",
+    "title": "Ultra-low-mass galaxies",
+    "page_type": "concept",
+    "path": "src/pages/concepts/ultra-low-mass-galaxies.astro",
+    "created_date": "2026-03-16 02:18:09"
+  },
+  {
+    "id": 348,
+    "page_slug": "pages/clumpy-multiphase-radiative-transfer",
+    "title": "Clumpy multiphase radiative-transfer models",
+    "page_type": "concept",
+    "path": "src/pages/concepts/clumpy-multiphase-radiative-transfer.astro",
+    "created_date": "2026-03-16 02:18:09"
+  },
+  {
+    "id": 338,
+    "page_slug": "pages/karthikeyan_2026_balmer_reddening",
+    "title": "Balmer Decrements and Nebular-Stellar Reddening in JADES Galaxies at 2.7<z<7",
+    "page_type": "paper",
+    "path": "src/pages/pages/karthikeyan_2026_balmer_reddening.astro",
+    "created_date": "2026-03-16 02:18:06"
+  },
+  {
+    "id": 339,
+    "page_slug": "pages/balmer_decrement",
+    "title": "Balmer Decrement",
+    "page_type": "concept",
+    "path": "src/pages/pages/balmer_decrement.astro",
+    "created_date": "2026-03-16 02:18:06"
+  },
+  {
+    "id": 340,
+    "page_slug": "pages/nebular_reddening",
+    "title": "Nebular Reddening",
+    "page_type": "concept",
+    "path": "src/pages/pages/nebular_reddening.astro",
+    "created_date": "2026-03-16 02:18:06"
+  },
+  {
+    "id": 341,
+    "page_slug": "pages/stellar_reddening",
+    "title": "Stellar Reddening",
+    "page_type": "concept",
+    "path": "src/pages/pages/stellar_reddening.astro",
+    "created_date": "2026-03-16 02:18:06"
+  },
+  {
+    "id": 342,
+    "page_slug": "pages/dust_geometry",
+    "title": "Dust Geometry",
+    "page_type": "concept",
+    "path": "src/pages/pages/dust_geometry.astro",
+    "created_date": "2026-03-16 02:18:06"
+  },
+  {
+    "id": 343,
+    "page_slug": "pages/gas_phase_metallicity",
+    "title": "Gas-phase Metallicity",
+    "page_type": "concept",
+    "path": "src/pages/pages/gas_phase_metallicity.astro",
+    "created_date": "2026-03-16 02:18:06"
+  },
+  {
+    "id": 344,
+    "page_slug": "papers/mukherjee-2026-blue-dominant-lyalpha",
+    "title": "Mukherjee et al. (2026) — Blue-dominant Lyα emission",
+    "page_type": "paper",
+    "path": "src/pages/pages/mukherjee_2026_blue_dominant_lyalpha.astro",
+    "created_date": "2026-03-16 02:18:06"
+  },
+  {
+    "id": 337,
+    "page_slug": "pages/steyn_2026_continuum_reverberation",
+    "title": "Steyn et al. (2026) — Continuum Reverberation in Bright Quasars",
+    "page_type": "paper",
+    "path": "src/pages/pages/steyn_2026_continuum_reverberation.astro",
+    "created_date": "2026-03-16 01:48:16"
+  },
+  {
+    "id": 334,
+    "page_slug": "pages/open_cluster_binary_disruption",
+    "title": "Open cluster binary disruption",
+    "page_type": "concept",
+    "path": "src/pages/pages/open_cluster_binary_disruption.astro",
+    "created_date": "2026-03-16 01:47:23"
+  },
+  {
+    "id": 335,
+    "page_slug": "pages/binary_survival_fraction",
+    "title": "Binary survival fraction",
+    "page_type": "concept",
+    "path": "src/pages/pages/binary_survival_fraction.astro",
+    "created_date": "2026-03-16 01:47:23"
+  },
+  {
+    "id": 336,
+    "page_slug": "pages/mass_segregation",
+    "title": "Mass segregation",
+    "page_type": "concept",
+    "path": "src/pages/pages/mass_segregation.astro",
+    "created_date": "2026-03-16 01:47:23"
+  },
+  {
+    "id": 333,
+    "page_slug": "pages/zheng_2026_binary_disruption",
+    "title": "Zheng et al. (2026) — Binary disruption during the early phase of open clusters",
+    "page_type": "paper",
+    "path": "src/pages/pages/zheng_2026_binary_disruption.astro",
+    "created_date": "2026-03-16 01:46:57"
+  },
+  {
+    "id": 329,
+    "page_slug": "pages/multiple_stellar_populations",
+    "title": "Multiple stellar populations in globular clusters",
+    "page_type": "concept",
+    "path": "src/pages/pages/multiple_stellar_populations.astro",
+    "created_date": "2026-03-16 01:46:11"
+  },
+  {
+    "id": 330,
+    "page_slug": "pages/age-metallicity-relation",
+    "title": "Age--metallicity relations (AMR)",
+    "page_type": "concept",
+    "path": "src/pages/pages/age-metallicity-relation.astro",
+    "created_date": "2026-03-16 01:46:11"
+  },
+  {
+    "id": 331,
+    "page_slug": "pages/helium_enrichment_in_gcs",
+    "title": "Helium enrichment in globular clusters",
+    "page_type": "concept",
+    "path": "src/pages/pages/helium_enrichment_in_gcs.astro",
+    "created_date": "2026-03-16 01:46:11"
+  },
+  {
+    "id": 332,
+    "page_slug": "pages/chemo-dynamical-reconstruction",
+    "title": "Chemo-dynamical reconstruction methods",
+    "page_type": "concept",
+    "path": "src/pages/pages/chemo-dynamical-reconstruction.astro",
+    "created_date": "2026-03-16 01:46:11"
+  },
+  {
+    "id": 328,
+    "page_slug": "pages/lardo_2026_gc_progenitors",
+    "title": "Lardo et al. (2026) — Chemo-dynamical reconstruction of Milky Way globular cluster progenitors",
+    "page_type": "paper",
+    "path": "src/pages/pages/lardo_2026_gc_progenitors.astro",
+    "created_date": "2026-03-16 01:45:35"
+  },
+  {
+    "id": 326,
+    "page_slug": "pages/feng_2026_iras04296_hi21",
+    "title": "Feng et al. (2026) - HI 21-cm Properties of IRAS 04296+2923",
+    "page_type": "paper",
+    "path": "src/pages/pages/feng_2026_iras04296_hi21.astro",
+    "created_date": "2026-03-16 01:39:10"
+  },
+  {
+    "id": 327,
+    "page_slug": "pages/hi_21cm_line",
+    "title": "H I 21-cm Line Observations",
+    "page_type": "concept",
+    "path": "src/pages/pages/hi_21cm_line.astro",
+    "created_date": "2026-03-16 01:39:10"
+  },
+  {
+    "id": 324,
+    "page_slug": "pages/sales-silva_2026_bulge_bar_gradients",
+    "title": "Sales-Silva et al. (2026) - Chemical radial gradients in the bulge-bar",
+    "page_type": "paper",
+    "path": "src/pages/pages/sales-silva_2026_bulge_bar_gradients.astro",
+    "created_date": "2026-03-16 01:37:32"
+  },
+  {
+    "id": 325,
+    "page_slug": "pages/metallicity_gradients",
+    "title": "Metallicity Gradients",
+    "page_type": "concept",
+    "path": "src/pages/pages/metallicity_gradients.astro",
+    "created_date": "2026-03-16 01:37:32"
+  },
+  {
+    "id": 323,
+    "page_slug": "pages/daily-2026-03-13",
+    "title": "Daily summary — 2026-03-13",
+    "page_type": "daily_summary",
+    "path": "src/pages/pages/daily_2026_03_13.astro",
+    "created_date": "2026-03-16 01:24:53"
+  },
+  {
+    "id": 34,
+    "page_slug": "pages/abell-3627",
+    "title": "Abell 3627",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 35,
+    "page_slug": "pages/active-galactic-nuclei",
+    "title": "Active Galactic Nuclei",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 36,
+    "page_slug": "pages/agn",
+    "title": "Agn",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 37,
+    "page_slug": "pages/agn-feedback",
+    "title": "Agn Feedback",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 38,
+    "page_slug": "pages/agn-jets",
+    "title": "Agn Jets",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 39,
+    "page_slug": "pages/agn-outflows",
+    "title": "Agn Outflows",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 40,
+    "page_slug": "pages/alar-toomre",
+    "title": "Alar Toomre",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 41,
+    "page_slug": "pages/alma",
+    "title": "Alma",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 42,
+    "page_slug": "pages/alpha-elements",
+    "title": "Alpha Elements",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 43,
+    "page_slug": "pages/am-0644-741",
+    "title": "Am 0644 741",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 44,
+    "page_slug": "pages/another-topic",
+    "title": "Another Topic",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 45,
+    "page_slug": "pages/arp-147",
+    "title": "Arp 147",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 46,
+    "page_slug": "pages/askap",
+    "title": "Askap",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 47,
+    "page_slug": "pages/astrosat",
+    "title": "Astrosat",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 48,
+    "page_slug": "pages/astrosat-mission",
+    "title": "Astrosat Mission",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 49,
+    "page_slug": "pages/author-year",
+    "title": "Author Year",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 50,
+    "page_slug": "pages/baldry-2004",
+    "title": "Baldry 2004",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 51,
+    "page_slug": "pages/bar-buckling",
+    "title": "Bar Buckling",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 52,
+    "page_slug": "pages/bar-driven-evolution",
+    "title": "Bar Driven Evolution",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 53,
+    "page_slug": "pages/bar-formation",
+    "title": "Bar Formation",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 54,
+    "page_slug": "pages/barred-galaxies",
+    "title": "Barred Galaxies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 55,
+    "page_slug": "pages/blue-cloud",
+    "title": "Blue Cloud",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 56,
+    "page_slug": "pages/boxy-bulges",
+    "title": "Boxy Bulges",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 57,
+    "page_slug": "pages/bpt-diagram",
+    "title": "Bpt Diagram",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 58,
+    "page_slug": "pages/bulge-formation",
+    "title": "Bulge Formation",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 59,
+    "page_slug": "pages/bulge-to-total-ratio",
+    "title": "Bulge To Total Ratio",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 60,
+    "page_slug": "pages/bulges",
+    "title": "Bulges",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 61,
+    "page_slug": "pages/candels",
+    "title": "Candels",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 62,
+    "page_slug": "pages/cartwheel-galaxy",
+    "title": "Cartwheel Galaxy",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 63,
+    "page_slug": "pages/central-black-holes",
+    "title": "Central Black Holes",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 64,
+    "page_slug": "pages/chandra",
+    "title": "Chandra",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 65,
+    "page_slug": "pages/chemical-evolution",
+    "title": "Chemical Evolution",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 66,
+    "page_slug": "pages/classical-bulges",
+    "title": "Classical Bulges",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 67,
+    "page_slug": "pages/clumpy-galaxies",
+    "title": "Clumpy Galaxies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 68,
+    "page_slug": "pages/cluster-mergers",
+    "title": "Cluster Mergers",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 69,
+    "page_slug": "pages/collisional-ring-galaxies",
+    "title": "Collisional Ring Galaxies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 70,
+    "page_slug": "pages/color-magnitude-diagram",
+    "title": "Color Magnitude Diagram",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 71,
+    "page_slug": "pages/compact-massive-galaxies",
+    "title": "Compact Massive Galaxies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 72,
+    "page_slug": "pages/cool-core-clusters",
+    "title": "Cool Core Clusters",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 73,
+    "page_slug": "pages/corotation-radius",
+    "title": "Corotation Radius",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 74,
+    "page_slug": "pages/corotation-resonance",
+    "title": "Corotation Resonance",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 75,
+    "page_slug": "pages/cosmology",
+    "title": "Cosmology",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 76,
+    "page_slug": "pages/cosmos",
+    "title": "Cosmos",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 77,
+    "page_slug": "pages/dark-matter",
+    "title": "Dark Matter",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 78,
+    "page_slug": "pages/dark-matter-halos",
+    "title": "Dark Matter Halos",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 79,
+    "page_slug": "pages/density-waves",
+    "title": "Density Waves",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 80,
+    "page_slug": "pages/disk-galaxies",
+    "title": "Disk Galaxies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 81,
+    "page_slug": "pages/disk-galaxy-evolution",
+    "title": "Disk Galaxy Evolution",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 82,
+    "page_slug": "pages/disk-instabilities",
+    "title": "Disk Instabilities",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 83,
+    "page_slug": "pages/disk-instability",
+    "title": "Disk Instability",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 84,
+    "page_slug": "pages/disk-stability",
+    "title": "Disk Stability",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 85,
+    "page_slug": "pages/downsizing",
+    "title": "Downsizing",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 86,
+    "page_slug": "pages/dust-continuum-observations",
+    "title": "Dust Continuum Observations",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 87,
+    "page_slug": "pages/dust-destruction",
+    "title": "Dust Destruction",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 88,
+    "page_slug": "pages/dust-kinematics",
+    "title": "Dust Kinematics",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 89,
+    "page_slug": "pages/dusty-star-forming-galaxies",
+    "title": "Dusty Star Forming Galaxies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 90,
+    "page_slug": "pages/dwarf-galaxies",
+    "title": "Dwarf Galaxies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 91,
+    "page_slug": "pages/dynamical-friction",
+    "title": "Dynamical Friction",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 92,
+    "page_slug": "pages/early-type-galaxy",
+    "title": "Early Type Galaxy",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 93,
+    "page_slug": "pages/einstein-ring",
+    "title": "Einstein Ring",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 94,
+    "page_slug": "pages/einstein-rings",
+    "title": "Einstein Rings",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 95,
+    "page_slug": "pages/elliptical-galaxies",
+    "title": "Elliptical Galaxies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 96,
+    "page_slug": "pages/environmental-quenching",
+    "title": "Environmental Quenching",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 97,
+    "page_slug": "pages/epicyclic-frequency",
+    "title": "Epicyclic Frequency",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 98,
+    "page_slug": "pages/euclid-mission",
+    "title": "Euclid Mission",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 99,
+    "page_slug": "pages/exoplanet-detection-methods",
+    "title": "Exoplanet Detection Methods",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 100,
+    "page_slug": "pages/fast-slow-bars",
+    "title": "Fast Slow Bars",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 101,
+    "page_slug": "pages/font-beckman-method",
+    "title": "Font Beckman Method",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 102,
+    "page_slug": "pages/fourier-analysis",
+    "title": "Fourier Analysis",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 103,
+    "page_slug": "pages/fundamental-plane",
+    "title": "Fundamental Plane",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 104,
+    "page_slug": "pages/galactic-bar",
+    "title": "Galactic Bar",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 105,
+    "page_slug": "pages/galactic-bulge",
+    "title": "Galactic Bulge",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 106,
+    "page_slug": "pages/galactic-center",
+    "title": "Galactic Center",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 107,
+    "page_slug": "pages/galactic-gas-dynamics",
+    "title": "Galactic Gas Dynamics",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 108,
+    "page_slug": "pages/galactic-models",
+    "title": "Galactic Models",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 109,
+    "page_slug": "pages/galactic-outflows",
+    "title": "Galactic Outflows",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 110,
+    "page_slug": "pages/galaxy-bimodality",
+    "title": "Galaxy Bimodality",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 111,
+    "page_slug": "pages/galaxy-classification",
+    "title": "Galaxy Classification",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 112,
+    "page_slug": "pages/galaxy-clusters",
+    "title": "Galaxy Clusters",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 113,
+    "page_slug": "pages/galaxy-colors",
+    "title": "Galaxy Colors",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 114,
+    "page_slug": "pages/galaxy-dynamics",
+    "title": "Galaxy Dynamics",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 115,
+    "page_slug": "pages/galaxy-evolution",
+    "title": "Galaxy Evolution",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 116,
+    "page_slug": "pages/galaxy-flyby",
+    "title": "Galaxy Flyby",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 117,
+    "page_slug": "pages/galaxy-groups",
+    "title": "Galaxy Groups",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 118,
+    "page_slug": "pages/galaxy-halo-connection",
+    "title": "Galaxy Halo Connection",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 119,
+    "page_slug": "pages/galaxy-harassment",
+    "title": "Galaxy Harassment",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 120,
+    "page_slug": "pages/galaxy-interactions",
+    "title": "Galaxy Interactions",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 121,
+    "page_slug": "pages/galaxy-mergers",
+    "title": "Galaxy Mergers",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 122,
+    "page_slug": "pages/galaxy-morphology",
+    "title": "Galaxy Morphology",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 123,
+    "page_slug": "pages/galaxy-morphology-evolution",
+    "title": "Galaxy Morphology Evolution",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 124,
+    "page_slug": "pages/galaxy-morphology-high-redshift",
+    "title": "Galaxy Morphology High Redshift",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 125,
+    "page_slug": "pages/galaxy-quenching",
+    "title": "Galaxy Quenching",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 126,
+    "page_slug": "pages/galaxy-scaling-relations",
+    "title": "Galaxy Scaling Relations",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 127,
+    "page_slug": "pages/galaxy-selection",
+    "title": "Galaxy Selection",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 128,
+    "page_slug": "pages/galaxy-simulations",
+    "title": "Galaxy Simulations",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 129,
+    "page_slug": "pages/gama",
+    "title": "Gama",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 130,
+    "page_slug": "pages/general-relativity",
+    "title": "General Relativity",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 131,
+    "page_slug": "pages/giant-molecular-clouds",
+    "title": "Giant Molecular Clouds",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 132,
+    "page_slug": "pages/gravitational-interactions",
+    "title": "Gravitational Interactions",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 133,
+    "page_slug": "pages/gravitational-lens-surveys",
+    "title": "Gravitational Lens Surveys",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 134,
+    "page_slug": "pages/gravitational-lensing",
+    "title": "Gravitational Lensing",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 135,
+    "page_slug": "pages/gravitational-microlensing",
+    "title": "Gravitational Microlensing",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 136,
+    "page_slug": "pages/green-valley",
+    "title": "Green Valley",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 137,
+    "page_slug": "pages/halo-quenching",
+    "title": "Halo Quenching",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 138,
+    "page_slug": "pages/hertzsprung-russell-diagram",
+    "title": "Hertzsprung Russell Diagram",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 139,
+    "page_slug": "pages/hickson-compact-groups",
+    "title": "Hickson Compact Groups",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 140,
+    "page_slug": "pages/hierarchical-structure",
+    "title": "Hierarchical Structure",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 141,
+    "page_slug": "pages/hierarchical-structure-formation",
+    "title": "Hierarchical Structure Formation",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 142,
+    "page_slug": "pages/high-redshift-galaxies",
+    "title": "High Redshift Galaxies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 143,
+    "page_slug": "pages/hoags-object",
+    "title": "Hoags Object",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 144,
+    "page_slug": "pages/hubble-sequence",
+    "title": "Hubble Sequence",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 145,
+    "page_slug": "pages/huston-2026-synthpop",
+    "title": "Huston 2026 Synthpop",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 146,
+    "page_slug": "pages/hydrodynamical-simulations",
+    "title": "Hydrodynamical Simulations",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 147,
+    "page_slug": "pages/icm",
+    "title": "Icm",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 148,
+    "page_slug": "pages/inner-lindblad-resonance",
+    "title": "Inner Lindblad Resonance",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 149,
+    "page_slug": "pages/intracluster-medium",
+    "title": "Intracluster Medium",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 150,
+    "page_slug": "pages/ionization-diagnostic-lines",
+    "title": "Ionization Diagnostic Lines",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 151,
+    "page_slug": "pages/ionization-potential",
+    "title": "Ionization Potential",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 152,
+    "page_slug": "pages/irregular-galaxies",
+    "title": "Irregular Galaxies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 153,
+    "page_slug": "pages/jeans-instability",
+    "title": "Jeans Instability",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 154,
+    "page_slug": "pages/jeans-mass",
+    "title": "Jeans Mass",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 155,
+    "page_slug": "pages/jwst",
+    "title": "Jwst",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 156,
+    "page_slug": "pages/jwst-observations",
+    "title": "Jwst Observations",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 157,
+    "page_slug": "pages/jwst-pearls",
+    "title": "Jwst Pearls",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 158,
+    "page_slug": "pages/jwst-spectroscopy",
+    "title": "Jwst Spectroscopy",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 159,
+    "page_slug": "pages/lambda-cdm",
+    "title": "Lambda Cdm",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 160,
+    "page_slug": "pages/lindblad-resonances",
+    "title": "Lindblad Resonances",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 161,
+    "page_slug": "pages/lsst",
+    "title": "Lsst",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 162,
+    "page_slug": "pages/magnetic-fields",
+    "title": "Magnetic Fields",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 163,
+    "page_slug": "pages/major-mergers",
+    "title": "Major Mergers",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 164,
+    "page_slug": "pages/martig-2009",
+    "title": "Martig 2009",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 165,
+    "page_slug": "pages/mass-color-diagram",
+    "title": "Mass Color Diagram",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 166,
+    "page_slug": "pages/mass-quenching",
+    "title": "Mass Quenching",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 167,
+    "page_slug": "pages/merging-galaxies",
+    "title": "Merging Galaxies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 168,
+    "page_slug": "pages/minor-mergers",
+    "title": "Minor Mergers",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 169,
+    "page_slug": "pages/model-fitting",
+    "title": "Model Fitting",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 170,
+    "page_slug": "pages/molecular-clouds",
+    "title": "Molecular Clouds",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 171,
+    "page_slug": "pages/molecular-gas",
+    "title": "Molecular Gas",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 172,
+    "page_slug": "pages/morphological-evolution",
+    "title": "Morphological Evolution",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 173,
+    "page_slug": "pages/morphological-quenching",
+    "title": "Morphological Quenching",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 174,
+    "page_slug": "pages/morphological-transformation",
+    "title": "Morphological Transformation",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 175,
+    "page_slug": "pages/nancy-grace-roman-space-telescope",
+    "title": "Nancy Grace Roman Space Telescope",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 176,
+    "page_slug": "pages/nuclear-star-cluster",
+    "title": "Nuclear Star Cluster",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 177,
+    "page_slug": "pages/nuclear-star-clusters",
+    "title": "Nuclear Star Clusters",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 178,
+    "page_slug": "pages/nuclear-stellar-disk",
+    "title": "Nuclear Stellar Disk",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 179,
+    "page_slug": "pages/orion-nebula-complex",
+    "title": "Orion Nebula Complex",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 180,
+    "page_slug": "pages/outer-lindblad-resonance",
+    "title": "Outer Lindblad Resonance",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 181,
+    "page_slug": "pages/pah-emission",
+    "title": "Pah Emission",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 182,
+    "page_slug": "pages/pattern-speed",
+    "title": "Pattern Speed",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 183,
+    "page_slug": "pages/peculiar-galaxies",
+    "title": "Peculiar Galaxies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 184,
+    "page_slug": "pages/polar-ring-galaxies",
+    "title": "Polar Ring Galaxies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 185,
+    "page_slug": "pages/portal-galaxy-evolution",
+    "title": "Portal Galaxy Evolution",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 186,
+    "page_slug": "pages/post-starburst-galaxies",
+    "title": "Post Starburst Galaxies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 187,
+    "page_slug": "pages/preprocessing",
+    "title": "Preprocessing",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 188,
+    "page_slug": "pages/pseudobulge-formation",
+    "title": "Pseudobulge Formation",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 189,
+    "page_slug": "pages/pseudobulges",
+    "title": "Pseudobulges",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 190,
+    "page_slug": "pages/quenching",
+    "title": "Quenching",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 191,
+    "page_slug": "pages/quiescent-galaxies",
+    "title": "Quiescent Galaxies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 192,
+    "page_slug": "pages/r-parameter",
+    "title": "R Parameter",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 193,
+    "page_slug": "pages/radio-observations",
+    "title": "Radio Observations",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 194,
+    "page_slug": "pages/ram-pressure-stripping",
+    "title": "Ram Pressure Stripping",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 195,
+    "page_slug": "pages/red-sequence",
+    "title": "Red Sequence",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 196,
+    "page_slug": "pages/red-sequence-formation",
+    "title": "Red Sequence Formation",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 197,
+    "page_slug": "pages/related-concept",
+    "title": "Related Concept",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 198,
+    "page_slug": "pages/related-page",
+    "title": "Related Page",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 199,
+    "page_slug": "pages/resonances",
+    "title": "Resonances",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 200,
+    "page_slug": "pages/ring-galaxies",
+    "title": "Ring Galaxies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 201,
+    "page_slug": "pages/roman-gbtds",
+    "title": "Roman Gbtds",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 202,
+    "page_slug": "pages/roman-space-telescope",
+    "title": "Roman Space Telescope",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 203,
+    "page_slug": "pages/rubin-lsst",
+    "title": "Rubin Lsst",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 204,
+    "page_slug": "pages/s0-galaxies",
+    "title": "S0 Galaxies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 205,
+    "page_slug": "pages/sagittarius-a-star",
+    "title": "Sagittarius A Star",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 206,
+    "page_slug": "pages/scatter-in-scaling-relations",
+    "title": "Scatter In Scaling Relations",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 207,
+    "page_slug": "pages/schmidt-relation",
+    "title": "Schmidt Relation",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 208,
+    "page_slug": "pages/sdss",
+    "title": "Sdss",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 209,
+    "page_slug": "pages/secular-evolution",
+    "title": "Secular Evolution",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 210,
+    "page_slug": "pages/self-similar-structure",
+    "title": "Self Similar Structure",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 211,
+    "page_slug": "pages/semi-analytic-models",
+    "title": "Semi Analytic Models",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 212,
+    "page_slug": "pages/sersic-index",
+    "title": "Sersic Index",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 213,
+    "page_slug": "pages/sersic-profile",
+    "title": "Sersic Profile",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 214,
+    "page_slug": "pages/seyfert-galaxies",
+    "title": "Seyfert Galaxies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 215,
+    "page_slug": "pages/sfr-mass-diagram",
+    "title": "Sfr Mass Diagram",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 216,
+    "page_slug": "pages/size-evolution",
+    "title": "Size Evolution",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 217,
+    "page_slug": "pages/specific-sfr",
+    "title": "Specific Sfr",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 218,
+    "page_slug": "pages/spectral-energy-distribution",
+    "title": "Spectral Energy Distribution",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 219,
+    "page_slug": "pages/spiral-arms",
+    "title": "Spiral Arms",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 220,
+    "page_slug": "pages/spiral-density-waves",
+    "title": "Spiral Density Waves",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 221,
+    "page_slug": "pages/spiral-galaxies",
+    "title": "Spiral Galaxies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 222,
+    "page_slug": "pages/spiral-structure",
+    "title": "Spiral Structure",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 223,
+    "page_slug": "pages/star-formation",
+    "title": "Star Formation",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 224,
+    "page_slug": "pages/star-formation-efficiency",
+    "title": "Star Formation Efficiency",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 225,
+    "page_slug": "pages/star-formation-history",
+    "title": "Star Formation History",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 226,
+    "page_slug": "pages/star-formation-main-sequence",
+    "title": "Star Formation Main Sequence",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 227,
+    "page_slug": "pages/star-formation-rate",
+    "title": "Star Formation Rate",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 228,
+    "page_slug": "pages/star-formation-rate-indicators",
+    "title": "Star Formation Rate Indicators",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 229,
+    "page_slug": "pages/star-formation-universality",
+    "title": "Star Formation Universality",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 230,
+    "page_slug": "pages/star-formation-uv",
+    "title": "Star Formation Uv",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 231,
+    "page_slug": "pages/star-forming-galaxies",
+    "title": "Star Forming Galaxies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 232,
+    "page_slug": "pages/star-forming-regions",
+    "title": "Star Forming Regions",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 233,
+    "page_slug": "pages/starburst-galaxies",
+    "title": "Starburst Galaxies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 234,
+    "page_slug": "pages/starbursts",
+    "title": "Starbursts",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 235,
+    "page_slug": "pages/stellar-bulge",
+    "title": "Stellar Bulge",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 236,
+    "page_slug": "pages/stellar-feedback",
+    "title": "Stellar Feedback",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 237,
+    "page_slug": "pages/stellar-populations",
+    "title": "Stellar Populations",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 238,
+    "page_slug": "pages/strangulation",
+    "title": "Strangulation",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 239,
+    "page_slug": "pages/strateva-2001",
+    "title": "Strateva 2001",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 240,
+    "page_slug": "pages/strong-lensing",
+    "title": "Strong Lensing",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 241,
+    "page_slug": "pages/strong-lensing-modeling",
+    "title": "Strong Lensing Modeling",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 242,
+    "page_slug": "pages/subgrid-physics",
+    "title": "Subgrid Physics",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 243,
+    "page_slug": "pages/supermassive-black-holes",
+    "title": "Supermassive Black Holes",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 244,
+    "page_slug": "pages/swing-amplification",
+    "title": "Swing Amplification",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 245,
+    "page_slug": "pages/synthpop",
+    "title": "Synthpop",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 246,
+    "page_slug": "pages/tag-agn",
+    "title": "Tag Agn",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 247,
+    "page_slug": "pages/tag-bar-dynamics",
+    "title": "Tag Bar Dynamics",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 248,
+    "page_slug": "pages/tag-bar-properties",
+    "title": "Tag Bar Properties",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 249,
+    "page_slug": "pages/tag-bulge-structure",
+    "title": "Tag Bulge Structure",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 250,
+    "page_slug": "pages/tag-concept",
+    "title": "Tag Concept",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 251,
+    "page_slug": "pages/tag-controversial",
+    "title": "Tag Controversial",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 252,
+    "page_slug": "pages/tag-cosmology",
+    "title": "Tag Cosmology",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 253,
+    "page_slug": "pages/tag-dark-matter",
+    "title": "Tag Dark Matter",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 254,
+    "page_slug": "pages/tag-dust",
+    "title": "Tag Dust",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 255,
+    "page_slug": "pages/tag-dwarf-galaxies",
+    "title": "Tag Dwarf Galaxies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 256,
+    "page_slug": "pages/tag-dynamical-processes",
+    "title": "Tag Dynamical Processes",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 257,
+    "page_slug": "pages/tag-dynamics",
+    "title": "Tag Dynamics",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 258,
+    "page_slug": "pages/tag-efficiency-mechanisms",
+    "title": "Tag Efficiency Mechanisms",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 259,
+    "page_slug": "pages/tag-environmental-effects",
+    "title": "Tag Environmental Effects",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 260,
+    "page_slug": "pages/tag-exoplanets",
+    "title": "Tag Exoplanets",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 261,
+    "page_slug": "pages/tag-feedback",
+    "title": "Tag Feedback",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 262,
+    "page_slug": "pages/tag-fundamental-concepts",
+    "title": "Tag Fundamental Concepts",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 263,
+    "page_slug": "pages/tag-fundamental-parameters",
+    "title": "Tag Fundamental Parameters",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 264,
+    "page_slug": "pages/tag-fundamental-tools",
+    "title": "Tag Fundamental Tools",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 265,
+    "page_slug": "pages/tag-galactic-center",
+    "title": "Tag Galactic Center",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 266,
+    "page_slug": "pages/tag-galactic-components",
+    "title": "Tag Galactic Components",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 267,
+    "page_slug": "pages/tag-galactic-structure",
+    "title": "Tag Galactic Structure",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 268,
+    "page_slug": "pages/tag-galaxy-clusters",
+    "title": "Tag Galaxy Clusters",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 269,
+    "page_slug": "pages/tag-galaxy-components",
+    "title": "Tag Galaxy Components",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 270,
+    "page_slug": "pages/tag-galaxy-dynamics",
+    "title": "Tag Galaxy Dynamics",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 271,
+    "page_slug": "pages/tag-galaxy-evolution",
+    "title": "Tag Galaxy Evolution",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 272,
+    "page_slug": "pages/tag-galaxy-formation",
+    "title": "Tag Galaxy Formation",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 273,
+    "page_slug": "pages/tag-galaxy-groups",
+    "title": "Tag Galaxy Groups",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 274,
+    "page_slug": "pages/tag-galaxy-interactions",
+    "title": "Tag Galaxy Interactions",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 275,
+    "page_slug": "pages/tag-galaxy-mergers",
+    "title": "Tag Galaxy Mergers",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 276,
+    "page_slug": "pages/tag-galaxy-morphology",
+    "title": "Tag Galaxy Morphology",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 277,
+    "page_slug": "pages/tag-galaxy-properties",
+    "title": "Tag Galaxy Properties",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 278,
+    "page_slug": "pages/tag-galaxy-structure",
+    "title": "Tag Galaxy Structure",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 279,
+    "page_slug": "pages/tag-high-redshift",
+    "title": "Tag High Redshift",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 280,
+    "page_slug": "pages/tag-jwst",
+    "title": "Tag Jwst",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 281,
+    "page_slug": "pages/tag-kinematics",
+    "title": "Tag Kinematics",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 282,
+    "page_slug": "pages/tag-microlensing",
+    "title": "Tag Microlensing",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 283,
+    "page_slug": "pages/tag-molecular-clouds",
+    "title": "Tag Molecular Clouds",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 284,
+    "page_slug": "pages/tag-morphology",
+    "title": "Tag Morphology",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 285,
+    "page_slug": "pages/tag-observational-studies",
+    "title": "Tag Observational Studies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 286,
+    "page_slug": "pages/tag-observational-techniques",
+    "title": "Tag Observational Techniques",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 287,
+    "page_slug": "pages/tag-observations",
+    "title": "Tag Observations",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 288,
+    "page_slug": "pages/tag-open-questions",
+    "title": "Tag Open Questions",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 289,
+    "page_slug": "pages/tag-outflows",
+    "title": "Tag Outflows",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 290,
+    "page_slug": "pages/tag-peculiar-galaxies",
+    "title": "Tag Peculiar Galaxies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 291,
+    "page_slug": "pages/tag-portal",
+    "title": "Tag Portal",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 292,
+    "page_slug": "pages/tag-quenching-mechanisms",
+    "title": "Tag Quenching Mechanisms",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 293,
+    "page_slug": "pages/tag-rare-objects",
+    "title": "Tag Rare Objects",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 294,
+    "page_slug": "pages/tag-ring-galaxies",
+    "title": "Tag Ring Galaxies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 295,
+    "page_slug": "pages/tag-roman-space-telescope",
+    "title": "Tag Roman Space Telescope",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 296,
+    "page_slug": "pages/tag-scaling-relations",
+    "title": "Tag Scaling Relations",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 297,
+    "page_slug": "pages/tag-secular-evolution",
+    "title": "Tag Secular Evolution",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 298,
+    "page_slug": "pages/tag-simulations",
+    "title": "Tag Simulations",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 299,
+    "page_slug": "pages/tag-specific-observations",
+    "title": "Tag Specific Observations",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 300,
+    "page_slug": "pages/tag-spectroscopy",
+    "title": "Tag Spectroscopy",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 301,
+    "page_slug": "pages/tag-stability",
+    "title": "Tag Stability",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 302,
+    "page_slug": "pages/tag-star-formation",
+    "title": "Tag Star Formation",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 303,
+    "page_slug": "pages/tag-starbursts",
+    "title": "Tag Starbursts",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 304,
+    "page_slug": "pages/tag-stellar-populations",
+    "title": "Tag Stellar Populations",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 305,
+    "page_slug": "pages/tag-theories",
+    "title": "Tag Theories",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 306,
+    "page_slug": "pages/tag-tidal-effects",
+    "title": "Tag Tidal Effects",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 307,
+    "page_slug": "pages/tag-uv-observations",
+    "title": "Tag Uv Observations",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 308,
+    "page_slug": "pages/tidal-dwarf-galaxies",
+    "title": "Tidal Dwarf Galaxies",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 309,
+    "page_slug": "pages/tidal-dwarfs",
+    "title": "Tidal Dwarfs",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 310,
+    "page_slug": "pages/tidal-features",
+    "title": "Tidal Features",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 311,
+    "page_slug": "pages/tidal-interactions",
+    "title": "Tidal Interactions",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 312,
+    "page_slug": "pages/tidal-stripping",
+    "title": "Tidal Stripping",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 313,
+    "page_slug": "pages/toomre-q",
+    "title": "Toomre Q",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 314,
+    "page_slug": "pages/toomre-q-parameter",
+    "title": "Toomre Q Parameter",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 315,
+    "page_slug": "pages/tremaine-weinberg-method",
+    "title": "Tremaine Weinberg Method",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 316,
+    "page_slug": "pages/tully-fisher-relation",
+    "title": "Tully Fisher Relation",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 317,
+    "page_slug": "pages/uvit",
+    "title": "Uvit",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 318,
+    "page_slug": "pages/uvj-diagram",
+    "title": "Uvj Diagram",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 319,
+    "page_slug": "pages/vizgan-2026-ring-galaxy",
+    "title": "Vizgan 2026 Ring Galaxy",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 320,
+    "page_slug": "pages/xmm-newton",
+    "title": "Xmm Newton",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 321,
+    "page_slug": "pages/young-stellar-objects",
+    "title": "Young Stellar Objects",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 322,
+    "page_slug": "pages/zheng-2026-bar-formation",
+    "title": "Zheng 2026 Bar Formation",
+    "page_type": "concept",
+    "path": null,
+    "created_date": "2026-03-16 00:36:46"
+  },
+  {
+    "id": 7,
+    "page_slug": "index",
+    "title": "Index",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/index.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 8,
+    "page_slug": "papers/index",
+    "title": "Index",
+    "page_type": "paper",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/papers/index.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 9,
+    "page_slug": "pages/interacting_galaxies_hcg77",
+    "title": "Interacting_Galaxies_Hcg77",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Interacting_Galaxies_HCG77.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 10,
+    "page_slug": "pages/pattern_speed",
+    "title": "Pattern_Speed",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Pattern_Speed.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 11,
+    "page_slug": "pages/cluster_merger_shocks_norma",
+    "title": "Cluster_Merger_Shocks_Norma",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Cluster_Merger_Shocks_Norma.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 12,
+    "page_slug": "pages/agn_outflows_dust_kinematics",
+    "title": "Agn_Outflows_Dust_Kinematics",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/AGN_Outflows_Dust_Kinematics.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 13,
+    "page_slug": "pages/random",
+    "title": "Random",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Random.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 14,
+    "page_slug": "pages/classical_bulges",
+    "title": "Classical_Bulges",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Classical_Bulges.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 15,
+    "page_slug": "pages/vizgan_2026_ring_galaxy",
+    "title": "Vizgan_2026_Ring_Galaxy",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Vizgan_2026_Ring_Galaxy.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 16,
+    "page_slug": "pages/huston_2026_synthpop",
+    "title": "Huston_2026_Synthpop",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Huston_2026_SynthPop.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 17,
+    "page_slug": "pages/morphological_quenching",
+    "title": "Morphological_Quenching",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Morphological_Quenching.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 18,
+    "page_slug": "pages/zheng_2026_bar_formation",
+    "title": "Zheng_2026_Bar_Formation",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Zheng_2026_Bar_Formation.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 19,
+    "page_slug": "pages/ring_galaxies",
+    "title": "Ring_Galaxies",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Ring_Galaxies.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 20,
+    "page_slug": "pages/galaxy_interactions_hcg77",
+    "title": "Galaxy_Interactions_Hcg77",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Galaxy_Interactions_HCG77.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 21,
+    "page_slug": "pages/nuclear_stellar_disk",
+    "title": "Nuclear_Stellar_Disk",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Nuclear_Stellar_Disk.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 22,
+    "page_slug": "pages/toomre_q_parameter",
+    "title": "Toomre_Q_Parameter",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Toomre_Q_Parameter.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 23,
+    "page_slug": "pages/color-magnitude_diagram",
+    "title": "Color Magnitude_Diagram",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Color-Magnitude_Diagram.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 24,
+    "page_slug": "pages/gravitational_microlensing",
+    "title": "Gravitational_Microlensing",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Gravitational_Microlensing.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 25,
+    "page_slug": "pages/portal_galaxy_evolution",
+    "title": "Portal_Galaxy_Evolution",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Portal_Galaxy_Evolution.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 26,
+    "page_slug": "pages/gravitational_lensing",
+    "title": "Gravitational_Lensing",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Gravitational_Lensing.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 27,
+    "page_slug": "pages/starformation_scaling_relations",
+    "title": "Starformation_Scaling_Relations",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/StarFormation_Scaling_Relations.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 28,
+    "page_slug": "pages/bar_formation",
+    "title": "Bar_Formation",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Bar_Formation.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 29,
+    "page_slug": "pages/_template",
+    "title": "_Template",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/_Template.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 30,
+    "page_slug": "pages/collisional_ring_galaxies",
+    "title": "Collisional_Ring_Galaxies",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Collisional_Ring_Galaxies.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 31,
+    "page_slug": "pages/galaxy_bimodality",
+    "title": "Galaxy_Bimodality",
+    "page_type": "page",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/pages/Galaxy_Bimodality.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 32,
+    "page_slug": "concepts/index",
+    "title": "Index",
+    "page_type": "concept",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/concepts/index.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 33,
+    "page_slug": "concepts/galaxy-bimodality",
+    "title": "Galaxy Bimodality",
+    "page_type": "concept",
+    "path": "/home/node/.openclaw/workspace/projects/arxiv-atlas/src/pages/concepts/galaxy-bimodality.astro",
+    "created_date": "2026-03-16 00:27:52"
+  },
+  {
+    "id": 3,
+    "page_slug": "papers/huston-2026-synthpop",
+    "title": "Huston et al. (2026) — SynthPop microlensing model",
+    "page_type": "paper",
+    "path": "src/pages/pages/huston-2026-synthpop.astro",
+    "created_date": "2026-03-15 23:56:47"
+  },
+  {
+    "id": 4,
+    "page_slug": "papers/norma-cluster-merger-shocks",
+    "title": "Cluster Merger Shocks Norma",
+    "page_type": "paper",
+    "path": "src/pages/pages/norma-cluster-merger-shocks.astro",
+    "created_date": "2026-03-15 23:56:47"
+  },
+  {
+    "id": 5,
+    "page_slug": "papers/hcg77-galaxy-interactions",
+    "title": "Galaxy Interactions HCG77",
+    "page_type": "paper",
+    "path": "src/pages/pages/hcg77-interactions.astro",
+    "created_date": "2026-03-15 23:56:47"
+  },
+  {
+    "id": 6,
+    "page_slug": "papers/agn-outflows",
+    "title": "AGN Outflows",
+    "page_type": "paper",
+    "path": "src/pages/pages/agn-outflows.astro",
+    "created_date": "2026-03-15 23:56:47"
+  },
+  {
+    "id": 1,
+    "page_slug": "papers/zheng-2026-bar-formation",
+    "title": "Zheng et al. (2026) — Bar formation with bulges",
+    "page_type": "paper",
+    "path": "src/pages/pages/zheng-2026-bar-formation.astro",
+    "created_date": "2026-03-15 23:56:46"
+  },
+  {
+    "id": 2,
+    "page_slug": "papers/vizgan-2026-ring-galaxy",
+    "title": "Vizgan et al. (2026) — Ring galaxy at z=4",
+    "page_type": "paper",
+    "path": "src/pages/pages/vizgan-2026-ring-galaxy.astro",
+    "created_date": "2026-03-15 23:56:46"
+  }
+]
