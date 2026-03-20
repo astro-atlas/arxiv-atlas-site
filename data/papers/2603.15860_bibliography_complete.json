@@ -1,0 +1,458 @@
+[
+  {
+    "key": "2010gfe..book.....M",
+    "first_author": "Mo",
+    "year": "2010",
+    "doi": null,
+    "single_author": true,
+    "claim_summary": "Galaxies form within larger dark matter halos, starting as gas which cools inside halos and forms stars"
+  },
+  {
+    "key": "2013ApJ...770...57B",
+    "first_author": "Behroozi",
+    "year": "2013",
+    "doi": "10.1088/0004-637X/770/1/57",
+    "single_author": true,
+    "claim_summary": "Low mass dwarf galaxies generally have dark matter halos >100\u00d7 more massive than their stellar mass; low mass dwarf galaxies typically have dark matter halos two orders of magnitude greater than stellar mass"
+  },
+  {
+    "key": "2018Natur.555..629V",
+    "first_author": "Dokkum",
+    "year": "2018",
+    "doi": "10.1038/nature25767",
+    "single_author": true,
+    "claim_summary": "Discovery of NGC 1052-DF2, first galaxy lacking dark matter with total mass consistent with stellar mass alone"
+  },
+  {
+    "key": "2019ApJ...874L...5V",
+    "first_author": "Dokkum",
+    "year": "2019",
+    "doi": "10.3847/2041-8213/ab0d92",
+    "single_author": true,
+    "claim_summary": "Discovery of NGC 1052-DF4, second galaxy lacking dark matter with total mass consistent with stellar mass alone; DF4 has similar age and metallicity to DF9; assumption of \u00b10.5 uncertainty in M_\u2605/L"
+  },
+  {
+    "key": "2018ApJ...863L..15W",
+    "first_author": "Wasserman",
+    "year": "2018",
+    "doi": "10.3847/2041-8213/aad779",
+    "single_author": true,
+    "claim_summary": "DF2 total mass consistent with stellar mass"
+  },
+  {
+    "key": "2019ApJ...874L..12D",
+    "first_author": "Danieli",
+    "year": "2019",
+    "doi": "10.3847/2041-8213/ab0e8c",
+    "single_author": true,
+    "claim_summary": "DF2 total mass measurement; DF2 velocity dispersion measurement"
+  },
+  {
+    "key": "2019A&A...625A..76E",
+    "first_author": "Emsellem",
+    "year": "2019",
+    "doi": "10.1051/0004-6361/201834909",
+    "single_author": true,
+    "claim_summary": "DF2 total mass consistent with stellar mass"
+  },
+  {
+    "key": "2019ApJ...877..133D",
+    "first_author": "Chowdhury",
+    "year": "2019",
+    "doi": "10.3847/1538-4357/ab1be4",
+    "single_author": true,
+    "claim_summary": "DF2 total mass analysis"
+  },
+  {
+    "key": "2022ApJ...935..160K",
+    "first_author": "Keim",
+    "year": "2022",
+    "doi": "10.3847/1538-4357/ac7dab",
+    "single_author": true,
+    "claim_summary": "DF2 total mass measurement"
+  },
+  {
+    "key": "2023ApJ...957....6S",
+    "first_author": "Shen",
+    "year": "2023",
+    "doi": "10.3847/1538-4357/acfa70",
+    "single_author": true,
+    "claim_summary": "DF2 total mass measurement and velocity dispersion analysis; estimates stellar broadening effect \u03c3_broadening = 5.4\u00b12 km/s in analysis of DF4; DF2 distance measurement"
+  },
+  {
+    "key": "2018ApJ...856L..30V",
+    "first_author": "Dokkum",
+    "year": "2018",
+    "doi": "10.3847/2041-8213/aab60b",
+    "single_author": true,
+    "claim_summary": "DF2 has extremely luminous globular clusters"
+  },
+  {
+    "key": "2021ApJ...909..179S",
+    "first_author": "Shen",
+    "year": "2021",
+    "doi": "10.3847/1538-4357/abdd29",
+    "single_author": true,
+    "claim_summary": "DF2 and DF4 both have extremely luminous globular clusters"
+  },
+  {
+    "key": "2015ApJ...798L..45V",
+    "first_author": "Dokkum",
+    "year": "2015",
+    "doi": "10.1088/2041-8205/798/2/L45",
+    "single_author": true,
+    "claim_summary": "DF2 and DF4 are ultra-diffuse galaxies"
+  },
+  {
+    "key": "2022Natur.605..435V",
+    "first_author": "Dokkum",
+    "year": "2022",
+    "doi": "10.1038/s41586-022-04665-6",
+    "single_author": true,
+    "claim_summary": "Discovery of tight linear alignment of dozen faint galaxies in NGC 1052 field including DF2 and DF4"
+  },
+  {
+    "key": "2021ApJS..252...18T",
+    "first_author": "Tanoglidis",
+    "year": "2021",
+    "doi": "10.3847/1538-4365/abca89",
+    "single_author": true,
+    "claim_summary": "Wider diffuse object catalog used for trail uniqueness analysis"
+  },
+  {
+    "key": "2022ApJS..261...11Z",
+    "first_author": "Zaritsky",
+    "year": "2022",
+    "doi": "10.3847/1538-4365/ac6ceb",
+    "single_author": true,
+    "claim_summary": "Wider diffuse object catalog used for trail uniqueness analysis"
+  },
+  {
+    "key": "2025ApJ...988..165K",
+    "first_author": "Keim",
+    "year": "2025",
+    "doi": "10.3847/1538-4357/addfd4",
+    "single_author": true,
+    "claim_summary": "Trail galaxies are kinematically connected with velocities linearly increasing based on position along trail; DF9 distance estimate of 20.6 Mpc based on trail position; measured velocities of two star clusters in DF9 from Keck/LRIS spectra; in-depth review of potential formation theories and likelihood for observed galaxy trail; linear trail distance relation assumption"
+  },
+  {
+    "key": "2020ApJ...899...25S",
+    "first_author": "Shin",
+    "year": "2020",
+    "doi": "10.3847/1538-4357/aba434",
+    "single_author": true,
+    "claim_summary": "Simulations of bullet dwarf scenario showing similar alignment of galaxies; bullet dwarf simulations predicted trail before discovery"
+  },
+  {
+    "key": "2021ApJ...917L..15L",
+    "first_author": "Lee",
+    "year": "2021",
+    "doi": "10.3847/2041-8213/ac16e0",
+    "single_author": true,
+    "claim_summary": "Simulations of bullet dwarf scenario, explains luminous globular clusters"
+  },
+  {
+    "key": "2019MNRAS.488L..24S",
+    "first_author": "Silk",
+    "year": "2019",
+    "doi": "10.1093/mnrasl/slz090",
+    "single_author": true,
+    "claim_summary": "Proposal of bullet dwarf galaxy formation scenario where dark matter-free galaxies arise from gas separated from dark matter by high-speed collision"
+  },
+  {
+    "key": "2006ApJ...648L.109C",
+    "first_author": "Clowe",
+    "year": "2006",
+    "doi": "10.1086/508162",
+    "single_author": true,
+    "claim_summary": "Bullet Cluster - galaxy cluster scale analog"
+  },
+  {
+    "key": "2022MNRAS.510.3356T",
+    "first_author": "Trujillo-Gomez",
+    "year": "2022",
+    "doi": "10.1093/mnras/stab3401",
+    "single_author": true,
+    "claim_summary": "Bullet dwarf simulations explain DF2/DF4 large sizes"
+  },
+  {
+    "key": "2022ApJ...940L...9V",
+    "first_author": "Dokkum",
+    "year": "2022",
+    "doi": "10.3847/2041-8213/ac94d6",
+    "single_author": true,
+    "claim_summary": "Bullet dwarf explains nearly monochromatic globular clusters"
+  },
+  {
+    "key": "2024ApJ...966...72L",
+    "first_author": "Lee",
+    "year": "2024",
+    "doi": "10.3847/1538-4357/ad2932",
+    "single_author": true,
+    "claim_summary": "Follow-up bullet dwarf simulations confirm observed trail properties consistent with single high-speed collision; simulation of bullet dwarf scenario specific to NGC 1052 system, demonstrates survivability under tidal field; modest scatter in linear distance expectation from bullet dwarf simulations"
+  },
+  {
+    "key": "2019AJ....157..168D",
+    "first_author": "Dey",
+    "year": "2019",
+    "doi": "10.3847/1538-3881/ab089d",
+    "single_author": true,
+    "claim_summary": "DECam Legacy Survey (DECaLS) imaging"
+  },
+  {
+    "key": "2009ApJ...699..486C",
+    "first_author": "Conroy",
+    "year": "2009",
+    "doi": "10.1088/0004-637X/699/1/486",
+    "single_author": true,
+    "claim_summary": "Synthetic stellar population spectra used for template fitting"
+  },
+  {
+    "key": "2016ApJ...823..102C",
+    "first_author": "Choi",
+    "year": "2016",
+    "doi": "10.3847/0004-637X/823/2/102",
+    "single_author": true,
+    "claim_summary": "MIST isochrones used to generate synthetic stellar population spectra"
+  },
+  {
+    "key": "2023MNRAS.524.2624G",
+    "first_author": "Gannon",
+    "year": "2023",
+    "doi": "10.1093/mnras/stad1883",
+    "single_author": true,
+    "claim_summary": "Past literature providing expected age and metallicity range for DF9; DF9 apparent magnitude m_g = 17.17 and M_\u2605/L_g = 2.2 stellar mass-to-light ratio, effective radius measurement"
+  },
+  {
+    "key": "2025ApJ...978...21T",
+    "first_author": "Tang",
+    "year": "2025",
+    "doi": "10.3847/1538-4357/ad8cd0",
+    "single_author": true,
+    "claim_summary": "Past literature providing expected age and metallicity range for DF9; DF9 age and metallicity measurements"
+  },
+  {
+    "key": "2013PASP..125..306F",
+    "first_author": "Foreman-Mackey",
+    "year": "2013",
+    "doi": "10.1086/670067",
+    "single_author": true,
+    "claim_summary": "emcee Markov chain Monte Carlo sampling algorithm"
+  },
+  {
+    "key": "2002MNRAS.329..829D",
+    "first_author": "Rijcke",
+    "year": "2002",
+    "doi": "10.1046/j.1365-8711.2002.05075.x",
+    "single_author": true,
+    "claim_summary": "Estimates binary orbital motion effect as \u03c3_binaries = \u03b1 \u00d7 \u03c3_b"
+  },
+  {
+    "key": "2025MNRAS.541.2008B",
+    "first_author": "Bashi",
+    "year": "2025",
+    "doi": "10.1093/mnras/staf1102",
+    "single_author": true,
+    "claim_summary": "Dense systems like globular clusters have \u03b1~10% binary fraction due to dynamical interactions"
+  },
+  {
+    "key": "2025arXiv251204477Q",
+    "first_author": "Qiu",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2512.04477",
+    "single_author": true,
+    "claim_summary": "Low stellar density systems in Ursa Minor have up to \u03b1~100% binary fraction with strong metallicity dependence"
+  },
+  {
+    "key": "2026ApJ...999L...8C",
+    "first_author": "Cerny",
+    "year": "2026",
+    "doi": "10.3847/2041-8213/ae29b8",
+    "single_author": true,
+    "claim_summary": "Recent revision of star cluster UNIONS I dispersion from 3.7 to 0.1 km/s largely due to single binary"
+  },
+  {
+    "key": "2010MNROS.406.1220W",
+    "first_author": null,
+    "year": null,
+    "doi": null,
+    "single_author": null,
+    "claim_summary": "Formula for calculating mass within effective half-light radius M_e = 3\u03c3\u00b2r_e,3D/G"
+  },
+  {
+    "key": "2020ApJ...895L...4D",
+    "first_author": "Danieli",
+    "year": "2020",
+    "doi": "10.3847/2041-8213/ab8dc4",
+    "single_author": true,
+    "claim_summary": "Updated distance measurements for DF2; DF4 distance 20.0\u00b11.6 Mpc"
+  },
+  {
+    "key": "2021ApJ...914L..12S",
+    "first_author": "Shen",
+    "year": "2021",
+    "doi": "10.3847/2041-8213/ac0335",
+    "single_author": true,
+    "claim_summary": "Updated distance measurements for DF2; DF2 distance 21.7\u00b11.2 Mpc"
+  },
+  {
+    "key": "1997ApJ...490..493N",
+    "first_author": "Navarro",
+    "year": "1997",
+    "doi": "10.1086/304888",
+    "single_author": true,
+    "claim_summary": "NFW halo profile"
+  },
+  {
+    "key": "2023MNRAS.519..871Z",
+    "first_author": "Zaritsky",
+    "year": "2023",
+    "doi": "10.1093/mnras/stac3610",
+    "single_author": true,
+    "claim_summary": "Stellar mass-halo mass relation used for expected dispersion calculation; halo mass calculation procedure, r_e and M_e,DM/M_e limits for reliability"
+  },
+  {
+    "key": "2013ApJS..208...19H",
+    "first_author": "Hinshaw",
+    "year": "2013",
+    "doi": "10.1088/0067-0049/208/2/19",
+    "single_author": true,
+    "claim_summary": "WMAP9 flat \u039bCDM cosmology"
+  },
+  {
+    "key": "2007MNRAS.378...55M",
+    "first_author": "Macci\\`o",
+    "year": "2007",
+    "doi": "10.1111/j.1365-2966.2007.11720.x",
+    "single_author": true,
+    "claim_summary": "Halo-concentration relation"
+  },
+  {
+    "key": "2023ApJ...956....6D",
+    "first_author": "Danieli",
+    "year": "2023",
+    "doi": "10.3847/1538-4357/acefbd",
+    "single_author": true,
+    "claim_summary": "Alternative stellar mass-halo mass relation yielding 32 km/s expected dispersion"
+  },
+  {
+    "key": "2010ApJ...717..379B",
+    "first_author": "Behroozi",
+    "year": "2010",
+    "doi": "10.1088/0004-637X/717/1/379",
+    "single_author": true,
+    "claim_summary": "Prior stellar mass-halo mass relation comparison"
+  },
+  {
+    "key": "2019MNRAS.488.3143B",
+    "first_author": "Behroozi",
+    "year": "2019",
+    "doi": "10.1093/mnras/stz1182",
+    "single_author": true,
+    "claim_summary": "Prior stellar mass-halo mass relation comparison"
+  },
+  {
+    "key": "1983ApJ...266L..11A",
+    "first_author": "Aaronson",
+    "year": "1983",
+    "doi": "10.1086/183969",
+    "single_author": true,
+    "claim_summary": "Used velocities of 3 stars in Draco dwarf spheroidal to argue galaxy contained dark matter"
+  },
+  {
+    "key": "2023ApJ...951...77T",
+    "first_author": "Toloba",
+    "year": "2023",
+    "doi": "10.3847/1538-4357/acd336",
+    "single_author": true,
+    "claim_summary": "For low number of tracers, Jeffreys prior better recovers true velocity dispersions than flat prior"
+  },
+  {
+    "key": "2012AJ....144....4M",
+    "first_author": "McConnachie",
+    "year": "2012",
+    "doi": "10.1088/0004-6256/144/1/4",
+    "single_author": true,
+    "claim_summary": "Local Group galaxy catalog"
+  },
+  {
+    "key": "2003AJ....126.1794G",
+    "first_author": "Geha",
+    "year": "2003",
+    "doi": "10.1086/377624",
+    "single_author": true,
+    "claim_summary": "Virgo Cluster dwarf galaxies catalog, v_rot/\u03c3 criteria for dispersion-supported dwarfs"
+  },
+  {
+    "key": "2005ApJS..161..304M",
+    "first_author": "McLaughlin",
+    "year": "2005",
+    "doi": "10.1086/497429",
+    "single_author": true,
+    "claim_summary": "Global M_\u2605/L_V = 2 from stellar-dominated globular cluster dynamics"
+  },
+  {
+    "key": "2009MNRAS.394.1229C",
+    "first_author": "Chilingarian",
+    "year": "2009",
+    "doi": "10.1111/j.1365-2966.2009.14450.x",
+    "single_author": true,
+    "claim_summary": "Follow-up measurement of VCC 917 with \u03c3 > 40 km/s at r_e"
+  },
+  {
+    "key": "2019ApJ...871L..31S",
+    "first_author": "Sardone",
+    "year": "2019",
+    "doi": "10.3847/2041-8213/ab0084",
+    "single_author": true,
+    "claim_summary": "DF2 has little gas content"
+  },
+  {
+    "key": "2019MNRAS.482L..99C",
+    "first_author": "Chowdhury",
+    "year": "2019",
+    "doi": "10.1093/mnrasl/sly192",
+    "single_author": true,
+    "claim_summary": "DF2 gas content measurement"
+  },
+  {
+    "key": "1998MNRAS.298..577N",
+    "first_author": "Natarajan",
+    "year": "1998",
+    "doi": "10.1046/j.1365-8711.1998.01703.x",
+    "single_author": true,
+    "claim_summary": "Gas flung out by quasars formation scenario"
+  },
+  {
+    "key": "2019A&A...628A..60F",
+    "first_author": "Fensch",
+    "year": "2019",
+    "doi": "10.1051/0004-6361/201834403",
+    "single_author": true,
+    "claim_summary": "Tidal dwarfs formed along tidal features from massive galaxy mergers"
+  },
+  {
+    "key": "2023Natur.623..296W",
+    "first_author": "Wang",
+    "year": "2023",
+    "doi": "10.1038/s41586-023-06650-z",
+    "single_author": true,
+    "claim_summary": "Linear substructures from tidal stripping of infalling streams"
+  },
+  {
+    "key": "2022ApJ...940L..46O",
+    "first_author": "Ogiya",
+    "year": "2022",
+    "doi": "10.3847/2041-8213/aca2a7",
+    "single_author": true,
+    "claim_summary": "Alternative view on survivability questioned"
+  },
+  {
+    "key": "2025arXiv250924270W",
+    "first_author": "Wang",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2509.24270",
+    "single_author": true,
+    "claim_summary": "Gas content measurements could help distinguish between dark matter models"
+  }
+]
