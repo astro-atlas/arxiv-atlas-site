@@ -65,11 +65,11 @@
   {
     "id": 8,
     "arxiv_id": "2603.15860",
-    "title": null,
-    "authors": "[]",
+    "title": "A Third Galaxy Missing Dark Matter along a Trail of Galaxies in the NGC 1052 Field",
+    "authors": "[\"Matthew A. Keim\", \"Pieter van Dokkum\", \"Zili Shen\", \"Shany Danieli\"]",
     "processed_date": null,
     "status": "done",
-    "summary_path": null
+    "summary_path": "data/papers/2603.15860.md"
   },
   {
     "id": 9,

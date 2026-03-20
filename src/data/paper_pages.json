@@ -1,5 +1,16 @@
 [
   {
+    "page_slug": "2603-15860",
+    "page_title": "Keim et al. (2026) — A Third Galaxy Missing Dark Matter",
+    "path": "src/content/pages/2603-15860.md",
+    "created_date": "2026-03-20 19:01:55",
+    "arxiv_id": "2603.15860",
+    "paper_title": "A Third Galaxy Missing Dark Matter along a Trail of Galaxies in the NGC 1052 Field",
+    "authors": "[\"Matthew A. Keim\", \"Pieter van Dokkum\", \"Zili Shen\", \"Shany Danieli\"]",
+    "processed_date": null,
+    "status": "done"
+  },
+  {
     "page_slug": "2603-15841",
     "page_title": "Rodighiero et al. (2026) — EGS-z11-R0: a red, dust-rich galaxy at Cosmic Dawn",
     "path": "src/content/pages/2603-15841.md",

@@ -1,8 +1,48 @@
 [
   {
+    "id": 219,
+    "page_slug": "2603-15860",
+    "title": "Keim et al. (2026) — A Third Galaxy Missing Dark Matter",
+    "page_type": "paper",
+    "path": "src/content/pages/2603-15860.md",
+    "created_date": "2026-03-20 19:01:55"
+  },
+  {
+    "id": 220,
+    "page_slug": "dark-matter-free-galaxy",
+    "title": "Dark-Matter-Free Galaxy",
+    "page_type": "concept",
+    "path": "src/content/pages/dark-matter-free-galaxy.md",
+    "created_date": "2026-03-20 19:01:55"
+  },
+  {
+    "id": 221,
+    "page_slug": "bullet-dwarf-scenario",
+    "title": "Bullet Dwarf Scenario",
+    "page_type": "concept",
+    "path": "src/content/pages/bullet-dwarf-scenario.md",
+    "created_date": "2026-03-20 19:01:55"
+  },
+  {
+    "id": 222,
+    "page_slug": "ultra-diffuse-galaxy",
+    "title": "Ultra-Diffuse Galaxy",
+    "page_type": "concept",
+    "path": "src/content/pages/ultra-diffuse-galaxy.md",
+    "created_date": "2026-03-20 19:01:55"
+  },
+  {
+    "id": 223,
+    "page_slug": "stellar-mass-halo-mass-relation",
+    "title": "Stellar Mass–Halo Mass Relation",
+    "page_type": "concept",
+    "path": "src/content/pages/stellar-mass-halo-mass-relation.md",
+    "created_date": "2026-03-20 19:01:55"
+  },
+  {
     "id": 218,
     "page_slug": "pages/daily-2026-03-18",
-    "title": "Daily Summary \u2014 March 18, 2026",
+    "title": "Daily Summary — March 18, 2026",
     "page_type": "daily_summary",
     "path": "src/content/pages/daily-2026-03-18.md",
     "created_date": "2026-03-19 14:20:26"
@@ -10,7 +50,7 @@
   {
     "id": 209,
     "page_slug": "2603-15841",
-    "title": "Rodighiero et al. (2026) \u2014 EGS-z11-R0: a red, dust-rich galaxy at Cosmic Dawn",
+    "title": "Rodighiero et al. (2026) — EGS-z11-R0: a red, dust-rich galaxy at Cosmic Dawn",
     "page_type": "paper",
     "path": "src/content/pages/2603-15841.md",
     "created_date": "2026-03-19 01:44:55"
@@ -58,7 +98,7 @@
   {
     "id": 215,
     "page_slug": "mv-betauv-relation",
-    "title": "MUV\u2013\u03b2UV Relation",
+    "title": "MUV–βUV Relation",
     "page_type": "concept",
     "path": "src/content/pages/mv-betauv-relation.md",
     "created_date": "2026-03-19 01:44:55"
@@ -82,7 +122,7 @@
   {
     "id": 207,
     "page_slug": "2603-16706",
-    "title": "Pedratti et al. (2026) \u2014 Coma Cluster Kinematics with DESI",
+    "title": "Pedratti et al. (2026) — Coma Cluster Kinematics with DESI",
     "page_type": "paper",
     "path": "src/content/pages/2603-16706.md",
     "created_date": "2026-03-19 00:57:25"
@@ -90,7 +130,7 @@
   {
     "id": 208,
     "page_slug": "2603-16796",
-    "title": "Park et al. (2026) \u2014 Faraday Rotation Measure of 3C 84",
+    "title": "Park et al. (2026) — Faraday Rotation Measure of 3C 84",
     "page_type": "paper",
     "path": "src/content/pages/2603-16796.md",
     "created_date": "2026-03-19 00:57:25"
@@ -98,7 +138,7 @@
   {
     "id": 204,
     "page_slug": "2603-16183",
-    "title": "Akhmetali et al. (2026) \u2014 Evolution of fractality in centrally concentrated young clusters",
+    "title": "Akhmetali et al. (2026) — Evolution of fractality in centrally concentrated young clusters",
     "page_type": "paper",
     "path": "src/content/pages/2603-16183.md",
     "created_date": "2026-03-19 00:57:24"
@@ -106,7 +146,7 @@
   {
     "id": 205,
     "page_slug": "2603-16425",
-    "title": "Jadhav et al. (2025) \u2014 Hourglass Magnetic Field in IRDC G351.77-0.53",
+    "title": "Jadhav et al. (2025) — Hourglass Magnetic Field in IRDC G351.77-0.53",
     "page_type": "paper",
     "path": "src/content/pages/2603-16425.md",
     "created_date": "2026-03-19 00:57:24"
@@ -114,7 +154,7 @@
   {
     "id": 206,
     "page_slug": "2603-16647",
-    "title": "Peretti et al. (2026) \u2014 Particle acceleration at recollimation shocks",
+    "title": "Peretti et al. (2026) — Particle acceleration at recollimation shocks",
     "page_type": "paper",
     "path": "src/content/pages/2603-16647.md",
     "created_date": "2026-03-19 00:57:24"
@@ -970,9 +1010,9 @@
   {
     "id": 80,
     "page_slug": "pages/portal-galaxy-evolution",
-    "title": "Portal: Galaxy Evolution",
-    "page_type": "portal",
-    "path": "src/content/pages/portal-galaxy-evolution.md",
+    "title": "Portal Galaxy Evolution",
+    "page_type": "concept",
+    "path": null,
     "created_date": "2026-03-18 19:34:57"
   },
   {
@@ -1504,6 +1544,14 @@
     "created_date": "2026-03-18 17:12:08"
   },
   {
+    "id": 16,
+    "page_slug": "pages/portal-particle-acceleration-in-jets",
+    "title": "Portal Particle Acceleration In Jets",
+    "page_type": "page",
+    "path": "src/content/pages/portal-particle-acceleration-in-jets.md",
+    "created_date": "2026-03-18 17:12:08"
+  },
+  {
     "id": 2,
     "page_slug": "index",
     "title": "Index",
@@ -1590,21 +1638,5 @@
     "page_type": "page",
     "path": "src/content/pages/shock-waves.md",
     "created_date": "2026-03-18 17:04:14"
-  },
-  {
-    "id": 219,
-    "page_slug": "pages/portal-galaxy-clusters",
-    "title": "Portal: Galaxy Clusters & Large-Scale Structure",
-    "page_type": "portal",
-    "path": "src/content/pages/portal-galaxy-clusters.md",
-    "created_date": "2026-03-19 12:00:00"
-  },
-  {
-    "id": 220,
-    "page_slug": "pages/portal-star-formation-ism",
-    "title": "Portal: Star Formation & the Interstellar Medium",
-    "page_type": "portal",
-    "path": "src/content/pages/portal-star-formation-ism.md",
-    "created_date": "2026-03-19 12:00:00"
   }
 ]
