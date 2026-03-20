@@ -70,6 +70,8 @@ Subagents should write their outputs in the files noted in `Outputs`. The primar
 
 4. **Update tracking:** Mark `[x]` in tracking file.
 
+5. **Push updates to github:** push the contents of `arxiv-atlas` repository to `https://github.com/astro-atlas/arxiv-atlas-site.git`
+
 ### Batch processing
 - Spawn multiple subagents in parallel (they write to different files)
 - Collect manifests as they complete
